@@ -1,0 +1,3 @@
+*.tmp.lua
+*.code-workspace
+.vscode

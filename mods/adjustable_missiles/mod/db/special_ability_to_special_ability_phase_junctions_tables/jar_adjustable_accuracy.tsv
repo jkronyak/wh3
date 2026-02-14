@@ -1,0 +1,3 @@
+order	special_ability	target_self	target_friends	target_enemies	phase
+#special_ability_to_special_ability_phase_junctions_tables;2;db/special_ability_to_special_ability_phase_junctions_tables/jar_adjustable_accuracy					
+0	jar_missile_debuff_ability__accuracy__-10	true	false	false	jar_missile_debuff_phase__accuracy__-10

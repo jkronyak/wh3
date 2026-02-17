@@ -20,8 +20,8 @@ const { modUnitSets } = require("../common/config");
 
 const OUTPUT_PATH = path.join(__dirname, "output");
 
-const accMin = -5;
-const accMax = 5;
+const accMin = -100;
+const accMax = 100;
 
 const unitAbilitiesTableRow = ({ set, acc }) => ({
     key: `jar_adjustable_missiles__ability__acc__${set}__${acc > 0 ? `+${acc}` : acc.toString()}`,
@@ -172,6 +172,15 @@ const effectsTableRow = ({ set, acc }) => ({
     is_positive_value_good: true
 });
 
+const effectsReloadTableRow = ({ set }) => ({
+    effect: `jar_adjustable_missiles__effect__rld__${set}`,
+    icon: 'general_ability.png',
+    priority: 0,
+    icon_negative: 'general_ability.png',
+    category: 'campaign', 
+    is_positive_value_good: true
+});
+
 const unitSetUnitAbilityJunctionsTableRow = ({ set, acc}) => ({
     key: `jar_adjustable_missiles__unit_set_ability__acc__${set}__${acc > 0 ? `+${acc}` : acc.toString()}`,
     unit_ability: `jar_adjustable_missiles__ability__acc__${set}__${acc > 0 ? `+${acc}` : acc.toString()}`,
@@ -196,6 +205,12 @@ const effectBundlesTableRow = () => ({
     owner_only: 'true'
 })
 
+const effectBonusValueIdsUnitSetsTableRow = ({ set }) => ({
+    bonus_value_id: "reload",
+    effect: `jar_adjustable_missiles__effect__rld__${set}`,
+    unit_set: set
+});
+
 // Tables that require separate entires per each accuracy and unit set combination.
 const perSetPerValFuncMap = {
     unit_abilities_tables: unitAbilitiesTableRow,
@@ -210,6 +225,11 @@ const perSetPerValFuncMap = {
 const perValFuncMap = {
     special_ability_phases_tables: specialAbilityPhasesTableRow,
     special_ability_phase_stat_effects_tables: specialAbilityPhaseStateEffectsTableRow,
+};
+
+const perSetFuncMap = { 
+    effects_tables: effectsReloadTableRow,
+    effect_bonus_value_ids_unit_sets_tables: effectBonusValueIdsUnitSetsTableRow
 };
 
 const generate = () => {
@@ -231,11 +251,15 @@ const generate = () => {
         }
     }
 
+    for (const set of modUnitSets) {
+            for (const key in perSetFuncMap) {
+                (tableData[key] ??= []).push(perSetFuncMap[key]({ set }));
+            }
+    }
+
     for (const [table, data] of Object.entries(tableData)) { 
-        // console.log('table', table);
         const tablePath = path.join(OUTPUT_PATH, "db", table, "jar_adjustable_missiles__accuracy.tsv");
         writeTSVWithVersion(tablePath, data, table, "jar_adjustable_missiles__accuracy")
-        // writeTSV(tablePath, data);
     }
 
 };

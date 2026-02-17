@@ -22,6 +22,7 @@ const tables = [
     "unit_special_abilities_tables",
     "special_ability_phases_tables",
     "special_ability_phase_stat_effects_tables",
+    "effect_bonus_value_ids_unit_sets_tables",
 ];
 
 function getTableVersion(ronContent, tableName) {

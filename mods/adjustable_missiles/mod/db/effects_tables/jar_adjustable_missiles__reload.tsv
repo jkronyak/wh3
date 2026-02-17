@@ -1,3 +1,0 @@
-effect	icon	priority	icon_negative	category	is_positive_value_good
-#effects_tables;0;db/effects_tables/jar_adjustable_missiles__reload					
-jar_missile_debuff_effect__reload__all	icon_stat_reload_time_force.png	0	icon_stat_reload_time_force.png	campaign	true

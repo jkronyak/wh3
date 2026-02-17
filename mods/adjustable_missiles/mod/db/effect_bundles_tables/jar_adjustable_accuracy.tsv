@@ -1,3 +1,0 @@
-key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
-#effect_bundles_tables;4;db/effect_bundles_tables/jar_adjustable_accuracy								
-jar_missile_debuff_eb			faction	1	jar_accuracy.png	true	false	true

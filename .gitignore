@@ -8,3 +8,6 @@ temp
 
 input/
 output/
+
+node_modules/*
+.npm

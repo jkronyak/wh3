@@ -1,7 +1,0 @@
-phase	stat	value	how
-#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/jar_rout_tweaks			
-jar_rout_debuff	scalar_speed	0.9000	mult
-jar_rout_debuff	stat_melee_defence	0.5000	mult
-jar_rout_debuff	stat_armour	0.7000	mult
-jar_rout_debuff	stat_resistance_physical	0.7000	mult
-jar_rout_debuff	stat_resistance_missile	0.7000	mult

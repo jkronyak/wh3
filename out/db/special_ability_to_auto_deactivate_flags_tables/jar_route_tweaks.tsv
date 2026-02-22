@@ -1,5 +1,0 @@
-deactivate_flag	special_ability
-#special_ability_to_auto_deactivate_flags_tables;0;db/special_ability_to_auto_deactivate_flags_tables/jar_route_tweaks	
-morale_is_higher_than_shattered	jar_rout_debuff
-undead_unit	jar_rout_debuff
-unit_is_daemonic	jar_rout_debuff

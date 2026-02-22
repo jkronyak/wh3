@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/jar_rout_tweaks					
+jar_rout_debuff	general_ability.png	310	general_ability.png	battle	true

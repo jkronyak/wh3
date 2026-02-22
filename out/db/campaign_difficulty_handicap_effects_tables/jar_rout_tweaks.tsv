@@ -1,0 +1,12 @@
+campaign_difficulty_handicap	human	effect	optional_campaign_key	effect_scope	effect_value
+#campaign_difficulty_handicap_effects_tables;0;db/campaign_difficulty_handicap_effects_tables/jar_rout_tweaks					
+-3	true	jar_rout_debuff		faction_to_force_own	1.0000
+-2	true	jar_rout_debuff		faction_to_force_own	1.0000
+-1	true	jar_rout_debuff		faction_to_force_own	1.0000
+0	true	jar_rout_debuff		faction_to_force_own	1.0000
+1	true	jar_rout_debuff		faction_to_force_own	1.0000
+3	false	jar_rout_debuff		faction_to_force_own	1.0000
+2	false	jar_rout_debuff		faction_to_force_own	1.0000
+1	false	jar_rout_debuff		faction_to_force_own	1.0000
+0	false	jar_rout_debuff		faction_to_force_own	1.0000
+-1	false	jar_rout_debuff		faction_to_force_own	1.0000

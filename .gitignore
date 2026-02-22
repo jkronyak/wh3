@@ -1,3 +1,10 @@
 *.tmp.lua
 *.code-workspace
 .vscode
+
+.env
+
+temp
+
+input/
+output/

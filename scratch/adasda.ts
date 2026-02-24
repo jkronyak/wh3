@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 const __dirname = import.meta.dirname;
 
-import { RPFMClient } from "../lib/rpfmServer/rpfmClient.ts";
+import { RPFMClient } from "../lib/rpfm-client/rpfm-client.ts";
 import { getModPackPath, type Mod } from '../lib/steam-workshop/steam-workshop.ts';
 import tsv from '../lib/helpers/tsv.ts';
 import { readJSON } from '../lib/helpers/helpers.ts';

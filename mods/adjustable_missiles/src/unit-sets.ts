@@ -1,29 +1,22 @@
 import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
-const __dirname = import.meta.dirname;
 
-let client: RPFMClient;
-
-import { RPFMClient } from '../../../lib/rpfmServer/rpfmClient.ts';
 import { getModPackPath, type Mod } from '../../../lib/steam-workshop/steam-workshop.ts';
 import tsv from '../../../lib/helpers/tsv.ts';
 import { readJSON } from '../../../lib/helpers/helpers.ts';
+import { getOrCreateSession } from '../../../lib/rpfm-client/rpfm-client-instance.ts';
+const client = await getOrCreateSession();
 
 import {
     parentGroupToUnitSet,
     type ParentGroup,
-    modUnitSets,
-    MOD_DIR,
     REF_PATH,
     PATCH_MOD_PATH,
     MOD_INPUT_PATH,
     MOD_OUTPUT_PATH,
-    MOD_DIST_PATH,
     modUnitSetRecords
 } from './config.ts';
-
-// const client = new RPFMClient(process.env.RPFM_SERVER_PATH!);
 
 const getModPackFilePaths = (): string[] => (readJSON(PATCH_MOD_PATH) as Mod[]).flatMap(mod => getModPackPath(mod.appId, mod.id) ?? []);
 
@@ -140,16 +133,11 @@ const writeModTable = async (data: Record<string, any>[], dbTable: string, table
 }
 
 // TODO: Add error handling for RFPMClient function calls.
-const generateUnitSets = async (sessionId = 0) => {
-
+const generateUnitSets = async () => {
     const casteExclusions = ['lord', 'hero'];
 
-    // await client._connect();
-    client = new RPFMClient(process.env.RPFM_EXEC_PATH, sessionId);
-    await client._connect();
 
     // Step 1: Extract and process the required vanilla tables.
-
     const extractTables = ["ui_unit_groupings_tables", "main_units_tables"];
 
     // 1.1 Extract the tables to the reference folder.
@@ -208,7 +196,6 @@ const generateUnitSets = async (sessionId = 0) => {
 
         // 2.4 Write the modded unit set junction records to the mod folder.
         await writeModTable(modUnitSetJunctions, "unit_set_to_unit_junctions_tables", `${packName}__jam`);
-        // await client.disconnect();
     }
 };
 

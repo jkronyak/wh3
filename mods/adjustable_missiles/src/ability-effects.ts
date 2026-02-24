@@ -1,9 +1,9 @@
 import 'dotenv/config';
 import path from 'path';
-import { RPFMClient } from '../../../lib/rpfmServer/rpfmClient.ts';
-import { modUnitSets, MOD_OUTPUT_PATH } from "./config.ts";
 import tsv from '../../../lib/helpers/tsv.ts';
-let client: RPFMClient;
+import { modUnitSets, MOD_OUTPUT_PATH } from "./config.ts";
+import { getOrCreateSession } from '../../../lib/rpfm-client/rpfm-client-instance.ts';
+const client = await getOrCreateSession();
 
 const UID_START = 644261121;
 
@@ -222,13 +222,6 @@ const otherStatRowGenerators: Partial<Record<TableName, Function>> = {
 
 type TableResult = Partial<Record<TableName, Record<string, any>[]>>;
 
-
-// const writeModTable = async (data: Record<string, any>[], dbTable: string, tableName: string): Promise<void> => {
-//     const writePath = path.join(MOD_OUTPUT_PATH, "db", dbTable, `${tableName}`);
-//     const version = await client.getTableVersionString(dbTable, tableName);
-//     tsv.writeTSV(writePath, data, version);
-// }
-
 const writeModTable = async (data: Record<string, any>[], dbTable: string, tableName: string): Promise<void> => {
     const writePath = path.join(MOD_OUTPUT_PATH, "db", dbTable, `${tableName}__jam.tsv`);
     const version = await client.getTableVersionString(dbTable, tableName);
@@ -236,11 +229,7 @@ const writeModTable = async (data: Record<string, any>[], dbTable: string, table
 }
 
 // TODO: Refactor and cleanup typing.
-const generateAbilityEffects = async (sessionId = 0) => {
-
-    client = new RPFMClient(process.env.RPFM_SERVER_PATH!, sessionId);
-    await client._connect();
-
+const generateAbilityEffects = async () => {
 
     const tableResult: TableResult = {};
     // Add the effect bundle.
@@ -278,7 +267,6 @@ const generateAbilityEffects = async (sessionId = 0) => {
         console.log(`${table}: ${data.length}`)
         await writeModTable(data, table, "jar_adjustable_missiles")
     }
-    // await client.disconnect();
 };
 
 export { generateAbilityEffects };

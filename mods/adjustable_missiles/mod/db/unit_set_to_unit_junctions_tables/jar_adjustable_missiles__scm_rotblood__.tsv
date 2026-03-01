@@ -1,0 +1,12 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__scm_rotblood__
+			str_rotblood_horsemen	jar_unit_set_cavalry_chariots	false
+			str_rotblood_chariot	jar_unit_set_cavalry_chariots	false
+			str_rotblood_bombers	jar_unit_set_infantry	false
+			str_rotblood_marauder_bombs	jar_unit_set_infantry	false
+			str_rotblood_vomitus	jar_unit_set_infantry	false
+			str_rotblood_plaguejavelins	jar_unit_set_infantry	false
+			str_rotblood_lifeleech	jar_unit_set_infantry	false
+			str_rotblood_bombers_ror	jar_unit_set_infantry	false
+			str_rotblood_plaguejavelins_ror	jar_unit_set_infantry	false
+			20kr_rotblood_marauder_archer	jar_unit_set_infantry	false

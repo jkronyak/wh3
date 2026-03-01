@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__laf_blessed_gor_variants__
+			laf_bst_inf_slaangors_javelins	jar_unit_set_infantry	false
+			laf_sla_inf_slaangors_javelins	jar_unit_set_infantry	false

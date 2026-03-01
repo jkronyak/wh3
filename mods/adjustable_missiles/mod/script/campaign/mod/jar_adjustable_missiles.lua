@@ -2,12 +2,13 @@ local JAR_LOG = core:get_static_object("jar_logger")
 local logger = JAR_LOG:new({ file_name = "jar_adjustable_missiles", enabled = true, write_ts = false })
 
 local sets = { 
-    "jar_unit_set_lords_heroes",
-    "jar_unit_set_infantry",
+    "jar_unit_set_global",
+    "jar_unit_set_characters",
     "jar_unit_set_artillery_war_machines",
-    "jar_unit_set_cavalry_chariots",
-    "jar_unit_set_monsters",
-    "jar_unit_set_global"
+    "jar_unit_set_single_entities",
+    "jar_unit_set_infantry",
+    "jar_unit_set_monstrous",
+    "jar_unit_set_cavalry_chariots"
 }
 
 local stats = { "reload", "accuracy", "range_mod" }

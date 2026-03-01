@@ -1,0 +1,12 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__!scm_legendary__
+			kou_meadow_chariot_ror	jar_unit_set_cavalry_chariots	false
+			str_khoros_hounds	jar_unit_set_cavalry_chariots	false
+			kou_eonir_explorers	jar_unit_set_infantry	false
+			kou_bowmen_units	jar_unit_set_infantry	false
+			phy_sea_axes	jar_unit_set_infantry	false
+			str_nastasya_ice_guard_0	jar_unit_set_infantry	false
+			str_nastasya_ice_guard_1	jar_unit_set_infantry	false
+			hunt_dwf_slayer_pirates_0	jar_unit_set_infantry	false
+			hunt_dwf_riggers_0	jar_unit_set_infantry	false
+			wh2_dlc15_grn_mnt_arachnarok_spider_red_moon	jar_unit_set_single_entities	false

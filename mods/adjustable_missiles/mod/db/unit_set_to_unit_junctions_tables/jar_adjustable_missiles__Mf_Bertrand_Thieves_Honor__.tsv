@@ -1,0 +1,13 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__Mf_Bertrand_Thieves_Honor__
+			brt_chasseurs	jar_unit_set_cavalry_chariots	false
+			brt_bowmen_of_bergerac	jar_unit_set_infantry	false
+			brt_aspirant_hoods	jar_unit_set_infantry	false
+			brt_herrimaults	jar_unit_set_infantry	false
+			brt_brigand_crossbows	jar_unit_set_infantry	false
+			mf_srvbrgTH_brt_brigand_crossbows_armored	jar_unit_set_infantry	false
+			mf_srvbrgTH_brt_brigand_blunderbuss_armored	jar_unit_set_infantry	false
+			mf_srvbrgTH_brt_herrimault_rangers	jar_unit_set_infantry	false
+			mf_srvbrgTH_brt_brigand_rapscallions	jar_unit_set_infantry	false
+			mf_srvbrgTH_brt_brigand_rapscallions_armored	jar_unit_set_infantry	false
+			mf_srvbrgTH_brt_brigand_knaves	jar_unit_set_infantry	false

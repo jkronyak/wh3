@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	unitSet
+hkrul_mackensens_marauders	hkrul_mackensens_marauders	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_emp_mackensens_rifle	25		jar_unit_set_infantry

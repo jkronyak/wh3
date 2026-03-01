@@ -1,0 +1,15 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__dark_omen_regiments_of_renown_wIII__
+			grudgebringer_cannon	jar_unit_set_artillery_war_machines	false
+			uter_blomkwist_imperial_mortar	jar_unit_set_artillery_war_machines	false
+			imperial_cannon_darius_flugenheim	jar_unit_set_artillery_war_machines	false
+			emperors_hellblaster_volley_gun	jar_unit_set_artillery_war_machines	false
+			stephan_weiss_outlaw_pistoliers	jar_unit_set_cavalry_chariots	false
+			galed_elf_archers	jar_unit_set_infantry	false
+			galed_elf_archers_upgrade	jar_unit_set_infantry	false
+			grudgebringer_crossbow	jar_unit_set_infantry	false
+			grudgebringer_crossbow_upgrade	jar_unit_set_infantry	false
+			helmgart_bowmen	jar_unit_set_infantry	false
+			keelers_longbows	jar_unit_set_infantry	false
+			leitdorf_9th_crossbows	jar_unit_set_infantry	false
+			grudgebringers_wagon	jar_unit_set_single_entities	false

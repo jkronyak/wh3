@@ -1,0 +1,19 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__ovn_dread_king__
+			ovn_dk_art_screaming_skull_ballista	jar_unit_set_artillery_war_machines	false
+			ovn_dk_art_bone_throwers	jar_unit_set_artillery_war_machines	false
+			ovn_dk_art_polybolos_ror	jar_unit_set_artillery_war_machines	false
+			ovn_dk_cav_skeleton_horsemen_archers_0	jar_unit_set_cavalry_chariots	false
+			ovn_dk_veh_skeleton_archer_chariot	jar_unit_set_cavalry_chariots	false
+			ovn_dk_cav_skeleton_horsemen_archers_no_caps	jar_unit_set_cavalry_chariots	false
+			ovn_dk_inf_skeleton_javelinmen	jar_unit_set_infantry	false
+			ovn_dk_inf_tomb_guardian_peltasts	jar_unit_set_infantry	false
+			ovn_dk_inf_brigands_ror	jar_unit_set_infantry	false
+			ovn_dk_inf_skeleton_javelinmen_no_caps	jar_unit_set_infantry	false
+			wh2_dlc09_tmb_inf_skeleton_archers_no_caps	jar_unit_set_infantry	false
+			nagash_ovn_dk_inf_tomb_guardian_peltasts	jar_unit_set_infantry	false
+			nagash_ovn_dk_inf_skeleton_javelinmen_no_caps	jar_unit_set_infantry	false
+			dread_mon_ushabti_1	jar_unit_set_monstrous	false
+			ovn_dk_mon_skeleton_elephant	jar_unit_set_single_entities	false
+			ovn_dk_mon_skeleton_elephant_no_caps	jar_unit_set_single_entities	false
+			nagash_ovn_dk_mon_skeleton_elephant	jar_unit_set_single_entities	false

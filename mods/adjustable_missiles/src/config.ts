@@ -57,3 +57,5 @@ export const MOD_STATIC_PATH = path.join(MOD_DIR, "src", "static");
 export const REPORT_PATH = path.join(MOD_DIR, "reports");
 
 export const MOD_TABLE_NAME = 'jar_adjustable_missiles';
+
+export const WH3_APP_ID = 1142710;

@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	unitSet
+rhox_hrothyogg_ogr_inf_maneaters_3	wh3_main_ogr_inf_maneaters_3	monstrous_infantry	inf_ranged	inf_mis	wh3_main_ogr_monstrous_pistol	missile_infantry	true	16	0	0	false	wh3_ogr_pistol_bullet	20	archer	jar_unit_set_monstrous

@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__ovn_fimir__
+			fim_veh_eye_oculus	jar_unit_set_artillery_war_machines	false
+			fim_inf_fimm_warriors_axe_throwers_ror	jar_unit_set_infantry	false
+			fim_inf_shearl_javelineer	jar_unit_set_infantry	false
+			fim_mon_balefiend_apprentices	jar_unit_set_monstrous	false

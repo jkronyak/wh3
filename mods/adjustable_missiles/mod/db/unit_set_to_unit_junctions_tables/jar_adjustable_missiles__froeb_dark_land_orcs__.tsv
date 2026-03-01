@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__froeb_dark_land_orcs__
+			frb_scrap_shooters	jar_unit_set_infantry	false
+			frb_scrap_shooters_ror	jar_unit_set_infantry	false

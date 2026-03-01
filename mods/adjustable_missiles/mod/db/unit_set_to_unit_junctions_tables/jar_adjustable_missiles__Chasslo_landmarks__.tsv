@@ -1,0 +1,17 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__Chasslo_landmarks__
+			Chasslo_BlackWater_Squadron	jar_unit_set_artillery_war_machines	false
+			Chasslo_Black_Bolt_Throwers	jar_unit_set_artillery_war_machines	false
+			Chasslo_First_Trebuchet	jar_unit_set_artillery_war_machines	false
+			Chasslo_Vashtorrs_Opus	jar_unit_set_artillery_war_machines	false
+			Chasslo_Grimnir_Sons	jar_unit_set_infantry	false
+			Chasslo_IronBrotherhood	jar_unit_set_infantry	false
+			Chasslo_Iron_Guard	jar_unit_set_infantry	false
+			Chasslo_Pale_Maidens	jar_unit_set_infantry	false
+			Chasslo_Fireloques_Ferlangen	jar_unit_set_infantry	false
+			CLE_Oreon_Warband	jar_unit_set_infantry	false
+			Chasslo_Brood_Queen	jar_unit_set_single_entities	false
+			Chasslo_Stompin_Cobb	jar_unit_set_single_entities	false
+			CLE_Ghrond_Librarian	jar_unit_set_single_entities	false
+			CLE_Ostankya_Arachnarok	jar_unit_set_single_entities	false
+			CLE_double_bastiladon	jar_unit_set_single_entities	false

@@ -1,7 +1,6 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__!landmarks_of_legend_wh3__
 			greybeard_mining_drill	jar_unit_set_artillery_war_machines	false
-			tmb_undead_bolt_thrower	jar_unit_set_artillery_war_machines	false
 			lzd_emp_mortar	jar_unit_set_artillery_war_machines	false
 			emp_queen_bess	jar_unit_set_artillery_war_machines	false
 			ksl_mortar	jar_unit_set_artillery_war_machines	false
@@ -9,28 +8,25 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ksl_great_cannon	jar_unit_set_artillery_war_machines	false
 			ksl_volley_gun	jar_unit_set_artillery_war_machines	false
 			ksl_steam_tank	jar_unit_set_artillery_war_machines	false
+			tmb_undead_bolt_thrower	jar_unit_set_artillery_war_machines	false
 			mortar_salvaged	jar_unit_set_artillery_war_machines	false
 			helstorm_salvaged	jar_unit_set_artillery_war_machines	false
 			great_cannon_salvaged	jar_unit_set_artillery_war_machines	false
 			volley_gun_salvaged	jar_unit_set_artillery_war_machines	false
-			tmb_cold_one_chariots	jar_unit_set_cavalry_chariots	false
-			lzd_emp_war_wagon	jar_unit_set_cavalry_chariots	false
 			braconnier_horsemen	jar_unit_set_cavalry_chariots	false
+			lzd_emp_war_wagon	jar_unit_set_cavalry_chariots	false
 			ksl_war_wagon_mortar	jar_unit_set_cavalry_chariots	false
 			ksl_glade_riders	jar_unit_set_cavalry_chariots	false
-			vmp_jade_crossbowmen_0	jar_unit_set_infantry	false
-			vmp_jade_crossbowmen_1	jar_unit_set_infantry	false
-			sartosan_handgunners	jar_unit_set_infantry	false
+			tmb_cold_one_chariots	jar_unit_set_cavalry_chariots	false
+			nur_pox_bowmen	jar_unit_set_infantry	false
+			braconniers	jar_unit_set_infantry	false
+			def_lothern_sea_guard	jar_unit_set_infantry	false
+			def_shadow_walkers	jar_unit_set_infantry	false
+			HUM_miners_1	jar_unit_set_infantry	false
 			ulthers_dragon_company	jar_unit_set_infantry	false
-			hef_free_company	jar_unit_set_infantry	false
-			seafarers	jar_unit_set_infantry	false
 			lzd_emp_archer_0	jar_unit_set_infantry	false
 			lzd_emp_crossbowmen	jar_unit_set_infantry	false
 			lzd_emp_handgunners	jar_unit_set_infantry	false
-			braconniers	jar_unit_set_infantry	false
-			nur_pox_bowmen	jar_unit_set_infantry	false
-			lakemen_great_weapons	jar_unit_set_infantry	false
-			HUM_miners_1	jar_unit_set_infantry	false
 			expedition_archers	jar_unit_set_infantry	false
 			colonial_militia	jar_unit_set_infantry	false
 			westland_hunters	jar_unit_set_infantry	false
@@ -43,13 +39,17 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			emp_ice_guard_1	jar_unit_set_infantry	false
 			undead_streltsi	jar_unit_set_infantry	false
 			brotherhood_ranger_templars	jar_unit_set_infantry	false
+			vmp_jade_crossbowmen_0	jar_unit_set_infantry	false
+			vmp_jade_crossbowmen_1	jar_unit_set_infantry	false
+			lakemen_great_weapons	jar_unit_set_infantry	false
+			sartosan_handgunners	jar_unit_set_infantry	false
+			hef_free_company	jar_unit_set_infantry	false
+			seafarers	jar_unit_set_infantry	false
 			goblin_slave_archers	jar_unit_set_infantry	false
-			def_lothern_sea_guard	jar_unit_set_infantry	false
-			def_shadow_walkers	jar_unit_set_infantry	false
-			cst_leadbelchers	jar_unit_set_monstrous	false
-			cst_maneater_3	jar_unit_set_monstrous	false
 			gutbusters_gutbusters	jar_unit_set_monstrous	false
 			emp_terradon_riders_0	jar_unit_set_monstrous	false
+			cst_leadbelchers	jar_unit_set_monstrous	false
+			cst_maneater_3	jar_unit_set_monstrous	false
+			emp_ancient_stegadon	jar_unit_set_single_entities	false
 			soul_eater_1	jar_unit_set_single_entities	false
 			soul_eater_2	jar_unit_set_single_entities	false
-			emp_ancient_stegadon	jar_unit_set_single_entities	false

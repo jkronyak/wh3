@@ -3,9 +3,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			albion_stonethrower	jar_unit_set_artillery_war_machines	false
 			albion_riders_javelins	jar_unit_set_cavalry_chariots	false
 			albion_centaur_hunter_ror	jar_unit_set_cavalry_chariots	false
+			albion_huntresses_grudgebringer	jar_unit_set_infantry	false
 			elo_youngbloods	jar_unit_set_infantry	false
 			albion_huntresses	jar_unit_set_infantry	false
 			albion_huntresses_warden_ror	jar_unit_set_infantry	false
-			albion_huntresses_grudgebringer	jar_unit_set_infantry	false
 			ovn_alb_inf_stone_throw_giant	jar_unit_set_single_entities	false
 			albion_cachtorr_stonethrower	jar_unit_set_single_entities	false

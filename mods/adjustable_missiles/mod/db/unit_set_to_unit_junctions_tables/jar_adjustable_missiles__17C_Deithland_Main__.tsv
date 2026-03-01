@@ -1,5 +1,8 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__17C_Deithland_Main__
+			emp_gottzorn	jar_unit_set_artillery_war_machines	false
+			emp_gottzorn_knellgun	jar_unit_set_artillery_war_machines	false
+			emp_gottzorn_flame	jar_unit_set_artillery_war_machines	false
 			emp_culverin	jar_unit_set_artillery_war_machines	false
 			emp_drakebiter	jar_unit_set_artillery_war_machines	false
 			emp_mountain_gun	jar_unit_set_artillery_war_machines	false
@@ -12,9 +15,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			emp_cofferglare	jar_unit_set_artillery_war_machines	false
 			emp_cofferglare_small	jar_unit_set_artillery_war_machines	false
 			emp_autodragon	jar_unit_set_artillery_war_machines	false
-			emp_gottzorn	jar_unit_set_artillery_war_machines	false
-			emp_gottzorn_knellgun	jar_unit_set_artillery_war_machines	false
-			emp_gottzorn_flame	jar_unit_set_artillery_war_machines	false
 			emp_chemlancers_drilling_guns	jar_unit_set_cavalry_chariots	false
 			emp_pyrehulks_volley	jar_unit_set_infantry	false
 			emp_pyrehulks_fusilaxe	jar_unit_set_infantry	false

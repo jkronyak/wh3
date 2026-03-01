@@ -1,0 +1,23 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__ovn_grudgebringers__
+			grudgebringer_cannon	jar_unit_set_artillery_war_machines	false
+			uter_blomkwist_imperial_mortar	jar_unit_set_artillery_war_machines	false
+			imperial_cannon_darius_flugenheim	jar_unit_set_artillery_war_machines	false
+			wh_main_emp_art_mortar_ovn_gru	jar_unit_set_artillery_war_machines	false
+			wh_main_emp_art_great_cannon_ovn_gru	jar_unit_set_artillery_war_machines	false
+			emperors_hellblaster_volley_gun	jar_unit_set_artillery_war_machines	false
+			stephan_weiss_outlaw_pistoliers	jar_unit_set_cavalry_chariots	false
+			grudgebringers_wagon	jar_unit_set_cavalry_chariots	false
+			wh_main_emp_cav_pistoliers_1_ovn_gru	jar_unit_set_cavalry_chariots	false
+			galed_elf_archers	jar_unit_set_infantry	false
+			galed_elf_archers_upgrade	jar_unit_set_infantry	false
+			grudgebringer_crossbow	jar_unit_set_infantry	false
+			grudgebringer_crossbow_upgrade	jar_unit_set_infantry	false
+			helmgart_bowmen	jar_unit_set_infantry	false
+			keelers_longbows	jar_unit_set_infantry	false
+			wh_main_emp_inf_crossbowmen_ovn_gru	jar_unit_set_infantry	false
+			wh2_dlc13_emp_inf_archers_0_ovn_gru	jar_unit_set_infantry	false
+			wh_main_emp_inf_handgunners_ovn_gru	jar_unit_set_infantry	false
+			wh_dlc04_emp_inf_free_company_militia_0_ovn_gru	jar_unit_set_infantry	false
+			leitdorf_9th_crossbows	jar_unit_set_infantry	false
+			wh3_main_ogr_inf_maneaters_3_ovn_gru	jar_unit_set_monstrous	false

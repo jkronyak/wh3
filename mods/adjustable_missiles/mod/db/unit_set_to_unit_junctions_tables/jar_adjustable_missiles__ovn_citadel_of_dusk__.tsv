@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__ovn_citadel_of_dusk__
+			ovn_hef_cav_ellyrian_reavers_shore	jar_unit_set_cavalry_chariots	false
+			ovn_hef_inf_archers_sea	jar_unit_set_infantry	false
+			ovn_hef_inf_archers_fire	jar_unit_set_infantry	false
+			ovn_hef_inf_archers_wind	jar_unit_set_infantry	false

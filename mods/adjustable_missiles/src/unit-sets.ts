@@ -27,6 +27,7 @@ type UnitInfo = {
     class: string,
     uiGroup: string,
     parentGroup: string,
+    useVanillaParentGroup: boolean, 
     numMen: number,
     numEngines: number,
     numMounts: number,
@@ -34,6 +35,7 @@ type UnitInfo = {
     primaryMissileWeapon: string,
     primaryAmmo: number,
     unitSet?: ModUnitSet | null
+    arUnitCategory?: string
 };
 
 type DecodedRow = Record<string, any>
@@ -96,26 +98,41 @@ const writeModTable = async (data: Record<string, any>[], dbTable: string, table
 }
 
 const calculateUnitSet = (unit: UnitInfo): ModUnitSet | null => {
-    if (
-        unit.caste === 'warmachine'
-        || ['artillery_war_machines', 'flying_war_machine'].includes(unit.parentGroup)
-    ) return 'jar_unit_set_artillery_war_machines';
+    if (!unit.useVanillaParentGroup) {
+        // console.warn(`Warning: ${unit.mainUnitKey} uses a modded UI parent group.`);
+        if (unit.caste === 'warmachine' || unit.category === 'artillery' || unit.arUnitCategory === 'artillery') { 
+            return "jar_unit_set_artillery_war_machines";
+        }
+        if (unit.numMen === 1 || unit.numMen === 1 || unit.numEngines === 1 || unit.useHitpointsInCampaign) { 
+            return "jar_unit_set_single_entities";
+        }
+        if (['missile_cavalry', 'melee_cavalry'].includes(unit.caste) || unit.category === 'cavalry') {
+            return "jar_unit_set_cavalry_chariots";
+        }
+        if (['monster', 'monstrous_infantry', 'war_beast'].includes(unit.caste)) { 
+            return "jar_unit_set_monstrous";
+        }
+    }
 
-    if (
-        unit.numMen === 1
-        || unit.numMounts === 1
-        || unit.numEngines === 1
-        || unit.useHitpointsInCampaign
-    ) return "jar_unit_set_single_entities";
+    if (unit.caste === "warmachine" || ['artillery_war_machines', 'flying_war_machine'].includes(unit.parentGroup)) {
+        return "jar_unit_set_artillery_war_machines";
+    }
 
-    if (["cavalry_chariots", "missile_cavalry_chariots"].includes(unit.parentGroup))
+    if ([unit.numMen, unit.numEngines, unit.numMounts].some(i => i === 1) || unit.useHitpointsInCampaign) { 
+        return "jar_unit_set_single_entities";
+    }
+
+    if (["cavalry_chariots", "missile_cavalry_chariots"].includes(unit.parentGroup)) {
         return "jar_unit_set_cavalry_chariots";
+    }
 
-    if (['monstrous_infantry'].includes(unit.caste)
-        || ['missile_monster_beasts', 'monster_beasts', 'constructs'].includes(unit.parentGroup)
-    ) return "jar_unit_set_monstrous";
+    if (["monstrous_infantry"].includes(unit.caste) || ['missile_monster_beasts', 'monster_beasts', 'constructs'].includes(unit.parentGroup)) {
+        return "jar_unit_set_monstrous"
+    }
 
-    if (['missile_infantry', 'melee_infantry'].includes(unit.caste)) return "jar_unit_set_infantry"
+    if (['missile_infantry', 'melee_infantry'].includes(unit.caste)) {
+        return "jar_unit_set_infantry"
+    }
 
     return null;
 }
@@ -124,6 +141,7 @@ const categorizeUnits = (
     mainUnits: DecodedRow[],
     landUnits: DecodedRow[],
     uiUnitGroupings: DecodedRow[],
+    vanUiParentGroups: DecodedRow[], 
     writeToFile?: string,
     filterCharacters: boolean = true,
     filterNonRanged: boolean = true
@@ -131,11 +149,14 @@ const categorizeUnits = (
     const result: UnitInfo[] = [];
     const landUnitMap = new Map<string, any>(landUnits.map(l => [l.key, l]));
     const uiGroupToParentMap = new Map<string, string>(uiUnitGroupings.map(g => [g.key, g.parent_group]));
+    const vanillaParentGroupMap = new Map<string, boolean>(vanUiParentGroups.map(pg => [pg.key!, true]))
     for (const mainUnit of mainUnits) {
         const landUnit = landUnitMap.get(mainUnit.land_unit);
         if (!landUnit) throw new Error(`Could not find associated land unit record for ${mainUnit.unit}`);
         const parentGroup = uiGroupToParentMap.get(mainUnit.ui_unit_group_land);
         if (!parentGroup) throw new Error(`Could not find parent group for ${mainUnit.unit}`);
+
+        const hasVanillaParentGroup = vanillaParentGroupMap.get(parentGroup) ?? false;
 
         if (filterCharacters && ['lord', 'hero'].includes(mainUnit.caste)) continue;
         if (filterNonRanged && (!landUnit.primary_missile_weapon && landUnit.primary_ammo < 1)) continue;
@@ -148,12 +169,14 @@ const categorizeUnits = (
             class: landUnit.class,
             uiGroup: mainUnit.ui_unit_group_land,
             parentGroup: parentGroup,
+            useVanillaParentGroup: hasVanillaParentGroup,
             numMen: mainUnit.num_men,
             numEngines: landUnit.num_engines,
             numMounts: landUnit.num_mounts,
-            useHitpointsInCampaign: (mainUnit.use_hitpoints_in_campaign === true),
+            useHitpointsInCampaign: mainUnit.use_hitpoints_in_campaign,
             primaryMissileWeapon: landUnit.primary_missile_weapon || null,
             primaryAmmo: landUnit.primary_ammo,
+            arUnitCategory: landUnit.ar_unit_category,
         };
         const unitSet = calculateUnitSet(unitInfo);
         if (!unitSet) throw new Error(`Could not calculate set for ${mainUnit.unit}: \n${JSON.stringify(unitInfo, null, 4)}`);
@@ -197,14 +220,16 @@ const packHasUIUnitGroupParents = async (packPath: string)  => {
 
 const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
 
+    // await client.send("GenerateDependenciesCache");
     // 1.1. Decode vanilla tables from pack.
     const extractTables = [
         'ui_unit_groupings_tables',
         'main_units_tables',
         'land_units_tables',
-        'unit_castes_tables'
+        'unit_castes_tables',
+        'ui_unit_group_parents_tables'
     ] as const;
-    console.log('Processing vanilla tables.');
+    console.log('Processing vanilla table data.');
     const vanillaTables = await decodeTablesFromPack(extractTables);
 
     // 1.2. Aggregate unit category and unit set information.
@@ -212,9 +237,9 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         vanillaTables.main_units_tables.rows,
         vanillaTables.land_units_tables.rows,
         vanillaTables.ui_unit_groupings_tables.rows,
+        vanillaTables.ui_unit_group_parents_tables.rows,
         (writeReport ? `${REPORT_PATH}/categorizations/vanilla.tsv` : undefined)
     );
-    console.log(`Found ${categorizedUnits.length} units after categorization and filtering.`);
     // 1.3 Generate vanilla unit set information.
     const vanillaSetJunctions = generateUnitSetJunctions(categorizedUnits);
     const staticSetJunctions = generateStaticUnitSetJunctions(vanillaTables.unit_castes_tables);
@@ -230,26 +255,40 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
 
     // 2.1 Process mod data.
     const modPaths = getModPackFilePaths();
+    console.log(`\nProcessing data for ${modPaths.length} mods.`);
     for (const modPath of modPaths) {
+
+        const modResult: Record<string, number> = { 
+            preFilterCount: 0,
+            postFilterCount: 0,
+            vanillaParentGroupCount: 0,
+            moddedParentGroupCount: 0,
+        };
+
         const packName = getPackName(modPath);
-
-        if (await packHasUIUnitGroupParents(modPath)) throw new Error(`${packName} has ui_unit_group_parents_tables!`);
-
-        console.log(`Processing pack file ${packName}.`);
+        // if (await packHasUIUnitGroupParents(modPath)) throw new Error(`${packName} has ui_unit_group_parents_tables!`);
+        
+        if (await packHasUIUnitGroupParents(modPath)) console.warn(`Warning: ${packName} includes ui_unit_group_parents_tables.`);
         const modTables = await decodeTablesFromPack(['ui_unit_groupings_tables', 'main_units_tables', 'land_units_tables'], modPath);
+        modResult.preFilterCount = modTables.main_units_tables.rows.length;
         const modCategorizedUnits = categorizeUnits(
             modTables.main_units_tables.rows,
             modTables.land_units_tables.rows.concat(vanillaTables.land_units_tables.rows),
             modTables.ui_unit_groupings_tables.rows.concat(vanillaTables.ui_unit_groupings_tables.rows),
+            vanillaTables.ui_unit_group_parents_tables.rows,
             (writeReport ? `${REPORT_PATH}/categorizations/${packName}.tsv` : undefined)
         );
-        console.log(`Found ${modCategorizedUnits.length} units after categorization and filtering.`);
+        modResult.postFilterCount = modCategorizedUnits.length;
+        modResult.vanillaParentGroupCount = modCategorizedUnits.filter(i => i.useVanillaParentGroup).length;
+        modResult.moddedParentGroupCount = modCategorizedUnits.filter(i => !i.useVanillaParentGroup).length;
         if (modCategorizedUnits.length === 0) throw new Error(`${packName} has no units after filtering. No patch is required.`)
         const modSetJunctions = generateUnitSetJunctions(modCategorizedUnits);
+
+        console.log(`\n===${packName} result===`);
+        Object.keys(modResult).forEach(k => console.log(`[${k}]: ${modResult[k]}`))
         await writeModTable(modSetJunctions, "unit_set_to_unit_junctions_tables", `${MOD_TABLE_NAME}__${packName}__`);
     }
-
-    return;
+    console.log('\nFinished processing unit sets.\n');
 };
 
 export { generateUnitSets };

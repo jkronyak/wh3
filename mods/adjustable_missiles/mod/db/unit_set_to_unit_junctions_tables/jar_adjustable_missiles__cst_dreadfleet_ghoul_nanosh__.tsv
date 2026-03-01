@@ -1,0 +1,14 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__cst_dreadfleet_ghoul_nanosh__
+			cst_nanosh_inf_crypt_ghouls_deckhands_2	jar_unit_set_infantry	false
+			cst_nanosh_inf_crypt_ghouls_deckhands_3	jar_unit_set_infantry	false
+			cst_nanosh_inf_crypt_ghouls_deckhands_4	jar_unit_set_infantry	false
+			cst_nanosh_ghoul_inf_weapon_team_00	jar_unit_set_infantry	false
+			cst_nanosh_ghoul_inf_weapon_team_01	jar_unit_set_infantry	false
+			cst_nanosh_ghoul_inf_weapon_team_02	jar_unit_set_infantry	false
+			cst_nanosh_ghoul_inf_weapon_team_03	jar_unit_set_infantry	false
+			cst_nanosh_mon_inf_crypt_maneaters_3	jar_unit_set_monstrous	false
+			cst_nanosh_mon_inf_crypt_maneaters_4	jar_unit_set_monstrous	false
+			cst_nanosh_mon_inf_sea_monkey_0	jar_unit_set_monstrous	false
+			cst_nanosh_skeleton_mon_rotting_prometheans_gunnery_mob_0	jar_unit_set_monstrous	false
+			cst_nanosh_skeleton_mon_necrofex_colossus_0	jar_unit_set_single_entities	false

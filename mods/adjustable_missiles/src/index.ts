@@ -23,7 +23,7 @@ const run = async () => {
 
     await client.send("NewPack");
     await client.insertPackedFiles([`${MOD_OUTPUT_PATH}/db`, `${MOD_OUTPUT_PATH}/script`, `${MOD_OUTPUT_PATH}/ui`], [{ Folder: "db" }, { Folder: "" }, { Folder: "" }]);
-    await client.savePackAs(`${MOD_DIST_PATH}/jar_adjustable_missiles_new.pack`);
+    await client.savePackAs(`${MOD_DIST_PATH}/jar_adjustable_missiles.pack`);
     await client.closePack();
     client.close();
 };

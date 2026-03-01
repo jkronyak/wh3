@@ -12,7 +12,8 @@ import {
     REPORT_PATH,
     MOD_OUTPUT_PATH,
     MOD_UNIT_SETS,
-    MOD_TABLE_NAME
+    MOD_TABLE_NAME,
+    WH3_APP_ID
 } from './config.ts';
 import type { Definition } from '../../../lib/rpfm-client/rpfm-types.js';
 
@@ -43,7 +44,7 @@ type DecodedTable = {
     rows: DecodedRow[]
 };
 
-const getModPackFilePaths = (): string[] => (readJSON(PATCH_MOD_PATH) as Mod[]).flatMap(mod => getModPackPath(mod.appId, mod.id) ?? []);
+const getModPackFilePaths = (): string[] => (readJSON(PATCH_MOD_PATH) as Mod[]).flatMap(mod => getModPackPath(WH3_APP_ID, mod.id) ?? []);
 
 const getPackName = (packPath: string) => packPath.split("\\").slice(-1)[0]!.replace(".pack", "");
 
@@ -159,7 +160,7 @@ const categorizeUnits = (
         const cur = { ...unitInfo, unitSet };
         result.push(cur);
     }
-    if (writeToFile) tsv.writeTSV(`${writeToFile}`, result);
+    if (writeToFile && result.length > 0) tsv.writeTSV(`${writeToFile}`, result);
     return result;
 }
 
@@ -185,6 +186,13 @@ const generateUnitSetJunctions = (units: UnitInfo[]): Record<string, any>[] => {
         unit_set: unit.unitSet!,
         exclude: false
     })).sort((a, b) => a.unit_set.localeCompare(b.unit_set));
+}
+
+const packHasUIUnitGroupParents = async (packPath: string)  => {
+    await client.loadPackFiles([packPath]);
+    const exists = await client.folderExists("db/ui_unit_group_parents_tables");
+    await client.closePack();
+    return exists;
 }
 
 const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
@@ -224,15 +232,19 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
     const modPaths = getModPackFilePaths();
     for (const modPath of modPaths) {
         const packName = getPackName(modPath);
+
+        if (await packHasUIUnitGroupParents(modPath)) throw new Error(`${packName} has ui_unit_group_parents_tables!`);
+
         console.log(`Processing pack file ${packName}.`);
         const modTables = await decodeTablesFromPack(['ui_unit_groupings_tables', 'main_units_tables', 'land_units_tables'], modPath);
         const modCategorizedUnits = categorizeUnits(
             modTables.main_units_tables.rows,
-            modTables.land_units_tables.rows,
+            modTables.land_units_tables.rows.concat(vanillaTables.land_units_tables.rows),
             modTables.ui_unit_groupings_tables.rows.concat(vanillaTables.ui_unit_groupings_tables.rows),
             (writeReport ? `${REPORT_PATH}/categorizations/${packName}.tsv` : undefined)
         );
         console.log(`Found ${modCategorizedUnits.length} units after categorization and filtering.`);
+        if (modCategorizedUnits.length === 0) throw new Error(`${packName} has no units after filtering. No patch is required.`)
         const modSetJunctions = generateUnitSetJunctions(modCategorizedUnits);
         await writeModTable(modSetJunctions, "unit_set_to_unit_junctions_tables", `${MOD_TABLE_NAME}__${packName}__`);
     }

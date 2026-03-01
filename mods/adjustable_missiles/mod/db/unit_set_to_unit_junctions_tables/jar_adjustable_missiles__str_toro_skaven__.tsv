@@ -1,0 +1,11 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__str_toro_skaven__
+			warp_zeppelin	jar_unit_set_artillery_war_machines	false
+			warp_bomber	jar_unit_set_artillery_war_machines	false
+			warp_gunship	jar_unit_set_artillery_war_machines	false
+			skaven_mech	jar_unit_set_artillery_war_machines	false
+			skaven_mech_at	jar_unit_set_artillery_war_machines	false
+			skaven_mech_gat	jar_unit_set_artillery_war_machines	false
+			warp_runners	jar_unit_set_infantry	false
+			warp_bombard	jar_unit_set_single_entities	false
+			warp_tank	jar_unit_set_single_entities	false

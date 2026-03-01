@@ -12,9 +12,8 @@ const MANIFEST_FOLDER_PATH = path.join(process.env.STEAM_CMD_PATH!, "steamapps",
 
 type Mod = {
     id: string | number;
-    appId: string | number;
     url: string;
-    name: string;
+    title: string;
 };
 
 type SyncResult = Mod & { 
@@ -89,6 +88,18 @@ const getRemoteManifestId = async (modId: string | number): Promise<string | nul
     return manifestId;
 }
 
+const getRemoteModTitle = async (modId: string | number): Promise<string | null> => {
+    const params = new URLSearchParams({ itemcount: '1', 'publishedfileids[0]': String(modId) })
+    const response = await fetch(`${STEAM_API_BASE_URL}/ISteamRemoteStorage/GetPublishedFileDetails/v1/`, {
+        method: 'POST',
+        body: params
+    });
+    if (!response.ok) throw new Error(`Remote manifest request request failed: ${response.status} ${response.statusText}`)
+    const respJson = await response.json() as Record<string, any>;
+    const modTitle =  respJson?.response?.publishedfiledetails[0]?.title ?? null;
+    return modTitle;
+}
+
 const getRemoteManifestModMapping = async (modIdList: string[] | number[]): Promise<string[] | null> => {
     const manifestMapping = Object.fromEntries(await Promise.all(modIdList.map(async modId => [modId, await getRemoteManifestId(modId)])));
     console.log('manifestMapping', manifestMapping);
@@ -148,14 +159,30 @@ const getModPackPath = (appId: string | number, modId: string | number): string 
     return path.join(modFolderPath, modPackPath);
 }
 
-const synchronizeMods = async (modList: Mod[]): Promise<SyncResult[]> => {
+const getModInfo = async (modUrls: string[]): Promise<Mod[]> => {
+    const result: Mod[] = [];
+    for (const url of modUrls) { 
+        const modId = new URL(url).searchParams.get('id');
+        if (!modId) throw new Error(`Could not get mod id from url: ${url}`);
+        const modTitle = await getRemoteModTitle(modId!);
+        if (!modTitle) throw new Error(`Could not get mod title from url: ${url}`);
+        result.push({
+            title: modTitle,
+            id: Number(modId),
+            url
+        })
+    }
+    return result;
+}
+
+const synchronizeMods = async (appId: string | number, modList: Mod[]): Promise<SyncResult[]> => {
 
     // const syncResults: Record<string, any>[] = [];
     const syncResults: SyncResult[] = [];
     for (const mod of modList) {
-        console.log(`Checking sync status for ${mod.name} (${mod.url})`);
-        const isCurrent = await isModUpdated(mod.appId, mod.id);
-        const isDownloaded = isModDownloaded(mod.appId, mod.id);
+        console.log(`Checking sync status for ${mod.title} (${mod.url})`);
+        const isCurrent = await isModUpdated(appId, mod.id);
+        const isDownloaded = isModDownloaded(appId, mod.id);
 
         const curResult: SyncResult = { ...mod, status: null };
         const currentStatus = isCurrent ? 'current' : 'outdated';
@@ -164,7 +191,7 @@ const synchronizeMods = async (modList: Mod[]): Promise<SyncResult[]> => {
         if (!isCurrent || !isDownloaded) {
 
             console.log('Downloading mod...');
-            const dlRes = await downloadMod(mod.appId, mod.id, true);
+            const dlRes = await downloadMod(appId, mod.id, true);
             const syncStatus = dlRes ? 'success' : 'fail';
             console.log(`Download ${syncStatus}`);
             curResult.status = syncStatus;
@@ -188,7 +215,7 @@ export {
     getRemoteManifestModMapping,
     getLocalManifestIdMulti,
     isModDownloaded,
-
+    getModInfo,
     synchronizeMods,
     getModPackPath,
     type Mod

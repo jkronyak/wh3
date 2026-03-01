@@ -157,6 +157,11 @@ class RPFMClient {
         const resp = await this.send({ FieldsProcessed: definition });
         return (resp as { VecField: Field[] }).VecField;
     }
+
+    async folderExists(path: string): Promise<Boolean> { 
+        const resp = await this.send({ FolderExists: path });
+        return (resp as { Bool: boolean }).Bool;
+    }
 }
 
 export {

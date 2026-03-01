@@ -7,7 +7,10 @@ import type {
     ContainerInfo,
     RFileInfo,
     DataSource,
-    ContainerPath
+    ContainerPath,
+    DB,
+    Definition,
+    Field
 } from './rpfm-types.js';
 const SERVER_URL = "ws://127.0.0.1:45127/ws";
 
@@ -31,7 +34,6 @@ class RPFMClient {
     }
 
     connect(sessionId?: number): Promise<any> {
-        console.log('connect', sessionId);
         return new Promise((resolve, reject) => {
             const wsUrl = sessionId ? `${this.url}?session_id=${sessionId}` : this.url;
             this.ws = new WebSocket(wsUrl);
@@ -94,9 +96,9 @@ class RPFMClient {
     }
 
     close(): void {
-    this.ws?.terminate();
-    this.ws = null;
-}
+        this.ws?.terminate();
+        this.ws = null;
+    }
 
     async loadPackFiles(paths: string[]): Promise<ContainerInfo> {
         const resp = await this.send({ OpenPackFiles: paths });
@@ -146,7 +148,15 @@ class RPFMClient {
         const version = (resp as { I32: number }).I32;
         return `#${tableName};${version};db/${tableName}/${fileName}`;
     }
+    async decodeFile(path: string, source: DataSource = "PackFile"): Promise<[DB, RFileInfo]> {
+        const resp = await this.send({ DecodePackedFile: [path, source] });
+        return (resp as { DBRFileInfo: [DB, RFileInfo] }).DBRFileInfo;
+    }
 
+    async getFieldsProcessed(definition: Definition): Promise<Field[]> { 
+        const resp = await this.send({ FieldsProcessed: definition });
+        return (resp as { VecField: Field[] }).VecField;
+    }
 }
 
 export {

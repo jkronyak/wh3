@@ -213,6 +213,7 @@ export interface OptimizerOptions {
 
 /** Field data type in schema definitions. */
 export type FieldType =
+Pick<
   | "Boolean"
   | "F32"
   | "F64"
@@ -228,8 +229,8 @@ export type FieldType =
   | "OptionalStringU8"
   | "OptionalStringU16"
   | { SequenceU16: Definition }
-  | { SequenceU32: Definition };
-
+  | { SequenceU32: Definition }
+  >;
 /** A single field descriptor within a Definition. */
 export interface Field {
   /** Name of the field. */
@@ -723,6 +724,7 @@ export type FileType =
 
 /** Cell data in a table. */
 export type DecodedData =
+Pick<
   | { Boolean: boolean }
   | { F32: number }
   | { F64: number }
@@ -738,7 +740,8 @@ export type DecodedData =
   | { OptionalStringU8: string }
   | { OptionalStringU16: string }
   | { SequenceU16: DecodedData[][] }
-  | { SequenceU32: DecodedData[][] };
+  | { SequenceU32: DecodedData[][] }
+  >;
 
 /** In-memory table data structure. */
 export interface TableInMemory {

@@ -1,10 +1,13 @@
 import { readFileSync, mkdirSync, writeFileSync, readdirSync } from "fs";
 import { dirname, join } from "path";
 
-function parseTSV(filePath: string) {
+function parseTSV(filePath: string, cols?: string[]) {
     const data = readFileSync(filePath, "utf-8");
     const lines = data.trim().split("\n");
-    const headers = lines[0]!.split("\t");
+    const headers = lines[0]!.split("\t").filter(header => cols?.includes(header) ?? true);
+    // console.log('headers', headers);
+    // const keepColIndexs = cols?.map(c => headers.findIndex(h => c === h)) ?? null;
+    // console.log('keepColIndexes', keepColIndexs);
 
     // Skip first two lines; line 1 is header; line P2 is export data comment
     return lines.slice(2).map((line) => {
@@ -26,14 +29,14 @@ function writeTSV(filePath: string, data: any[], versionString: string | null = 
     writeFileSync(filePath, tsvContent, "utf-8");
 }
 
-function parseTSVFolder(folderPath: string): Record<string, any>[] {
+function parseTSVFolder(folderPath: string, cols?: string[]): Record<string, any>[] {
     const files = readdirSync(folderPath);
     const data: any[] = [];
     files
         .filter((file) => file.endsWith(".tsv"))
         .forEach((file) => {
             const curPath = join(folderPath, file);
-            data.push(...parseTSV(curPath));
+            data.push(...parseTSV(curPath, cols));
         });
     return data;
 }

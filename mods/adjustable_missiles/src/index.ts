@@ -8,9 +8,8 @@ import { getOrCreateSession } from '../../../lib/rpfm-client/rpfm-client-instanc
 const client = await getOrCreateSession();
 
 const run = async () => {
-    await generateUnitSets();
+    await generateUnitSets(true);
     await generateAbilityEffects();
-
 
     for (const entry of fs.readdirSync(MOD_STATIC_PATH, { withFileTypes: true })) {
         if (entry.isDirectory()) {

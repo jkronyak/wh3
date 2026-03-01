@@ -13,8 +13,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "genmod-jam": "ts-node mods/adjustable_missiles/src/unit-sets.ts",
-    "sync-mods-jam": "ts-node mods/adjustable_missiles/src/sync-mods.ts",
     "gen-mod:jam:sync": "ts-node mods/adjustable_missiles/src/sync-mods.ts",
     "gen-mod:jam:mod-data": "ts-node mods/adjustable_missiles/src/index.ts"
   },

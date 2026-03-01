@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import path from 'path';
 import tsv from '../../../lib/helpers/tsv.ts';
-import { modUnitSets, MOD_OUTPUT_PATH } from "./config.ts";
+import { MOD_UNIT_SETS, MOD_OUTPUT_PATH } from "./config.ts";
 import { getOrCreateSession } from '../../../lib/rpfm-client/rpfm-client-instance.ts';
 const client = await getOrCreateSession();
 
@@ -238,7 +238,7 @@ const generateAbilityEffects = async () => {
     console.log('Generating ability and effects records.')
     for (let acc = ACC_MIN; acc <= ACC_MAX; acc++) {
         // Process data that has to be generated per unit set per accuracy value.
-        for (const unitSet of modUnitSets) {
+        for (const unitSet of MOD_UNIT_SETS) {
             for (const [table, func] of Object.entries(accuracyRowGenerators.SetAndAcc!) as [TableName, Function][]) {
                 (tableResult[table] ??= []).push(func(unitSet, acc));
             }
@@ -253,7 +253,7 @@ const generateAbilityEffects = async () => {
 
     // Process data to be generated per unit set per stat type (reload, range).
     const statMods = ['reload', 'range_mod'];
-    for (const unitSet of modUnitSets) { 
+    for (const unitSet of MOD_UNIT_SETS) { 
         for (const statMod of statMods) {
             for (const [table, func] of Object.entries(otherStatRowGenerators) as [TableName, Function][]) {
                 (tableResult[table] ??= []).push(func(unitSet, statMod));

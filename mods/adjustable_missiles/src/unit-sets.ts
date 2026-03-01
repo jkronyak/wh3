@@ -237,7 +237,6 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         await writeModTable(modSetJunctions, "unit_set_to_unit_junctions_tables", `${MOD_TABLE_NAME}__${packName}__`);
     }
 
-    // client.close();
     return;
 };
 

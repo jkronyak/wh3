@@ -1,0 +1,36 @@
+{
+  "name": "wh3",
+  "version": "1.0.0",
+  "description": "My Warhammer 3 modding repository.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^1.13.5",
+    "dotenv": "^17.3.1",
+    "ws": "^8.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen-mod:jam:sync": "ts-node mods/adjustable_missiles/src/sync-mods.ts",
+    "gen-mod:jam:mod-data": "ts-node mods/adjustable_missiles/src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkronyak/wh3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jkronyak/wh3/issues"
+  },
+  "homepage": "https://github.com/jkronyak/wh3#readme",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.9.3"
+  }
+}

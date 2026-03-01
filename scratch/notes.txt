@@ -1,0 +1,8 @@
+
+
+ExtractPackedFiles Command:
+    * Folder works, even if pointing to file. Ex:
+        { Folder: "db/effects_tables/jar_adjustable_missiles__accuracy" }
+    *    
+
+* Many commands require the game to be selected first with { SetGameSelected: ["warhammer_3", true|false]}

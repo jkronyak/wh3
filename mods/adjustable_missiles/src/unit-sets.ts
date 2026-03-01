@@ -109,7 +109,7 @@ const calculateUnitSet = (unit: UnitInfo): ModUnitSet | null => {
         if (['missile_cavalry', 'melee_cavalry'].includes(unit.caste) || unit.category === 'cavalry') {
             return "jar_unit_set_cavalry_chariots";
         }
-        if (['monster', 'monstrous_infantry', 'war_beast'].includes(unit.caste)) { 
+        if (['monster', 'monstrous_infantry', 'war_beast', 'monstrous_cavalry'].includes(unit.caste)) { 
             return "jar_unit_set_monstrous";
         }
     }

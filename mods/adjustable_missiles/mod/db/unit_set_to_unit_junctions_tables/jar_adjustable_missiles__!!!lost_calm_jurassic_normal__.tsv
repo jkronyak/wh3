@@ -1,0 +1,14 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__!!!lost_calm_jurassic_normal__
+			calm_cerapod_riders	jar_unit_set_cavalry_chariots	false
+			calm_cherupins	jar_unit_set_cavalry_chariots	false
+			calm_ornisornis	jar_unit_set_cavalry_chariots	false
+			calm_nuatl	jar_unit_set_infantry	false
+			calm_dilophiraptor	jar_unit_set_infantry	false
+			calm_spitter_proto	jar_unit_set_infantry	false
+			calm_parasaur	jar_unit_set_monstrous	false
+			calm_elite_terradon	jar_unit_set_monstrous	false
+			calm_ankylosaur_artillery	jar_unit_set_single_entities	false
+			calm_stegasaur_artillery	jar_unit_set_single_entities	false
+			calm_ictlamimus	jar_unit_set_single_entities	false
+			calm_thunder_lizard	jar_unit_set_single_entities	false

@@ -3,13 +3,13 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			mixu_emp_art_carronade	jar_unit_set_artillery_war_machines	false
 			mixu_emp_art_mortar	jar_unit_set_artillery_war_machines	false
 			mixu_emp_cav_daughters_of_rhya	jar_unit_set_cavalry_chariots	false
+			mixu_tze_inf_cultist_acolytes	jar_unit_set_infantry	false
 			mixu_emp_inf_norscan_reavers	jar_unit_set_infantry	false
 			mixu_emp_inf_norscan_reavers_great_weapons	jar_unit_set_infantry	false
 			mixu_emp_inf_buccaneers_sword_and_bombs	jar_unit_set_infantry	false
 			mixu_emp_inf_gunnery_mob_pistols	jar_unit_set_infantry	false
 			mixu_emp_inf_gunnery_mob_handguns	jar_unit_set_infantry	false
 			mixu_emp_inf_gunnery_mob_blunderbuss	jar_unit_set_infantry	false
-			mixu_tze_inf_cultist_acolytes	jar_unit_set_infantry	false
-			mixu_emp_mon_promethean_riders	jar_unit_set_monstrous	false
 			mixu_tze_mon_trolls	jar_unit_set_monstrous	false
+			mixu_emp_mon_promethean_riders	jar_unit_set_monstrous	false
 			mixu_emp_mon_leviathan	jar_unit_set_single_entities	false

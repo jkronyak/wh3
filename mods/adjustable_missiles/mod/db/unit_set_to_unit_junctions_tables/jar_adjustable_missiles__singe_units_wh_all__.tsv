@@ -1,52 +1,52 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__singe_units_wh_all__
-			singe_zpotvc_bat_mortar	jar_unit_set_artillery_war_machines	false
-			singe_zpotvc_corpse_cannon	jar_unit_set_artillery_war_machines	false
-			singe_dwf_gyro_flame	jar_unit_set_artillery_war_machines	false
-			singe_dwf_bugman_thrower	jar_unit_set_artillery_war_machines	false
-			singe_dwf_flame_bombard	jar_unit_set_artillery_war_machines	false
+			singe_def_cauldron	jar_unit_set_artillery_war_machines	false
 			singe_grn_idol_hurla	jar_unit_set_artillery_war_machines	false
 			singe_grn_dung_flinga	jar_unit_set_artillery_war_machines	false
-			singe_def_cauldron	jar_unit_set_artillery_war_machines	false
+			singe_zpotvc_bat_mortar	jar_unit_set_artillery_war_machines	false
+			singe_zpotvc_corpse_cannon	jar_unit_set_artillery_war_machines	false
 			brt_fire_trebuchet	jar_unit_set_artillery_war_machines	false
 			brt_siege_trebuchet	jar_unit_set_artillery_war_machines	false
 			brt_flaming_trebuchet	jar_unit_set_artillery_war_machines	false
+			singe_dwf_gyro_flame	jar_unit_set_artillery_war_machines	false
+			singe_dwf_bugman_thrower	jar_unit_set_artillery_war_machines	false
+			singe_dwf_flame_bombard	jar_unit_set_artillery_war_machines	false
+			singe_ksl_ice_riders	jar_unit_set_cavalry_chariots	false
 			singe_hef_watchsisters	jar_unit_set_cavalry_chariots	false
 			singe_grn_spider_chariot	jar_unit_set_cavalry_chariots	false
 			singe_tmb_nehek_bowhorse	jar_unit_set_cavalry_chariots	false
-			singe_tze_horror_knights	jar_unit_set_cavalry_chariots	false
-			singe_tze_doomsayer	jar_unit_set_cavalry_chariots	false
-			singe_ksl_ice_riders	jar_unit_set_cavalry_chariots	false
 			singe_brt_yeomen_pox	jar_unit_set_cavalry_chariots	false
 			singe_brt_yeomen_flame	jar_unit_set_cavalry_chariots	false
-			singe_zpotvc_depth_guard_pistols	jar_unit_set_infantry	false
-			singe_zpotvc_deck_burners	jar_unit_set_infantry	false
-			singe_dwf_warriors_thrwaxe	jar_unit_set_infantry	false
-			singe_dwf_ranger_gunners	jar_unit_set_infantry	false
-			singe_dwf_irondrake_drakefire	jar_unit_set_infantry	false
-			singe_emp_grenadiers	jar_unit_set_infantry	false
-			singe_bm_ungor_vile	jar_unit_set_infantry	false
-			singe_bm_ungor_shard	jar_unit_set_infantry	false
+			singe_tze_horror_knights	jar_unit_set_cavalry_chariots	false
+			singe_tze_doomsayer	jar_unit_set_cavalry_chariots	false
 			singe_we_sisters_oak	jar_unit_set_infantry	false
-			singe_nur_plague_spewers	jar_unit_set_infantry	false
-			singe_tmb_tmbguard_archers	jar_unit_set_infantry	false
-			singe_tmb_nehek_archers	jar_unit_set_infantry	false
-			singe_sla_blissbarb_archers	jar_unit_set_infantry	false
-			singe_kho_cult_hunters	jar_unit_set_infantry	false
-			singe_skv_plague_hurlers	jar_unit_set_infantry	false
-			singe_lzd_redcrest_cohort	jar_unit_set_infantry	false
-			brt_ranger	jar_unit_set_infantry	false
-			brt_squire_longbow	jar_unit_set_infantry	false
-			brt_brigand	jar_unit_set_infantry	false
 			singe_chd_rifles	jar_unit_set_infantry	false
 			singe_chd_trackers	jar_unit_set_infantry	false
 			singe_chd_infernal_bazuka	jar_unit_set_infantry	false
 			singe_chd_infernal_magma	jar_unit_set_infantry	false
+			singe_sla_blissbarb_archers	jar_unit_set_infantry	false
+			singe_lzd_redcrest_cohort	jar_unit_set_infantry	false
+			singe_nur_plague_spewers	jar_unit_set_infantry	false
+			singe_tmb_tmbguard_archers	jar_unit_set_infantry	false
+			singe_tmb_nehek_archers	jar_unit_set_infantry	false
 			singe_cth_burningthunder_gunners	jar_unit_set_infantry	false
-			singe_zpotvc_deck_droppers_handcannons	jar_unit_set_monstrous	false
-			singe_ogk_rocketspitters	jar_unit_set_monstrous	false
+			singe_zpotvc_depth_guard_pistols	jar_unit_set_infantry	false
+			singe_zpotvc_deck_burners	jar_unit_set_infantry	false
+			brt_ranger	jar_unit_set_infantry	false
+			brt_squire_longbow	jar_unit_set_infantry	false
+			brt_brigand	jar_unit_set_infantry	false
+			singe_kho_cult_hunters	jar_unit_set_infantry	false
+			singe_bm_ungor_vile	jar_unit_set_infantry	false
+			singe_bm_ungor_shard	jar_unit_set_infantry	false
+			singe_dwf_warriors_thrwaxe	jar_unit_set_infantry	false
+			singe_dwf_ranger_gunners	jar_unit_set_infantry	false
+			singe_dwf_irondrake_drakefire	jar_unit_set_infantry	false
+			singe_emp_grenadiers	jar_unit_set_infantry	false
+			singe_skv_plague_hurlers	jar_unit_set_infantry	false
 			singe_ksl_frost_wyrmlings	jar_unit_set_monstrous	false
+			singe_ogk_rocketspitters	jar_unit_set_monstrous	false
+			singe_zpotvc_deck_droppers_handcannons	jar_unit_set_monstrous	false
+			singe_lzd_ancient_razordon	jar_unit_set_single_entities	false
 			singe_zpotvc_necrofex_rockets	jar_unit_set_single_entities	false
 			singe_zpotvc_necrofex_shrapnel	jar_unit_set_single_entities	false
-			singe_lzd_ancient_razordon	jar_unit_set_single_entities	false
 			singe_tze_screaming_chariot	jar_unit_set_single_entities	false

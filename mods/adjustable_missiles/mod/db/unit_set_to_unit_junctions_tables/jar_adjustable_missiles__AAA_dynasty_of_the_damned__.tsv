@@ -1,0 +1,8 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__AAA_dynasty_of_the_damned__
+			jiang_damned_cannon	jar_unit_set_artillery_war_machines	false
+			jiang_necro_mortar	jar_unit_set_artillery_war_machines	false
+			jiang_grave_guard_crossbow	jar_unit_set_infantry	false
+			jiang_zombie_archer	jar_unit_set_infantry	false
+			jiang_zombie_archer_putridshaft	jar_unit_set_infantry	false
+			jiang_grave_guard_crossbow_balefireshaft	jar_unit_set_infantry	false

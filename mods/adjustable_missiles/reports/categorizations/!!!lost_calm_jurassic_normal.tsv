@@ -1,0 +1,13 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	unitSet
+calm_ankylosaur_artillery	calm_ankylosaur_artillery	monster	inf_melee	inf_mel	new_dinos_riders	new_dinos_riders	false	1	0	0	true	calm_solar_blast	20		jar_unit_set_single_entities
+calm_nuatl	calm_nuatl	missile_infantry	inf_ranged	inf_mis	new_dino_ferals	new_dino_ferals	false	32	0	0	false	calm_nuatl	18		jar_unit_set_infantry
+calm_parasaur	calm_parasaur	monstrous_cavalry	war_beast	inf_mel	new_dinos_riders	new_dinos_riders	false	48	0	16	false		70		jar_unit_set_monstrous
+calm_cerapod_riders	calm_cerapod_riders	melee_cavalry	war_beast	inf_mel	new_dinos_riders	new_dinos_riders	false	48	0	48	false	calm_cerapod_bola	18		jar_unit_set_cavalry_chariots
+calm_cherupins	calm_cherupins	melee_cavalry	war_beast	inf_mel	new_dinos_riders	new_dinos_riders	false	24	0	24	false	cherupin_giant_blowpipe	30		jar_unit_set_cavalry_chariots
+calm_stegasaur_artillery	calm_stegasaur_artillery	monster	inf_melee	inf_mel	new_dinos_riders	new_dinos_riders	false	1	0	0	true	calm_solar_beam	160		jar_unit_set_single_entities
+calm_ictlamimus	calm_ictlamimus	monster	inf_ranged	inf_mis	new_dino_ferals	new_dino_ferals	false	1	0	0	false	calm_ictlamimus	54		jar_unit_set_single_entities
+calm_ornisornis	calm_ornisornis	monstrous_cavalry	cavalry	cav_mis	new_dinos_riders	new_dinos_riders	false	10	0	10	false	manta_jav	26		jar_unit_set_cavalry_chariots
+calm_dilophiraptor	calm_dilophiraptor	melee_infantry	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	32	0	0	false	dilophiraptor_spit	8		jar_unit_set_infantry
+calm_thunder_lizard	calm_thunder_lizard	monster	war_beast	inf_mel	new_dino_specials	new_dino_specials	false	20	0	1	true	calm_solar_lightning	480		jar_unit_set_single_entities
+calm_elite_terradon	calm_elite_terradon	monster	cavalry	cav_mis	wh2_main_lzd_terradon	missile_monster_beasts	true	10	0	10	false	calm_elite_terradon	26		jar_unit_set_monstrous
+calm_spitter_proto	calm_spitter_proto	melee_infantry	inf_melee	inf_mis	new_dinos_allies	new_dinos_allies	false	24	0	0	false	calm_spitter_proto	18		jar_unit_set_infantry

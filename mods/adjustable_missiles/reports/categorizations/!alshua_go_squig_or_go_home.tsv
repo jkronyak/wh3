@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	unitSet
+als_squig_gas	als_squig_gas	melee_infantry	inf_melee	inf_mel	als_squig_gas	monster_beasts	true	40	0	0	false	als_squig_gas_spit	20	melee	jar_unit_set_monstrous

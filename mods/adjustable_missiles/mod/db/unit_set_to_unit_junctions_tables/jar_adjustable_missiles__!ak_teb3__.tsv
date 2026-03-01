@@ -1,16 +1,19 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__!ak_teb3__
+			teb_roc_organ	jar_unit_set_artillery_war_machines	false
+			teb_tank_ror	jar_unit_set_artillery_war_machines	false
 			teb_light_cannon	jar_unit_set_artillery_war_machines	false
 			teb_galloper	jar_unit_set_artillery_war_machines	false
 			teb_tank	jar_unit_set_artillery_war_machines	false
-			teb_roc_organ	jar_unit_set_artillery_war_machines	false
-			teb_tank_ror	jar_unit_set_artillery_war_machines	false
 			teb_bronzino	jar_unit_set_artillery_war_machines	false
+			teb_roc_montecastello	jar_unit_set_cavalry_chariots	false
 			teb_carabiniers	jar_unit_set_cavalry_chariots	false
 			teb_conqui_riders	jar_unit_set_cavalry_chariots	false
 			teb_enforcers	jar_unit_set_cavalry_chariots	false
 			teb_xbow_cav	jar_unit_set_cavalry_chariots	false
-			teb_roc_montecastello	jar_unit_set_cavalry_chariots	false
+			teb_roc_estragon	jar_unit_set_infantry	false
+			teb_roc_verena	jar_unit_set_infantry	false
+			teb_roc_strygos	jar_unit_set_infantry	false
 			teb_pavisiers	jar_unit_set_infantry	false
 			teb_sartosan_pirates	jar_unit_set_infantry	false
 			teb_conqui_royal_guard	jar_unit_set_infantry	false
@@ -21,9 +24,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			teb_guard_kossars	jar_unit_set_infantry	false
 			teb_xbowmen	jar_unit_set_infantry	false
 			teb_handgunners	jar_unit_set_infantry	false
-			teb_roc_estragon	jar_unit_set_infantry	false
-			teb_roc_verena	jar_unit_set_infantry	false
-			teb_roc_strygos	jar_unit_set_infantry	false
 			teb_pirazzo_xbows	jar_unit_set_infantry	false
 			teb_marksmen	jar_unit_set_infantry	false
 			teb_besiegers	jar_unit_set_infantry	false

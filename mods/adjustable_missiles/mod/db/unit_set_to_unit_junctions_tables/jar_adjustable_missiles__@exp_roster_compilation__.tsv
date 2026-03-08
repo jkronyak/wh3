@@ -1,17 +1,17 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__@exp_roster_compilation__
-			dwf_kou_dreadnaught	jar_unit_set_artillery_war_machines	false
 			deco_bugman_thrower	jar_unit_set_artillery_war_machines	false
+			dwf_kou_dreadnaught	jar_unit_set_artillery_war_machines	false
 			deco_skywardens	jar_unit_set_cavalry_chariots	false
 			deco_meadow_chariots	jar_unit_set_cavalry_chariots	false
 			deco_ironsides	jar_unit_set_infantry	false
-			deco_forest_goblin_archers	jar_unit_set_infantry	false
-			dec_hunters_anath_raema	jar_unit_set_infantry	false
+			deco_irondrakes_drakefire	jar_unit_set_infantry	false
+			deco_prospectors	jar_unit_set_infantry	false
 			deco_nor_reavers	jar_unit_set_infantry	false
 			deco_nor_bondsmen	jar_unit_set_infantry	false
+			deco_forest_goblin_archers	jar_unit_set_infantry	false
 			deco_chd_naphtha	jar_unit_set_infantry	false
 			deco_chd_quarrellers	jar_unit_set_infantry	false
 			deco_chd_annihilators	jar_unit_set_infantry	false
 			deco_chd_gnoblar_slaves	jar_unit_set_infantry	false
-			deco_irondrakes_drakefire	jar_unit_set_infantry	false
-			deco_prospectors	jar_unit_set_infantry	false
+			dec_hunters_anath_raema	jar_unit_set_infantry	false

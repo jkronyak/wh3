@@ -13,12 +13,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hng_mounted_horsemasters_ammo_upgrade_whistling	jar_unit_set_cavalry_chariots	false
 			hng_mounted_horsemasters_ammo_upgrade_fire	jar_unit_set_cavalry_chariots	false
 			hng_mounted_horsemasters_ammo_upgrade_all	jar_unit_set_cavalry_chariots	false
+			hng_mounted_shamans_tchar_ror_0	jar_unit_set_cavalry_chariots	false
+			hng_scourgerunner_chariot_0	jar_unit_set_cavalry_chariots	false
 			hng_horse_archers_0	jar_unit_set_cavalry_chariots	false
 			hng_mounted_heavy_archers_0	jar_unit_set_cavalry_chariots	false
 			hng_mounted_horsemasters_0	jar_unit_set_cavalry_chariots	false
 			hng_mounted_shamans_tchar_0	jar_unit_set_cavalry_chariots	false
-			hng_mounted_shamans_tchar_ror_0	jar_unit_set_cavalry_chariots	false
-			hng_scourgerunner_chariot_0	jar_unit_set_cavalry_chariots	false
 			hng_scouts_ammo_upgrade_fire	jar_unit_set_infantry	false
 			hng_horsemasters_ammo_upgrade_heavy	jar_unit_set_infantry	false
 			hng_horsemasters_ammo_upgrade_whistling	jar_unit_set_infantry	false
@@ -28,19 +28,19 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hng_khevtuul_ammo_upgrade_heavy	jar_unit_set_infantry	false
 			hng_khevtuul_ammo_upgrade_poison	jar_unit_set_infantry	false
 			hng_khevtuul_ammo_upgrade_all	jar_unit_set_infantry	false
-			hng_scouts_0	jar_unit_set_infantry	false
-			hng_steppe_trackers_0	jar_unit_set_infantry	false
-			hng_horsemasters_0	jar_unit_set_infantry	false
-			hng_khevtuul_0	jar_unit_set_infantry	false
 			hng_nomads_ror_0	jar_unit_set_infantry	false
 			hng_khevtuul_ror_0	jar_unit_set_infantry	false
 			hng_sea_dragon_hunters_0	jar_unit_set_infantry	false
 			hng_steel_spitters_0	jar_unit_set_infantry	false
-			hng_centigors_2	jar_unit_set_monstrous	false
+			hng_scouts_0	jar_unit_set_infantry	false
+			hng_steppe_trackers_0	jar_unit_set_infantry	false
+			hng_horsemasters_0	jar_unit_set_infantry	false
+			hng_khevtuul_0	jar_unit_set_infantry	false
 			hng_centigors_ror_0	jar_unit_set_monstrous	false
+			hng_centigors_2	jar_unit_set_monstrous	false
 			hng_heavy_archers_ammo_upgrade_magical	jar_unit_set_single_entities	false
 			hng_heavy_archers_ammo_upgrade_heavy	jar_unit_set_single_entities	false
-			hng_heavy_archers_0	jar_unit_set_single_entities	false
-			hng_centigor_elder_0	jar_unit_set_single_entities	false
 			hng_heavy_archers_ror_0	jar_unit_set_single_entities	false
 			hng_dread_beasts_of_mourn_0	jar_unit_set_single_entities	false
+			hng_heavy_archers_0	jar_unit_set_single_entities	false
+			hng_centigor_elder_0	jar_unit_set_single_entities	false

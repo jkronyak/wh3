@@ -41,7 +41,7 @@ const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>
             video: "",
             uniqueness: "wh_main_anc_group_common",
             is_unit_upgrade: false,
-            is_hidden_in_ui: false, // TODO: add separate option for this, default true
+            is_hidden_in_ui: true, // TODO: add separate option for this, default false
             source_type: "passive",
             superseded_abilities_set: "",
             is_hidden_in_ui_for_enemy: "false",
@@ -168,7 +168,7 @@ const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>
             imbue_contact: "",
             phase_display: "",
             phase_audio: "",
-            is_hidden_in_ui: "false",
+            is_hidden_in_ui: false,
             affects_allies: "true",
             affects_enemies: "true",
             replenish_ammo: "0.0000",
@@ -196,7 +196,8 @@ const singleRowGenerators: Partial<Record<TableName, Function>> = {
         localised_title: '',
         bundle_target: 'faction',
         priority: '1',
-        ui_icon: 'jar_accuracy.png',
+        // ui_icon: 'jar_accuracy.png',
+        ui_icon: '', // hide in UI
         is_global_effect: 'true',
         show_in_3d_space: 'false',
         owner_only: 'true'
@@ -252,7 +253,24 @@ const generateAbilityEffects = async () => {
     }
 
     // Process data to be generated per unit set per stat type (reload, range).
-    const statMods = ['reload', 'range_mod'];
+    const statMods = [
+        'reload',
+
+        'range_mod',
+        'ammo_mod',
+
+        'missile_damage_mod_mult',
+        'missile_damage_ap_mod_mult',
+
+        'missile_explosion_damage_mod_mult',
+        'missile_explosion_damage_ap_mod_mult',
+
+        'missile_damage_mod_add',
+        'missile_damage_ap_mod_add',
+
+        'missile_explosion_radius',
+    
+    ];
     for (const unitSet of MOD_UNIT_SETS) { 
         for (const statMod of statMods) {
             for (const [table, func] of Object.entries(otherStatRowGenerators) as [TableName, Function][]) {

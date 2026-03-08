@@ -1,5 +1,10 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__sfo_grimhammer_3_main__
+			emp_tank_ror	jar_unit_set_artillery_war_machines	false
+			cst_carronade	jar_unit_set_artillery_war_machines	false
+			hef_eagle_claw_bolt_thrower_elite	jar_unit_set_artillery_war_machines	false
+			cr_tmb_veh_tomb_barque_0	jar_unit_set_artillery_war_machines	false
+			ksl_urugan_cannon	jar_unit_set_artillery_war_machines	false
 			wh3_main_chs_art_hellcannon_prologue	jar_unit_set_artillery_war_machines	false
 			wh3_main_cth_art_fire_rain_rocket_battery_0	jar_unit_set_artillery_war_machines	false
 			wh3_main_cth_art_grand_cannon_0	jar_unit_set_artillery_war_machines	false
@@ -97,11 +102,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc26_grn_art_bolt_throwa_ror	jar_unit_set_artillery_war_machines	false
 			wh3_dlc26_kho_veh_skullcannon_ror	jar_unit_set_artillery_war_machines	false
 			wh3_main_chd_art_hobgob_bolt_thrower	jar_unit_set_artillery_war_machines	false
-			emp_tank_ror	jar_unit_set_artillery_war_machines	false
-			cst_carronade	jar_unit_set_artillery_war_machines	false
-			hef_eagle_claw_bolt_thrower_elite	jar_unit_set_artillery_war_machines	false
-			cr_tmb_veh_tomb_barque_0	jar_unit_set_artillery_war_machines	false
-			ksl_urugan_cannon	jar_unit_set_artillery_war_machines	false
+			cr_hef_veh_lothern_skycutter	jar_unit_set_cavalry_chariots	false
+			hef_ellyrian_reavers_archers_elite	jar_unit_set_cavalry_chariots	false
+			hef_tiranoc_chariot_elite	jar_unit_set_cavalry_chariots	false
 			wh3_main_ksl_cav_horse_archers_0	jar_unit_set_cavalry_chariots	false
 			wh3_main_ksl_veh_heavy_war_sled_0	jar_unit_set_cavalry_chariots	false
 			wh3_main_ksl_veh_light_war_sled_0	jar_unit_set_cavalry_chariots	false
@@ -164,9 +167,35 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc27_hef_veh_skycutter_bolt_thrower	jar_unit_set_cavalry_chariots	false
 			wh3_dlc27_hef_veh_skycutter_bows	jar_unit_set_cavalry_chariots	false
 			wh3_dlc27_nor_cav_marauder_horsemen_ror	jar_unit_set_cavalry_chariots	false
-			cr_hef_veh_lothern_skycutter	jar_unit_set_cavalry_chariots	false
-			hef_ellyrian_reavers_archers_elite	jar_unit_set_cavalry_chariots	false
-			hef_tiranoc_chariot_elite	jar_unit_set_cavalry_chariots	false
+			emp_witch_squad	jar_unit_set_infantry	false
+			emp_officer_squad	jar_unit_set_infantry	false
+			brt_longbows	jar_unit_set_infantry	false
+			brt_hood	jar_unit_set_infantry	false
+			grn_poor_crossbow	jar_unit_set_infantry	false
+			dwf_daemon_slayer	jar_unit_set_infantry	false
+			dwf_sniper	jar_unit_set_infantry	false
+			dwf_thunderers_grudge	jar_unit_set_infantry	false
+			bst_tzaangor	jar_unit_set_infantry	false
+			nor_whaler	jar_unit_set_infantry	false
+			nor_ulf	jar_unit_set_infantry	false
+			wef_dryad_bow	jar_unit_set_infantry	false
+			cst_pirate_merc	jar_unit_set_infantry	false
+			cst_boarding_crew	jar_unit_set_infantry	false
+			tmb_serpent	jar_unit_set_infantry	false
+			tmb_asp	jar_unit_set_infantry	false
+			tmb_serpent_khatep	jar_unit_set_infantry	false
+			hef_shadow_warriors_elite	jar_unit_set_infantry	false
+			hef_archers_elite	jar_unit_set_infantry	false
+			hef_archers_light_elite	jar_unit_set_infantry	false
+			hef_gate_guard_elite	jar_unit_set_infantry	false
+			hef_lothern_sea_guard_elite	jar_unit_set_infantry	false
+			hef_lothern_sea_guard_shields_elite	jar_unit_set_infantry	false
+			def_dread	jar_unit_set_infantry	false
+			cr_ksl_inf_streltsi_bardiche	jar_unit_set_infantry	false
+			ksl_kossars_molotov	jar_unit_set_infantry	false
+			cth_dragon_breakers	jar_unit_set_infantry	false
+			ogr_hobo_archer	jar_unit_set_infantry	false
+			vmp_bloodline_lahmia	jar_unit_set_infantry	false
 			wh3_main_cth_inf_crane_gunners_0	jar_unit_set_infantry	false
 			wh3_main_cth_inf_dragon_guard_crossbowmen_0	jar_unit_set_infantry	false
 			wh3_main_cth_inf_iron_hail_gunners_0	jar_unit_set_infantry	false
@@ -342,35 +371,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc17_lzd_inf_chameleon_stalkers_0_blessed	jar_unit_set_infantry	false
 			wh2_main_lzd_inf_skink_cohort_1_blessed	jar_unit_set_infantry	false
 			wh3_dlc27_sla_inf_devotees_of_slaanesh_crossbows	jar_unit_set_infantry	false
-			emp_witch_squad	jar_unit_set_infantry	false
-			emp_officer_squad	jar_unit_set_infantry	false
-			brt_longbows	jar_unit_set_infantry	false
-			brt_hood	jar_unit_set_infantry	false
-			grn_poor_crossbow	jar_unit_set_infantry	false
-			dwf_daemon_slayer	jar_unit_set_infantry	false
-			dwf_sniper	jar_unit_set_infantry	false
-			dwf_thunderers_grudge	jar_unit_set_infantry	false
-			bst_tzaangor	jar_unit_set_infantry	false
-			nor_whaler	jar_unit_set_infantry	false
-			nor_ulf	jar_unit_set_infantry	false
-			wef_dryad_bow	jar_unit_set_infantry	false
-			cst_pirate_merc	jar_unit_set_infantry	false
-			cst_boarding_crew	jar_unit_set_infantry	false
-			tmb_serpent	jar_unit_set_infantry	false
-			tmb_asp	jar_unit_set_infantry	false
-			tmb_serpent_khatep	jar_unit_set_infantry	false
-			hef_shadow_warriors_elite	jar_unit_set_infantry	false
-			hef_archers_elite	jar_unit_set_infantry	false
-			hef_archers_light_elite	jar_unit_set_infantry	false
-			hef_gate_guard_elite	jar_unit_set_infantry	false
-			hef_lothern_sea_guard_elite	jar_unit_set_infantry	false
-			hef_lothern_sea_guard_shields_elite	jar_unit_set_infantry	false
-			def_dread	jar_unit_set_infantry	false
-			cr_ksl_inf_streltsi_bardiche	jar_unit_set_infantry	false
-			ksl_kossars_molotov	jar_unit_set_infantry	false
-			cth_dragon_breakers	jar_unit_set_infantry	false
-			ogr_hobo_archer	jar_unit_set_infantry	false
-			vmp_bloodline_lahmia	jar_unit_set_infantry	false
+			wef_kurnoth_bow	jar_unit_set_monstrous	false
 			wh3_main_nur_cav_plague_drones_1	jar_unit_set_monstrous	false
 			wh3_main_ogr_inf_leadbelchers_0	jar_unit_set_monstrous	false
 			wh3_main_ogr_inf_maneaters_3	jar_unit_set_monstrous	false
@@ -401,7 +402,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc12_lzd_mon_salamander_pack_0_blessed	jar_unit_set_monstrous	false
 			wh2_dlc13_lzd_mon_razordon_pack_0_blessed	jar_unit_set_monstrous	false
 			wh2_main_lzd_cav_terradon_riders_0_blessed	jar_unit_set_monstrous	false
-			wef_kurnoth_bow	jar_unit_set_monstrous	false
 			wh3_main_kho_mon_soul_grinder_0	jar_unit_set_single_entities	false
 			wh3_main_nur_mon_soul_grinder_0	jar_unit_set_single_entities	false
 			wh3_main_ogr_mon_stonehorn_1	jar_unit_set_single_entities	false

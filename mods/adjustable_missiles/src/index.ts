@@ -23,6 +23,25 @@ const run = async () => {
 
     await client.send("NewPack");
     await client.insertPackedFiles([`${MOD_OUTPUT_PATH}/db`, `${MOD_OUTPUT_PATH}/script`, `${MOD_OUTPUT_PATH}/ui`], [{ Folder: "db" }, { Folder: "" }, { Folder: "" }]);
+    await client.send({
+        OptimizePackFile: {
+            pack_remove_itm_files: true,
+            db_import_datacores_into_twad_key_deletes: true,
+            db_optimize_datacored_tables: true,
+            table_remove_duplicated_entries: true,
+            table_remove_itm_entries: true,
+            table_remove_itnr_entries: true,
+            table_remove_empty_file: true,
+            text_remove_unused_xml_map_folders: true,
+            text_remove_unused_xml_prefab_folder: true,
+            text_remove_agf_files: true,
+            text_remove_model_statistics_files: true,
+            pts_remove_unused_art_sets: true,
+            pts_remove_unused_variants: true,
+            pts_remove_empty_masks: true,
+            pts_remove_empty_file: true,
+        }
+    })
     await client.savePackAs(`${MOD_DIST_PATH}/jar_adjustable_missiles.pack`);
     await client.closePack();
     client.close();

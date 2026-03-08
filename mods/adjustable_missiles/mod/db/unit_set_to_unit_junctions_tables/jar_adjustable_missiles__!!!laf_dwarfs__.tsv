@@ -5,15 +5,15 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			laf_dwf_veh_juggernaut_bolt_thrower	jar_unit_set_artillery_war_machines	false
 			laf_dwf_veh_juggernaut_cannon	jar_unit_set_artillery_war_machines	false
 			laf_dwf_veh_juggernaut_tonnisson	jar_unit_set_artillery_war_machines	false
-			wh_main_dwf_inf_miners_1	jar_unit_set_infantry	false
-			wh_dlc06_dwf_inf_ekrund_miners_0	jar_unit_set_infantry	false
-			wh3_dlc25_dwf_inf_miners_1_summoned	jar_unit_set_infantry	false
-			laf_dwf_inf_miners_sappers	jar_unit_set_infantry	false
+			laf_dwf_inf_crank_gunners	jar_unit_set_infantry	false
+			laf_dwf_inf_irondrakes_1	jar_unit_set_infantry	false
 			wh_main_dwf_inf_quarrellers_0	jar_unit_set_infantry	false
 			wh_main_dwf_inf_quarrellers_1	jar_unit_set_infantry	false
 			wh_dlc06_dwf_inf_bugmans_rangers_0	jar_unit_set_infantry	false
 			wh_dlc06_dwf_inf_rangers_0	jar_unit_set_infantry	false
 			wh_dlc06_dwf_inf_rangers_1	jar_unit_set_infantry	false
 			wh_dlc06_dwf_inf_ulthars_raiders_0	jar_unit_set_infantry	false
-			laf_dwf_inf_crank_gunners	jar_unit_set_infantry	false
-			laf_dwf_inf_irondrakes_1	jar_unit_set_infantry	false
+			wh_main_dwf_inf_miners_1	jar_unit_set_infantry	false
+			wh_dlc06_dwf_inf_ekrund_miners_0	jar_unit_set_infantry	false
+			wh3_dlc25_dwf_inf_miners_1_summoned	jar_unit_set_infantry	false
+			laf_dwf_inf_miners_sappers	jar_unit_set_infantry	false

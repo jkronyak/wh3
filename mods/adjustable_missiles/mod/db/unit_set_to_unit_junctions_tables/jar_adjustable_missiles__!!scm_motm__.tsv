@@ -1,18 +1,16 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__!!scm_motm__
-			um_ogr_blackpowder	jar_unit_set_artillery_war_machines	false
 			motm_gnoblar_scraplauncher_ror	jar_unit_set_artillery_war_machines	false
 			motm_ironblaster_ror	jar_unit_set_artillery_war_machines	false
+			um_ogr_blackpowder	jar_unit_set_artillery_war_machines	false
 			um_gnoblar_spider_riders_1	jar_unit_set_cavalry_chariots	false
 			um_gnoblar_spider_riders_ror	jar_unit_set_cavalry_chariots	false
-			um_ogr_skullflingers	jar_unit_set_infantry	false
-			um_gnoblar_grillers_ror	jar_unit_set_infantry	false
 			fleshrender_hunters	jar_unit_set_infantry	false
 			lab_ogr_inf_gnoblars_1	jar_unit_set_infantry	false
+			um_gnoblar_grillers_ror	jar_unit_set_infantry	false
+			um_ogr_skullflingers	jar_unit_set_infantry	false
 			ogr_flameeater_pistol	jar_unit_set_monstrous	false
 			ogr_flame_thrower	jar_unit_set_monstrous	false
-			motm_jhared_feral_thundertusk	jar_unit_set_single_entities	false
-			um_ogr_blu	jar_unit_set_single_entities	false
 			ogr_arachnarok_spider_0	jar_unit_set_single_entities	false
 			ogr_arachnarok_spider_flinger	jar_unit_set_single_entities	false
 			gnoblar_spider_chariot	jar_unit_set_single_entities	false
@@ -22,3 +20,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			um_ogr_diver_03	jar_unit_set_single_entities	false
 			motm_rotting_leviathan_ror	jar_unit_set_single_entities	false
 			motm_necrofex_colossus_ror	jar_unit_set_single_entities	false
+			motm_jhared_feral_thundertusk	jar_unit_set_single_entities	false
+			um_ogr_blu	jar_unit_set_single_entities	false

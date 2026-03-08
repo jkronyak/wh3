@@ -60,7 +60,7 @@ const decodeTablesFromPack = async <T extends string>(
         const [tableData] = await client.decodeFile(internalPath, sourceType);
         const definition = tableData.table.definition;
         const fields = await client.getFieldsProcessed(definition);
-        const rows = tableData.table.table_data;
+        const rows = tableData.table.table_data.toSorted();
         return {
             definition,
             rows: rows.map(row =>

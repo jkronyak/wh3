@@ -6,12 +6,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			um_gnoblar_spider_riders_1	jar_unit_set_cavalry_chariots	false
 			um_gnoblar_spider_riders_ror	jar_unit_set_cavalry_chariots	false
 			um_ogr_skullflingers	jar_unit_set_infantry	false
-			um_gnoblar_grillers_ror	jar_unit_set_infantry	false
+			ogr_flameeater_pistol	jar_unit_set_infantry	false
+			ogr_flame_thrower	jar_unit_set_infantry	false
 			fleshrender_hunters	jar_unit_set_infantry	false
 			lab_ogr_inf_gnoblars_1	jar_unit_set_infantry	false
-			ogr_flameeater_pistol	jar_unit_set_monstrous	false
-			ogr_flame_thrower	jar_unit_set_monstrous	false
-			motm_jhared_feral_thundertusk	jar_unit_set_single_entities	false
+			um_gnoblar_grillers_ror	jar_unit_set_infantry	false
 			um_ogr_blu	jar_unit_set_single_entities	false
 			ogr_arachnarok_spider_0	jar_unit_set_single_entities	false
 			ogr_arachnarok_spider_flinger	jar_unit_set_single_entities	false
@@ -22,3 +21,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			um_ogr_diver_03	jar_unit_set_single_entities	false
 			motm_rotting_leviathan_ror	jar_unit_set_single_entities	false
 			motm_necrofex_colossus_ror	jar_unit_set_single_entities	false
+			motm_jhared_feral_thundertusk	jar_unit_set_single_entities	false

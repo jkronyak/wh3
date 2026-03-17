@@ -9,6 +9,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			sartosa_pirate_artillery_deck_cannon	jar_unit_set_artillery_war_machines	false
 			sartosa_pirate_artillery_mortar	jar_unit_set_artillery_war_machines	false
 			sartosa_pirate_artillery_volley_gun	jar_unit_set_artillery_war_machines	false
+			sartosa_promethean_riders	jar_unit_set_cavalry_chariots	false
+			sartosa_promethean_riders_davey_ror	jar_unit_set_cavalry_chariots	false
 			cathay_pirate_crossbows	jar_unit_set_infantry	false
 			sartosa_buccaneer_deck_gun_weapon_team	jar_unit_set_infantry	false
 			sartosa_buccaneer_deck_gun_weapon_team_ror	jar_unit_set_infantry	false
@@ -28,6 +30,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			sartosa_smugglers_ror	jar_unit_set_infantry	false
 			sartosa_smugglers_sammy_ror	jar_unit_set_infantry	false
 			sartosa_privateers_summoned	jar_unit_set_infantry	false
-			sartosa_promethean_riders	jar_unit_set_monstrous	false
-			sartosa_promethean_riders_davey_ror	jar_unit_set_monstrous	false
 			sartosa_leviathan	jar_unit_set_single_entities	false

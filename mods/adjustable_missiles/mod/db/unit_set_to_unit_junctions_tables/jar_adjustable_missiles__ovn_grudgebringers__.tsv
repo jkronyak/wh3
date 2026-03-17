@@ -19,5 +19,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc13_emp_inf_archers_0_ovn_gru	jar_unit_set_infantry	false
 			wh_main_emp_inf_handgunners_ovn_gru	jar_unit_set_infantry	false
 			wh_dlc04_emp_inf_free_company_militia_0_ovn_gru	jar_unit_set_infantry	false
+			wh3_main_ogr_inf_maneaters_3_ovn_gru	jar_unit_set_infantry	false
 			leitdorf_9th_crossbows	jar_unit_set_infantry	false
-			wh3_main_ogr_inf_maneaters_3_ovn_gru	jar_unit_set_monstrous	false

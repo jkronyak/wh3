@@ -27,8 +27,6 @@ type TableName =
 
 const accSuf = (acc: number) => acc > 0 ? `+${acc}` : `${acc}`;
 
-// Partial<Record<TableName, Function>> 
-// Record<string, Partial<<Record<TableName, Function>>>> 
 const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>> = {
 
     SetAndAcc: {
@@ -42,6 +40,7 @@ const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>
             uniqueness: "wh_main_anc_group_common",
             is_unit_upgrade: false,
             is_hidden_in_ui: true, // TODO: add separate option for this, default false
+            // is_hidden_in_ui: false,
             source_type: "passive",
             superseded_abilities_set: "",
             is_hidden_in_ui_for_enemy: "false",

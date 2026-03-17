@@ -60,7 +60,7 @@ const decodeTablesFromPack = async <T extends string>(
         const [tableData] = await client.decodeFile(internalPath, sourceType);
         const definition = tableData.table.definition;
         const fields = await client.getFieldsProcessed(definition);
-        const rows = tableData.table.table_data.toSorted();
+        const rows = tableData.table.table_data;
         return {
             definition,
             rows: rows.map(row =>
@@ -84,7 +84,7 @@ const decodeTablesFromPack = async <T extends string>(
             definition = decodedData.definition;
             allRows.push(...decodedData.rows);
         }
-        result[tableName] = { table_name: tableName, definition, rows: allRows };
+        result[tableName] = { table_name: tableName, definition, rows: allRows.toSorted() };
     }
 
     if (packPath) await client.closePack();
@@ -99,18 +99,15 @@ const writeModTable = async (data: Record<string, any>[], dbTable: string, table
 
 const calculateUnitSet = (unit: UnitInfo): ModUnitSet | null => {
     if (!unit.useVanillaParentGroup) {
-        // console.warn(`Warning: ${unit.mainUnitKey} uses a modded UI parent group.`);
         if (unit.caste === 'warmachine' || unit.category === 'artillery' || unit.arUnitCategory === 'artillery') { 
             return "jar_unit_set_artillery_war_machines";
         }
         if (unit.numMen === 1 || unit.numMen === 1 || unit.numEngines === 1 || unit.useHitpointsInCampaign) { 
             return "jar_unit_set_single_entities";
         }
-        if (['missile_cavalry', 'melee_cavalry'].includes(unit.caste) || unit.category === 'cavalry') {
+        if (['missile_cavalry', 'melee_cavalry', 'monstrous_cavalry'].includes(unit.caste) 
+            || ['cavalry', 'war_beast'].includes(unit.category)) {
             return "jar_unit_set_cavalry_chariots";
-        }
-        if (['monster', 'monstrous_infantry', 'war_beast', 'monstrous_cavalry'].includes(unit.caste)) { 
-            return "jar_unit_set_monstrous";
         }
     }
 
@@ -122,15 +119,15 @@ const calculateUnitSet = (unit: UnitInfo): ModUnitSet | null => {
         return "jar_unit_set_single_entities";
     }
 
-    if (["cavalry_chariots", "missile_cavalry_chariots"].includes(unit.parentGroup)) {
+    if (["cavalry_chariots", "missile_cavalry_chariots"].includes(unit.parentGroup)
+        || ['missile_cavalry', 'melee_cavalry', 'monstrous_cavalry'].includes(unit.caste)
+        || ['cavalry', 'war_beast'].includes(unit.category)
+    ) {
         return "jar_unit_set_cavalry_chariots";
     }
 
-    if (["monstrous_infantry"].includes(unit.caste) || ['missile_monster_beasts', 'monster_beasts', 'constructs'].includes(unit.parentGroup)) {
-        return "jar_unit_set_monstrous"
-    }
 
-    if (['missile_infantry', 'melee_infantry'].includes(unit.caste)) {
+    if (['missile_infantry', 'melee_infantry', 'monstrous_infantry'].includes(unit.caste)) {
         return "jar_unit_set_infantry"
     }
 

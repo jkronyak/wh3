@@ -2,7 +2,7 @@
 --- Imports/Utility ---
 -----------------------
 local Logger = {}
-local log_override = false
+local log_override = true
 
 function Logger:new(o)
     o = o or {}
@@ -40,27 +40,33 @@ local logger = Logger:new({ file_name = "jar_adjustable_missiles_mct", enabled =
 ----------------------------
 --- Settings Data Tables ---
 ----------------------------
+local GLOBAL_SET = { set = "jar_unit_set_global", display = "Global", desc = "Includes every unit, and stacks with other categories." }
+
 local SETS_CFG = {
-    { set = "jar_unit_set_global",     display = "Global",     desc = "Applies to every unit." },
-    { set = "jar_unit_set_characters", display = "Characters", desc = "Applies to every lord or hero unit." }, {
-    set = "jar_unit_set_artillery_war_machines",
-    display = "Artillery/War Machines",
-    desc = "Applies to every artillery or war machine unit."
-}, {
-    set = "jar_unit_set_single_entities",
-    display = "Single Entities",
-    desc = "Applies to every single-entity unit, except for characters, war machines, and artillery."
-}, { set = "jar_unit_set_infantry", display = "Infantry", desc = "Applies to every non-monstrous infantry unit." }, {
-    set = "jar_unit_set_monstrous",
-    display = "Monstrous",
-    desc = "Applies to every multi-entity monster or monstrous unit."
-},
+    { set = "jar_unit_set_characters", display = "Characters", desc = "Includes every lord or hero unit." },
+    {
+        set = "jar_unit_set_artillery_war_machines",
+        display = "Artillery/War Machines",
+        desc = "Includes every artillery or war machine unit."
+    },
+    {
+        set = "jar_unit_set_single_entities",
+        display = "Single Entities",
+        desc = "Includes every single entity unit, except characters, artillery, and war machines."
+    },
+    { set = "jar_unit_set_infantry", display = "Infantry",  desc = "Includes every infantry or monstrous infantry unit." },
+    -- {
+    --     set = "jar_unit_set_monstrous",
+    --     display = "Monstrous",
+    --     desc = "Applies to every multi-entity monster or monstrous unit."
+    -- },
     {
         set = "jar_unit_set_cavalry_chariots",
         display = "Cavalry/Chariots",
         desc = "Applies to every cavalry/chariot unit."
     }
 }
+
 
 local STATS_CFG = {
     {
@@ -75,13 +81,14 @@ local STATS_CFG = {
     min = -100,
     max = 500,
     desc = "Modify unit reload skill by (roughly) +n%. Higher values = faster reload."
-}, {
-    stat = "ammo_mod",
-    display = "Ammo (%)",
-    min = -100,
-    max = 500,
-    desc = "Modify unit ammunition by n%. Higher values = more ammunition."
-}, {
+},
+    {
+        stat = "ammo_mod",
+        display = "Ammo (%)",
+        min = -100,
+        max = 500,
+        desc = "Modify unit ammunition by n%. Higher values = more ammunition."
+    }, {
     stat = "range_mod",
     display = "Range (%)",
     min = -100,
@@ -104,20 +111,23 @@ local STATS_CFG = {
     display = "Base Damage (Flat)",
     min = -100,
     max = 500,
-    desc = "Modify non-AP missile damage by n flat. Higher values = more damage."
+    desc = "Modify non-AP missile damage by n flat. Does not affect explosive damage. Higher values = more damage."
 }, {
     stat = "missile_damage_ap_mod_add",
     display = "AP Damage (Flat)",
     min = -100,
     max = 500,
-    desc = "Modify AP missile damage by n flat. Higher values = more damage."
-}, {
-    stat = "missile_explosion_radius",
-    display = "Explosion Radius",
-    min = -100,
-    max = 500,
-    desc = "Modify missile explosion radius by n%, if the unit has explosive damage. Higher values = larger radius."
-}
+    desc = "Modify AP missile damage by n flat. Does not affect explosive damage. Higher values = more damage."
+},
+
+    -- TODO: Test that the missile_explosion_radius effect actually does something.
+    -- {
+    --     stat = "missile_explosion_radius",
+    --     display = "Explosion Radius",
+    --     min = -100,
+    --     max = 500,
+    --     desc = "Modify missile explosion radius by n%, if the unit has explosive damage. Higher values = larger radius."
+    -- }
 }
 
 local CORE_CFG = {
@@ -125,11 +135,13 @@ local CORE_CFG = {
         cmd = "enable_mod",
         type = "checkbox",
         display = "Enable Mod",
-        desc = "Enable or disable this mod's functionality."
-    }, { cmd = "apply_to_player", type = "checkbox", display = "Apply To Player", desc = "" },
-    { cmd = "apply_to_ai",     type = "checkbox", display = "Apply To AI",       desc = "" },
+        desc = "Enable or disable this mod. Applied upon reload or next turn."
+    }, { cmd = "apply_to_player", type = "checkbox", display = "Apply To Player", desc = "Enable or disable this mod only for the player. Applied upon reload or next turn." },
+    { cmd = "apply_to_ai",     type = "checkbox", display = "Apply To AI",     desc = "Enable or disable this mod only for the AI. Applied upon reload or next turn." },
     -- { cmd = "dev_logging",     type = "checkbox", display = "Developer Logging", desc = "" }
 }
+
+local STAT_LOCK_REASON = "Reusing Player values for AI"
 
 -----------------
 --- MCT SETUP ---
@@ -137,13 +149,11 @@ local CORE_CFG = {
 local mct = get_mct()
 local mod_title = "jar_adjustable_missiles"
 local mod_title_display = "Adjustable Missiles"
-local mod_prefix = "jam"
 local mct_mod = mct:register_mod(mod_title)
 
 mct_mod:set_title(mod_title_display)
-mct_mod:set_workshop_id("3297164969")
 mct_mod:remove_settings_page(mct_mod:get_default_settings_page())
-mct_mod:set_description("Allows you to customize missile units to your heart's content!")
+mct_mod:set_description("Allows you to customize various stats for missile units!")
 
 ----------------------
 --- OPTION HELPERS ---
@@ -155,196 +165,444 @@ local function split_str(input_str, sep)
     return t
 end
 
-local function create_set_stat_key(scope, set, stat) return "opt__setstat__" .. scope .. "__" .. set .. "__" .. stat end
-local function create_set_link_key(set) return "opt__setlink__" .. set end
-local function create_core_key(cmd) return "opt__core__" .. cmd end
+local OPTION_SCHEMAS = {
+    STAT = { "set", "stat", "scope" },
+    LINK = { "set" },
+    CORE = { "action" },
+    CATSELECT = {}
+}
+
+local function create_option_key(cmd, data)
+    local key = "opt__" .. cmd
+    for _, value in ipairs(data) do
+        key = key .. "__" .. tostring(value)
+    end
+    return key
+end
 
 local function parse_option_key(key)
     local parts = split_str(key, "__")
     local prefix, cmd = parts[1], parts[2]
-    if prefix ~= "opt" then
-        logger:write("WARNING: while parsing option key", key, ": prefix is missing")
-        return nil
-    end
+    local schema = OPTION_SCHEMAS[cmd]
 
-    if cmd == "setstat" then
-        return { cmd = cmd, scope = parts[3], set = parts[4], stat = parts[5] }
-    elseif cmd == "core" then
-        return { cmd = cmd, action = parts[3] }
-    elseif cmd == "setlink" then
-        return { cmd = cmd, set = parts[3] }
-    else
-        logger:write("WARNING: while parsing option key", key, ": unknown cmd", cmd)
-        return nil
+    local result = { cmd = cmd, data = {} }
+    for i, field in ipairs(schema) do
+        result.data[field] = parts[2 + i]
     end
+    return result
 end
 
 ---@param option MCT.Option
 local function parse_option_object(option)
-    local key_data = parse_option_key(option:get_key())
-    if key_data == nil then return nil end
-
-    return { key = option:get_key(), value = option:get_selected_setting(), type = option:get_type(), data = key_data }
+    return parse_option_key(option:get_key())
 end
 
 --------------------------
 --- MCT Initialization ---
 --------------------------
-local function create_set_section(set_cfg)
-    local section_human = mct_mod:add_new_section(set_cfg.set .. "__human", "     " .. set_cfg.display .. " - Human")
-    section_human:set_is_collapsible(true)
-    section_human:set_description(set_cfg.desc .. " Human settings.")
-    -- local dummy_option = mct_mod:add_new_option(set_cfg.set .. "__DUMMY", "dummy")
-    -- dummy_option:set_uic_visibility(false, true)
-    -- section_human:assign_option(dummy_option)
 
-    local section_ai = mct_mod:add_new_section(set_cfg.set .. "__ai", "     " .. set_cfg.display .. " - AI")
-    section_ai:set_is_collapsible(true)
-    section_ai:set_description(set_cfg.desc .. " AI settings.")
-
-    local option_set_link = mct_mod:add_new_option(create_set_link_key(set_cfg.set), "checkbox")
-    if not option_set_link then
-        logger:write("ERROR: unable to create link set option for", set_cfg.set)
-    else
-        option_set_link:set_text("Using same settings as Human")
-        option_set_link:set_default_value(true)
-        option_set_link:add_confirmation_popup(
-            function(new_val)
-                local msg = new_val == false and "" or
-                        "Warning:\n\nEnabling this setting will overwrite any AI-specific settings you had for " ..
-                        set_cfg.display ..
-                        " to match your human selections.\n\nAre you sure you want to proceed?"
-                return new_val, msg
-            end
-        )
-        section_ai:assign_option(option_set_link)
-    end
-    return section_human, section_ai
-end
-
-local function create_stat_option(set_cfg, stat_cfg, scope)
-    local option = mct_mod:add_new_option(create_set_stat_key(scope, set_cfg.set, stat_cfg.stat), "slider")
-    option:set_text(stat_cfg.display)
-    option:set_tooltip_text(stat_cfg.desc)
-    option:slider_set_min_max(stat_cfg.min, stat_cfg.max)
+--- Option Helpers ---
+local function create_stat_option(set_name, stat_config, scope)
+    local option = mct_mod:add_new_option(create_option_key("STAT", { set_name, stat_config.stat, scope }), 'slider')
+    option:set_text(stat_config.display)
+    option:set_tooltip_text(stat_config.desc)
+    option:slider_set_min_max(stat_config.min, stat_config.max)
     option:set_default_value(0)
-    if scope == "ai" then option:set_read_only(true, "Reusing human values for AI.") end
     return option
 end
 
+local function create_core_option(core_config)
+    local option = mct_mod:add_new_option(create_option_key("CORE", { core_config.cmd }), core_config.type)
+    option:set_text(core_config.display)
+    option:set_tooltip_text(core_config.desc)
+    option:set_default_value(true)
+    return option
+end
+
+local function create_link_option(set_name)
+    local option = mct_mod:add_new_option(create_option_key("LINK", { set_name }), 'checkbox')
+    option:set_text("Use Player values for AI?")
+    option:set_tooltip_text("When enabled, AI settings will be overwritten with the Player settings for this category.")
+    option:set_default_value(true)
+    return option
+end
+
+local function create_category_dropdown_option()
+    local option = mct_mod:add_new_option(create_option_key("CATSELECT", {}), 'dropdown')
+    option:set_text("Category")
+    option:set_tooltip_text("Use this dropdown to switch which unit category you are viewing.")
+    for _, set_config in ipairs(SETS_CFG) do
+        option:add_dropdown_value(set_config.set, set_config.display, set_config.desc, false)
+    end
+    return option
+end
+
+local function create_dummy_option(text)
+    local option = mct_mod:add_new_option("dummy", "dummy")
+    option:set_text(text)
+    -- option:set_uic_visibility(false, true)
+    return option
+end
+
+--- Section Helpers ---
+local function create_global_set_sections(set_config)
+    local player_section = mct_mod:add_new_section(set_config.set .. "__player", "Player")
+    local ai_section = mct_mod:add_new_section(set_config.set .. "__ai", "AI")
+
+    player_section:set_description(set_config.desc)
+    ai_section:set_description(set_config.desc)
+
+    for _, stat_config in ipairs(STATS_CFG) do
+        player_section:assign_option(create_stat_option(set_config.set, stat_config, "player"))
+        ai_section:assign_option(create_stat_option(set_config.set, stat_config, "ai"))
+    end
+
+    return player_section, ai_section
+end
+
+local function create_link_section(set_name, set_display)
+    local link_section = mct_mod:add_new_section(set_name .. "__link", set_display)
+    link_section:set_description("Toggle whether to share the same values for Player and AI.")
+    link_section:assign_option(create_link_option(set_name))
+    return link_section
+end
+
+local function create_display_set_sections()
+    local player_section = mct_mod:add_new_section("display__player", "Player")
+    local ai_section = mct_mod:add_new_section("display__ai", "AI")
+
+    player_section:set_description("Player settings for the selected category")
+    ai_section:set_description("AI settings for the selected category.")
+
+    for _, stat_config in ipairs(STATS_CFG) do
+        player_section:assign_option(create_stat_option("display", stat_config, "player"))
+        ai_section:assign_option(create_stat_option("display", stat_config, "ai"))
+    end
+
+    return player_section, ai_section
+end
+
+local function create_category_select_section()
+    local dropdown_section = mct_mod:add_new_section("category_select", "Unit Category")
+    dropdown_section:set_description("Use the dropdown to pick which category to modify.")
+    dropdown_section:assign_option(create_category_dropdown_option())
+    return dropdown_section
+end
+
+local function create_dummy_section(title, desc)
+    title = title or " "
+    desc = desc or " "
+    local dummy_section = mct_mod:add_new_section("dummy", title)
+    dummy_section:assign_option(create_dummy_option(desc))
+    return dummy_section
+end
+
+--- Page Helpers ---
+local function create_global_page()
+    local page = mct_mod:create_settings_page("Global", 2)
+    mct_mod:set_default_settings_page(page)
+    local dummy_section = create_dummy_section("Global Settings", "These settings apply to all units.")
+    local link_section = create_link_section(GLOBAL_SET.set, "Link Player/AI Settings")
+    local player_section, ai_section = create_global_set_sections(GLOBAL_SET)
+    dummy_section:assign_to_page(page)
+    player_section:assign_to_page(page)
+    link_section:assign_to_page(page)
+    ai_section:assign_to_page(page)
+end
+
+local function create_misc_page()
+    local page = mct_mod:create_settings_page("Misc.", 2)
+    local misc_section = mct_mod:add_new_section(mod_title .. "__misc", "Misc.")
+    for _, core_config in ipairs(CORE_CFG) do
+        misc_section:assign_option(create_core_option(core_config))
+    end
+    misc_section:assign_to_page(page)
+end
+
+local function create_category_actuals_page()
+    local page = mct_mod:create_settings_page("Category Actuals", 2)
+
+    for _, set_config in ipairs(SETS_CFG) do
+        local link_section = create_link_section(set_config.set, set_config.display)
+        local player_section, ai_section = create_global_set_sections(set_config)
+
+        player_section:set_is_collapsible(true)
+        player_section:set_collapsed(true)
+
+        ai_section:set_is_collapsible(true)
+        ai_section:set_collapsed(true)
+
+        link_section:assign_to_page(page)
+        player_section:assign_to_page(page)
+        ai_section:assign_to_page(page)
+    end
+    page:set_visibility(false)
+end
+
+local function create_category_display_page()
+    local page = mct_mod:create_settings_page("Unit Categories", 2)
+
+    local category_select_section = create_category_select_section()
+    local link_display_section = create_link_section("display", "Link Player/AI Settings")
+
+    local player_display_section, ai_display_section = create_display_set_sections()
+
+    category_select_section:assign_to_page(page)
+    player_display_section:assign_to_page(page)
+    link_display_section:assign_to_page(page)
+    ai_display_section:assign_to_page(page)
+end
+
 local function initialize_mct_settings()
-    -- Create Unit Set-Stat Settings
-    for i, set_cfg in ipairs(SETS_CFG) do
-        local cur_page = mct_mod:create_settings_page(set_cfg.display, 2)
-        if i == 1 then mct_mod:set_default_settings_page(cur_page) end
-
-        local section_human, section_ai = create_set_section(set_cfg)
-
-        for _, stat_cfg in ipairs(STATS_CFG) do
-            section_human:assign_option(create_stat_option(set_cfg, stat_cfg, "human"))
-            section_ai:assign_option(create_stat_option(set_cfg, stat_cfg, "ai"))
-        end
-        section_human:assign_to_page(cur_page)
-        section_ai:assign_to_page(cur_page)
-    end
-
-    -- Create Miscellaneous Settings
-    local misc_page = mct_mod:create_settings_page("Misc. Settings", 2)
-    local misc_section = mct_mod:add_new_section(mod_prefix .. "__misc", "Misc. Settings")
-    for _, core_cfg in ipairs(CORE_CFG) do
-        local option = mct_mod:add_new_option(create_core_key(core_cfg.cmd), core_cfg.type)
-        if not option then
-            logger:write("ERROR: unable to create new msc option for", core_cfg.cmd)
-        else
-            option:set_text(core_cfg.display)
-            option:set_tooltip_text(core_cfg.desc)
-            option:set_default_value(true)
-            misc_section:assign_option(option)
-        end
-    end
-    misc_section:assign_to_page(misc_page)
+    create_global_page()
+    create_category_display_page()
+    create_category_actuals_page()
+    create_misc_page()
 end
 
+------------------------------
+--- Listeners and Synching ---
+------------------------------
 
-----------------------
---- Listener Setup ---
-----------------------
+--- Global Set Functions ---
+--- @param player_global_option MCT.Option
+local function sync_stat_global_player_to_ai(player_global_option)
+    local player_global_option_data = parse_option_object(player_global_option).data
+    local stat                      = player_global_option_data.stat
+    local ai_global_option          = mct_mod:get_option_by_key(create_option_key("STAT", { GLOBAL_SET.set, stat, "ai" }))
 
----@param set string
-local function synchronize_set_settings(set)
-
-    -- Retrieve all options related to the affected set
-    local section_human = mct_mod:get_section_by_key(set .. "__human")
-    local section_ai = mct_mod:get_section_by_key(set .. "__ai")
-
-    local options_human = section_human:get_options()
-    local options_ai = section_ai:get_options()
-
-    local option_set_link = mct_mod:get_option_by_key(create_set_link_key(set))
-    if not option_set_link then 
-        logger:write("ERROR: could not find set_link option for", set)
-        return
+    local player_global_value       = player_global_option:get_selected_setting()
+    local ai_global_value           = ai_global_option:get_selected_setting()
+    if player_global_value ~= ai_global_value then
+        local locked = ai_global_option:is_locked()
+        if locked then ai_global_option:set_locked(false, STAT_LOCK_REASON) end
+        ai_global_option:set_selected_setting(player_global_value)
+        ai_global_option:set_locked(locked, STAT_LOCK_REASON)
     end
-    local link_state = option_set_link:get_selected_setting()
-    -- If the set_link is enabled, then synchronize the AI settings to the human settings, and lock.
-    -- If the set_link is disabled, then simply unlock all AI settings.
+end
+
+---@param link_option MCT.Option
+local function sync_link_global(link_option)
+    local link_state = link_option:get_selected_setting()
     if link_state then
-        for _, human_option in pairs(options_human) do
-            local human_option_data = parse_option_object(human_option).data
-            local ai_option_key = create_set_stat_key("ai", set, human_option_data.stat)
-            local ai_option = options_ai[ai_option_key]
-            local lock_reason = ai_option:get_lock_reason()
+        local player_global_options = mct_mod:get_section_by_key(GLOBAL_SET.set .. "__player"):get_options()
 
-            local human_value = human_option:get_selected_setting()
-            local ai_value = ai_option:get_selected_setting()
-
-            -- Only sync if the settings are not equal, to avoid unnecessary MCT operations.
-            if human_value ~= ai_value then
-                ai_option:set_read_only(false, lock_reason)
-                ai_option:set_selected_setting(human_option:get_selected_setting())
-            end
-            ai_option:set_read_only(true, lock_reason)
+        for _, option in pairs(player_global_options) do
+            sync_stat_global_player_to_ai(option)
         end
-    else
-        for _, ai_option in pairs(options_ai) do
-            local lock_reason = ai_option:get_lock_reason()
-            ai_option:set_read_only(false, lock_reason)
+    end
+    local ai_global_options = mct_mod:get_section_by_key(GLOBAL_SET.set .. "__ai"):get_options()
+    for _, option in pairs(ai_global_options) do option:set_locked(link_state, STAT_LOCK_REASON) end
+end
+
+
+local function sync_display_to_actual(set_name)
+    local actual_player_options = mct_mod:get_section_by_key(set_name .. "__player"):get_options()
+    local actual_ai_options = mct_mod:get_section_by_key(set_name .. "__ai"):get_options()
+    local actual_link_value = mct_mod:get_option_by_key(create_option_key("LINK", { set_name })):get_selected_setting()
+
+    local display_link_option = mct_mod:get_option_by_key(create_option_key("LINK", { "display" }))
+
+    -- Update the set link state
+    if display_link_option:get_selected_setting() ~= actual_link_value then
+        display_link_option:set_selected_setting(actual_link_value)
+    end
+
+    -- Update player values
+    for _, option in pairs(actual_player_options) do
+        local stat = parse_option_object(option).data.stat
+        local display_option = mct_mod:get_option_by_key(create_option_key("STAT", { "display", stat, "player" }))
+        local actual_value = option:get_selected_setting()
+        logger:write("Synchronizing player", stat, actual_value, display_option:get_selected_setting())
+        if display_option:get_selected_setting() ~= actual_value then
+            display_option:set_selected_setting(actual_value)
+        end
+    end
+
+    -- Update AI values
+    for _, option in pairs(actual_ai_options) do
+        local stat = parse_option_object(option).data.stat
+        local display_option = mct_mod:get_option_by_key(create_option_key("STAT", { "display", stat, "ai" }))
+        local actual_value = option:get_selected_setting()
+        logger:write("Synchronizing ai", stat, actual_value, display_option:get_selected_setting())
+        if display_option:get_selected_setting() ~= actual_value then
+            display_option:set_selected_setting(actual_value)
         end
     end
 end
+--- @param stat_option MCT.Option
+--- Updates the Actual Value to match the Display Value
+local function sync_stat_display_to_actual(stat_option)
+    local new_value = stat_option:get_selected_setting()
+    local stat_option_data = parse_option_object(stat_option).data
+    local stat = stat_option_data.stat
+    local scope = stat_option_data.scope
 
--- 250, 56, 126
--- 174, 0, 198
-core:add_listener(
-    "JAR__" .. mod_title .. "__MCT_setting_sync",
-    "MctOptionSelectedSettingSet",
-    function(context)
-        local option_data = parse_option_object(context:option()).data
-        return (
-            (option_data.cmd == "setstat" and option_data.scope == "human")
-            or
-            (option_data.cmd == "setlink")
-        )
-    end,
-    function(context)
-        ---@type MCT.Option
-        local option = context:option()
-        local set = parse_option_object(option).data.set
-        synchronize_set_settings(set)
-    end,
-    true
-)
+    local category_dropdown_option = mct_mod:get_option_by_key(create_option_key("CATSELECT", {}))
+    local set = category_dropdown_option:get_selected_setting()
 
-core:add_listener(
-    "JAR__" .. mod_title .. "__MCT_setting_sync_init",
-    "MctInitialized",
-    true,
-    function()
-        for _, set_cfg in ipairs(SETS_CFG) do
-            synchronize_set_settings(set_cfg.set)
+    logger:write("Handling display stat change for", stat_option:get_key(), set, stat, scope)
+    local actual_option = mct_mod:get_option_by_key(create_option_key("STAT", { set, stat, scope }))
+    local cur_value = actual_option:get_selected_setting()
+    logger:write("cur:", cur_value, "new:", new_value)
+    if cur_value ~= new_value then
+        actual_option:set_selected_setting(new_value)
+    end
+end
+
+--- @param player_display_option MCT.Option
+--- Updates the AI Display Value to match the Player Display Value
+local function sync_stat_display_player_to_ai(player_display_option)
+    local player_display_option_data = parse_option_object(player_display_option).data
+    local stat                       = player_display_option_data.stat
+    local ai_display_option          = mct_mod:get_option_by_key(create_option_key("STAT", { "display", stat, "ai" }))
+
+    local player_display_value       = player_display_option:get_selected_setting()
+    local ai_display_value           = ai_display_option:get_selected_setting()
+    if player_display_value ~= ai_display_value then
+        local locked = ai_display_option:is_locked()
+        if locked then ai_display_option:set_locked(false, STAT_LOCK_REASON) end
+        ai_display_option:set_selected_setting(player_display_value)
+        ai_display_option:set_locked(locked, STAT_LOCK_REASON)
+    end
+end
+
+--- @param link_option MCT.Option
+--- Updates AI Display Values to match Player Display values when link is true.
+--- Updates Actual Link Value.
+local function sync_link_display_to_actual(link_option)
+    local link_state = link_option:get_selected_setting()
+    if link_state then
+        local player_display_section = mct_mod:get_section_by_key("display__player")
+        local player_display_options = player_display_section:get_options()
+
+        for _, option in pairs(player_display_options) do
+            sync_stat_display_player_to_ai(option)
         end
-    end,
-    false
-)
+    end
+    local ai_display_options = mct_mod:get_section_by_key("display__ai"):get_options()
+    for _, option in pairs(ai_display_options) do option:set_locked(link_state, STAT_LOCK_REASON) end
 
+    local set = mct_mod:get_option_by_key(create_option_key("CATSELECT", {})):get_selected_setting()
+    local actual_link_option = mct_mod:get_option_by_key(create_option_key("LINK", { set }))
+    if actual_link_option:get_selected_setting() ~= link_state then actual_link_option:set_selected_setting(link_state) end
+end
+
+local function initialize_mct_listeners()
+    -- Synchronizes the display values to the actuals.
+    core:add_listener(
+        "JAR__" .. mod_title .. "__MCT_display_change",
+        "MctOptionSelectedSettingSet",
+        function(context)
+            local option = context:option() ---@type MCT.Option
+            local option_decode = parse_option_object(option)
+            return (option_decode.cmd == "LINK" or option_decode.cmd == "STAT")
+                    and option_decode.data.set == "display"
+        end,
+        function(context)
+            ---@type MCT.Option
+            local option = context:option()
+            local option_decode = parse_option_object(option)
+            local option_cmd = option_decode.cmd
+            if option_cmd == "LINK" then
+                sync_link_display_to_actual(option)
+            elseif option_cmd == "STAT" then
+                sync_stat_display_to_actual(option)
+            end
+        end,
+        true
+    )
+
+    -- Synchronizes the display values for the player and AI when linked
+    core:add_listener(
+        "JAR__" .. mod_title .. "__MCT_sync_display_stat_link",
+        "MctOptionSelectedSettingSet",
+        function(context)
+            local option = context:option() ---@type MCT.Option
+            local option_decode = parse_option_object(option)
+            local link_display_option = mct_mod:get_option_by_key(create_option_key("LINK", { "display" }))
+            local link_state = link_display_option and link_display_option:get_selected_setting()
+            return link_state
+                    and option_decode.cmd == "STAT"
+                    and option_decode.data.set == "display"
+                    and option_decode.data.scope == "player"
+        end,
+        function(context)
+            local option = context:option() ---@type MCT.Option
+            sync_stat_display_player_to_ai(option)
+        end,
+        true
+    )
+
+    core:add_listener(
+        "JAR__" .. mod_title .. "__MCT_category_dropdown",
+        "MctOptionSelectedSettingSet",
+        function(context)
+            local option = context:option() ---@type MCT.Option
+            local option_decode = parse_option_object(option)
+            return option_decode.cmd == "CATSELECT"
+        end,
+        function(context)
+            ---@type MCT.Option
+            local option = context:option()
+            local selected_set = option:get_selected_setting()
+            sync_display_to_actual(selected_set)
+        end,
+        true
+    )
+
+    core:add_listener(
+        "JAR__" .. mod_title .. "__MCT_sync_global_stat_link",
+        "MctOptionSelectedSettingSet",
+        function(context)
+            local option = context:option() ---@type MCT.Option
+            local option_decode = parse_option_object(option)
+            return option_decode.cmd == "LINK" and option_decode.data.set == GLOBAL_SET.set
+        end,
+        function(context)
+            logger:write("IN HERE REEE")
+            ---@type MCT.Option
+            local option = context:option()
+            sync_link_global(option)
+        end,
+        true
+    )
+
+    core:add_listener(
+        "JAR__" .. mod_title .. "__MCT_global_sync",
+        "MctOptionSelectedSettingSet",
+        function(context)
+            local option = context:option() ---@type MCT.Option
+            local option_decode = parse_option_object(option)
+            local link_display_option = mct_mod:get_option_by_key(create_option_key("LINK", { GLOBAL_SET.set }))
+            local link_state = link_display_option and link_display_option:get_selected_setting()
+            return link_state
+                    and option_decode.cmd == "STAT"
+                    and option_decode.data.set == GLOBAL_SET.set
+                    and option_decode.data.scope == "player"
+        end,
+        function(context)
+            local option = context:option() ---@type MCT.Option
+            sync_stat_global_player_to_ai(option)
+        end,
+        true
+    )
+
+    core:add_listener(
+        "JAR__" .. mod_title .. "__MCT_initialization_sync",
+        "MctInitialized",
+        true,
+        function(context)
+            local global_link_option = mct_mod:get_option_by_key(create_option_key("LINK", {GLOBAL_SET.set}))
+            sync_link_global(global_link_option)
+
+            local display_link_option = mct_mod:get_option_by_key(create_option_key("LINK", { "display" }))
+            sync_link_display_to_actual(display_link_option)
+
+        end,
+        true
+    )
+end
+
+initialize_mct_listeners()
 initialize_mct_settings()

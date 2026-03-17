@@ -16,6 +16,14 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			emp_cofferglare_small	jar_unit_set_artillery_war_machines	false
 			emp_autodragon	jar_unit_set_artillery_war_machines	false
 			emp_chemlancers_drilling_guns	jar_unit_set_cavalry_chariots	false
+			emp_pyretitans_zweishot	jar_unit_set_cavalry_chariots	false
+			emp_pyretitans_zweishot_shield	jar_unit_set_cavalry_chariots	false
+			emp_pyretitans_halberd	jar_unit_set_cavalry_chariots	false
+			emp_pyretitans_halberd_melee	jar_unit_set_cavalry_chariots	false
+			emp_pyretitans_autodragon	jar_unit_set_cavalry_chariots	false
+			emp_pyretitans_autodragon_shotgun	jar_unit_set_cavalry_chariots	false
+			emp_pyretitans_mortar	jar_unit_set_cavalry_chariots	false
+			emp_pyretitans_mortar_flame	jar_unit_set_cavalry_chariots	false
 			emp_deithguard_axelocks	jar_unit_set_infantry	false
 			emp_deithguard_blasterkeys	jar_unit_set_infantry	false
 			emp_deithguard_shields	jar_unit_set_infantry	false
@@ -28,11 +36,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			emp_cinderwind_arbalests	jar_unit_set_infantry	false
 			emp_pyrehulks_volley	jar_unit_set_infantry	false
 			emp_pyrehulks_fusilaxe	jar_unit_set_infantry	false
-			emp_pyretitans_zweishot	jar_unit_set_monstrous	false
-			emp_pyretitans_zweishot_shield	jar_unit_set_monstrous	false
-			emp_pyretitans_halberd	jar_unit_set_monstrous	false
-			emp_pyretitans_halberd_melee	jar_unit_set_monstrous	false
-			emp_pyretitans_autodragon	jar_unit_set_monstrous	false
-			emp_pyretitans_autodragon_shotgun	jar_unit_set_monstrous	false
-			emp_pyretitans_mortar	jar_unit_set_monstrous	false
-			emp_pyretitans_mortar_flame	jar_unit_set_monstrous	false

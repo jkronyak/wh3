@@ -17,10 +17,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_arb_inf_jezzails	jar_unit_set_infantry	false
 			ovn_arb_inf_jezzails_ror	jar_unit_set_infantry	false
 			ovn_arb_inf_naffatun_ror	jar_unit_set_infantry	false
+			ovn_arb_tmb_mon_ushabti_1	jar_unit_set_infantry	false
 			ovn_arb_tze_inf_blue_horrors_0	jar_unit_set_infantry	false
 			ovn_arb_tze_inf_pink_horrors_0	jar_unit_set_infantry	false
-			ovn_arb_tmb_mon_ushabti_1	jar_unit_set_monstrous	false
-			ovn_arb_tze_mon_flamers_0	jar_unit_set_monstrous	false
+			ovn_arb_tze_mon_flamers_0	jar_unit_set_infantry	false
 			ovn_arb_mon_tempest_djinn	jar_unit_set_single_entities	false
 			ovn_arb_mon_tempest_djinn_ror	jar_unit_set_single_entities	false
 			ovn_arb_mon_tempest_djinn_summoned	jar_unit_set_single_entities	false

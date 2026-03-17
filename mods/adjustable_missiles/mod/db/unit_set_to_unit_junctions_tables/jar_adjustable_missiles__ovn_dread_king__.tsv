@@ -11,9 +11,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_dk_inf_brigands_ror	jar_unit_set_infantry	false
 			ovn_dk_inf_skeleton_javelinmen_no_caps	jar_unit_set_infantry	false
 			wh2_dlc09_tmb_inf_skeleton_archers_no_caps	jar_unit_set_infantry	false
+			dread_mon_ushabti_1	jar_unit_set_infantry	false
 			nagash_ovn_dk_inf_tomb_guardian_peltasts	jar_unit_set_infantry	false
 			nagash_ovn_dk_inf_skeleton_javelinmen_no_caps	jar_unit_set_infantry	false
-			dread_mon_ushabti_1	jar_unit_set_monstrous	false
 			ovn_dk_mon_skeleton_elephant	jar_unit_set_single_entities	false
 			ovn_dk_mon_skeleton_elephant_no_caps	jar_unit_set_single_entities	false
 			nagash_ovn_dk_mon_skeleton_elephant	jar_unit_set_single_entities	false

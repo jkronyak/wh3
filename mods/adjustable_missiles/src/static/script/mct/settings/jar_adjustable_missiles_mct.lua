@@ -511,6 +511,7 @@ local function initialize_mct_listeners()
         "MctOptionSelectedSettingSet",
         function(context)
             local option = context:option() ---@type MCT.Option
+            if option:get_mod_key() ~= mod_title then return false end
             local option_decode = parse_option_object(option)
             return (option_decode.cmd == "LINK" or option_decode.cmd == "STAT")
                     and option_decode.data.set == "display"
@@ -535,6 +536,7 @@ local function initialize_mct_listeners()
         "MctOptionSelectedSettingSet",
         function(context)
             local option = context:option() ---@type MCT.Option
+            if option:get_mod_key() ~= mod_title then return false end
             local option_decode = parse_option_object(option)
             local link_display_option = mct_mod:get_option_by_key(create_option_key("LINK", { "display" }))
             local link_state = link_display_option and link_display_option:get_selected_setting()
@@ -555,6 +557,7 @@ local function initialize_mct_listeners()
         "MctOptionSelectedSettingSet",
         function(context)
             local option = context:option() ---@type MCT.Option
+            if option:get_mod_key() ~= mod_title then return false end
             local option_decode = parse_option_object(option)
             return option_decode.cmd == "CATSELECT"
         end,
@@ -572,6 +575,7 @@ local function initialize_mct_listeners()
         "MctOptionSelectedSettingSet",
         function(context)
             local option = context:option() ---@type MCT.Option
+            if option:get_mod_key() ~= mod_title then return false end
             local option_decode = parse_option_object(option)
             return option_decode.cmd == "LINK" and option_decode.data.set == GLOBAL_SET.set
         end,
@@ -589,6 +593,7 @@ local function initialize_mct_listeners()
         "MctOptionSelectedSettingSet",
         function(context)
             local option = context:option() ---@type MCT.Option
+            if option:get_mod_key() ~= mod_title then return false end
             local option_decode = parse_option_object(option)
             local link_display_option = mct_mod:get_option_by_key(create_option_key("LINK", { GLOBAL_SET.set }))
             local link_state = link_display_option and link_display_option:get_selected_setting()

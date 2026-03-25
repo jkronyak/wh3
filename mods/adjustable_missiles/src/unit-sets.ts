@@ -217,7 +217,7 @@ const packHasUIUnitGroupParents = async (packPath: string)  => {
 
 const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
 
-    // await client.send("GenerateDependenciesCache");
+    await client.send("GenerateDependenciesCache");
     // 1.1. Decode vanilla tables from pack.
     const extractTables = [
         'ui_unit_groupings_tables',

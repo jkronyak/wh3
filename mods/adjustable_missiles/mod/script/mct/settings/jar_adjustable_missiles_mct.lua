@@ -73,7 +73,7 @@ local STATS_CFG = {
         stat = "accuracy",
         display = "Accuracy",
         min = -100,
-        max = 100,
+        max = 200,
         desc = "Modify unit accuracy by n flat. Higher values = reduced spread."
     }, {
     stat = "reload",

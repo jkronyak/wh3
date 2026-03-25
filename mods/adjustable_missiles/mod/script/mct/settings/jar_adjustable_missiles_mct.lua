@@ -75,51 +75,56 @@ local STATS_CFG = {
         min = -100,
         max = 200,
         desc = "Modify unit accuracy by n flat. Higher values = reduced spread."
-    }, {
-    stat = "reload",
-    display = "Reload Skill (%)",
-    min = -100,
-    max = 500,
-    desc = "Modify unit reload skill by (roughly) +n%. Higher values = faster reload."
-},
+    },
+    {
+        stat = "reload",
+        display = "Reload Skill (%)",
+        min = -100,
+        max = 500,
+        desc = "Modify unit reload skill by (roughly) +n%. Higher values = faster reload."
+    },
     {
         stat = "ammo_mod",
         display = "Ammo (%)",
         min = -100,
         max = 500,
         desc = "Modify unit ammunition by n%. Higher values = more ammunition."
-    }, {
-    stat = "range_mod",
-    display = "Range (%)",
-    min = -100,
-    max = 500,
-    desc = "Modify unit range by n%. Higher values = more range."
-}, {
-    stat = "missile_damage_mod_mult",
-    display = "Base Damage (%)",
-    min = -100,
-    max = 500,
-    desc = "Modify non-AP missile damage by n%. Includes non-AP explosive damage if present. Higher values = more damage."
-}, {
-    stat = "missile_damage_ap_mod_mult",
-    display = "AP Damage (%)",
-    min = -100,
-    max = 500,
-    desc = "Modify AP missile damage by n%. Includes AP explosive damage if present. Higher values = more damage."
-}, {
-    stat = "missile_damage_mod_add",
-    display = "Base Damage (Flat)",
-    min = -100,
-    max = 500,
-    desc = "Modify non-AP missile damage by n flat. Does not affect explosive damage. Higher values = more damage."
-}, {
-    stat = "missile_damage_ap_mod_add",
-    display = "AP Damage (Flat)",
-    min = -100,
-    max = 500,
-    desc = "Modify AP missile damage by n flat. Does not affect explosive damage. Higher values = more damage."
-},
-
+    },
+    {
+        stat = "range_mod",
+        display = "Range (%)",
+        min = -100,
+        max = 500,
+        desc = "Modify unit range by n%. Higher values = more range."
+    },
+    {
+        stat = "missile_damage_mod_mult",
+        display = "Base Damage (%)",
+        min = -100,
+        max = 500,
+        desc = "Modify non-AP missile damage by n%. Includes non-AP explosive damage if present. Higher values = more damage."
+    },
+    {
+        stat = "missile_damage_ap_mod_mult",
+        display = "AP Damage (%)",
+        min = -100,
+        max = 500,
+        desc = "Modify AP missile damage by n%. Includes AP explosive damage if present. Higher values = more damage."
+    },
+    {
+        stat = "missile_damage_mod_add",
+        display = "Base Damage (Flat)",
+        min = -100,
+        max = 500,
+        desc = "Modify non-AP missile damage by n flat. Does not affect explosive damage. Higher values = more damage."
+    },
+    {
+        stat = "missile_damage_ap_mod_add",
+        display = "AP Damage (Flat)",
+        min = -100,
+        max = 500,
+        desc = "Modify AP missile damage by n flat. Does not affect explosive damage. Higher values = more damage."
+    },
     -- TODO: Test that the missile_explosion_radius effect actually does something.
     -- {
     --     stat = "missile_explosion_radius",
@@ -134,10 +139,22 @@ local CORE_CFG = {
     {
         cmd = "enable_mod",
         type = "checkbox",
-        display = "Enable Mod",
+        display = " able Mod",
         desc = "Enable or disable this mod. Applied upon reload or next turn."
-    }, { cmd = "apply_to_player", type = "checkbox", display = "Apply To Player", desc = "Enable or disable this mod only for the player. Applied upon reload or next turn." },
-    { cmd = "apply_to_ai",     type = "checkbox", display = "Apply To AI",     desc = "Enable or disable this mod only for the AI. Applied upon reload or next turn." },
+    },
+    {
+        cmd = "apply_to_player",
+        type = "checkbox",
+        display = "Apply To Player",
+        desc = "Enable or disable this mod only for the player. Applied upon reload or next turn."
+    },
+    {
+        cmd = "apply_to_ai",
+        type = "checkbox",
+        display = "Apply To AI",
+        desc = "Enable or disable this mod only for the AI. Applied upon reload or next turn."
+    },
+    -- TODO: Add proper MCT option for logging.
     -- { cmd = "dev_logging",     type = "checkbox", display = "Developer Logging", desc = "" }
 }
 
@@ -240,7 +257,6 @@ end
 local function create_dummy_option(text)
     local option = mct_mod:add_new_option("dummy", "dummy")
     option:set_text(text)
-    -- option:set_uic_visibility(false, true)
     return option
 end
 

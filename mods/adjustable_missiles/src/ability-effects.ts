@@ -8,7 +8,7 @@ const client = await getOrCreateSession();
 const UID_START = 644261121;
 
 const ACC_MIN = -100;
-const ACC_MAX = 100;
+const ACC_MAX = 200;
 
 let curUid = UID_START;
 

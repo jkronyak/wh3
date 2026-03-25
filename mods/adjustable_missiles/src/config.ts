@@ -21,7 +21,7 @@ export const MOD_UNIT_SETS = [
     "jar_unit_set_characters",                  // Lords and Heroes
     "jar_unit_set_artillery_war_machines",      // Artillery and War Machines
     "jar_unit_set_single_entities",             // Single Entities
-    "jar_unit_set_monstrous",                   // Multi-Entity Monsters/Monstrous Infantry
+    // "jar_unit_set_monstrous",                   // Multi-Entity Monsters/Monstrous Infantry
     "jar_unit_set_cavalry_chariots",            // Cavalry and Chariots
     "jar_unit_set_infantry",                    // Non-Monstrous Infantry
     // "jar_unit_set_cavalry",

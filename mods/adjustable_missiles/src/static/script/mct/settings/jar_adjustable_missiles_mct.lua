@@ -139,7 +139,7 @@ local CORE_CFG = {
     {
         cmd = "enable_mod",
         type = "checkbox",
-        display = " able Mod",
+        display = "Enable Mod",
         desc = "Enable or disable this mod. Applied upon reload or next turn."
     },
     {

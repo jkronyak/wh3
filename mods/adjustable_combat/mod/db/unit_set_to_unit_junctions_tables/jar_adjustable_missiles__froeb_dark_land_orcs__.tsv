@@ -1,0 +1,10 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__froeb_dark_land_orcs__
+			frb_dark_land_orc_boyz	jar_ac_unit_set_infantry	false
+			frb_dark_land_orc_boyz_big_uns	jar_ac_unit_set_infantry	false
+			frb_scrap_shooters	jar_ac_unit_set_infantry	false
+			frb_scrap_shooters_ror	jar_ac_unit_set_infantry	false
+			frb_dark_land_drake	jar_ac_unit_set_single_entities	false
+			frb_dark_land_drake_ror	jar_ac_unit_set_single_entities	false
+			frb_dark_land_bulwarks	jar_ac_unit_set_infantry	false
+			frb_dark_land_bulwarks_ror	jar_ac_unit_set_infantry	false

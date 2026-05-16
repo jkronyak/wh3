@@ -1,0 +1,9 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+frb_dark_land_orc_boyz	frb_dark_land_orc_boyz	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	120	0	0	false		0	melee	small	jar_ac_unit_set_infantry
+frb_dark_land_orc_boyz_big_uns	frb_dark_land_orc_boyz_big_uns	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0	melee	small	jar_ac_unit_set_infantry
+frb_scrap_shooters	frb_scrap_shooters	missile_infantry	inf_ranged	inf_mis	frb_scrap_shooters	missile_infantry	true	32	0	0	false	frb_scrap_shooters_gun	10	archer	small	jar_ac_unit_set_infantry
+frb_scrap_shooters_ror	frb_scrap_shooters_ror	missile_infantry	inf_ranged	inf_mis	frb_scrap_shooters	missile_infantry	true	32	0	0	false	frb_scrap_shooters_ror_gun	12	archer	small	jar_ac_unit_set_infantry
+frb_dark_land_drake	frb_dark_land_drake	monster	war_beast	com	wh2_dlc17_bst_jabberslythe	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_ac_unit_set_single_entities
+frb_dark_land_drake_ror	frb_dark_land_drake_ror	monster	war_beast	com	wh2_dlc17_bst_jabberslythe	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_ac_unit_set_single_entities
+frb_dark_land_bulwarks	frb_dark_land_bulwarks	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	16	0	0	false		0	melee	small	jar_ac_unit_set_infantry
+frb_dark_land_bulwarks_ror	frb_dark_land_bulwarks_ror	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	16	0	0	false		0	melee	small	jar_ac_unit_set_infantry

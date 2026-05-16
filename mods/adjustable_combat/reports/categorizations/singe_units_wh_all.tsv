@@ -1,0 +1,162 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+singe_lzd_hornedone_riders	singe_lzd_hornedone_riders	melee_cavalry	cavalry	cav_shk	wh2_main_cold_one	cavalry_chariots	true	48	0	48	false		0		small	jar_ac_unit_set_cavalry
+singe_lzd_redcrest_cohort	singe_lzd_redcrest_cohort	missile_infantry	inf_ranged	inf_mis	wh2_main_missile_infantry_javelin	missile_infantry	true	120	0	0	false	singe_redcrest_javelin	4		small	jar_ac_unit_set_infantry
+singe_lzd_temple_cohort	singe_lzd_temple_cohort	melee_infantry	inf_melee	inf_mel	wh2_main_lzd_infantry_halberd	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_lzd_ancient_razordon	singe_lzd_ancient_razordon	monster	inf_ranged	inf_mis	wh2_dlc17_lzd_salamander_ancient	missile_monster_beasts	true	1	0	0	true	singe_ancient_razordon_spike	50		very_large	jar_ac_unit_set_single_entities
+singe_lzd_temple_maces	singe_lzd_temple_maces	melee_infantry	inf_melee	inf_mel	wh2_main_lzd_infantry_halberd	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_lzd_temple_riders	singe_lzd_temple_riders	melee_cavalry	cavalry	cav_shk	wh2_main_cold_one_spear	cavalry_chariots	true	48	0	48	false		0		medium	jar_ac_unit_set_cavalry
+singe_lzd_temple_maces_nakai	singe_lzd_temple_maces	melee_infantry	inf_melee	inf_mel	wh2_main_lzd_infantry_halberd	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_lzd_temple_riders_nakai	singe_lzd_temple_riders	melee_cavalry	cavalry	cav_shk	wh2_main_cold_one_spear	cavalry_chariots	true	48	0	48	false		0		medium	jar_ac_unit_set_cavalry
+singe_lzd_chameleon_slayers	singe_lzd_chameleon_slayers	melee_infantry	inf_melee	inf_mel	wh2_dlc17_chameleon_stalkers	infantry	true	90	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_tze_horror_knights	singe_tze_horror_knights	missile_cavalry	war_beast	cav_mis	wh2_dlc10_flying_missile_cavalry	missile_cavalry_chariots	true	24	0	0	false	singe_horror_flamethrow	20		medium	jar_ac_unit_set_cavalry
+singe_tze_screaming_chariot	singe_tze_screaming_chariot	chariot	war_beast	chariot	wh3_main_tze_burning_chariot	missile_cavalry_chariots	true	1	0	1	true	singe_screaming_fireball	30		small	jar_ac_unit_set_chariots_war_machines
+singe_tze_cultists_foot	singe_tze_cultists_foot	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_tze_cultists_horse	singe_tze_cultists_horse	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_ac_unit_set_cavalry
+singe_tze_exalted_screamer	singe_tze_exalted_screamer	monstrous_infantry	inf_melee	inf_mel	wh3_main_tze_screamer	monster_beasts	true	1	0	0	false		0		medium	jar_ac_unit_set_single_entities
+singe_tze_doomsayer	singe_tze_doomsayer	monstrous_cavalry	inf_melee	inf_mel	wh2_dlc10_flying_missile_cavalry	missile_cavalry_chariots	true	24	0	0	false	singe_tze_doomsayer_blast	20		medium	jar_ac_unit_set_cavalry
+singe_chs_dual_warrior	singe_chs_dual_warrior	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_chs_dual_chosen	singe_chs_dual_chosen	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	80	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_chs_chosen_knights	singe_chs_chosen_knights	melee_cavalry	war_beast	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0		small	jar_ac_unit_set_cavalry
+singe_chs_gorebeasts	singe_chs_gorebeasts	monstrous_cavalry	war_beast	inf_mel	war_beast	monster_beasts	true	16	0	0	false		0		very_large	jar_ac_unit_set_cavalry
+singe_chs_manticore_knights	singe_chs_manticore_knights	monstrous_cavalry	war_beast	cav_mel	cavalry_flying_rare	cavalry_chariots	true	8	0	8	false		0		small	jar_ac_unit_set_cavalry
+singe_zpotvc_necrofex_rockets	singe_zpotvc_necrofex_rockets	monster	war_beast	inf_mis	monster_artillery	missile_monster_beasts	true	5	0	1	true	singe_necrofex_rocketeer	36		very_large	jar_ac_unit_set_single_entities
+singe_zpotvc_necrofex_shrapnel	singe_zpotvc_necrofex_shrapnel	monster	war_beast	inf_mis	monster_artillery	missile_monster_beasts	true	5	0	1	true	singe_necrofex_shrapnelcannon	76		very_large	jar_ac_unit_set_single_entities
+singe_zpotvc_depthknight	singe_zpotvc_depthknight	monstrous_cavalry	war_beast	art_fld	wh2_dlc11_cst_promethean	monster_beasts	true	12	0	12	false		0		large	jar_ac_unit_set_cavalry
+singe_zpotvc_bat_mortar	singe_zpotvc_bat_mortar	warmachine	artillery	art_fld	artillery_cannon	artillery_war_machines	true	44	4	0	false		22		small	jar_ac_unit_set_chariots_war_machines
+singe_zpotvc_corpse_cannon	singe_zpotvc_corpse_cannon	warmachine	artillery	art_fld	artillery_cannon	artillery_war_machines	true	44	4	0	false		22		small	jar_ac_unit_set_chariots_war_machines
+singe_zpotvc_deck_snatchers	singe_zpotvc_deck_snatchers	war_beast	cavalry	cav_mis	vmp_fell_bats	monster_beasts	true	24	0	0	false		0		large	jar_ac_unit_set_cavalry
+singe_zpotvc_deck_droppers_handcannons	singe_zpotvc_deck_droppers_handcannons	war_beast	cavalry	cav_mis	wh2_dlc11_cst_deck_droppers	missile_monster_beasts	true	24	0	16	false	singe_deck_dropper_handcannon	18		small	jar_ac_unit_set_cavalry
+singe_zpotvc_depth_guard_pistols	singe_zpotvc_depth_guard_pistols	missile_infantry	inf_ranged	inf_mel	missile_infantry_pistol	missile_infantry	true	60	0	0	false	singe_depth_pistol	14		small	jar_ac_unit_set_infantry
+singe_zpotvc_deck_burners	singe_zpotvc_deck_burners	missile_infantry	inf_ranged	inf_mis	dwf_irondrakes	missile_infantry	true	32	0	0	false	singe_deck_burn	18		small	jar_ac_unit_set_infantry
+singe_sla_blissbarb_archers	singe_sla_blissbarb_archers	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	singe_blissbarb_bow	22		small	jar_ac_unit_set_infantry
+singe_sla_cultist_hedonites	singe_sla_cultist_hedonites	melee_infantry	inf_melee	inf_mel	infantry_sword_dual	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_sla_exalted_fiend	singe_sla_exalted_fiend	monster	inf_melee	inf_mel	wh3_main_sla_keeper_of_secrets	monster_beasts	true	1	0	0	false		0		large	jar_ac_unit_set_single_entities
+singe_sla_hellseekers	singe_sla_hellseekers	melee_cavalry	war_beast	cav_mel	wh3_dlc27_pleasureseekers	cavalry_chariots	true	32	0	32	false		0	melee	small	jar_ac_unit_set_cavalry
+singe_vc_skelly_scythe	singe_vc_skelly_scythe	melee_infantry	inf_melee	inf_mel	vmp_infantry_scythe	infantry	true	160	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_vc_graveguard_scythe	singe_vc_graveguard_scythe	melee_infantry	inf_melee	inf_mel	vmp_infantry_scythe	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_vc_strigoi_terrors	singe_vc_strigoi_terrors	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	12	0	0	false		0		large	jar_ac_unit_set_monstrous_infantry
+singe_vc_spirit_host	singe_vc_spirit_host	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	160	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_vc_zombie_dragon	singe_vc_zombie_dragon	monster	inf_melee	inf_mel	dragon	monster_beasts	true	1	0	0	true		0		very_large	jar_ac_unit_set_single_entities
+singe_vc_blood_foot_duel	singe_vc_blood_foot_duel	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	60	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_vc_blood_foot_shield	singe_vc_blood_foot_shield	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	60	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_vc_hell_knights	singe_vc_hell_knights	monstrous_cavalry	cavalry	cav_shk	cavalry_flying	cavalry_chariots	true	24	0	24	false		0		medium	jar_ac_unit_set_cavalry
+singe_kho_cult_blades	singe_kho_cult_blades	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_kho_cult_reavers	singe_kho_cult_reavers	melee_cavalry	war_beast	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_ac_unit_set_cavalry
+singe_kho_cult_hunters	singe_kho_cult_hunters	missile_infantry	inf_ranged	inf_mis	wh_dlc08_nor_hunters_javelin	missile_infantry	true	90	0	0	false	wh3_dlc20_chs_marauder_horsemen_mkho_throwing_axe	12		small	jar_ac_unit_set_infantry
+singe_kho_exalted_doggo	singe_kho_exalted_doggo	war_beast	inf_melee	spcl	war_beast	monster_beasts	true	1	0	0	true		0		very_large	jar_ac_unit_set_single_entities
+singe_kho_flesh_seekers	singe_kho_flesh_seekers	monstrous_cavalry	war_beast	cav_mel	cavalry_wolf	cavalry_chariots	true	45	0	45	false		0	melee	small	jar_ac_unit_set_cavalry
+singe_kho_blood_throne	singe_kho_blood_throne	chariot	war_beast	chariot	magic_chariot	artillery_war_machines	true	1	0	1	true		0	melee	small	jar_ac_unit_set_chariots_war_machines
+singe_dwf_gyro_flame	singe_dwf_gyro_flame	warmachine	inf_ranged	inf_mis	dwf_gyrocopter	flying_war_machine	true	12	0	0	false	singe_gyro_drake	28		large	jar_ac_unit_set_chariots_war_machines
+singe_dwf_warriors_thrwaxe	singe_dwf_warriors_thrwaxe	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false	singe_warrior_thrwaxe	5		small	jar_ac_unit_set_infantry
+singe_dwf_ranger_gunners	singe_dwf_ranger_gunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	80	0	0	false	wh_main_dwf_rifle	18		small	jar_ac_unit_set_infantry
+singe_dwf_bugman_thrower	singe_dwf_bugman_thrower	warmachine	artillery	art_fld	catapult	artillery_war_machines	true	32	4	0	false		22		small	jar_ac_unit_set_chariots_war_machines
+singe_dwf_flame_bombard	singe_dwf_flame_bombard	warmachine	artillery	art_fld	field_gun_flame	artillery_war_machines	true	32	4	0	false		25		small	jar_ac_unit_set_chariots_war_machines
+singe_dwf_irondrake_drakefire	singe_dwf_irondrake_drakefire	missile_infantry	inf_ranged	inf_mis	wh3_main_ksl_pistol_axe_infantry	infantry	true	28	0	0	false	singe_irondrake_drakefire	22		small	jar_ac_unit_set_infantry
+singe_skv_plague_staves	singe_skv_plague_staves	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_sk_stormvermin_bonebreakers	singe_sk_stormvermin_bonebreakers	monstrous_cavalry	war_beast	cav_shk	monstrous_infantry	monster_beasts	true	12	0	12	false		0		small	jar_ac_unit_set_cavalry
+singe_skv_screaming_bell	singe_skv_screaming_bell	warmachine	war_machine	com	magic_chariot	artillery_war_machines	true	1	1	1	true		0		small	jar_ac_unit_set_chariots_war_machines
+singe_skv_plague_furnace	singe_skv_plague_furnace	warmachine	war_machine	com	magic_chariot	artillery_war_machines	true	1	1	1	true		0		small	jar_ac_unit_set_chariots_war_machines
+singe_skv_plague_hurlers	singe_skv_plague_hurlers	missile_infantry	inf_ranged	inf_mis	wh2_main_missile_infantry_sling	missile_infantry	true	120	0	0	false	singe_plague_sling	24		small	jar_ac_unit_set_infantry
+singe_def_pegasilancers	singe_def_pegasilancers	melee_cavalry	cavalry	cav_mel	cavalry_flying	cavalry_chariots	true	24	0	24	false		0		medium	jar_ac_unit_set_cavalry
+singe_def_dreadfoot	singe_def_dreadfoot	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_def_darkstriders	singe_def_darkstriders	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_def_nightwitches	singe_def_nightwitches	monstrous_cavalry	war_beast	cav_shk	cavalry_flying_rare	cavalry_chariots	true	8	0	8	false		0		medium	jar_ac_unit_set_cavalry
+singe_def_dreadlancers	singe_def_dreadlancers	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_ac_unit_set_cavalry
+singe_def_witchspears	singe_def_witchspears	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_def_cauldron	singe_def_cauldron	warmachine	war_machine	com	magic_chariot	artillery_war_machines	true	1	1	0	true		25		small	jar_ac_unit_set_chariots_war_machines
+singe_def_harridan	singe_def_harridan	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_ac_unit_set_cavalry
+singe_cth_celestial_swords	singe_cth_celestial_swords	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_cth_celestial_lancers	singe_cth_celestial_lancers	melee_cavalry	war_beast	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_ac_unit_set_cavalry
+singe_cth_burningthunder_gunners	singe_cth_burningthunder_gunners	missile_infantry	inf_ranged	inf_mis	wh2_dlc11_cst_explosives_infantry	missile_infantry	true	90	0	0	false	singe_burningthunder_gun	18		small	jar_ac_unit_set_infantry
+singe_cth_celestial_ox	singe_cth_celestial_ox	monster	inf_melee	inf_mel	chd_bale_taurus	monster_beasts	true	1	0	0	true		0		very_large	jar_ac_unit_set_single_entities
+singe_chd_rifles	singe_chd_rifles	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	80	0	0	false	singe_chd_rifle_rifle	22		small	jar_ac_unit_set_infantry
+singe_chd_trackers	singe_chd_trackers	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	80	0	0	false	singe_chd_tracker_crossbow	20		small	jar_ac_unit_set_infantry
+singe_chd_infernal_bazuka	singe_chd_infernal_bazuka	missile_infantry	inf_ranged	inf_mis	dwf_irondrakes_torpedo	missile_infantry	true	28	0	0	false	singe_chd_infernal_bazukagun	18		small	jar_ac_unit_set_infantry
+singe_chd_infernal_magma	singe_chd_infernal_magma	missile_infantry	inf_ranged	inf_mis	dwf_irondrakes	missile_infantry	true	28	0	0	false	singe_chd_infernal_magmagun	100		small	jar_ac_unit_set_infantry
+singe_chd_zealot_berzerker	singe_chd_zealot_berzerker	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	80	0	0	false		0		small	jar_ac_unit_set_infantry
+brt_foot_knight	brt_foot_knight	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+brt_ranger	brt_ranger	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	60	0	0	false	brt_ranger_bow	24		small	jar_ac_unit_set_infantry
+brt_squire_longbow	brt_squire_longbow	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh2_dlc13_emp_bow_huntsmen	22		small	jar_ac_unit_set_infantry
+brt_brigand	brt_brigand	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22		small	jar_ac_unit_set_infantry
+brt_fire_trebuchet	brt_fire_trebuchet	warmachine	artillery	art_fld	catapult	artillery_war_machines	true	44	4	0	false		22		small	jar_ac_unit_set_chariots_war_machines
+brt_siege_trebuchet	brt_siege_trebuchet	warmachine	artillery	art_fld	catapult	artillery_war_machines	true	44	4	0	false		22		small	jar_ac_unit_set_chariots_war_machines
+brt_squire_shield	brt_squire_shield	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+brt_guardians_realm	brt_guardians_realm	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_ac_unit_set_cavalry
+brt_questing_wardens	brt_questing_wardens	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_ac_unit_set_cavalry
+brt_flaming_trebuchet	brt_flaming_trebuchet	warmachine	artillery	art_fld	catapult	artillery_war_machines	true	44	4	0	false		22		small	jar_ac_unit_set_chariots_war_machines
+brt_squire_polearm	brt_squire_polearm	melee_infantry	inf_melee	inf_spr	infantry_spear_halberd	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+brt_spirits_fay	brt_spirits_fay	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	16	0	0	false		0		small	jar_ac_unit_set_infantry
+brt_hermit_knights	brt_hermit_knights	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	60	0	0	false		0		small	jar_ac_unit_set_infantry
+brt_truffle_hounds	brt_truffle_hounds	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	80	0	0	false		0		small	jar_ac_unit_set_war_beasts
+great_falcons	great_falcons	monster	inf_melee	inf_mel	wh2_dlc16_wef_hawks	monster_beasts	true	24	0	0	false		0		medium	jar_ac_unit_set_war_beasts
+singe_brt_yeomen_pox	singe_brt_yeomen_pox	missile_cavalry	cavalry	cav_mis	missile_cavalry_bow	missile_cavalry_chariots	true	60	0	60	false	singe_yeomen_poxbow	18		medium	jar_ac_unit_set_cavalry
+singe_brt_yeomen_flame	singe_brt_yeomen_flame	missile_cavalry	cavalry	cav_mis	missile_cavalry_bow	missile_cavalry_chariots	true	60	0	60	false	singe_yeomen_flamebow	18		medium	jar_ac_unit_set_cavalry
+singe_brt_unicorn_knights	singe_brt_unicorn_knights	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	16	0	16	false		0		medium	jar_ac_unit_set_cavalry
+singe_brt_serjeant_polearm	singe_brt_serjeant_polearm	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_brt_serjeant_shield	singe_brt_serjeant_shield	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_brt_serjeant_sword	singe_brt_serjeant_sword	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_brt_menpole_shield	singe_brt_menpole_shield	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_bm_vile_manticore	singe_bm_vile_manticore	monster	inf_melee	inf_mel	dragon	monster_beasts	true	1	0	0	false		0		large	jar_ac_unit_set_single_entities
+singe_bm_bestigor_shield	singe_bm_bestigor_shield	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_bm_ungor_vile	singe_bm_ungor_vile	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	120	0	0	false	singe_ungor_vibow	22		small	jar_ac_unit_set_infantry
+singe_bm_ungor_shard	singe_bm_ungor_shard	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	120	0	0	false	singe_ungor_shbow	22		small	jar_ac_unit_set_infantry
+singe_bm_bestigor_spear	singe_bm_bestigor_spear	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_bm_razorgor_behemoth	singe_bm_razorgor_behemoth	monster	inf_melee	spcl	wh_dlc03_bst_razorgor	monster_beasts	true	1	0	0	false		0		very_large	jar_ac_unit_set_single_entities
+singe_bm_tuskgor_herd	singe_bm_tuskgor_herd	monstrous_cavalry	inf_melee	spcl	wh_dlc03_bst_razorgor	monster_beasts	true	48	0	0	false		0		medium	jar_ac_unit_set_cavalry
+singe_nor_coldone_marauders	singe_nor_coldone_marauders	melee_cavalry	cavalry	cav_mel	wh2_main_cold_one	cavalry_chariots	true	48	0	48	false		0		medium	jar_ac_unit_set_cavalry
+singe_nor_manticore_reavers	singe_nor_manticore_reavers	monstrous_cavalry	war_beast	cav_shk	cavalry_flying_rare	cavalry_chariots	true	8	0	8	false		0		small	jar_ac_unit_set_cavalry
+singe_nor_armoured_icetroll	singe_nor_armoured_icetroll	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	16	0	0	false		0		large	jar_ac_unit_set_monstrous_infantry
+singe_nor_marauder_riders	singe_nor_marauder_riders	melee_cavalry	war_beast	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0		small	jar_ac_unit_set_cavalry
+singe_nur_plague_riders	singe_nur_plague_riders	melee_cavalry	cavalry	cav_mel	wh3_main_nur_toads	monster_beasts	true	24	0	24	false		0		small	jar_ac_unit_set_cavalry
+singe_nur_plague_palanquin	singe_nur_plague_palanquin	melee_cavalry	cavalry	cav_mel	monstrous_chariot	cavalry_chariots	true	1	0	4	true		0		small	jar_ac_unit_set_single_entities
+singe_nur_plague_walkers	singe_nur_plague_walkers	melee_infantry	inf_melee	inf_mel	wh_dlc04_emp_flagelllents	infantry	true	160	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_nur_plague_spewers	singe_nur_plague_spewers	missile_infantry	inf_ranged	inf_mis	wh2_dlc11_cst_explosives_infantry	missile_infantry	true	120	0	0	false	singe_plague_spew	5		small	jar_ac_unit_set_infantry
+singe_nur_monstrous_toad	singe_nur_monstrous_toad	melee_infantry	inf_melee	inf_mel	monster_generic	monster_beasts	true	1	0	0	false		0		medium	jar_ac_unit_set_single_entities
+singe_nur_blight_knights	singe_nur_blight_knights	monstrous_cavalry	cavalry	cav_mel	wh3_main_nur_rot_flies	monster_beasts	true	12	0	12	false		0		medium	jar_ac_unit_set_cavalry
+singe_ogk_irongut_ironfists	singe_ogk_irongut_ironfists	monstrous_infantry	inf_melee	inf_mel	wh3_main_ogr_monstrous_ironfist	infantry	true	16	0	0	false		0		large	jar_ac_unit_set_monstrous_infantry
+singe_ogk_irongut_dual	singe_ogk_irongut_dual	monstrous_infantry	inf_melee	inf_mel	wh3_main_ogr_monstrous_dual_weapons	infantry	true	16	0	0	false		0		large	jar_ac_unit_set_monstrous_infantry
+singe_ogk_rhinox_herd	singe_ogk_rhinox_herd	monster	inf_melee	inf_mel	war_beast	monster_beasts	true	12	0	0	false		0		large	jar_ac_unit_set_war_beasts
+singe_ogk_mournfang_pack	singe_ogk_mournfang_pack	monster	inf_melee	inf_mel	war_beast	monster_beasts	true	12	0	0	false		0		large	jar_ac_unit_set_war_beasts
+singe_ogk_rocketspitters	singe_ogk_rocketspitters	monstrous_infantry	inf_ranged	inf_mis	wh3_main_ogr_monstrous_cannon	missile_infantry	true	16	0	0	false	singe_ogr_rocketlauncher	60		large	jar_ac_unit_set_monstrous_infantry
+singe_dae_chaos_bears	singe_dae_chaos_bears	monstrous_cavalry	war_beast	cav_mel	wh3_bear_cavalry	cavalry_chariots	true	16	0	16	false		0		medium	jar_ac_unit_set_cavalry
+singe_we_sky_riders	singe_we_sky_riders	melee_cavalry	cavalry	cav_mel	wh2_dlc16_wef_hawks	monster_beasts	true	24	0	24	false		0		large	jar_ac_unit_set_cavalry
+singe_we_huntsmen_glaive	singe_we_huntsmen_glaive	melee_infantry	inf_melee	inf_mel	wh_dlc05_wef_glaive_infantry	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_we_huntsmen_sword	singe_we_huntsmen_sword	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_we_huntsmen_spear	singe_we_huntsmen_spear	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_we_sisters_oak	singe_we_sisters_oak	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	80	0	0	false	singe_sister_bow	22		small	jar_ac_unit_set_infantry
+singe_we_huntsmen_parravon	singe_we_huntsmen_parravon	monstrous_cavalry	cavalry	cav_mel	cavalry_flying	cavalry_chariots	true	24	0	24	false		0		medium	jar_ac_unit_set_cavalry
+singe_ksl_ice_riders	singe_ksl_ice_riders	missile_cavalry	cavalry	cav_mis	missile_cavalry_bow	missile_cavalry_chariots	true	60	0	60	false	singe_ice_rider_bow	18		medium	jar_ac_unit_set_cavalry
+singe_ksl_tzar_halberds	singe_ksl_tzar_halberds	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	80	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_ksl_frost_wyrmlings	singe_ksl_frost_wyrmlings	missile_infantry	inf_ranged	inf_mis	wh2_dlc17_lzd_salamander	missile_monster_beasts	true	32	0	0	false	wh2_dlc12_lzd_salamander_flame	18		medium	jar_ac_unit_set_monstrous_infantry
+singe_ksl_warriors_shields	singe_ksl_warriors_shields	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_hef_dragonguard	singe_hef_dragonguard	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_hef_watchsisters	singe_hef_watchsisters	missile_infantry	cavalry	cav_mis	missile_cavalry_bow	missile_cavalry_chariots	true	60	0	60	false	sisterwatch_bow	18		small	jar_ac_unit_set_infantry
+singe_hef_swordsmen	singe_hef_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_hef_maidenguard	singe_hef_maidenguard	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	100	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_emp_arm_swords	singe_emp_arm_swords	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_emp_arm_spears	singe_emp_arm_spears	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_emp_arm_halberd	singe_emp_arm_halberd	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_emp_light_lancers	singe_emp_light_lancers	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_ac_unit_set_cavalry
+singe_emp_arm_halshield	singe_emp_arm_halshield	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_emp_knight_grtswrd	singe_emp_knight_grtswrd	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_ac_unit_set_cavalry
+singe_emp_freecom_dual	singe_emp_freecom_dual	melee_infantry	inf_melee	inf_mel	wh2_main_infantry_dual_swords	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_emp_grenadiers	singe_emp_grenadiers	missile_infantry	inf_ranged	inf_mis	wh2_dlc11_cst_explosives_infantry	missile_infantry	true	60	0	0	false	singe_inf_grenaderifle	24		small	jar_ac_unit_set_infantry
+singe_emp_state_halshield	singe_emp_state_halshield	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_emp_griffon_knight	singe_emp_griffon_knight	monstrous_cavalry	war_beast	cav_shk	flying_monstrous_cavalry	cavalry_chariots	true	4	0	4	false		0		medium	jar_ac_unit_set_cavalry
+singe_emp_pegasus_knights	singe_emp_pegasus_knights	monstrous_cavalry	cavalry	cav_mel	cavalry_flying	cavalry_chariots	true	20	0	20	false		0		medium	jar_ac_unit_set_cavalry
+singe_tmb_tmbguard_archers	singe_tmb_tmbguard_archers	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	80	0	0	false	singe_tomb_bow	26		small	jar_ac_unit_set_infantry
+singe_tmb_nehek_swordknights	singe_tmb_nehek_swordknights	melee_cavalry	cavalry	cav_mel	cavalry_skeleton	cavalry_chariots	true	60	0	60	false		0		small	jar_ac_unit_set_cavalry
+singe_tmb_nehek_spearknights	singe_tmb_nehek_spearknights	melee_cavalry	cavalry	cav_shk	cavalry_spear_skeleton	cavalry_chariots	true	60	0	60	false		0		small	jar_ac_unit_set_cavalry
+singe_tmb_nehek_bowhorse	singe_tmb_nehek_bowhorse	missile_cavalry	cavalry	cav_mis	missile_cavalry_bow_skeleton	missile_cavalry_chariots	true	60	0	60	false	singe_nehek_bow	18		small	jar_ac_unit_set_cavalry
+singe_tmb_nehek_spearhorse	singe_tmb_nehek_spearhorse	melee_cavalry	cavalry	cav_shk	cavalry_spear_skeleton	cavalry_chariots	true	60	0	60	false		0		small	jar_ac_unit_set_cavalry
+singe_tmb_skelly_swordhorse	singe_tmb_skelly_swordhorse	melee_cavalry	cavalry	cav_mel	cavalry_skeleton	cavalry_chariots	true	60	0	60	false		0		small	jar_ac_unit_set_cavalry
+singe_tmb_nehek_archers	singe_tmb_nehek_archers	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	100	0	0	false	singe_nehek_bow	22		small	jar_ac_unit_set_infantry
+singe_grn_idol_hurla	singe_grn_idol_hurla	warmachine	artillery	art_fld	catapult	artillery_war_machines	true	44	4	0	false		22		small	jar_ac_unit_set_chariots_war_machines
+singe_grn_wyvern_black	singe_grn_wyvern_black	monstrous_cavalry	war_beast	cav_shk	cavalry_flying_rare	cavalry_chariots	true	2	0	4	false		0		small	jar_ac_unit_set_cavalry
+singe_grn_wyvern_savage	singe_grn_wyvern_savage	monstrous_cavalry	war_beast	cav_shk	cavalry_flying_rare	cavalry_chariots	true	2	0	4	false		0		small	jar_ac_unit_set_cavalry
+singe_grn_dung_flinga	singe_grn_dung_flinga	warmachine	artillery	art_fld	catapult	artillery_war_machines	true	44	4	0	false		22		small	jar_ac_unit_set_chariots_war_machines
+singe_grn_gore_grunta	singe_grn_gore_grunta	melee_cavalry	cavalry	cav_mel	shock_cavalry_boar	cavalry_chariots	true	50	0	50	false		0		medium	jar_ac_unit_set_cavalry
+singe_grn_wolf_pack	singe_grn_wolf_pack	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	48	0	0	false		0		small	jar_ac_unit_set_war_beasts
+singe_grn_giant_spiders	singe_grn_giant_spiders	war_beast	inf_melee	inf_mel	grn_arachnarok	monster_beasts	true	32	0	0	false		0		medium	jar_ac_unit_set_war_beasts
+singe_grn_night_ladz	singe_grn_night_ladz	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	160	0	0	false		0		small	jar_ac_unit_set_infantry
+singe_grn_spider_chariot	singe_grn_spider_chariot	chariot	war_machine	chariot	missile_chariot	missile_cavalry_chariots	true	24	8	2	false	singe_grn_spider_chariot_bow	46		small	jar_ac_unit_set_chariots_war_machines

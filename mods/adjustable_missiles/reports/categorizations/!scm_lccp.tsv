@@ -1,2 +1,10 @@
-mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	unitSet
-rhox_hrothyogg_ogr_inf_maneaters_3	wh3_main_ogr_inf_maneaters_3	monstrous_infantry	inf_ranged	inf_mis	wh3_main_ogr_monstrous_pistol	missile_infantry	true	16	0	0	false	wh3_ogr_pistol_bullet	20	archer	jar_unit_set_infantry
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	manEntity	unitSet
+rhox_hrothyogg_ogr_inf_maneaters_0	wh3_main_ogr_inf_maneaters_0	monstrous_infantry	inf_melee	inf_mel	wh3_main_ogr_monstrous	infantry	true	16	0	0	false		0	melee		jar_unit_set_infantry
+rhox_hrothyogg_ogr_inf_maneaters_1	wh3_main_ogr_inf_maneaters_1	monstrous_infantry	inf_melee	inf_mel	wh3_main_ogr_monstrous_ironfist	infantry	true	16	0	0	false		0	melee		jar_unit_set_infantry
+rhox_hrothyogg_ogr_inf_maneaters_2	wh3_main_ogr_inf_maneaters_2	monstrous_infantry	inf_melee	inf_mel	wh3_main_ogr_monstrous_great_weapons	infantry	true	16	0	0	false		0	melee		jar_unit_set_infantry
+rhox_hrothyogg_ogr_inf_maneaters_3	wh3_main_ogr_inf_maneaters_3	monstrous_infantry	inf_ranged	inf_mis	wh3_main_ogr_monstrous_pistol	missile_infantry	true	16	0	0	false	wh3_ogr_pistol_bullet	20	archer		jar_unit_set_infantry
+hef_calith_gatekeepers	hef_calith_gatekeepers	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0			jar_unit_set_infantry
+rhox_lenk_nor_feral_manticore	wh_dlc08_nor_feral_manticore	monster	inf_melee	inf_mel	wh2_dlc17_bst_manticore	monster_beasts	true	1	0	0	true		0	melee		jar_unit_set_single_entities
+rhox_lenk_nor_mon_warwolves_0	wh_dlc08_nor_mon_marauder_warwolves_0	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	48	0	0	false		0	melee		none
+rhox_lenk_nor_mon_war_mammoth_0	wh_dlc08_nor_mon_war_mammoth_0	monster	inf_melee	inf_mel	nor_mammoth	monster_beasts	true	1	0	0	true		0	melee		jar_unit_set_single_entities
+rhox_lccp_vmp_giant	rhox_lccp_vmp_giant	monster	inf_melee	inf_mel	giant	monster_beasts	true	1	0	0	true		0			jar_unit_set_single_entities

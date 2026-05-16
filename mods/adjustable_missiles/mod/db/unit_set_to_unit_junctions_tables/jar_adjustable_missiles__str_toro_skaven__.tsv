@@ -6,6 +6,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			skaven_mech	jar_unit_set_artillery_war_machines	false
 			skaven_mech_at	jar_unit_set_artillery_war_machines	false
 			skaven_mech_gat	jar_unit_set_artillery_war_machines	false
+			skaven_cav	jar_unit_set_cavalry_chariots	false
+			warp_forged	jar_unit_set_cavalry_chariots	false
 			warp_runners	jar_unit_set_infantry	false
+			poxigors	jar_unit_set_infantry	false
+			krakback_kill_squad	jar_unit_set_infantry	false
+			krakback_kill_squad_spears	jar_unit_set_infantry	false
 			warp_bombard	jar_unit_set_single_entities	false
 			warp_tank	jar_unit_set_single_entities	false

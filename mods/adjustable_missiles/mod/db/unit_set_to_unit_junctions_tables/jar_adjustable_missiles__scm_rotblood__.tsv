@@ -1,12 +1,54 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__scm_rotblood__
+			str_rotblood_cart	jar_unit_set_artillery_war_machines	false
+			20kr_rotblood_exalted_cart	jar_unit_set_artillery_war_machines	false
 			str_rotblood_horsemen	jar_unit_set_cavalry_chariots	false
+			20kr_rotblood_horsemen_shield	jar_unit_set_cavalry_chariots	false
 			str_rotblood_chariot	jar_unit_set_cavalry_chariots	false
+			20kr_rotblood_mounted_engorged	jar_unit_set_cavalry_chariots	false
+			20kr_rotblood_mounted_engorged_lance	jar_unit_set_cavalry_chariots	false
+			dust_rotbloods_skeleton_sword_and_shield	jar_unit_set_infantry	false
+			dust_rotbloods_skeleton_2h_hammer	jar_unit_set_infantry	false
+			str_rotblood_skull	jar_unit_set_infantry	false
+			dust_rotbloods_skeleton_sum	jar_unit_set_infantry	false
+			dust_rotbloods_skeleton_2h_sum	jar_unit_set_infantry	false
+			str_rotblood_marauders	jar_unit_set_infantry	false
+			str_rotblood_bile_troll	jar_unit_set_infantry	false
 			str_rotblood_bombers	jar_unit_set_infantry	false
+			str_rotblood_spearmen	jar_unit_set_infantry	false
 			str_rotblood_marauder_bombs	jar_unit_set_infantry	false
+			str_rotblood_engorged	jar_unit_set_infantry	false
 			str_rotblood_vomitus	jar_unit_set_infantry	false
+			str_rotblood_plaguespear	jar_unit_set_infantry	false
+			str_rotblood_martyr	jar_unit_set_infantry	false
+			str_rotblood_slaves	jar_unit_set_infantry	false
 			str_rotblood_plaguejavelins	jar_unit_set_infantry	false
+			str_rotblood_spawn	jar_unit_set_infantry	false
+			str_rotblood_blightstorm	jar_unit_set_infantry	false
 			str_rotblood_lifeleech	jar_unit_set_infantry	false
 			str_rotblood_bombers_ror	jar_unit_set_infantry	false
+			str_rotblood_spawn_ror	jar_unit_set_infantry	false
 			str_rotblood_plaguejavelins_ror	jar_unit_set_infantry	false
+			str_rotblood_marauders_ror	jar_unit_set_infantry	false
+			str_rotblood_slaves_ror	jar_unit_set_infantry	false
+			str_rotblood_spearmen_ror	jar_unit_set_infantry	false
+			str_rotblood_martyr_ror	jar_unit_set_infantry	false
+			str_rotblood_engorged_ror	jar_unit_set_infantry	false
+			str_rotblood_engorged_spawn	jar_unit_set_infantry	false
+			str_rotblood_plaguespear_ror	jar_unit_set_infantry	false
+			str_rotblood_sum_nurglings	jar_unit_set_infantry	false
+			20kr_rotblood_fanatic	jar_unit_set_infantry	false
+			20kr_rotblood_maulers	jar_unit_set_infantry	false
 			20kr_rotblood_marauder_archer	jar_unit_set_infantry	false
+			20kr_rotblood_exalted_martyr	jar_unit_set_infantry	false
+			20kr_rotblood_engorged_greatweapon	jar_unit_set_infantry	false
+			20kr_rotblood_expiring_champions_dual	jar_unit_set_infantry	false
+			20kr_rotblood_expiring_champions_great_weapon	jar_unit_set_infantry	false
+			20kr_rotblood_skinwolves	jar_unit_set_infantry	false
+			str_rotblood_giant	jar_unit_set_single_entities	false
+			str_rotblood_fly	jar_unit_set_single_entities	false
+			str_rotblood_toad	jar_unit_set_single_entities	false
+			str_rotblood_toad_ror	jar_unit_set_single_entities	false
+			20kr_rotblood_feral_manticore	jar_unit_set_single_entities	false
+			str_rotblood_hound	none	false
+			20kr_rotblood_rot_beast	none	false

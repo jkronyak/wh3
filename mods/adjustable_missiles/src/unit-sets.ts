@@ -35,7 +35,8 @@ type UnitInfo = {
     primaryMissileWeapon: string,
     primaryAmmo: number,
     unitSet?: ModUnitSet | null
-    arUnitCategory?: string
+    arUnitCategory?: string,
+    size?: string | null,
 };
 
 type DecodedRow = Record<string, any>
@@ -139,6 +140,7 @@ const categorizeUnits = (
     landUnits: DecodedRow[],
     uiUnitGroupings: DecodedRow[],
     vanUiParentGroups: DecodedRow[], 
+    battleEntities: DecodedRow[],
     writeToFile?: string,
     filterCharacters: boolean = true,
     filterNonRanged: boolean = true
@@ -147,11 +149,14 @@ const categorizeUnits = (
     const landUnitMap = new Map<string, any>(landUnits.map(l => [l.key, l]));
     const uiGroupToParentMap = new Map<string, string>(uiUnitGroupings.map(g => [g.key, g.parent_group]));
     const vanillaParentGroupMap = new Map<string, boolean>(vanUiParentGroups.map(pg => [pg.key!, true]))
+    const battleEntitiesMap = new Map<string, string>(battleEntities.map(be => [be.key, be.size]));
+    
     for (const mainUnit of mainUnits) {
         const landUnit = landUnitMap.get(mainUnit.land_unit);
         if (!landUnit) throw new Error(`Could not find associated land unit record for ${mainUnit.unit}`);
         const parentGroup = uiGroupToParentMap.get(mainUnit.ui_unit_group_land);
         if (!parentGroup) throw new Error(`Could not find parent group for ${mainUnit.unit}`);
+        const size = battleEntitiesMap.get(landUnit.man_entity);
 
         const hasVanillaParentGroup = vanillaParentGroupMap.get(parentGroup) ?? false;
 
@@ -174,8 +179,9 @@ const categorizeUnits = (
             primaryMissileWeapon: landUnit.primary_missile_weapon || null,
             primaryAmmo: landUnit.primary_ammo,
             arUnitCategory: landUnit.ar_unit_category,
+            size: size || null,
         };
-        const unitSet = calculateUnitSet(unitInfo);
+        const unitSet = calculateUnitSet(unitInfo) || null;
         if (!unitSet) throw new Error(`Could not calculate set for ${mainUnit.unit}: \n${JSON.stringify(unitInfo, null, 4)}`);
         const cur = { ...unitInfo, unitSet };
         result.push(cur);
@@ -224,7 +230,8 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         'main_units_tables',
         'land_units_tables',
         'unit_castes_tables',
-        'ui_unit_group_parents_tables'
+        'ui_unit_group_parents_tables',
+        'battle_entities_tables',
     ] as const;
     console.log('Processing vanilla table data.');
     const vanillaTables = await decodeTablesFromPack(extractTables);
@@ -235,7 +242,10 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         vanillaTables.land_units_tables.rows,
         vanillaTables.ui_unit_groupings_tables.rows,
         vanillaTables.ui_unit_group_parents_tables.rows,
-        (writeReport ? `${REPORT_PATH}/categorizations/vanilla.tsv` : undefined)
+        vanillaTables.battle_entities_tables.rows,
+        (writeReport ? `${REPORT_PATH}/categorizations/vanilla.tsv` : undefined),
+        true,
+        false
     );
     // 1.3 Generate vanilla unit set information.
     const vanillaSetJunctions = generateUnitSetJunctions(categorizedUnits);
@@ -266,14 +276,17 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         // if (await packHasUIUnitGroupParents(modPath)) throw new Error(`${packName} has ui_unit_group_parents_tables!`);
         
         if (await packHasUIUnitGroupParents(modPath)) console.warn(`Warning: ${packName} includes ui_unit_group_parents_tables.`);
-        const modTables = await decodeTablesFromPack(['ui_unit_groupings_tables', 'main_units_tables', 'land_units_tables'], modPath);
+        const modTables = await decodeTablesFromPack(['ui_unit_groupings_tables', 'main_units_tables', 'land_units_tables', 'battle_entities_tables'], modPath);
         modResult.preFilterCount = modTables.main_units_tables.rows.length;
         const modCategorizedUnits = categorizeUnits(
             modTables.main_units_tables.rows,
             modTables.land_units_tables.rows.concat(vanillaTables.land_units_tables.rows),
             modTables.ui_unit_groupings_tables.rows.concat(vanillaTables.ui_unit_groupings_tables.rows),
-            vanillaTables.ui_unit_group_parents_tables.rows,
-            (writeReport ? `${REPORT_PATH}/categorizations/${packName}.tsv` : undefined)
+            vanillaTables.ui_unit_group_parents_tables.rows.concat(vanillaTables.battle_entities_tables.rows),
+            modTables.battle_entities_tables.rows,
+            (writeReport ? `${REPORT_PATH}/categorizations/${packName}.tsv` : undefined),
+            true,
+            false
         );
         modResult.postFilterCount = modCategorizedUnits.length;
         modResult.vanillaParentGroupCount = modCategorizedUnits.filter(i => i.useVanillaParentGroup).length;

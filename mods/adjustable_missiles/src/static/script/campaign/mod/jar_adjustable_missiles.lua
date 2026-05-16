@@ -108,25 +108,6 @@ local function read_mct_values(mct_mod)
             if data.set ~= "display" then stat_settings[scope][key] = data end
         end
     end
-
-
-
-    -- local mod_options = mct_mod:get_options()
-    -- for key, option in pairs(mod_options) do
-    --     local option_data = parse_option_object(option)
-    --     local cmd = option_data.cmd
-    --     local data = option_data.data
-    --     data.value = option:get_finalized_setting()
-
-    --     if cmd == "CORE" then
-    --         logger:write("Reading CORE setting")
-    --         core_settings[key] = data
-    --     elseif cmd == "STAT" then
-    --         logger:write("Reading STAT setting")
-    --         for k, v in pairs(data) do logger:write(k, v) end
-    --         stat_settings[option_data.data.scope][key] = data
-    --     end
-    -- end
 end
 
 ---@param faction FACTION_SCRIPT_INTERFACE

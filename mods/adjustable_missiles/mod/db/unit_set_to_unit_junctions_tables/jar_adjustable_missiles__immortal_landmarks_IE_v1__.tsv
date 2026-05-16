@@ -1,3 +1,10 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__immortal_landmarks_IE_v1__
+			zerg_emp_zaskar_black_guard_cav	jar_unit_set_cavalry_chariots	false
+			norscan_bondsmen	jar_unit_set_infantry	false
 			shadow_guard	jar_unit_set_infantry	false
+			zerg_emp_zaskar_black_guard_inf	jar_unit_set_infantry	false
+			corrupted_sentinel	jar_unit_set_single_entities	false
+			khorne_simaergul	jar_unit_set_single_entities	false
+			tmb_scorpion_summon	jar_unit_set_single_entities	false
+			gargantulzan	jar_unit_set_single_entities	false

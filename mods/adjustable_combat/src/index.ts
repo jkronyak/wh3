@@ -1,18 +1,19 @@
 import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
-import { MOD_OUTPUT_PATH, MOD_DIST_PATH, MOD_STATIC_PATH } from "./config.ts";
-import { generateAbilityEffects } from "./ability-effects.ts";
-import { generateUnitSets } from "./unit-sets.ts";
+import { MOD_OUTPUT_PATH, MOD_DIST_PATH, MOD_STATIC_PATH, GAME_DATA_FOLDER_PATH } from "./config/mod-config.ts";
+import { generateAbilityEffects } from "./generation/ability-effects.ts";
+import { generateUnitSets } from "./generation/unit-sets.ts";
+import { generateLua } from "./generation/option-config.ts";
 import { getOrCreateSession } from '../../../lib/rpfm-client/rpfm-client-instance.ts';
 const client = await getOrCreateSession();
 
 const run = async () => {
     await client.send("GenerateDependenciesCache");
 
-
     await generateUnitSets(true);
     await generateAbilityEffects();
+    await generateLua();
 
     for (const entry of fs.readdirSync(MOD_STATIC_PATH, { withFileTypes: true })) {
         if (entry.isDirectory()) {
@@ -47,6 +48,8 @@ const run = async () => {
         }
     })
     await client.savePackAs(`${MOD_DIST_PATH}/jar_adjustable_combat.pack`);
+    await client.savePackAs(`${GAME_DATA_FOLDER_PATH}/jar_adjustable_combat.pack`);
+
     await client.closePack();
     client.close();
 };

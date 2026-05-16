@@ -4,12 +4,42 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			uter_blomkwist_imperial_mortar	jar_unit_set_artillery_war_machines	false
 			imperial_cannon_darius_flugenheim	jar_unit_set_artillery_war_machines	false
 			emperors_hellblaster_volley_gun	jar_unit_set_artillery_war_machines	false
+			grudgebringer_cavalry	jar_unit_set_cavalry_chariots	false
+			grudgebringer_cavalry_upgrade	jar_unit_set_cavalry_chariots	false
+			carlsson_cavalry	jar_unit_set_cavalry_chariots	false
+			vannheim_75th	jar_unit_set_cavalry_chariots	false
 			stephan_weiss_outlaw_pistoliers	jar_unit_set_cavalry_chariots	false
+			knights_of_the_realm_bertrand_le_grande	jar_unit_set_cavalry_chariots	false
+			grail_knights_tristan_de_la_tourtristan_de_la_tour	jar_unit_set_cavalry_chariots	false
+			black_grail_knights	jar_unit_set_cavalry_chariots	false
+			ragnar_wolves	jar_unit_set_cavalry_chariots	false
+			ragnar_wolves_upgrade	jar_unit_set_cavalry_chariots	false
+			reiksguard_knights_todbringer	jar_unit_set_cavalry_chariots	false
+			azguz_bloodfist_dwarf_warriors	jar_unit_set_infantry	false
+			azguz_bloodfist_dwarf_warriors_upgrade	jar_unit_set_infantry	false
+			black_avangers	jar_unit_set_infantry	false
+			boris_von_raukov_4th_nuln_halberdiers	jar_unit_set_infantry	false
+			grudgebringer_infantry	jar_unit_set_infantry	false
+			grudgebringer_infantry_upgrade	jar_unit_set_infantry	false
+			dargrimm_firebeard_dwarf_warriors	jar_unit_set_infantry	false
+			elrod_wood_elf_glade_guards	jar_unit_set_infantry	false
 			galed_elf_archers	jar_unit_set_infantry	false
 			galed_elf_archers_upgrade	jar_unit_set_infantry	false
 			grudgebringer_crossbow	jar_unit_set_infantry	false
 			grudgebringer_crossbow_upgrade	jar_unit_set_infantry	false
 			helmgart_bowmen	jar_unit_set_infantry	false
 			keelers_longbows	jar_unit_set_infantry	false
+			carlsson_guard	jar_unit_set_infantry	false
+			carlsson_guard_upgrade	jar_unit_set_infantry	false
+			carlsson_guard_upgrade_upgrade	jar_unit_set_infantry	false
+			urblab_rotgut_mercenary_ogres	jar_unit_set_infantry	false
+			countess_guard	jar_unit_set_infantry	false
+			dieter_schaeffer_carroburg_greatswords	jar_unit_set_infantry	false
+			dieter_schaeffer_carroburg_greatswords_upgrade	jar_unit_set_infantry	false
+			jurgen_muntz_outlaw_infantry	jar_unit_set_infantry	false
+			flagellants_eusebio_the_bleak	jar_unit_set_infantry	false
+			dwarf_envoy_dwarf_warriors	jar_unit_set_infantry	false
 			leitdorf_9th_crossbows	jar_unit_set_infantry	false
+			treeman_knarlroot	jar_unit_set_single_entities	false
+			treeman_gnarl_fist	jar_unit_set_single_entities	false
 			grudgebringers_wagon	jar_unit_set_single_entities	false

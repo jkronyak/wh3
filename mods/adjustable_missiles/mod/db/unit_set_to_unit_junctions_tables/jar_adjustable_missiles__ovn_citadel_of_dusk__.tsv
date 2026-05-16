@@ -4,3 +4,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_hef_inf_archers_sea	jar_unit_set_infantry	false
 			ovn_hef_inf_archers_fire	jar_unit_set_infantry	false
 			ovn_hef_inf_archers_wind	jar_unit_set_infantry	false
+			ovn_hef_inf_spearmen_falcon	jar_unit_set_infantry	false
+			ovn_hef_inf_spearmen_sapphire	jar_unit_set_infantry	false

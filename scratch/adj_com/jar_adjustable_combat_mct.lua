@@ -40,32 +40,32 @@ local logger = Logger:new({ file_name = "jar_adjustable_combat_mct", enabled = f
 ----------------------------
 --- Settings Data Tables ---
 ----------------------------
-local GLOBAL_SET = { set = "jar_unit_set_global", display = "Global", desc = "Includes every unit, and stacks with other categories." }
+local GLOBAL_SET = { set = "jar_ac_unit_set_global", display = "Global", desc = "Includes every unit, and stacks with other categories." }
 
 local CHARACTER_SET = {
-        set = "jar_unit_set_characters",
+        set = "jar_ac_unit_set_characters",
         display = "Characters",
         desc = "Includes every lord or hero unit."
     }
 
 local SETS_CFG = {
     {
-        set = "jar_unit_set_artillery_war_machines",
+        set = "jar_ac_unit_set_artillery_war_machines",
         display = "Artillery/War Machines",
         desc = "Includes every artillery or war machine unit."
     },
     {
-        set = "jar_unit_set_single_entities",
+        set = "jar_ac_unit_set_single_entities",
         display = "Single Entities",
         desc = "Includes every single entity unit, except characters, artillery, and war machines."
     },
     {
-        set = "jar_unit_set_infantry",
+        set = "jar_ac_unit_set_infantry",
         display = "Infantry", 
         desc = "Includes every infantry or monstrous infantry unit."
     },
     {
-        set = "jar_unit_set_cavalry_chariots",
+        set = "jar_ac_unit_set_cavalry_chariots",
         display = "Cavalry/Chariots",
         desc = "Applies to every cavalry/chariot unit."
     }
@@ -75,7 +75,7 @@ local SETS_CFG = {
 local STATS_CFG = {
     {
         stat = "armour_mod",
-        display = "armour_mod",
+        display = "armour_mod ±",
         min = -100,
         max = 500,
     },
@@ -285,13 +285,12 @@ local CORE_CFG = {
 }
 
 local STAT_LOCK_REASON = "Reusing Player values for AI"
-
 -----------------
 --- MCT SETUP ---
 -----------------
 local mct = get_mct()
-local mod_title = "jar_adjustable_combat"
-local mod_title_display = "Adjustable Missiles"
+local mod_title = "jar_adjustable_combat_OLD"
+local mod_title_display = "Adjustable Missiles OLD"
 local mct_mod = mct:register_mod(mod_title)
 
 mct_mod:set_title(mod_title_display)

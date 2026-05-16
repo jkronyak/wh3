@@ -1,2 +1,9 @@
-mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	unitSet
-shadow_guard	shadow_guard	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	60	0	0	false	wh2_dlc10_hef_longbow_arrow_shadow_walker	20	melee	jar_unit_set_infantry
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	manEntity	unitSet
+corrupted_sentinel	corrupted_sentinel	monster	inf_melee	inf_mel	wh3_main_cth_terracotta_sentinel	monster_beasts	true	1	0	0	true		0	melee		jar_unit_set_single_entities
+khorne_simaergul	khorne_simaergul	war_beast	inf_melee	spcl	war_beast	monster_beasts	true	1	0	0	true		0	melee		jar_unit_set_single_entities
+norscan_bondsmen	norscan_bondsmen	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	100	0	0	false		0	melee		jar_unit_set_infantry
+tmb_scorpion_summon	tmb_scorpion_summon	monster	inf_melee	inf_mel	wh2_dlc09_tmb_scorpion	monster_beasts	true	1	0	0	true		0	melee		jar_unit_set_single_entities
+shadow_guard	shadow_guard	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	60	0	0	false	wh2_dlc10_hef_longbow_arrow_shadow_walker	20	melee		jar_unit_set_infantry
+gargantulzan	gargantulzan	monster	inf_melee	inf_mel	wh2_dlc17_lzd_carnosaur	monster_beasts	true	1	0	0	true		0	melee		jar_unit_set_single_entities
+zerg_emp_zaskar_black_guard_cav	zerg_emp_zaskar_black_guard_cav	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee		jar_unit_set_cavalry_chariots
+zerg_emp_zaskar_black_guard_inf	zerg_emp_zaskar_black_guard_inf	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee		jar_unit_set_infantry

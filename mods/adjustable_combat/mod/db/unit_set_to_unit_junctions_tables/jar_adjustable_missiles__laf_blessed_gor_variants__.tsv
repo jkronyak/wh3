@@ -1,10 +1,10 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__laf_blessed_gor_variants__
-			laf_bst_inf_tzaangors_halberds	jar_ac_unit_set_infantry	false
-			laf_tze_inf_tzaangors_halberds	jar_ac_unit_set_infantry	false
-			laf_bst_inf_pestigors_shields	jar_ac_unit_set_infantry	false
-			laf_nur_inf_pestigors_shields	jar_ac_unit_set_infantry	false
-			laf_bst_inf_khorngors_dual_axes	jar_ac_unit_set_infantry	false
-			laf_kho_inf_khorngors_dual_axes	jar_ac_unit_set_infantry	false
-			laf_bst_inf_slaangors_javelins	jar_ac_unit_set_infantry	false
-			laf_sla_inf_slaangors_javelins	jar_ac_unit_set_infantry	false
+			laf_bst_inf_tzaangors_halberds	jar_adj_com_unit_set_infantry	false
+			laf_tze_inf_tzaangors_halberds	jar_adj_com_unit_set_infantry	false
+			laf_bst_inf_pestigors_shields	jar_adj_com_unit_set_infantry	false
+			laf_nur_inf_pestigors_shields	jar_adj_com_unit_set_infantry	false
+			laf_bst_inf_khorngors_dual_axes	jar_adj_com_unit_set_infantry	false
+			laf_kho_inf_khorngors_dual_axes	jar_adj_com_unit_set_infantry	false
+			laf_bst_inf_slaangors_javelins	jar_adj_com_unit_set_infantry	false
+			laf_sla_inf_slaangors_javelins	jar_adj_com_unit_set_infantry	false

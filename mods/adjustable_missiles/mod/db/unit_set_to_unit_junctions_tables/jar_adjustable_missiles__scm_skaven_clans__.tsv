@@ -1,30 +1,97 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__scm_skaven_clans__
-			bc_ror_virulent_batteries	jar_unit_set_artillery_war_machines	false
-			clan_vrrtkin_mortar	jar_unit_set_artillery_war_machines	false
-			clan_vrrtkin_gasthrower	jar_unit_set_artillery_war_machines	false
-			clan_vrrtkin_globeclaw_catapult	jar_unit_set_artillery_war_machines	false
-			clan_vrrtkin_veh_doomwheel	jar_unit_set_artillery_war_machines	false
 			thom_ferrik_organ_gun	jar_unit_set_artillery_war_machines	false
 			thom_ferrik_art_bolt_thrower_0	jar_unit_set_artillery_war_machines	false
 			thom_ferrik_art_shield_battery	jar_unit_set_artillery_war_machines	false
-			hcs_ror_doomwheel_brigade	jar_unit_set_artillery_war_machines	false
-			hcs_ror_blackarc	jar_unit_set_artillery_war_machines	false
 			wh2_main_skv_art_skurvymortar	jar_unit_set_artillery_war_machines	false
 			liger_skv_art_helstorm_rocket_battery	jar_unit_set_artillery_war_machines	false
 			liger_skv_veh_gyrobomber	jar_unit_set_artillery_war_machines	false
 			liger_skv_veh_gyrocopter	jar_unit_set_artillery_war_machines	false
 			liger_skurvy_skv_art_warp_lightning_cannon	jar_unit_set_artillery_war_machines	false
 			mcr_skv_veh_skurvy_warpcannon	jar_unit_set_artillery_war_machines	false
+			cr_skv_veh_portage_chariot	jar_unit_set_artillery_war_machines	false
+			clan_vrrtkin_mortar	jar_unit_set_artillery_war_machines	false
+			clan_vrrtkin_gasthrower	jar_unit_set_artillery_war_machines	false
+			clan_vrrtkin_globeclaw_catapult	jar_unit_set_artillery_war_machines	false
+			clan_vrrtkin_veh_doomwheel	jar_unit_set_artillery_war_machines	false
+			clan_vrrtkin_veh_doom_flayer	jar_unit_set_artillery_war_machines	false
+			hcs_ror_doomwheel_brigade	jar_unit_set_artillery_war_machines	false
+			hcs_ror_blackarc	jar_unit_set_artillery_war_machines	false
+			bc_ror_virulent_batteries	jar_unit_set_artillery_war_machines	false
 			str_gnaw_rock_lobber	jar_unit_set_artillery_war_machines	false
 			str_gnaw_spear_chukka	jar_unit_set_artillery_war_machines	false
+			str_verms_spider_riders	jar_unit_set_cavalry_chariots	false
+			str_verms_spider_riders_ror	jar_unit_set_cavalry_chariots	false
+			thom_ferrik_linebreakers	jar_unit_set_cavalry_chariots	false
+			str_grudge_chariots	jar_unit_set_cavalry_chariots	false
 			clan_vrrtkin_ratogres_ror	jar_unit_set_cavalry_chariots	false
+			str_gnaw_war_pigs	jar_unit_set_cavalry_chariots	false
+			str_gnaw_war_pigs_ror	jar_unit_set_cavalry_chariots	false
 			str_haematoma_juggernauts	jar_unit_set_cavalry_chariots	false
-			bc_pusbags_sling	jar_unit_set_infantry	false
-			bc_ror_chained_ones	jar_unit_set_infantry	false
-			str_fester_ratling_horde	jar_unit_set_infantry	false
+			str_haematoma_skullcrushers	jar_unit_set_cavalry_chariots	false
+			str_garbag_wolf_poison	jar_unit_set_cavalry_chariots	false
+			str_garbag_wolf_ap	jar_unit_set_cavalry_chariots	false
+			str_garbag_squig_rider	jar_unit_set_cavalry_chariots	false
+			str_urgat_wolf_chariot	jar_unit_set_cavalry_chariots	false
+			str_garbag_wolf_ap_ror	jar_unit_set_cavalry_chariots	false
+			str_garbag_squig_rider_ror	jar_unit_set_cavalry_chariots	false
+			str_urgat_wolf_chariot_ror	jar_unit_set_cavalry_chariots	false
+			str_verms_spider_hatchling	jar_unit_set_infantry	false
+			str_verms_toads	jar_unit_set_infantry	false
+			str_verms_verminkeepers	jar_unit_set_infantry	false
+			str_verms_scuttlers	jar_unit_set_infantry	false
+			str_verms_scuttlers_spider	jar_unit_set_infantry	false
+			str_verms_lamplighters	jar_unit_set_infantry	false
+			str_verms_slingers	jar_unit_set_infantry	false
+			str_verms_spider_hatchling_sum	jar_unit_set_infantry	false
+			str_verms_verminkeepers_ror	jar_unit_set_infantry	false
+			str_verms_scuttlers_spider_ror	jar_unit_set_infantry	false
+			str_verms_lamplighters_ror	jar_unit_set_infantry	false
+			str_verms_slingers_ror	jar_unit_set_infantry	false
+			thom_ferrik_ironbreaker	jar_unit_set_infantry	false
+			thom_ferrik_inf_handguns	jar_unit_set_infantry	false
+			thom_ferrik_armoured_rat_ogres	jar_unit_set_infantry	false
+			thom_ferrik_stormvermin_2h	jar_unit_set_infantry	false
+			thom_ferrik_ratling	jar_unit_set_infantry	false
+			thom_ferrik_dwf_slave	jar_unit_set_infantry	false
+			thom_ferrik_skv_inf_clanrat_spearmen_0	jar_unit_set_infantry	false
+			thom_ferrik_skv_inf_clanrat_spearmen_1	jar_unit_set_infantry	false
+			thom_ferrik_skv_inf_clanrats_0	jar_unit_set_infantry	false
+			thom_ferrik_skv_inf_clanrats_1	jar_unit_set_infantry	false
+			thom_ferrik_stormvermin_halberd	jar_unit_set_infantry	false
+			thom_ferrik_stormvermin_shield	jar_unit_set_infantry	false
+			thom_ferrik_inf_poison_wind_mortar_0	jar_unit_set_infantry	false
+			thom_ferrik_inf_poison_wind_mortar_ror_0	jar_unit_set_infantry	false
+			str_ferrik_grenadiers	jar_unit_set_infantry	false
+			thom_ferrik_jezzail	jar_unit_set_infantry	false
+			thom_ferrik_gold_rats	jar_unit_set_infantry	false
+			thom_ferrik_stormvermin_2h_summon	jar_unit_set_infantry	false
+			thom_ferrik_skv_inf_clanrat_spearmen_1_summon	jar_unit_set_infantry	false
+			str_ferrik_forge_guard	jar_unit_set_infantry	false
+			wh2_main_skv_inf_handguns	jar_unit_set_infantry	false
+			wh2_main_skv_inf_handguns_ror	jar_unit_set_infantry	false
+			wh2_main_skv_inf_clangunners	jar_unit_set_infantry	false
+			liger_skv_inf_skavenslavebombers	jar_unit_set_infantry	false
+			liger_skv_inf_summon_guns	jar_unit_set_infantry	false
+			liger_skv_inf_clanrats_bombers	jar_unit_set_infantry	false
+			liger_skv_inf_deck_runners	jar_unit_set_infantry	false
+			liger_skurvy_skv_inf_clanrat_spearmen_0	jar_unit_set_infantry	false
+			liger_skurvy_skv_inf_clanrat_spearmen_1	jar_unit_set_infantry	false
+			liger_skurvy_skv_inf_clanrats_0	jar_unit_set_infantry	false
+			liger_skurvy_skv_inf_clanrats_1	jar_unit_set_infantry	false
+			str_treecherik_skurry_stabbers	jar_unit_set_infantry	false
+			rathan_inf_chanters	jar_unit_set_infantry	false
+			rathan_inf_melee_fanatics	jar_unit_set_infantry	false
+			rathan_inf_range_fanatics	jar_unit_set_infantry	false
+			str_grudge_mirror_rats	jar_unit_set_infantry	false
+			rathan_ratling	jar_unit_set_infantry	false
+			clan_vrrtkin_clanrat_basic	jar_unit_set_infantry	false
 			clan_vrrtkin_clanrat_shield	jar_unit_set_infantry	false
+			clan_vrrtkin_clanrat_spear	jar_unit_set_infantry	false
 			clan_vrrtkin_clanrat_spear_shield	jar_unit_set_infantry	false
+			clan_vrrtkin_skavenslave_spearmen	jar_unit_set_infantry	false
+			clan_vrrtkin_skavenslaves	jar_unit_set_infantry	false
+			clan_vrrtkin_stormvermin	jar_unit_set_infantry	false
 			clan_vrrtkin_stormvermin_shield	jar_unit_set_infantry	false
 			clan_vrrtkin_skavenslave_slingers	jar_unit_set_infantry	false
 			clan_vrrtkin_poison_wind_globadiers	jar_unit_set_infantry	false
@@ -32,36 +99,81 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			clan_vrrtkin_warpfire_thrower	jar_unit_set_infantry	false
 			clan_vrrtkin_inf_warplock_jezzails	jar_unit_set_infantry	false
 			clan_vrrtkin_inf_cutthroats	jar_unit_set_infantry	false
+			clan_vrrtkin_inf_turntails_ror	jar_unit_set_infantry	false
+			clan_vrrtkin_ratogres	jar_unit_set_infantry	false
 			clan_vrrtkin_art_poison_wind_mortar	jar_unit_set_infantry	false
 			clan_vrrtkin_art_poison_wind_mortar_ror	jar_unit_set_infantry	false
+			clan_vrrtkin_skv_inf_warp_grinder	jar_unit_set_infantry	false
+			clan_vrrtkin_gas_monks_censer	jar_unit_set_infantry	false
 			clan_vrrtkin_clanrat_shield_sum	jar_unit_set_infantry	false
 			str_verminkin	jar_unit_set_infantry	false
+			str_night_runners	jar_unit_set_infantry	false
+			str_warpguard	jar_unit_set_infantry	false
+			str_warpguard_halberd	jar_unit_set_infantry	false
+			str_black_skaven	jar_unit_set_infantry	false
 			str_verminkin_ror	jar_unit_set_infantry	false
-			thom_ferrik_ironbreaker	jar_unit_set_infantry	false
-			thom_ferrik_inf_handguns	jar_unit_set_infantry	false
-			thom_ferrik_ratling	jar_unit_set_infantry	false
-			thom_ferrik_inf_poison_wind_mortar_0	jar_unit_set_infantry	false
-			thom_ferrik_inf_poison_wind_mortar_ror_0	jar_unit_set_infantry	false
-			str_ferrik_grenadiers	jar_unit_set_infantry	false
-			thom_ferrik_jezzail	jar_unit_set_infantry	false
-			str_garbag_gitz	jar_unit_set_infantry	false
+			str_night_runners_ror	jar_unit_set_infantry	false
+			str_warpguard_ror	jar_unit_set_infantry	false
+			str_warpguard_halberd_ror	jar_unit_set_infantry	false
+			str_black_skaven_ror	jar_unit_set_infantry	false
+			str_shadow_ogre	jar_unit_set_infantry	false
+			str_shadow_ogre_ror	jar_unit_set_infantry	false
+			hcm_ror_ironskins	jar_unit_set_infantry	false
+			hcm_ror_fangsnapper	jar_unit_set_infantry	false
+			hcm_ror_blacktail	jar_unit_set_infantry	false
+			hcm_ror_mangefurs	jar_unit_set_infantry	false
 			hcm_ror_vatbacks	jar_unit_set_infantry	false
 			hcs_ror_lektrik_coven	jar_unit_set_infantry	false
 			hcs_ror_technox	jar_unit_set_infantry	false
+			hcs_ror_warpfangs	jar_unit_set_infantry	false
+			kratch_ror_deathvermin	jar_unit_set_infantry	false
 			slaves_slingers_shielded	jar_unit_set_infantry	false
+			slaves_spears_shielded	jar_unit_set_infantry	false
+			slaves_shielded	jar_unit_set_infantry	false
 			slaves_spears_slingers_shielded	jar_unit_set_infantry	false
+			str_ror_bonefodder	jar_unit_set_infantry	false
 			str_ror_skullsplinters	jar_unit_set_infantry	false
 			str_ror_warpshields	jar_unit_set_infantry	false
 			str_ror_burrow_crackers	jar_unit_set_infantry	false
-			str_crooktail_slinger_ror	jar_unit_set_infantry	false
-			wh2_main_skv_inf_handguns	jar_unit_set_infantry	false
-			wh2_main_skv_inf_handguns_ror	jar_unit_set_infantry	false
-			wh2_main_skv_inf_clangunners	jar_unit_set_infantry	false
-			liger_skv_inf_skavenslavebombers	jar_unit_set_infantry	false
-			liger_skv_inf_summon_guns	jar_unit_set_infantry	false
-			liger_skv_inf_clanrats_bombers	jar_unit_set_infantry	false
+			bc_rotten_rodent_dual	jar_unit_set_infantry	false
+			bc_rotten_rodent	jar_unit_set_infantry	false
+			bc_pusbags	jar_unit_set_infantry	false
+			bc_pusbags_flail	jar_unit_set_infantry	false
+			bc_pusbags_sling	jar_unit_set_infantry	false
+			bc_mad_rat_ogres	jar_unit_set_infantry	false
+			bc_rat_spawn	jar_unit_set_infantry	false
+			bc_pusbags_flail_ror	jar_unit_set_infantry	false
+			bc_rat_spawn_ror	jar_unit_set_infantry	false
+			bc_mad_rat_ogres_ror	jar_unit_set_infantry	false
+			bc_rotten_rodent_dual_ror	jar_unit_set_infantry	false
+			bc_ror_creeping_death	jar_unit_set_infantry	false
+			bc_ror_bilekin	jar_unit_set_infantry	false
+			bc_ror_chained_ones	jar_unit_set_infantry	false
+			bc_ror_slimeblades	jar_unit_set_infantry	false
+			bc_ror_plaguevermin	jar_unit_set_infantry	false
+			bc_septik_plaguevermin	jar_unit_set_infantry	false
+			bc_septik_ror_rustblades	jar_unit_set_infantry	false
+			str_skittice_sum_rustblade	jar_unit_set_infantry	false
+			str_gangrous_vermin	jar_unit_set_infantry	false
+			str_gangrous_clanrats	jar_unit_set_infantry	false
+			str_gangrous_vermin_ror	jar_unit_set_infantry	false
+			str_fester_ratling_horde	jar_unit_set_infantry	false
+			str_bubonic_skrat_spawn	jar_unit_set_infantry	false
+			str_bubonic_morbidus_rat_ogre	jar_unit_set_infantry	false
+			str_bubonic_septik_plaguevermin	jar_unit_set_infantry	false
+			str_bubonic_fester_censer	jar_unit_set_infantry	false
 			str_kreepus_verminkin	jar_unit_set_infantry	false
+			str_kreepus_night_runners	jar_unit_set_infantry	false
+			str_kreepus_warpguard	jar_unit_set_infantry	false
+			str_kreepus_warpguard_halberd	jar_unit_set_infantry	false
+			str_kreepus_black_skaven	jar_unit_set_infantry	false
 			str_kreepus_verminkin_ror	jar_unit_set_infantry	false
+			str_kreepus_night_runners_ror	jar_unit_set_infantry	false
+			str_kreepus_warpguard_ror	jar_unit_set_infantry	false
+			str_kreepus_warpguard_halberd_ror	jar_unit_set_infantry	false
+			str_kreepus_black_skaven_ror	jar_unit_set_infantry	false
+			str_kreepus_shadow_ogre	jar_unit_set_infantry	false
+			str_kreepus_shadow_ogre_ror	jar_unit_set_infantry	false
 			str_kreepus_gutters_pistol	jar_unit_set_infantry	false
 			str_kreepus_night_pistol	jar_unit_set_infantry	false
 			str_skully_gutter_runner_slings	jar_unit_set_infantry	false
@@ -72,21 +184,83 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			str_skully_gutter_runner_ror	jar_unit_set_infantry	false
 			str_skully_night_runner_ror	jar_unit_set_infantry	false
 			str_skully_night_runner_slings_ror	jar_unit_set_infantry	false
-			rathan_inf_range_fanatics	jar_unit_set_infantry	false
-			rathan_ratling	jar_unit_set_infantry	false
-			str_haematoma_bombadiers	jar_unit_set_infantry	false
-			str_haematoma_pyroclasts	jar_unit_set_infantry	false
-			str_haematoma_ravagers	jar_unit_set_infantry	false
-			str_verms_scuttlers	jar_unit_set_infantry	false
-			str_verms_scuttlers_spider	jar_unit_set_infantry	false
-			str_verms_slingers	jar_unit_set_infantry	false
-			str_verms_scuttlers_spider_ror	jar_unit_set_infantry	false
-			str_verms_slingers_ror	jar_unit_set_infantry	false
+			str_gnaw_hunters	jar_unit_set_infantry	false
+			str_gnaw_netters	jar_unit_set_infantry	false
+			str_gnaw_netters_ror	jar_unit_set_infantry	false
+			str_gnaw_hunters_ror	jar_unit_set_infantry	false
 			str_gnaw_clanrat_spear	jar_unit_set_infantry	false
 			str_gnaw_clanrat_spear_shield	jar_unit_set_infantry	false
 			str_gnaw_clanrat_sword	jar_unit_set_infantry	false
 			str_gnaw_clanrat_sword_shield	jar_unit_set_infantry	false
 			str_gnaw_slave_sling	jar_unit_set_infantry	false
+			str_gnaw_slave_spear	jar_unit_set_infantry	false
+			str_gnaw_slave	jar_unit_set_infantry	false
 			str_gnaw_harpooner	jar_unit_set_infantry	false
 			str_gnaw_dagger_flinger	jar_unit_set_infantry	false
+			str_gnaw_boar_wranglers	jar_unit_set_infantry	false
+			str_gnaw_goblin_slave	jar_unit_set_infantry	false
+			str_gnaw_orc_slave	jar_unit_set_infantry	false
+			str_gnaw_savage_slave	jar_unit_set_infantry	false
+			str_gnaw_boar_wranglers_ror	jar_unit_set_infantry	false
+			str_crooktail_rat_spawn	jar_unit_set_infantry	false
+			str_crooktail_rat_spawn_summoned	jar_unit_set_infantry	false
+			str_crooktail_slave_ror	jar_unit_set_infantry	false
+			str_crooktail_slinger_ror	jar_unit_set_infantry	false
+			str_crooktail_clanrat_ror	jar_unit_set_infantry	false
+			str_crooktail_clanrat_spear_ror	jar_unit_set_infantry	false
+			str_crooktail_rat_spawn_ror	jar_unit_set_infantry	false
+			str_haematoma_bloodvermin_dw	jar_unit_set_infantry	false
+			str_haematoma_bloodvermin_gw	jar_unit_set_infantry	false
+			str_haematoma_brassfangs_dw	jar_unit_set_infantry	false
+			str_haematoma_brassfangs_gw	jar_unit_set_infantry	false
+			str_haematoma_bombadiers	jar_unit_set_infantry	false
+			str_haematoma_pyroclasts	jar_unit_set_infantry	false
+			str_haematoma_ravagers	jar_unit_set_infantry	false
+			str_garbag_gitz	jar_unit_set_infantry	false
+			str_verms_giant_bat	jar_unit_set_single_entities	false
+			str_verms_giant_scorpion	jar_unit_set_single_entities	false
+			str_verms_arach	jar_unit_set_single_entities	false
+			str_verms_giant_bat_sum	jar_unit_set_single_entities	false
 			thom_ferrik_rat_snatchers	jar_unit_set_single_entities	false
+			ferrik_crafting_ritual_scheme_stolen_dwarf_ale	jar_unit_set_single_entities	false
+			ferrik_crafting_ritual_scheme_clan_moulder	jar_unit_set_single_entities	false
+			ferrik_crafting_ritual_scheme_clan_mors	jar_unit_set_single_entities	false
+			ferrik_crafting_ritual_scheme_clan_skryre	jar_unit_set_single_entities	false
+			ferrik_crafting_ritual_scheme_clan_eshin	jar_unit_set_single_entities	false
+			ferrik_crafting_ritual_scheme_tyranical	jar_unit_set_single_entities	false
+			ferrik_crafting_ritual_scheme_enslavement	jar_unit_set_single_entities	false
+			ferrik_crafting_ritual_scheme_stormvermin_frenzy	jar_unit_set_single_entities	false
+			liger_skv_rotting_leviathan	jar_unit_set_single_entities	false
+			rathan_inf_beast_whitewolf	jar_unit_set_single_entities	false
+			str_grudge_chariots_old	jar_unit_set_single_entities	false
+			clan_vrrtkin_mon_hell_pit_abomination	jar_unit_set_single_entities	false
+			str_ror_seep_gore	jar_unit_set_single_entities	false
+			str_ror_black_13	jar_unit_set_single_entities	false
+			str_pox_rat	jar_unit_set_single_entities	false
+			str_gnaw_giant_scorpion	jar_unit_set_single_entities	false
+			str_gnaw_wyvern	jar_unit_set_single_entities	false
+			str_gnaw_manticore	jar_unit_set_single_entities	false
+			str_verms_giant_spider	none	false
+			str_verms_bats	none	false
+			str_verms_flies	none	false
+			str_verms_scorpions	none	false
+			str_verms_scorpions_sum	none	false
+			str_verms_bats_sum	none	false
+			str_verms_flies_sum	none	false
+			str_verms_rats	none	false
+			str_verms_rats_sum	none	false
+			str_verms_giant_rats	none	false
+			str_gnaw_rats	none	false
+			str_gnaw_giant_rats	none	false
+			str_gnaw_rats_sum	none	false
+			str_ror_hell_pit_horrors	none	false
+			bc_frothing_giant_rats	none	false
+			bc_frothing_giant_rats_poison	none	false
+			bc_frothing_giant_rats_ror	none	false
+			str_gnaw_scorpions	none	false
+			str_gnaw_wolves	none	false
+			str_inq_gnaw_blood_vultures	none	false
+			str_gnaw_wolves_sum	none	false
+			str_inq_gnaw_blood_vultures_sum	none	false
+			str_gnaw_sabretusk_sum	none	false
+			str_crooktail_slave_ror_rats	none	false

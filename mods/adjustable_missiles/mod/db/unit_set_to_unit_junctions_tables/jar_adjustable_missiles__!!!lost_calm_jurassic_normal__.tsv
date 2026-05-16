@@ -1,14 +1,40 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__!!!lost_calm_jurassic_normal__
-			calm_elite_terradon	jar_unit_set_cavalry_chariots	false
+			calm_arceopteryx	jar_unit_set_cavalry_chariots	false
+			calm_culchan	jar_unit_set_cavalry_chariots	false
+			calm_culchan_cav	jar_unit_set_cavalry_chariots	false
+			calm_parasaur_feral	jar_unit_set_cavalry_chariots	false
 			calm_parasaur	jar_unit_set_cavalry_chariots	false
+			calm_cerapod	jar_unit_set_cavalry_chariots	false
 			calm_cerapod_riders	jar_unit_set_cavalry_chariots	false
+			calm_feral_cherupins	jar_unit_set_cavalry_chariots	false
 			calm_cherupins	jar_unit_set_cavalry_chariots	false
+			calm_croc	jar_unit_set_cavalry_chariots	false
+			calm_croc_cav	jar_unit_set_cavalry_chariots	false
+			calm_allosaur_riders	jar_unit_set_cavalry_chariots	false
 			calm_ornisornis	jar_unit_set_cavalry_chariots	false
-			calm_spitter_proto	jar_unit_set_infantry	false
+			calm_pachy	jar_unit_set_cavalry_chariots	false
+			calm_elite_terradon	jar_unit_set_cavalry_chariots	false
 			calm_nuatl	jar_unit_set_infantry	false
 			calm_dilophiraptor	jar_unit_set_infantry	false
+			calm_feral_proto	jar_unit_set_infantry	false
+			calm_spitter_proto	jar_unit_set_infantry	false
+			calm_armoured_proto	jar_unit_set_infantry	false
+			calm_shield_proto	jar_unit_set_infantry	false
+			calm_ankylosaur	jar_unit_set_single_entities	false
 			calm_ankylosaur_artillery	jar_unit_set_single_entities	false
+			calm_vulture	jar_unit_set_single_entities	false
+			calm_stegasaur	jar_unit_set_single_entities	false
 			calm_stegasaur_artillery	jar_unit_set_single_entities	false
 			calm_ictlamimus	jar_unit_set_single_entities	false
+			calm_rodan	jar_unit_set_single_entities	false
+			calm_terror_bird	jar_unit_set_single_entities	false
+			calm_colossodon	jar_unit_set_single_entities	false
+			calm_xholadocus	jar_unit_set_single_entities	false
+			calm_pleuridon	jar_unit_set_single_entities	false
+			calm_rex	jar_unit_set_single_entities	false
 			calm_thunder_lizard	jar_unit_set_single_entities	false
+			calm_quatzelotus	jar_unit_set_single_entities	false
+			calm_custodian	jar_unit_set_single_entities	false
+			calm_pirhajara	none	false
+			calm_allosaur	none	false

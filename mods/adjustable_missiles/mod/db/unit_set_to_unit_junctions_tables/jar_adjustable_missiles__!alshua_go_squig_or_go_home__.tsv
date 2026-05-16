@@ -1,3 +1,14 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__!alshua_go_squig_or_go_home__
+			wh2_dlc15_grn_cav_squig_hoppers_waaagh_0	jar_unit_set_cavalry_chariots	false
+			wh_dlc06_grn_cav_durkits_squigs_0	jar_unit_set_cavalry_chariots	false
+			als_squig_bitey	jar_unit_set_infantry	false
+			als_squig_great_cave	jar_unit_set_infantry	false
+			als_squig_flappy_big	jar_unit_set_infantry	false
+			als_squig_tomb	jar_unit_set_infantry	false
+			wh_dlc06_grn_inf_squig_herd_0REF	jar_unit_set_infantry	false
+			als_squig_horned	jar_unit_set_infantry	false
 			als_squig_gas	jar_unit_set_infantry	false
+			als_squig_spike	jar_unit_set_infantry	false
+			ws_mon_squig_gobba	jar_unit_set_single_entities	false
+			als_squig_flappy	none	false

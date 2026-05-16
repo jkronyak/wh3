@@ -5,26 +5,69 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_arb_art_naphtha_thrower	jar_unit_set_artillery_war_machines	false
 			ovn_arb_art_quadballista	jar_unit_set_artillery_war_machines	false
 			ovn_arb_art_quadballista_ror	jar_unit_set_artillery_war_machines	false
+			ovn_arb_djinn_carriage	jar_unit_set_artillery_war_machines	false
 			ovn_arb_veh_naphtha_thrower_ror	jar_unit_set_artillery_war_machines	false
+			ovn_arb_cav_arabyan_knights	jar_unit_set_cavalry_chariots	false
+			ovn_arb_cav_arabyan_knights_ror	jar_unit_set_cavalry_chariots	false
 			ovn_arb_cav_archer_camels	jar_unit_set_cavalry_chariots	false
 			ovn_arb_cav_bedouin_scouts	jar_unit_set_cavalry_chariots	false
 			ovn_arb_cav_flying_carpets	jar_unit_set_cavalry_chariots	false
 			ovn_arb_cav_flying_carpets_ror	jar_unit_set_cavalry_chariots	false
 			ovn_arb_cav_jezzail_camels	jar_unit_set_cavalry_chariots	false
+			ovn_arb_cav_lancer_camels	jar_unit_set_cavalry_chariots	false
+			ovn_arb_cav_lancer_camels_ror	jar_unit_set_cavalry_chariots	false
+			ovn_arb_cav_sipahis	jar_unit_set_cavalry_chariots	false
+			ovn_arb_cav_sipahis_ror	jar_unit_set_cavalry_chariots	false
+			ovn_arb_cav_waghzen	jar_unit_set_cavalry_chariots	false
+			ovn_arb_mon_elephant	jar_unit_set_cavalry_chariots	false
+			ovn_arb_inf_desert_mirage_0	jar_unit_set_infantry	false
 			ovn_arb_inf_alrahem_nomads	jar_unit_set_infantry	false
 			ovn_arb_inf_arabyan_bowmen	jar_unit_set_infantry	false
+			ovn_arb_inf_arabyan_guard	jar_unit_set_infantry	false
+			ovn_arb_inf_arabyan_guard_ror	jar_unit_set_infantry	false
+			ovn_arb_inf_arabyan_spearmen	jar_unit_set_infantry	false
+			ovn_arb_inf_arabyan_spearmen_summoned_0	jar_unit_set_infantry	false
+			ovn_arb_inf_arabyan_spearmen_summoned_1	jar_unit_set_infantry	false
+			ovn_arb_inf_arabyan_warriors	jar_unit_set_infantry	false
+			ovn_arb_inf_arabyan_warriors_ror	jar_unit_set_infantry	false
 			ovn_arb_inf_corsairs	jar_unit_set_infantry	false
+			ovn_arb_inf_dervishers	jar_unit_set_infantry	false
 			ovn_arb_inf_jezzails	jar_unit_set_infantry	false
 			ovn_arb_inf_jezzails_ror	jar_unit_set_infantry	false
 			ovn_arb_inf_naffatun_ror	jar_unit_set_infantry	false
+			ovn_arb_inf_pit_fighters	jar_unit_set_infantry	false
+			ovn_arb_inf_sharkas_slaves	jar_unit_set_infantry	false
+			ovn_arb_inf_southland_warriors	jar_unit_set_infantry	false
+			ovn_arb_mon_enchanted_rope	jar_unit_set_infantry	false
+			ovn_arb_mon_enchanted_rope_summoned	jar_unit_set_infantry	false
+			ovn_arb_tmb_mon_ushabti_0	jar_unit_set_infantry	false
 			ovn_arb_tmb_mon_ushabti_1	jar_unit_set_infantry	false
 			ovn_arb_tze_inf_blue_horrors_0	jar_unit_set_infantry	false
 			ovn_arb_tze_inf_pink_horrors_0	jar_unit_set_infantry	false
 			ovn_arb_tze_mon_flamers_0	jar_unit_set_infantry	false
+			ovn_arb_tze_mon_screamers_0	jar_unit_set_infantry	false
+			ovn_arb_mon_desert_spirit_wind	jar_unit_set_single_entities	false
+			ovn_arb_mon_desert_spirit_ror_wind	jar_unit_set_single_entities	false
+			ovn_arb_mon_desert_spirit	jar_unit_set_single_entities	false
+			ovn_arb_mon_desert_spirit_ror	jar_unit_set_single_entities	false
+			ovn_arb_mon_desert_spirit_summoned	jar_unit_set_single_entities	false
+			ovn_arb_mon_fire_efreet	jar_unit_set_single_entities	false
+			ovn_arb_mon_fire_efreet_ror	jar_unit_set_single_entities	false
+			ovn_arb_mon_fire_efreet_summoned	jar_unit_set_single_entities	false
+			ovn_arb_mon_genie	jar_unit_set_single_entities	false
+			ovn_arb_mon_genie_summoned	jar_unit_set_single_entities	false
+			ovn_arb_mon_giant_vulture_feral	jar_unit_set_single_entities	false
+			ovn_arb_mon_sea_nymph	jar_unit_set_single_entities	false
+			ovn_arb_mon_sea_nymph_ror	jar_unit_set_single_entities	false
+			ovn_arb_mon_sea_nymph_summoned	jar_unit_set_single_entities	false
 			ovn_arb_mon_tempest_djinn	jar_unit_set_single_entities	false
 			ovn_arb_mon_tempest_djinn_ror	jar_unit_set_single_entities	false
 			ovn_arb_mon_tempest_djinn_summoned	jar_unit_set_single_entities	false
 			ovn_arb_mon_war_elephant	jar_unit_set_single_entities	false
 			ovn_arb_mon_war_elephant_ror_1	jar_unit_set_single_entities	false
 			ovn_arb_mon_war_elephant_ror_2	jar_unit_set_single_entities	false
+			ovn_arb_tmb_mon_heirotitan_0	jar_unit_set_single_entities	false
+			ovn_arb_tmb_mon_necrosphinx_0	jar_unit_set_single_entities	false
 			ovn_arb_tmb_veh_khemrian_warsphinx_0	jar_unit_set_single_entities	false
+			ovn_arb_tze_mon_lord_of_change_0	jar_unit_set_single_entities	false
+			ovn_arb_mon_book_djinn	none	false

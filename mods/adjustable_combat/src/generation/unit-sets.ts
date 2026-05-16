@@ -1,21 +1,23 @@
 import 'dotenv/config';
 import path from 'path';
 
-import { getModPackPath, type Mod } from '../../../lib/steam-workshop/steam-workshop.ts';
-import tsv from '../../../lib/helpers/tsv.ts';
-import { readJSON } from '../../../lib/helpers/helpers.ts';
-import { getOrCreateSession } from '../../../lib/rpfm-client/rpfm-client-instance.ts';
+import { getModPackPath, type Mod } from '../../../../lib/steam-workshop/steam-workshop.ts';
+import tsv from '../../../../lib/helpers/tsv.ts';
+import { readJSON } from '../../../../lib/helpers/helpers.ts';
+import { getOrCreateSession } from '../../../../lib/rpfm-client/rpfm-client-instance.ts';
 const client = await getOrCreateSession();
 
 import {
     PATCH_MOD_PATH,
     REPORT_PATH,
     MOD_OUTPUT_PATH,
-    MOD_UNIT_SETS,
     MOD_TABLE_NAME,
-    WH3_APP_ID
-} from './config.ts';
-import type { Definition } from '../../../lib/rpfm-client/rpfm-types.js';
+    WH3_APP_ID,
+} from '../config/mod-config.ts';
+import { UNIT_SET_CONFIG } from '../config/data-config.ts';
+import type { Definition } from '../../../../lib/rpfm-client/rpfm-types.js';
+
+const MOD_UNIT_SETS = Object.keys(UNIT_SET_CONFIG);
 
 type ModUnitSet = typeof MOD_UNIT_SETS[number];
 
@@ -104,32 +106,34 @@ const calculateUnitSet = (unit: UnitInfo): ModUnitSet | null => {
     if (
         ['chariot', 'warmachine'].includes(unit.caste)
         || ['war_machine'].includes(unit.category)
-    ) return "jar_ac_unit_set_chariots_war_machines";
+        && !['artillery'].includes(unit.category)
+    ) return "jar_adj_com_unit_set_chariots_war_machines";
     
     if (
         unit.useHitpointsInCampaign
         || [unit.numMen, unit.numEngines, unit.numMounts].some(i => i === 1)
-    ) return "jar_ac_unit_set_single_entities"; // Excludes characters, war machines, chariots
+    ) return "jar_adj_com_unit_set_single_entities"; // Excludes characters, war machines, chariots
     
     if (
         ['melee_infantry', 'missile_infantry'].includes(unit.caste)
         && ['small', 'very_small'].includes(unit.size!) 
-    ) return "jar_ac_unit_set_infantry"
+    ) return "jar_adj_com_unit_set_infantry"
 
     if (
-        ['melee_infantry', 'missile_infantry', 'monstrous_infantry'].includes(unit.caste)
-        && ['medium', 'large', 'very_large'].includes(unit.size!)
-    ) return "jar_ac_unit_set_monstrous_infantry";
+        (['melee_infantry', 'missile_infantry', 'monstrous_infantry'].includes(unit.caste)
+        && ['medium', 'large', 'very_large'].includes(unit.size!))
+        || ['artillery'].includes(unit.category)
+    ) return "jar_adj_com_unit_set_monstrous_infantry";
 
     if (
         ['melee_cavalry', 'missile_cavalry', 'monstrous_cavalry'].includes(unit.caste)
         || ['cavalry'].includes(unit.category)
-    ) return "jar_ac_unit_set_cavalry";
+    ) return "jar_adj_com_unit_set_cavalry";
 
     if (
         ['monster', 'war_beast'].includes(unit.caste)
         || (['monstrous_infantry'].includes(unit.caste) && ['small', 'very_small'].includes(unit.size!))
-    ) return "jar_ac_unit_set_war_beasts";
+    ) return "jar_adj_com_unit_set_war_beasts";
 
     return null;
 }
@@ -157,7 +161,6 @@ const categorizeUnits = (
         const parentGroup = uiGroupToParentMap.get(mainUnit.ui_unit_group_land);
         if (!parentGroup) throw new Error(`Could not find parent group for ${mainUnit.unit}`);
         const size = battleEntitiesMap.get(landUnit.man_entity);
-        // if (!manEntity) throw new Error(`Could not get man entity for ${mainUnit.unit}`);
 
         const hasVanillaParentGroup = vanillaParentGroupMap.get(parentGroup) ?? false;
 
@@ -195,11 +198,11 @@ const generateStaticUnitSetJunctions = (unitCastes: DecodedTable): Record<string
     return [
         ...unitCastes.rows.map(row => ({
             unit_caste: row.caste,
-            unit_category: '', unit_class: '', unit_record: '', unit_set: 'jar_ac_unit_set_global', exclude: false
+            unit_category: '', unit_class: '', unit_record: '', unit_set: 'jar_adj_com_unit_set_global', exclude: false
         })),
         ...['lord', 'hero'].map(caste => ({
             unit_caste: caste,
-            unit_category: '', unit_class: '', unit_record: '', unit_set: 'jar_ac_unit_set_characters', exclude: false
+            unit_category: '', unit_class: '', unit_record: '', unit_set: 'jar_adj_com_unit_set_characters', exclude: false
         }))
     ];
 }

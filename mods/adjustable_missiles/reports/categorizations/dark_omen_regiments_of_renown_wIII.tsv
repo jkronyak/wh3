@@ -1,44 +1,14 @@
-mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	manEntity	unitSet
-azguz_bloodfist_dwarf_warriors	azguz_bloodfist_dwarf_warriors	melee_infantry	inf_melee	inf_mel	azguz_bloodfist_dwarf_warriors	dark_omen	false	150	0	0	false		0			jar_unit_set_infantry
-azguz_bloodfist_dwarf_warriors_upgrade	azguz_bloodfist_dwarf_warriors	melee_infantry	inf_melee	inf_mel	azguz_bloodfist_dwarf_warriors	dark_omen	false	190	0	0	false		0			jar_unit_set_infantry
-black_avangers	black_avangers	melee_infantry	inf_melee	inf_mel	black_avangers	dark_omen	false	280	0	0	false		0			jar_unit_set_infantry
-boris_von_raukov_4th_nuln_halberdiers	boris_von_raukov_4th_nuln_halberdiers	melee_infantry	inf_melee	inf_mel	boris_von_raukov_4th_nuln_halberdiers	dark_omen	false	168	0	0	false		0			jar_unit_set_infantry
-grudgebringer_cavalry	grudgebringer_cavalry	melee_cavalry	cavalry	cav_mel	grudgebringer_cavalry	dark_omen	false	60	0	80	false		0			jar_unit_set_cavalry_chariots
-grudgebringer_cavalry_upgrade	grudgebringer_cavalry	melee_cavalry	cavalry	cav_mel	grudgebringer_cavalry	dark_omen	false	80	0	80	false		0			jar_unit_set_cavalry_chariots
-carlsson_cavalry	carlsson_cavalry	melee_cavalry	war_beast	cav_shk	carlsson_cavalry	dark_omen	false	70	0	70	false		0			jar_unit_set_cavalry_chariots
-vannheim_75th	vannheim_75th	melee_cavalry	cavalry	cav_shk	vannheim_75th	dark_omen	false	90	0	90	false		0			jar_unit_set_cavalry_chariots
-grudgebringer_infantry	grudgebringer_infantry	melee_infantry	inf_melee	inf_mel	grudgebringer_infantry	dark_omen	false	160	0	0	false		0			jar_unit_set_infantry
-grudgebringer_infantry_upgrade	grudgebringer_infantry	melee_infantry	inf_melee	inf_mel	grudgebringer_infantry	dark_omen	false	200	0	0	false		0			jar_unit_set_infantry
-dargrimm_firebeard_dwarf_warriors	dargrimm_firebeard_dwarf_warriors	melee_infantry	inf_melee	inf_mel	dargrimm_firebeard_dwarf_warriors	dark_omen	false	200	0	0	false		0			jar_unit_set_infantry
-elrod_wood_elf_glade_guards	elrod_wood_elf_glade_guards	melee_infantry	inf_melee	inf_mel	elrod_wood_elf_glade_guards	dark_omen	false	136	0	0	false		0			jar_unit_set_infantry
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
 galed_elf_archers	galed_elf_archers	missile_infantry	inf_ranged	inf_mis	galed_elf_archers	dark_omen	false	135	0	0	false	galed_elf_archers	22			jar_unit_set_infantry
 galed_elf_archers_upgrade	galed_elf_archers	missile_infantry	inf_ranged	inf_mis	galed_elf_archers	dark_omen	false	143	0	0	false	galed_elf_archers	22			jar_unit_set_infantry
 grudgebringer_crossbow	grudgebringer_crossbow	missile_infantry	inf_ranged	inf_mis	grudgebringer_crossbow	dark_omen	false	90	0	0	false	grudgebringer_crossbow	22			jar_unit_set_infantry
 grudgebringer_crossbow_upgrade	grudgebringer_crossbow	missile_infantry	inf_ranged	inf_mis	grudgebringer_crossbow	dark_omen	false	120	0	0	false	grudgebringer_crossbow	22			jar_unit_set_infantry
 helmgart_bowmen	helmgart_bowmen	missile_infantry	inf_ranged	inf_mis	helmgart_bowmen	dark_omen	false	150	0	0	false	helmgart_bowmen	22			jar_unit_set_infantry
 keelers_longbows	keelers_longbows	missile_infantry	inf_ranged	inf_mis	keelers_longbows	dark_omen	false	105	0	0	false	helmgart_bowmen	24			jar_unit_set_infantry
-carlsson_guard	carlsson_guard	melee_infantry	inf_melee	inf_mel	carlsson_guard	dark_omen	false	118	0	0	false		0			jar_unit_set_infantry
-carlsson_guard_upgrade	carlsson_guard	melee_infantry	inf_melee	inf_mel	carlsson_guard	dark_omen	false	218	0	0	false		0			jar_unit_set_infantry
-carlsson_guard_upgrade_upgrade	carlsson_guard	melee_infantry	inf_melee	inf_mel	carlsson_guard	dark_omen	false	318	0	0	false		0			jar_unit_set_infantry
-urblab_rotgut_mercenary_ogres	urblab_rotgut_mercenary_ogres	monstrous_infantry	inf_melee	inf_mel	urblab_rotgut_mercenary_ogres	dark_omen	false	20	0	0	false		0			jar_unit_set_infantry
 grudgebringer_cannon	grudgebringer_cannon	warmachine	artillery	art_fld	grudgebringer_cannon	dark_omen	false	44	4	0	false		30			jar_unit_set_artillery_war_machines
 uter_blomkwist_imperial_mortar	uter_blomkwist_imperial_mortar	warmachine	artillery	art_fld	uter_blomkwist_imperial_mortar	dark_omen	false	44	4	0	false		22			jar_unit_set_artillery_war_machines
-countess_guard	countess_guard	melee_infantry	inf_melee	inf_mel	countess_guard	dark_omen	false	100	0	0	false		0			jar_unit_set_infantry
-dieter_schaeffer_carroburg_greatswords	dieter_schaeffer_carroburg_greatswords	melee_infantry	inf_melee	inf_mel	dieter_schaeffer_carroburg_greatswords	dark_omen	false	120	0	0	false		0			jar_unit_set_infantry
-dieter_schaeffer_carroburg_greatswords_upgrade	dieter_schaeffer_carroburg_greatswords	melee_infantry	inf_melee	inf_mel	dieter_schaeffer_carroburg_greatswords	dark_omen	false	150	0	0	false		0			jar_unit_set_infantry
-jurgen_muntz_outlaw_infantry	jurgen_muntz_outlaw_infantry	melee_infantry	inf_ranged	inf_mel	jurgen_muntz_outlaw_infantry	dark_omen	false	160	0	0	false		0			jar_unit_set_infantry
 stephan_weiss_outlaw_pistoliers	stephan_weiss_outlaw_pistoliers	missile_cavalry	cavalry	cav_mis	stephan_weiss_outlaw_pistoliers	dark_omen	false	44	0	60	false	stephan_weiss_outlaw_pistoliers	48			jar_unit_set_cavalry_chariots
-treeman_knarlroot	treeman_knarlroot	monster	inf_melee	inf_mel	treeman_knarlroot	dark_omen	false	1	0	0	true		0			jar_unit_set_single_entities
-treeman_gnarl_fist	treeman_gnarl_fist	monster	inf_melee	inf_mel	treeman_gnarl_fist	dark_omen	false	1	0	0	true		0			jar_unit_set_single_entities
 imperial_cannon_darius_flugenheim	imperial_cannon_darius_flugenheim	warmachine	artillery	art_fld	imperial_cannon_darius_flugenheim	dark_omen	false	44	4	0	false		22			jar_unit_set_artillery_war_machines
-flagellants_eusebio_the_bleak	flagellants_eusebio_the_bleak	melee_infantry	inf_melee	inf_mel	flagellants_eusebio_the_bleak	dark_omen	false	90	0	0	false		0			jar_unit_set_infantry
-knights_of_the_realm_bertrand_le_grande	knights_of_the_realm_bertrand_le_grande	melee_cavalry	cavalry	cav_shk	knights_of_the_realm_bertrand_le_grande	dark_omen	false	80	0	60	false		0			jar_unit_set_cavalry_chariots
-grail_knights_tristan_de_la_tourtristan_de_la_tour	grail_knights_tristan_de_la_tourtristan_de_la_tour	melee_cavalry	cavalry	cav_shk	grail_knights_tristan_de_la_tourtristan_de_la_tour	dark_omen	false	60	0	60	false		0			jar_unit_set_cavalry_chariots
-black_grail_knights	black_grail_knights	melee_cavalry	cavalry	cav_mel	black_grail_knights	dark_omen	false	60	0	60	false		0			jar_unit_set_cavalry_chariots
-ragnar_wolves	ragnar_wolves	melee_cavalry	war_beast	cav_mel	ragnar_wolves	dark_omen	false	60	0	80	false		0			jar_unit_set_cavalry_chariots
-ragnar_wolves_upgrade	ragnar_wolves	melee_cavalry	war_beast	cav_mel	ragnar_wolves	dark_omen	false	80	0	80	false		0			jar_unit_set_cavalry_chariots
-dwarf_envoy_dwarf_warriors	dwarf_envoy_dwarf_warriors	melee_infantry	inf_melee	inf_mel	dwarf_envoy_dwarf_warriors	dark_omen	false	70	0	0	false		0			jar_unit_set_infantry
 grudgebringers_wagon	grudgebringers_wagon	chariot	war_machine	chariot	grudgebringers_wagon	dark_omen	false	8	1	2	false	grudgebringers_wagon	120			jar_unit_set_single_entities
 leitdorf_9th_crossbows	leitdorf_9th_crossbows	missile_infantry	inf_ranged	inf_mis	leitdorf_9th_crossbows	dark_omen	false	113	0	0	false	leitdorf_9th_crossbows	22			jar_unit_set_infantry
 emperors_hellblaster_volley_gun	emperors_hellblaster_volley_gun	warmachine	artillery	art_fld	emperors_hellblaster_volley_gun	dark_omen	false	44	4	0	false		198			jar_unit_set_artillery_war_machines
-reiksguard_knights_todbringer	reiksguard_knights_todbringer	melee_cavalry	cavalry	cav_shk	reiksguard_knights_todbringer	dark_omen	false	60	0	60	false		0			jar_unit_set_cavalry_chariots

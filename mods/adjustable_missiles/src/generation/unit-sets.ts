@@ -11,13 +11,12 @@ import {
     PATCH_MOD_PATH,
     REPORT_PATH,
     MOD_OUTPUT_PATH,
-    MOD_TABLE_NAME,
-    WH3_APP_ID,
+    MOD_NAME,
+    WH3_APP_ID
 } from '../config/mod-config.ts';
 import { UNIT_SET_CONFIG } from '../config/data-config.ts';
-import type { Definition } from '../../../../lib/rpfm-client/rpfm-types.js';
-
 const MOD_UNIT_SETS = Object.keys(UNIT_SET_CONFIG);
+import type { Definition } from '../../../../lib/rpfm-client/rpfm-types.js';
 
 type ModUnitSet = typeof MOD_UNIT_SETS[number];
 
@@ -101,39 +100,38 @@ const writeModTable = async (data: Record<string, any>[], dbTable: string, table
 }
 
 const calculateUnitSet = (unit: UnitInfo): ModUnitSet | null => {
+    if (!unit.useVanillaParentGroup) {
+        if (unit.caste === 'warmachine' || unit.category === 'artillery' || unit.arUnitCategory === 'artillery') { 
+            return "jar_unit_set_artillery_war_machines";
+        }
+        if (unit.numMen === 1 || unit.numMen === 1 || unit.numEngines === 1 || unit.useHitpointsInCampaign) { 
+            return "jar_unit_set_single_entities";
+        }
+        if (['missile_cavalry', 'melee_cavalry', 'monstrous_cavalry'].includes(unit.caste) 
+            || ['cavalry', 'war_beast'].includes(unit.category)) {
+            return "jar_unit_set_cavalry_chariots";
+        }
+    }
 
-    
-    if (
-        ['chariot', 'warmachine'].includes(unit.caste)
-        || ['war_machine'].includes(unit.category)
-        && !['artillery'].includes(unit.category)
-    ) return "jar_adj_com_unit_set_chariots_war_machines";
-    
-    if (
-        unit.useHitpointsInCampaign
-        || [unit.numMen, unit.numEngines, unit.numMounts].some(i => i === 1)
-    ) return "jar_adj_com_unit_set_single_entities"; // Excludes characters, war machines, chariots
-    
-    if (
-        ['melee_infantry', 'missile_infantry'].includes(unit.caste)
-        && ['small', 'very_small'].includes(unit.size!) 
-    ) return "jar_adj_com_unit_set_infantry"
+    if (unit.caste === "warmachine" || ['artillery_war_machines', 'flying_war_machine'].includes(unit.parentGroup)) {
+        return "jar_unit_set_artillery_war_machines";
+    }
 
-    if (
-        (['melee_infantry', 'missile_infantry', 'monstrous_infantry'].includes(unit.caste)
-        && ['medium', 'large', 'very_large'].includes(unit.size!))
-        || ['artillery'].includes(unit.category)
-    ) return "jar_adj_com_unit_set_monstrous_infantry";
+    if ([unit.numMen, unit.numEngines, unit.numMounts].some(i => i === 1) || unit.useHitpointsInCampaign) { 
+        return "jar_unit_set_single_entities";
+    }
 
-    if (
-        ['melee_cavalry', 'missile_cavalry', 'monstrous_cavalry'].includes(unit.caste)
-        || ['cavalry'].includes(unit.category)
-    ) return "jar_adj_com_unit_set_cavalry";
+    if (["cavalry_chariots", "missile_cavalry_chariots"].includes(unit.parentGroup)
+        || ['missile_cavalry', 'melee_cavalry', 'monstrous_cavalry'].includes(unit.caste)
+        || ['cavalry', 'war_beast'].includes(unit.category)
+    ) {
+        return "jar_unit_set_cavalry_chariots";
+    }
 
-    if (
-        ['monster', 'war_beast'].includes(unit.caste)
-        || (['monstrous_infantry'].includes(unit.caste) && ['small', 'very_small'].includes(unit.size!))
-    ) return "jar_adj_com_unit_set_war_beasts";
+
+    if (['missile_infantry', 'melee_infantry', 'monstrous_infantry'].includes(unit.caste)) {
+        return "jar_unit_set_infantry"
+    }
 
     return null;
 }
@@ -148,12 +146,12 @@ const categorizeUnits = (
     filterCharacters: boolean = true,
     filterNonRanged: boolean = true
 ): UnitInfo[] => {
+    console.log('filterNonRanged', filterNonRanged);
     const result: UnitInfo[] = [];
     const landUnitMap = new Map<string, any>(landUnits.map(l => [l.key, l]));
     const uiGroupToParentMap = new Map<string, string>(uiUnitGroupings.map(g => [g.key, g.parent_group]));
     const vanillaParentGroupMap = new Map<string, boolean>(vanUiParentGroups.map(pg => [pg.key!, true]))
     const battleEntitiesMap = new Map<string, string>(battleEntities.map(be => [be.key, be.size]));
-
     
     for (const mainUnit of mainUnits) {
         const landUnit = landUnitMap.get(mainUnit.land_unit);
@@ -198,11 +196,11 @@ const generateStaticUnitSetJunctions = (unitCastes: DecodedTable): Record<string
     return [
         ...unitCastes.rows.map(row => ({
             unit_caste: row.caste,
-            unit_category: '', unit_class: '', unit_record: '', unit_set: 'jar_adj_com_unit_set_global', exclude: false
+            unit_category: '', unit_class: '', unit_record: '', unit_set: 'jar_unit_set_global', exclude: false
         })),
         ...['lord', 'hero'].map(caste => ({
             unit_caste: caste,
-            unit_category: '', unit_class: '', unit_record: '', unit_set: 'jar_adj_com_unit_set_characters', exclude: false
+            unit_category: '', unit_class: '', unit_record: '', unit_set: 'jar_unit_set_characters', exclude: false
         }))
     ];
 }
@@ -215,8 +213,7 @@ const generateUnitSetJunctions = (units: UnitInfo[]): Record<string, any>[] => {
         unit_record: unit.mainUnitKey,
         unit_set: unit.unitSet!,
         exclude: false
-    }))
-    // .sort((a, b) => a.unit_set.localeCompare(b.unit_set));
+    })).sort((a, b) => a.unit_set.localeCompare(b.unit_set));
 }
 
 const packHasUIUnitGroupParents = async (packPath: string)  => {
@@ -250,7 +247,7 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         vanillaTables.battle_entities_tables.rows,
         (writeReport ? `${REPORT_PATH}/categorizations/vanilla.tsv` : undefined),
         true,
-        false
+        true
     );
     // 1.3 Generate vanilla unit set information.
     const vanillaSetJunctions = generateUnitSetJunctions(categorizedUnits);
@@ -260,8 +257,8 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         key: set, use_unit_exp_level_range: false, min_unit_exp_level_inclusive: -1,
         max_unit_exp_level_inclusive: -1, special_category: ""
     }));
-    await writeModTable(unitSets, "unit_sets_tables", `${MOD_TABLE_NAME}__vanilla__`);
-    await writeModTable([...vanillaSetJunctions, ...staticSetJunctions], "unit_set_to_unit_junctions_tables", `${MOD_TABLE_NAME}__vanilla__`);
+    await writeModTable(unitSets, "unit_sets_tables", `${MOD_NAME}__vanilla__`);
+    await writeModTable([...vanillaSetJunctions, ...staticSetJunctions], "unit_set_to_unit_junctions_tables", `${MOD_NAME}__vanilla__`);
 
     if (vanillaOnly) return client.close();
 
@@ -269,16 +266,15 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
     const modPaths = getModPackFilePaths();
     console.log(`\nProcessing data for ${modPaths.length} mods.`);
     for (const modPath of modPaths) {
-        
+
         const modResult: Record<string, number> = { 
             preFilterCount: 0,
             postFilterCount: 0,
             vanillaParentGroupCount: 0,
             moddedParentGroupCount: 0,
         };
-        
+
         const packName = getPackName(modPath);
-        console.log(`\n===${packName}===`);
         // if (await packHasUIUnitGroupParents(modPath)) throw new Error(`${packName} has ui_unit_group_parents_tables!`);
         
         if (await packHasUIUnitGroupParents(modPath)) console.warn(`Warning: ${packName} includes ui_unit_group_parents_tables.`);
@@ -288,11 +284,11 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
             modTables.main_units_tables.rows,
             modTables.land_units_tables.rows.concat(vanillaTables.land_units_tables.rows),
             modTables.ui_unit_groupings_tables.rows.concat(vanillaTables.ui_unit_groupings_tables.rows),
-            vanillaTables.ui_unit_group_parents_tables.rows.concat(vanillaTables.ui_unit_group_parents_tables.rows),
-            modTables.battle_entities_tables.rows.concat(vanillaTables.battle_entities_tables.rows),
+            vanillaTables.ui_unit_group_parents_tables.rows.concat(vanillaTables.battle_entities_tables.rows),
+            modTables.battle_entities_tables.rows,
             (writeReport ? `${REPORT_PATH}/categorizations/${packName}.tsv` : undefined),
             true,
-            false
+            true
         );
         modResult.postFilterCount = modCategorizedUnits.length;
         modResult.vanillaParentGroupCount = modCategorizedUnits.filter(i => i.useVanillaParentGroup).length;
@@ -300,8 +296,9 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         if (modCategorizedUnits.length === 0) throw new Error(`${packName} has no units after filtering. No patch is required.`)
         const modSetJunctions = generateUnitSetJunctions(modCategorizedUnits);
 
+        console.log(`\n===${packName} result===`);
         Object.keys(modResult).forEach(k => console.log(`[${k}]: ${modResult[k]}`))
-        await writeModTable(modSetJunctions, "unit_set_to_unit_junctions_tables", `${MOD_TABLE_NAME}__${packName}__`);
+        await writeModTable(modSetJunctions, "unit_set_to_unit_junctions_tables", `${MOD_NAME}__${packName}__`);
     }
     console.log('\nFinished processing unit sets.\n');
 };

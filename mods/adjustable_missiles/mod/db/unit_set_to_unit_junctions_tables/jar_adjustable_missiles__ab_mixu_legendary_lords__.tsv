@@ -2,40 +2,14 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__ab_mixu_legendary_lords__
 			mixu_emp_art_carronade	jar_unit_set_artillery_war_machines	false
 			mixu_emp_art_mortar	jar_unit_set_artillery_war_machines	false
-			mixu_emp_cav_daughters_of_rhya	jar_unit_set_cavalry_chariots	false
 			mixu_emp_mon_promethean_riders	jar_unit_set_cavalry_chariots	false
-			mixu_tze_inf_cultists	jar_unit_set_infantry	false
-			mixu_tze_inf_cultist_acolytes	jar_unit_set_infantry	false
-			mixu_tze_mon_trolls	jar_unit_set_infantry	false
-			mixu_tze_inf_chosen_of_cabal	jar_unit_set_infantry	false
-			mixu_brt_inf_knights_of_origo	jar_unit_set_infantry	false
-			mixu_def_inf_ossian_guard	jar_unit_set_infantry	false
-			mixu_emp_inf_celebrants	jar_unit_set_infantry	false
-			mixu_emp_inf_horned_hunters	jar_unit_set_infantry	false
+			mixu_emp_cav_daughters_of_rhya	jar_unit_set_cavalry_chariots	false
 			mixu_emp_inf_norscan_reavers	jar_unit_set_infantry	false
 			mixu_emp_inf_norscan_reavers_great_weapons	jar_unit_set_infantry	false
-			mixu_emp_inf_pirate_deckhands_swords	jar_unit_set_infantry	false
-			mixu_emp_inf_pirate_deckhands_polearms	jar_unit_set_infantry	false
-			mixu_emp_inf_buccaneers_great_axe	jar_unit_set_infantry	false
 			mixu_emp_inf_buccaneers_sword_and_bombs	jar_unit_set_infantry	false
 			mixu_emp_inf_gunnery_mob_pistols	jar_unit_set_infantry	false
-			mixu_emp_mon_prometheans	jar_unit_set_infantry	false
 			mixu_emp_inf_gunnery_mob_handguns	jar_unit_set_infantry	false
 			mixu_emp_inf_gunnery_mob_blunderbuss	jar_unit_set_infantry	false
-			teb_ricco	jar_unit_set_infantry	false
-			teb_pirazzo	jar_unit_set_infantry	false
-			teb_leopard	jar_unit_set_infantry	false
-			teb_venators	jar_unit_set_infantry	false
-			teb_vespero	jar_unit_set_infantry	false
-			teb_amazons	jar_unit_set_infantry	false
-			teb_cursed	jar_unit_set_infantry	false
-			teb_manflayers	jar_unit_set_infantry	false
-			teb_origo	jar_unit_set_infantry	false
-			teb_tichi	jar_unit_set_infantry	false
-			teb_bronzino	jar_unit_set_infantry	false
-			teb_birdmen	jar_unit_set_infantry	false
-			mixu_tze_mon_chaos_dragon	jar_unit_set_single_entities	false
-			mixu_nor_inf_flesh_hounds_of_khorne_edmund	jar_unit_set_single_entities	false
+			mixu_tze_inf_cultist_acolytes	jar_unit_set_infantry	false
+			mixu_tze_mon_trolls	jar_unit_set_infantry	false
 			mixu_emp_mon_leviathan	jar_unit_set_single_entities	false
-			mixu_emp_inf_grog_carriers	jar_unit_set_single_entities	false
-			mixu_tze_mon_warhound	none	false

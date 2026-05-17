@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
-import { MOD_OUTPUT_PATH, MOD_DIST_PATH, MOD_STATIC_PATH, GAME_DATA_FOLDER_PATH } from "./config/mod-config.ts";
+import { MOD_OUTPUT_PATH, MOD_DIST_PATH, MOD_STATIC_PATH, GAME_DATA_FOLDER_PATH, MOD_NAME } from "./config/mod-config.ts";
 import { generateAbilityEffects } from "./generation/ability-effects.ts";
 import { generateUnitSets } from "./generation/unit-sets.ts";
 import { generateLua } from "./generation/option-config.ts";
@@ -47,8 +47,8 @@ const run = async () => {
             pts_remove_empty_file: true,
         }
     })
-    await client.savePackAs(`${MOD_DIST_PATH}/jar_adjustable_combat.pack`);
-    await client.savePackAs(`${GAME_DATA_FOLDER_PATH}/jar_adjustable_combat.pack`);
+    await client.savePackAs(`${MOD_DIST_PATH}/${MOD_NAME}.pack`);
+    await client.savePackAs(`${GAME_DATA_FOLDER_PATH}/${MOD_NAME}.pack`);
 
     await client.closePack();
     client.close();

@@ -1,39 +1,13 @@
-mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	manEntity	unitSet
-calm_pirhajara	calm_pirhajara	war_beast	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	60	0	0	false		0		small	none
-calm_arceopteryx	calm_arceopteryx	melee_cavalry	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	32	0	0	false		0		small	jar_unit_set_cavalry_chariots
-calm_ankylosaur	calm_ankylosaur	monster	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	1	0	0	true		0		very_large	jar_unit_set_single_entities
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+calm_elite_terradon	calm_elite_terradon	monster	cavalry	cav_mis	wh2_main_lzd_terradon	missile_monster_beasts	true	10	0	10	false	calm_elite_terradon	26			jar_unit_set_cavalry_chariots
+calm_spitter_proto	calm_spitter_proto	melee_infantry	inf_melee	inf_mis	new_dinos_allies	new_dinos_allies	false	24	0	0	false	calm_spitter_proto	18		large	jar_unit_set_infantry
 calm_ankylosaur_artillery	calm_ankylosaur_artillery	monster	inf_melee	inf_mel	new_dinos_riders	new_dinos_riders	false	1	0	0	true	calm_solar_blast	20		very_large	jar_unit_set_single_entities
-calm_culchan	calm_culchan	melee_cavalry	inf_melee	cav_shk	new_dino_ferals	new_dino_ferals	false	60	0	0	false		0		medium	jar_unit_set_cavalry_chariots
-calm_culchan_cav	calm_culchan_cav	melee_cavalry	cavalry	cav_shk	new_dinos_riders	new_dinos_riders	false	60	0	60	false		0		medium	jar_unit_set_cavalry_chariots
-calm_vulture	calm_vulture	monster	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	1	0	0	true		0		large	jar_unit_set_single_entities
 calm_nuatl	calm_nuatl	missile_infantry	inf_ranged	inf_mis	new_dino_ferals	new_dino_ferals	false	32	0	0	false	calm_nuatl	18		medium	jar_unit_set_infantry
-calm_parasaur_feral	calm_parasaur_feral	war_beast	war_beast	inf_mel	new_dino_ferals	new_dino_ferals	false	16	0	0	false		0		medium	jar_unit_set_cavalry_chariots
 calm_parasaur	calm_parasaur	monstrous_cavalry	war_beast	inf_mel	new_dinos_riders	new_dinos_riders	false	48	0	16	false		70		medium	jar_unit_set_cavalry_chariots
-calm_cerapod	calm_cerapod	melee_cavalry	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	32	0	0	false		0		medium	jar_unit_set_cavalry_chariots
 calm_cerapod_riders	calm_cerapod_riders	melee_cavalry	war_beast	inf_mel	new_dinos_riders	new_dinos_riders	false	48	0	48	false	calm_cerapod_bola	18		medium	jar_unit_set_cavalry_chariots
-calm_feral_cherupins	calm_feral_cherupins	melee_cavalry	war_beast	inf_mel	new_dino_ferals	new_dino_ferals	false	32	0	0	false		0		small	jar_unit_set_cavalry_chariots
 calm_cherupins	calm_cherupins	melee_cavalry	war_beast	inf_mel	new_dinos_riders	new_dinos_riders	false	24	0	24	false	cherupin_giant_blowpipe	30		small	jar_unit_set_cavalry_chariots
-calm_croc	calm_croc	melee_cavalry	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	12	0	0	false		0		very_large	jar_unit_set_cavalry_chariots
-calm_croc_cav	calm_croc_cav	monstrous_cavalry	war_beast	inf_mel	new_dinos_riders	new_dinos_riders	false	12	0	12	false		0			jar_unit_set_cavalry_chariots
-calm_allosaur	calm_allosaur	monster	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	24	0	0	false		0		medium	none
-calm_allosaur_riders	calm_allosaur_riders	monstrous_cavalry	war_beast	cav_shk	new_dinos_riders	new_dinos_riders	false	24	0	24	false		0			jar_unit_set_cavalry_chariots
-calm_stegasaur	calm_stegasaur	monster	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	1	0	0	true		0		very_large	jar_unit_set_single_entities
 calm_stegasaur_artillery	calm_stegasaur_artillery	monster	inf_melee	inf_mel	new_dinos_riders	new_dinos_riders	false	1	0	0	true	calm_solar_beam	160		very_large	jar_unit_set_single_entities
 calm_ictlamimus	calm_ictlamimus	monster	inf_ranged	inf_mis	new_dino_ferals	new_dino_ferals	false	1	0	0	false	calm_ictlamimus	54		very_large	jar_unit_set_single_entities
-calm_rodan	calm_rodan	monster	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	1	0	0	true		0		very_large	jar_unit_set_single_entities
 calm_ornisornis	calm_ornisornis	monstrous_cavalry	cavalry	cav_mis	new_dinos_riders	new_dinos_riders	false	10	0	10	false	manta_jav	26			jar_unit_set_cavalry_chariots
-calm_terror_bird	calm_terror_bird	monster	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	1	0	0	true		0		very_large	jar_unit_set_single_entities
-calm_colossodon	calm_colossodon	monster	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	1	0	0	true		0		very_large	jar_unit_set_single_entities
-calm_pachy	calm_pachy	monstrous_cavalry	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	32	0	0	false		0		large	jar_unit_set_cavalry_chariots
-calm_xholadocus	calm_xholadocus	monster	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	1	0	0	true		0		very_large	jar_unit_set_single_entities
 calm_dilophiraptor	calm_dilophiraptor	melee_infantry	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	32	0	0	false	dilophiraptor_spit	8		medium	jar_unit_set_infantry
-calm_pleuridon	calm_pleuridon	monster	inf_melee	inf_mel	new_dino_ferals	new_dino_ferals	false	1	0	0	true		0		very_large	jar_unit_set_single_entities
-calm_rex	calm_rex	monster	inf_melee	inf_mel	new_dino_specials	new_dino_specials	false	1	0	0	true		0		very_large	jar_unit_set_single_entities
 calm_thunder_lizard	calm_thunder_lizard	monster	war_beast	inf_mel	new_dino_specials	new_dino_specials	false	20	0	1	true	calm_solar_lightning	480		very_large	jar_unit_set_single_entities
-calm_quatzelotus	calm_quatzelotus	monster	inf_melee	inf_mel	new_dino_specials	new_dino_specials	false	1	0	0	true		0		very_large	jar_unit_set_single_entities
-calm_elite_terradon	calm_elite_terradon	monster	cavalry	cav_mis	wh2_main_lzd_terradon	missile_monster_beasts	true	10	0	10	false	calm_elite_terradon	26			jar_unit_set_cavalry_chariots
-calm_feral_proto	calm_feral_proto	melee_infantry	inf_melee	inf_mel	new_dinos_allies	new_dinos_allies	false	24	0	0	false		0		large	jar_unit_set_infantry
-calm_spitter_proto	calm_spitter_proto	melee_infantry	inf_melee	inf_mis	new_dinos_allies	new_dinos_allies	false	24	0	0	false	calm_spitter_proto	18		large	jar_unit_set_infantry
-calm_armoured_proto	calm_armoured_proto	melee_infantry	inf_melee	inf_mel	new_dinos_allies	new_dinos_allies	false	24	0	0	false		0		large	jar_unit_set_infantry
-calm_shield_proto	calm_shield_proto	melee_infantry	inf_melee	inf_mel	new_dinos_allies	new_dinos_allies	false	12	0	0	false		0		large	jar_unit_set_infantry
-calm_custodian	calm_custodian	monster	inf_melee	inf_mel	new_dinos_allies	new_dinos_allies	false	1	0	0	true		0		very_large	jar_unit_set_single_entities

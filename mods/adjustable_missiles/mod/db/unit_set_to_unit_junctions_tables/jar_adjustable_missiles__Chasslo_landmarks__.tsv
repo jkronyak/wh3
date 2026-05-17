@@ -4,56 +4,14 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			Chasslo_Black_Bolt_Throwers	jar_unit_set_artillery_war_machines	false
 			Chasslo_First_Trebuchet	jar_unit_set_artillery_war_machines	false
 			Chasslo_Vashtorrs_Opus	jar_unit_set_artillery_war_machines	false
-			Chasslo_Knights_Iranna	jar_unit_set_cavalry_chariots	false
-			Chasslo_Ragnars_Wolves	jar_unit_set_cavalry_chariots	false
-			CLE_Carcassone_Damned_Knight	jar_unit_set_cavalry_chariots	false
-			CLE_Fay_stags_knight	jar_unit_set_cavalry_chariots	false
-			Chasslo_Mutated_Trolls	jar_unit_set_infantry	false
 			Chasslo_Grimnir_Sons	jar_unit_set_infantry	false
 			Chasslo_IronBrotherhood	jar_unit_set_infantry	false
-			Chasslo_Karag_Ironsmiths	jar_unit_set_infantry	false
 			Chasslo_Iron_Guard	jar_unit_set_infantry	false
-			Chasslo_Berserker_Slayers	jar_unit_set_infantry	false
-			Chasslo_Redmane_Forgehands	jar_unit_set_infantry	false
-			Chasslo_Azazel_Flagellants	jar_unit_set_infantry	false
 			Chasslo_Pale_Maidens	jar_unit_set_infantry	false
-			Chasslo_dancing_beauties	jar_unit_set_infantry	false
-			Chasslo_Blood_seekers	jar_unit_set_infantry	false
-			Chasslo_Goldtooth_guard	jar_unit_set_infantry	false
-			Chasslo_Soqotra_Pirates	jar_unit_set_infantry	false
-			Chasslo_Winter_throne_fanatics	jar_unit_set_infantry	false
 			Chasslo_Fireloques_Ferlangen	jar_unit_set_infantry	false
-			CLE_Silver_Guts	jar_unit_set_infantry	false
-			CLE_Maw_Deep_Jaws	jar_unit_set_infantry	false
-			CLE_Jaego_Faithful	jar_unit_set_infantry	false
-			CLE_Von_Drak_Guards	jar_unit_set_infantry	false
 			CLE_Oreon_Warband	jar_unit_set_infantry	false
-			CLE_Wintergors	jar_unit_set_infantry	false
-			CLE_Blood_Shriekers	jar_unit_set_infantry	false
-			CLE_Righteous_mob	jar_unit_set_infantry	false
-			CLE_Barakas_Bulls	jar_unit_set_infantry	false
-			CLE_Tchar_Destroyers	jar_unit_set_infantry	false
-			CLE_ogr_mutant_rat	jar_unit_set_single_entities	false
-			Chasslo_Great_Oak_Mordheim	jar_unit_set_single_entities	false
 			Chasslo_Brood_Queen	jar_unit_set_single_entities	false
 			Chasslo_Stompin_Cobb	jar_unit_set_single_entities	false
-			Chasslo_Chamon_Destroyer	jar_unit_set_single_entities	false
-			Chasslo_Doomspeakers	jar_unit_set_single_entities	false
-			Chasslo_Drachenhole_dragon	jar_unit_set_single_entities	false
-			CLE_Gorger_Matron	jar_unit_set_single_entities	false
-			CLE_Manann_Leviathan	jar_unit_set_single_entities	false
-			CLE_Blight_Dragon	jar_unit_set_single_entities	false
-			CLE_Tian_Bei	jar_unit_set_single_entities	false
-			CLE_Lurking_Penumbra	jar_unit_set_single_entities	false
-			CLE_Mannfred_heirotitan	jar_unit_set_single_entities	false
-			CLE_Patient_Zero	jar_unit_set_single_entities	false
-			CLE_Hallowed_Oak	jar_unit_set_single_entities	false
 			CLE_Ghrond_Librarian	jar_unit_set_single_entities	false
-			CLE_Sotek_Scion	jar_unit_set_single_entities	false
 			CLE_Ostankya_Arachnarok	jar_unit_set_single_entities	false
-			CLE_Ksl_Snowhorn	jar_unit_set_single_entities	false
 			CLE_double_bastiladon	jar_unit_set_single_entities	false
-			CLE_Jormungandr	jar_unit_set_single_entities	false
-			CLE_Throgg_Chill_Sontar	jar_unit_set_single_entities	false
-			CLE_lzd_vultures	none	false
-			CLE_Lady_lion	none	false

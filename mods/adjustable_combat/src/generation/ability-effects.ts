@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import path from 'path';
 import tsv from '../../../../lib/helpers/tsv.ts';
-import { MOD_OUTPUT_PATH, MOD_PREFIX } from "../config/mod-config.ts";
+import { MOD_NAME, MOD_OUTPUT_PATH, MOD_PREFIX } from "../config/mod-config.ts";
 import { getOrCreateSession } from '../../../../lib/rpfm-client/rpfm-client-instance.ts';
 import { BONUS_VALUE_CONFIG, UNIT_SET_CONFIG } from '../config/data-config.ts';
 const client = await getOrCreateSession();
@@ -92,7 +92,7 @@ const generateAbilityEffects = async () => {
     console.log('Created the following number of records for each table:');
     for (const [table, data] of Object.entries(tableResult)) {
         console.log(`${table}: ${data.length}`)
-        await writeModTable(data, table, "jar_adjustable_missiles")
+        await writeModTable(data, table, MOD_NAME);
     }
 };
 

@@ -3,100 +3,22 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			um_ogr_blackpowder	jar_unit_set_artillery_war_machines	false
 			motm_gnoblar_scraplauncher_ror	jar_unit_set_artillery_war_machines	false
 			motm_ironblaster_ror	jar_unit_set_artillery_war_machines	false
-			um_ogr_flamefang_cavalry	jar_unit_set_cavalry_chariots	false
-			um_ogr_flamefang_cavalry_summoned	jar_unit_set_cavalry_chariots	false
-			motm_jhared_feral_cold_ones	jar_unit_set_cavalry_chariots	false
-			um_ogr_sea_rider	jar_unit_set_cavalry_chariots	false
-			um_gnoblar_spider_riders_0	jar_unit_set_cavalry_chariots	false
 			um_gnoblar_spider_riders_1	jar_unit_set_cavalry_chariots	false
 			um_gnoblar_spider_riders_ror	jar_unit_set_cavalry_chariots	false
-			motm_ogr_pit_fighters_cavalry	jar_unit_set_cavalry_chariots	false
-			blaut_maneaters	jar_unit_set_infantry	false
-			blaut_maneaters_ror	jar_unit_set_infantry	false
-			um_gnoblar_grillers	jar_unit_set_infantry	false
-			um_gnoblar_grillers_ror	jar_unit_set_infantry	false
 			um_ogr_skullflingers	jar_unit_set_infantry	false
-			um_ogr_dirty_shanks	jar_unit_set_infantry	false
-			um_ogr_manbiters	jar_unit_set_infantry	false
-			um_ogr_old_funders_boys	jar_unit_set_infantry	false
-			um_ogr_morg_ironguts_ror	jar_unit_set_infantry	false
-			ogr_flamewarrior	jar_unit_set_infantry	false
-			ogr_flameeater_hammer	jar_unit_set_infantry	false
-			ogr_flameeater_pistol	jar_unit_set_infantry	false
-			um_ogr_flamegut	jar_unit_set_infantry	false
-			ogr_flame_spirits	jar_unit_set_infantry	false
-			ogr_flame_spirits_summoned	jar_unit_set_infantry	false
-			ogr_flame_thrower	jar_unit_set_infantry	false
-			um_kho_ogre_0	jar_unit_set_infantry	false
-			um_kho_ogre_1	jar_unit_set_infantry	false
-			um_kho_ogre_2	jar_unit_set_infantry	false
-			frb_chaos_ogre_khorne_0	jar_unit_set_infantry	false
-			motm_beastclad_reavers	jar_unit_set_infantry	false
-			motm_hollowbellies_ror	jar_unit_set_infantry	false
-			fulg_irongut	jar_unit_set_infantry	false
-			lab_ogr_inf_gnoblars_0	jar_unit_set_infantry	false
 			lab_ogr_inf_gnoblars_1	jar_unit_set_infantry	false
-			lab_skv_rat_ogre	jar_unit_set_infantry	false
-			lab_skv_rat_ogre_summoned	jar_unit_set_infantry	false
-			um_ogr_treehammer_bulls_01	jar_unit_set_infantry	false
-			um_ogr_treehammer_bulls_02	jar_unit_set_infantry	false
-			um_ogr_treehammer_maneaters_01	jar_unit_set_infantry	false
-			um_ogr_treehammer_maneaters_02	jar_unit_set_infantry	false
-			ogr_hrothgul_yhetees_ironfists	jar_unit_set_infantry	false
-			ogr_hrothgul_yhetees_great_weapon	jar_unit_set_infantry	false
-			hrothgul_gorgers	jar_unit_set_infantry	false
 			fleshrender_hunters	jar_unit_set_infantry	false
-			motm_ogr_pit_fighters	jar_unit_set_infantry	false
-			motm_ogr_mon_stone_trolls_0	jar_unit_set_infantry	false
-			motm_katerina_sabretusk	jar_unit_set_single_entities	false
-			um_ogr_earth_elemental	jar_unit_set_single_entities	false
-			um_ogr_blu	jar_unit_set_single_entities	false
-			seals_khor_chs_mon_giant	jar_unit_set_single_entities	false
-			motm_jhared_feral_stonehorn	jar_unit_set_single_entities	false
+			ogr_flameeater_pistol	jar_unit_set_infantry	false
+			ogr_flame_thrower	jar_unit_set_infantry	false
+			um_gnoblar_grillers_ror	jar_unit_set_infantry	false
 			motm_jhared_feral_thundertusk	jar_unit_set_single_entities	false
-			motm_jhared_feral_mammoth	jar_unit_set_single_entities	false
-			motm_jhared_feral_wyvern	jar_unit_set_single_entities	false
-			motm_jhared_squig_explosive	jar_unit_set_single_entities	false
-			motm_jhared_feral_carnosaur	jar_unit_set_single_entities	false
-			motm_jhared_feral_stegadon	jar_unit_set_single_entities	false
-			motm_jhared_feral_hydra	jar_unit_set_single_entities	false
-			motm_jhared_feral_manticore	jar_unit_set_single_entities	false
-			motm_jhared_great_eagle	jar_unit_set_single_entities	false
-			motm_dune_vulture	jar_unit_set_single_entities	false
-			motm_cyclop	jar_unit_set_single_entities	false
-			lab_skv_brood_horror	jar_unit_set_single_entities	false
-			lab_skv_rat_ogre_mutant	jar_unit_set_single_entities	false
-			lab_skv_rat_ogre_mutant_summoned	jar_unit_set_single_entities	false
-			lab_skv_hell_pit_abomination	jar_unit_set_single_entities	false
-			motm_boomhogg	jar_unit_set_single_entities	false
-			um_ogr_captain	jar_unit_set_single_entities	false
-			um_ogr_diver_01	jar_unit_set_single_entities	false
-			um_ogr_diver_02	jar_unit_set_single_entities	false
-			um_ogr_diver_03	jar_unit_set_single_entities	false
-			motm_rotting_leviathan_ror	jar_unit_set_single_entities	false
-			motm_necrofex_colossus_ror	jar_unit_set_single_entities	false
-			hrothgul_thundertusk_shrine	jar_unit_set_single_entities	false
-			ogr_ice_mammoth_feral	jar_unit_set_single_entities	false
+			um_ogr_blu	jar_unit_set_single_entities	false
 			ogr_arachnarok_spider_0	jar_unit_set_single_entities	false
 			ogr_arachnarok_spider_flinger	jar_unit_set_single_entities	false
 			gnoblar_spider_chariot	jar_unit_set_single_entities	false
 			hunter_spider_chariot	jar_unit_set_single_entities	false
 			ogr_lava_arachnarok_ror	jar_unit_set_single_entities	false
-			motm_feral_arachnarok_spider_lava	jar_unit_set_single_entities	false
-			motm_feral_arachnarok_spider_flinger	jar_unit_set_single_entities	false
-			motm_feral_arachnarok_spider	jar_unit_set_single_entities	false
-			blautfang_warbeasts	none	false
-			motm_jhared_feral_mournfang	none	false
-			motm_jhared_feral_rhinox	none	false
-			motm_jhared_crabs	none	false
-			motm_jhared_wolves	none	false
-			motm_jhared_feral_bears	none	false
-			motm_jhared_feral_ice_bears	none	false
-			motm_jhared_sabretusk_pack	none	false
-			motm_jhared_giant_spiders	none	false
-			lab_ogr_sabretusk	none	false
-			motm_giant_spiders	none	false
-			motm_mon_spider_hatchlings	none	false
-			motm_giant_spider_lava	none	false
-			motm_giant_spider_snagla	none	false
-			motm_giant_spider_creepers	none	false
+			um_ogr_diver_02	jar_unit_set_single_entities	false
+			um_ogr_diver_03	jar_unit_set_single_entities	false
+			motm_rotting_leviathan_ror	jar_unit_set_single_entities	false
+			motm_necrofex_colossus_ror	jar_unit_set_single_entities	false

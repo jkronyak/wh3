@@ -11,7 +11,7 @@ import {
     PATCH_MOD_PATH,
     REPORT_PATH,
     MOD_OUTPUT_PATH,
-    MOD_TABLE_NAME,
+    MOD_NAME,
     WH3_APP_ID,
 } from '../config/mod-config.ts';
 import { UNIT_SET_CONFIG } from '../config/data-config.ts';
@@ -260,8 +260,8 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         key: set, use_unit_exp_level_range: false, min_unit_exp_level_inclusive: -1,
         max_unit_exp_level_inclusive: -1, special_category: ""
     }));
-    await writeModTable(unitSets, "unit_sets_tables", `${MOD_TABLE_NAME}__vanilla__`);
-    await writeModTable([...vanillaSetJunctions, ...staticSetJunctions], "unit_set_to_unit_junctions_tables", `${MOD_TABLE_NAME}__vanilla__`);
+    await writeModTable(unitSets, "unit_sets_tables", `${MOD_NAME}__vanilla__`);
+    await writeModTable([...vanillaSetJunctions, ...staticSetJunctions], "unit_set_to_unit_junctions_tables", `${MOD_NAME}__vanilla__`);
 
     if (vanillaOnly) return client.close();
 
@@ -301,7 +301,7 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         const modSetJunctions = generateUnitSetJunctions(modCategorizedUnits);
 
         Object.keys(modResult).forEach(k => console.log(`[${k}]: ${modResult[k]}`))
-        await writeModTable(modSetJunctions, "unit_set_to_unit_junctions_tables", `${MOD_TABLE_NAME}__${packName}__`);
+        await writeModTable(modSetJunctions, "unit_set_to_unit_junctions_tables", `${MOD_NAME}__${packName}__`);
     }
     console.log('\nFinished processing unit sets.\n');
 };

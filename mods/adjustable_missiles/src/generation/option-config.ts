@@ -3,6 +3,7 @@ import path from 'path';
 
 import { MOD_OUTPUT_PATH } from '../config/mod-config.ts';
 import { BONUS_VALUE_CONFIG, UNIT_SET_CONFIG } from '../config/data-config.ts';
+import { MOD_TITLE, MOD_NAME, MOD_PREFIX, MOD_DESCRIPTION } from '../config/mod-config.ts';
 
 const MIN = -500;
 const MAX = 500;
@@ -99,40 +100,40 @@ const modDefaults = {
 
 const luaTableString = `
 ------------------------------------------------------------------------
---- Module: Adjustable Combat Config
+--- Module: Adjustable Missiles Config
 --- Author: AceTheGreat
---- Description: Contains configuration for Adjustable Combat
+--- Description: Contains configuration for Adjustable Missiles
 --- TODO: Replace much of the below configuration with localization.
 ------------------------------------------------------------------------
 
-local adj_com_config = {}
+local adj_mis_config = {}
 
 -----------------------------------------------------------------------------
 --- General Configuration
 -----------------------------------------------------------------------------
-adj_com_config.mod_config = { 
-    mod_name = "jar_adjustable_combat",
-    mod_title = "Adjustable Combat",
-    mod_prefix = "jar_adj_com",
-    mod_description = "Allows you to customize and rebalance unit stats!",
+adj_mis_config.mod_config = { 
+    mod_name = "${MOD_NAME}",
+    mod_title = "${MOD_TITLE}",
+    mod_prefix = "${MOD_PREFIX}",
+    mod_description = "${MOD_DESCRIPTION}",
 }
 -----------------------------------------------------------------------------
 --- Unit Set Configuration
 -----------------------------------------------------------------------------
-adj_com_config.unit_set_config = ${objectToLua(UNIT_SET_CONFIG)}
+adj_mis_config.unit_set_config = ${objectToLua(UNIT_SET_CONFIG)}
 -----------------------------------------------------------------------------
 --- Bonus Value Configuration
 -----------------------------------------------------------------------------
-adj_com_config.bonus_value_config = ${objectToLua(Object.fromEntries(
+adj_mis_config.bonus_value_config = ${objectToLua(Object.fromEntries(
     Object.entries(BONUS_VALUE_CONFIG).map(([key, value]) => [key, value])))}
 -----------------------------------------------------------------------------
 --- Unit Set - Bonus Value Mapping
 -----------------------------------------------------------------------------
-adj_com_config.bonus_value_mapping = ${objectToLua(bonusValueMap)}
+adj_mis_config.bonus_value_mapping = ${objectToLua(bonusValueMap)}
 -----------------------------------------------------------------------------
 --- Misc Setting Configuration
 -----------------------------------------------------------------------------
-adj_com_config.misc_config = {
+adj_mis_config.misc_config = {
     enable_mod = {
         display = "Enable Mod",
         description = "Enable this mod's functionality.",
@@ -153,14 +154,15 @@ adj_com_config.misc_config = {
 -----------------------------------------------------------------------------
 --- Option Default Settings; can be overwritten here
 -----------------------------------------------------------------------------
-adj_com_config.mod_defaults = ${objectToLua(modDefaults)}
+adj_mis_config.mod_defaults = ${objectToLua(modDefaults)}
 
-core:add_static_object("adj_com_config", adj_com_config)
+core:add_static_object("adj_mis_config", adj_mis_config)
 `;
 
 
 const generateLua = async () => {
-    fs.writeFileSync(path.join(MOD_OUTPUT_PATH, "script", "_lib", "jar_adj_com_config.lua"), luaTableString);
-};
+    const folderPath = path.join(MOD_OUTPUT_PATH, "script", "_lib");
+    fs.mkdirSync(folderPath, { recursive: true });
+    fs.writeFileSync(path.join(folderPath, "jar_adj_mis_config.lua"), luaTableString);};
 
 export { generateLua };

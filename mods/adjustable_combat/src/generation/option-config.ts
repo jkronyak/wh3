@@ -3,6 +3,7 @@ import path from 'path';
 
 import { MOD_OUTPUT_PATH } from '../config/mod-config.ts';
 import { BONUS_VALUE_CONFIG, UNIT_SET_CONFIG } from '../config/data-config.ts';
+import { MOD_TITLE, MOD_NAME, MOD_PREFIX, MOD_DESCRIPTION } from '../config/mod-config.ts';
 
 const MIN = -500;
 const MAX = 500;
@@ -111,10 +112,10 @@ local adj_com_config = {}
 --- General Configuration
 -----------------------------------------------------------------------------
 adj_com_config.mod_config = { 
-    mod_name = "jar_adjustable_combat",
-    mod_title = "Adjustable Combat",
-    mod_prefix = "jar_adj_com",
-    mod_description = "Allows you to customize and rebalance unit stats!",
+    mod_name = "${MOD_NAME}",
+    mod_title = "${MOD_TITLE}",
+    mod_prefix = "${MOD_PREFIX}",
+    mod_description = "${MOD_DESCRIPTION}",
 }
 -----------------------------------------------------------------------------
 --- Unit Set Configuration
@@ -160,7 +161,9 @@ core:add_static_object("adj_com_config", adj_com_config)
 
 
 const generateLua = async () => {
-    fs.writeFileSync(path.join(MOD_OUTPUT_PATH, "script", "_lib", "jar_adj_com_config.lua"), luaTableString);
+    const folderPath = path.join(MOD_OUTPUT_PATH, "script", "_lib");
+    fs.mkdirSync(folderPath, { recursive: true });
+    fs.writeFileSync(path.join(folderPath, "jar_adj_com_config.lua"), luaTableString);
 };
 
 export { generateLua };

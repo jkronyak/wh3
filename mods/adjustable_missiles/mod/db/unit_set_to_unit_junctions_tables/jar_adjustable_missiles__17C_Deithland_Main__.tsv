@@ -23,7 +23,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			emp_pyretitans_autodragon_shotgun	jar_unit_set_cavalry_chariots	false
 			emp_pyretitans_mortar	jar_unit_set_cavalry_chariots	false
 			emp_pyretitans_mortar_flame	jar_unit_set_cavalry_chariots	false
-			emp_chemlancers_lances	jar_unit_set_cavalry_chariots	false
 			emp_chemlancers_drilling_guns	jar_unit_set_cavalry_chariots	false
 			emp_pyrehulks_volley	jar_unit_set_infantry	false
 			emp_pyrehulks_fusilaxe	jar_unit_set_infantry	false
@@ -31,7 +30,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			emp_deithguard_blasterkeys	jar_unit_set_infantry	false
 			emp_deithguard_shields	jar_unit_set_infantry	false
 			emp_fumecorps_bayos	jar_unit_set_infantry	false
-			emp_gallowdogs	jar_unit_set_infantry	false
 			emp_danzigers	jar_unit_set_infantry	false
 			emp_hellbores	jar_unit_set_infantry	false
 			emp_engelspeers	jar_unit_set_infantry	false

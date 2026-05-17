@@ -4,11 +4,11 @@ const __dirname = import.meta.dirname;
 // General
 export const MOD_TITLE = "Adjustable Missiles";
 
-export const MOD_NAME = "jar_adjustable_combat";
+export const MOD_NAME = "jar_adjustable_missiles";
 
-export const MOD_PREFIX = "jar_adj_com";
+export const MOD_PREFIX = "jar_adj_mis";
 
-export const MOD_DESCRIPTION = "Allows you to customize and rebalance unit stats!";
+export const MOD_DESCRIPTION = "Allows you to rebalance missile unit stats!";
 
 // Paths
 export const MOD_DIR = path.join(__dirname, '../../');

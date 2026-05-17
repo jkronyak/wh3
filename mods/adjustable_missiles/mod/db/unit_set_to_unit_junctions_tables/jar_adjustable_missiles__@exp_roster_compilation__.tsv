@@ -1,74 +1,17 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__@exp_roster_compilation__
-			deco_bugman_thrower	jar_unit_set_artillery_war_machines	false
 			dwf_kou_dreadnaught	jar_unit_set_artillery_war_machines	false
-			deco_griffon_knights	jar_unit_set_cavalry_chariots	false
-			deco_high_helms	jar_unit_set_cavalry_chariots	false
-			deco_skywardens	jar_unit_set_cavalry_chariots	false
+			deco_bugman_thrower	jar_unit_set_artillery_war_machines	false
 			deco_meadow_chariots	jar_unit_set_cavalry_chariots	false
-			deco_glade_knights	jar_unit_set_cavalry_chariots	false
-			deco_wind_riders	jar_unit_set_cavalry_chariots	false
-			dec_hell_knights	jar_unit_set_cavalry_chariots	false
-			dec_kastellans	jar_unit_set_cavalry_chariots	false
-			str_urgat_wolf_chariot	jar_unit_set_cavalry_chariots	false
-			deco_knights_lynx	jar_unit_set_cavalry_chariots	false
-			deco_roadwardens	jar_unit_set_cavalry_chariots	false
-			grn_poop	jar_unit_set_cavalry_chariots	false
-			dec_lords_oblivion	jar_unit_set_cavalry_chariots	false
-			deco_chd_ravagers	jar_unit_set_cavalry_chariots	false
-			deco_bladelords	jar_unit_set_infantry	false
-			deco_avelorn_maidens	jar_unit_set_infantry	false
-			deco_handmaidens_torothal	jar_unit_set_infantry	false
-			deco_dryads_willow	jar_unit_set_infantry	false
-			deco_wildwood_wardens	jar_unit_set_infantry	false
-			deco_dryads_willow_malicious	jar_unit_set_infantry	false
-			dec_ogre_bulls_gw	jar_unit_set_infantry	false
-			dec_giantbreakers	jar_unit_set_infantry	false
-			deco_savage_orc_spears	jar_unit_set_infantry	false
-			deco_savage_big_uns_gw	jar_unit_set_infantry	false
-			deco_black_orc_dual	jar_unit_set_infantry	false
-			deco_big_uns_shields	jar_unit_set_infantry	false
+			deco_skywardens	jar_unit_set_cavalry_chariots	false
 			deco_irondrakes_drakefire	jar_unit_set_infantry	false
-			deco_hammerers_dual	jar_unit_set_infantry	false
-			deco_old_guard	jar_unit_set_infantry	false
 			deco_prospectors	jar_unit_set_infantry	false
-			dec_spirit_host	jar_unit_set_infantry	false
-			dec_reapers	jar_unit_set_infantry	false
-			dec_lahmian	jar_unit_set_infantry	false
-			deco_forest_goblin_archers	jar_unit_set_infantry	false
-			deco_night_goblin_spears	jar_unit_set_infantry	false
-			deco_forest_goblin_swords	jar_unit_set_infantry	false
-			deco_forest_goblin_spears	jar_unit_set_infantry	false
-			deco_snotlings	jar_unit_set_infantry	false
-			deco_hill_goblins	jar_unit_set_infantry	false
-			deco_shielded_halberdiers	jar_unit_set_infantry	false
-			deco_doom_prophets	jar_unit_set_infantry	false
-			deco_ironsides	jar_unit_set_infantry	false
-			deco_nor_pit	jar_unit_set_infantry	false
-			deco_nor_reavers	jar_unit_set_infantry	false
-			deco_nor_huskarls	jar_unit_set_infantry	false
-			deco_nor_bondsmen	jar_unit_set_infantry	false
-			deco_nor_maidens	jar_unit_set_infantry	false
-			dec_bestigor_dual_axe	jar_unit_set_infantry	false
-			dec_gor_great_axe	jar_unit_set_infantry	false
-			dec_gouge_horns	jar_unit_set_infantry	false
-			dec_tower_masters	jar_unit_set_infantry	false
-			dec_hunters_anath_raema	jar_unit_set_infantry	false
-			deco_chd_acolytes	jar_unit_set_infantry	false
-			deco_chd_zealots	jar_unit_set_infantry	false
-			deco_chd_ogre_slaves	jar_unit_set_infantry	false
 			deco_chd_naphtha	jar_unit_set_infantry	false
-			deco_chd_lava_trolls	jar_unit_set_infantry	false
 			deco_chd_quarrellers	jar_unit_set_infantry	false
 			deco_chd_annihilators	jar_unit_set_infantry	false
 			deco_chd_gnoblar_slaves	jar_unit_set_infantry	false
-			dec_rhinox_bull	jar_unit_set_single_entities	false
-			dec_ice_mammoth	jar_unit_set_single_entities	false
-			dec_ember_drake	jar_unit_set_single_entities	false
-			deco_savage_giant	jar_unit_set_single_entities	false
-			deco_armored_colossal_squig	jar_unit_set_single_entities	false
-			deco_nor_hydra	jar_unit_set_single_entities	false
-			deco_nor_wolf	jar_unit_set_single_entities	false
-			deco_nor_valkyrie	jar_unit_set_single_entities	false
-			dec_magma_dragon	jar_unit_set_single_entities	false
-			deco_chd_siege_giant	jar_unit_set_single_entities	false
+			deco_forest_goblin_archers	jar_unit_set_infantry	false
+			dec_hunters_anath_raema	jar_unit_set_infantry	false
+			deco_ironsides	jar_unit_set_infantry	false
+			deco_nor_reavers	jar_unit_set_infantry	false
+			deco_nor_bondsmen	jar_unit_set_infantry	false

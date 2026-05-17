@@ -75,8 +75,8 @@ adj_com_config.bonus_value_config = {
             "jar_adj_com_unit_set_global"
         },
         type = "effect_bonus_value_basic_junction_tables",
-        min = -100,
-        max = 200,
+        min = -500,
+        max = 500,
         key = "battle_healing_cap_mod",
     },
     heal_power_percent_mod = {

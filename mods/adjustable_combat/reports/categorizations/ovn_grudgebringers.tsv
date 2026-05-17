@@ -1,4 +1,5 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+ovn_grudge_grn_mon_giant_boss	ovn_grudge_grn_mon_giant_boss	monster	inf_melee	com	giant	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
 teb_pikemen	carlsson_guard	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 teb_conqui_adventurers	carlsson_guard	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 teb_pavisiers	carlsson_guard	missile_infantry	inf_melee	inf_mel	missile_infantry_bow	missile_infantry	true	90	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
@@ -76,4 +77,3 @@ wh3_main_ogr_inf_maneaters_1_ovn_gru	wh3_main_ogr_inf_maneaters_1	monstrous_infa
 leitdorf_9th_crossbows	leitdorf_9th_crossbows	missile_infantry	inf_ranged	inf_mis	leitdorf_9th_crossbows	missile_infantry	true	113	0	0	false	leitdorf_9th_crossbows	22	archer	small	jar_adj_com_unit_set_infantry
 emperors_hellblaster_volley_gun	emperors_hellblaster_volley_gun	warmachine	artillery	art_fld	emperors_hellblaster_volley_gun	artillery_war_machines	true	44	4	0	false		198	artillery	small	jar_adj_com_unit_set_chariots_war_machines
 reiksguard_knights_todbringer	reiksguard_knights_todbringer	melee_cavalry	cavalry	cav_shk	reiksguard_knights_todbringer	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-ovn_grudge_grn_mon_giant_boss	ovn_grudge_grn_mon_giant_boss	monster	inf_melee	com	giant	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities

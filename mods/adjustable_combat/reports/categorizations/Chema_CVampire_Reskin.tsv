@@ -1,0 +1,11 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+vmp_drakenhof_knights	vmp_drakenhof_knights	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	50	0	50	false		0		small	jar_adj_com_unit_set_cavalry
+vmp_drakenhof_guard	vmp_drakenhof_guard	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0		small	jar_adj_com_unit_set_infantry
+vmp_unber_skeleton	vmp_unber_skeleton	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	150	0	0	false		0		small	jar_adj_com_unit_set_infantry
+vmp_undead_giant	vmp_undead_giant	monster	inf_melee	inf_mel	giant	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+vmp_blood_dragon	vmp_blood_dragon	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	50	0	50	false		0		small	jar_adj_com_unit_set_cavalry
+wh2_dlc11_vmp_inf_crossbowmen	wh2_dlc11_vmp_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+wh2_dlc11_vmp_inf_handgunners	wh2_dlc11_vmp_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+vmp_sylvania_mob	vmp_sylvania_mob	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+vmp_blood_dragon_sword	vmp_blood_dragon_sword	melee_cavalry	cavalry	cav_shk	cavalry	cavalry_chariots	true	50	0	50	false		0	melee	small	jar_adj_com_unit_set_cavalry
+vmp_sylvania_militia_swords	vmp_sylvania_militia_swords	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry

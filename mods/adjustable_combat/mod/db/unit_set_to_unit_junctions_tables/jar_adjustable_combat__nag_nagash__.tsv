@@ -1,5 +1,10 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__nag_nagash__
+			nag_syreen_kalledria_1	jar_adj_com_unit_set_infantry	false
+			nag_syreen_kalledria_2	jar_adj_com_unit_set_infantry	false
+			nag_syreen_kalledria_3	jar_adj_com_unit_set_infantry	false
+			nag_syreen_kalledria_4	jar_adj_com_unit_set_infantry	false
+			nag_vanilla_cst_inf_syreen	jar_adj_com_unit_set_infantry	false
 			nagash_ovn_dk_inf_skeleton_javelinmen_no_caps	jar_adj_com_unit_set_infantry	false
 			nagash_ovn_dk_inf_skeleton_hoplites	jar_adj_com_unit_set_infantry	false
 			nagash_ovn_dk_inf_skeleton_pikemen	jar_adj_com_unit_set_infantry	false
@@ -7,11 +12,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nagash_ovn_dk_inf_tomb_guardian_peltasts	jar_adj_com_unit_set_infantry	false
 			nagash_ovn_dk_cav_royal_guard_lancers	jar_adj_com_unit_set_infantry	false
 			nagash_ovn_dk_mon_skeleton_elephant	jar_adj_com_unit_set_infantry	false
-			nag_syreen_kalledria_1	jar_adj_com_unit_set_infantry	false
-			nag_syreen_kalledria_2	jar_adj_com_unit_set_infantry	false
-			nag_syreen_kalledria_3	jar_adj_com_unit_set_infantry	false
-			nag_syreen_kalledria_4	jar_adj_com_unit_set_infantry	false
-			nag_vanilla_cst_inf_syreen	jar_adj_com_unit_set_infantry	false
 			rhox_nagash_lahmia_emp_art_helstorm_rocket_battery	jar_adj_com_unit_set_chariots_war_machines	false
 			rhox_nagash_lahmia_emp_art_helblaster_volley_gun	jar_adj_com_unit_set_chariots_war_machines	false
 			rhox_nagash_lahmia_brt_cav_questing_knights_0	jar_adj_com_unit_set_cavalry	false

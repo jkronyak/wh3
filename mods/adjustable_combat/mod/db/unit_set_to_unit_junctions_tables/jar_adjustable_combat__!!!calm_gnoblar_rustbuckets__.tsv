@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!!!calm_gnoblar_rustbuckets__
+			calm_ogr_rustbuckets	jar_adj_com_unit_set_infantry	false
+			calm_ogr_rustbuckets_greatweapons	jar_adj_com_unit_set_infantry	false

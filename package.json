@@ -16,7 +16,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen-mod:jam:sync": "ts-node mods/adjustable_missiles/src/sync-mods.ts",
     "gen-mod:jam:mod-data": "ts-node mods/adjustable_missiles/src/index.ts",
-    "gen-mod:jac:mod-data": "ts-node mods/adjustable_combat/src/index.ts"
+    
+    "gen-mod:jac:mod-data": "ts-node mods/adjustable_combat/src/index.ts",
+    "gen-mod:jac:sync": "ts-node mods/adjustable_combat/src/sync-mods.ts"
   },
   "repository": {
     "type": "git",

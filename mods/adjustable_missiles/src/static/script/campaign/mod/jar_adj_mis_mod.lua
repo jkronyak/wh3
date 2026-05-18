@@ -14,7 +14,7 @@ local config = core:get_static_object("adj_mis_config")
 
 core:load_global_script("jar_adj_mis_utils")
 local utils = core:get_static_object("adj_mis_utils")
-mod_config = config.mod_config
+local mod_config = config.mod_config
 
 local logger = core:get_static_object("adj_mis_logger")
 
@@ -92,10 +92,13 @@ local function create_mod_effect_bundle(scope)
 
     for unit_set_key, bonus_value_table in pairs(mod_settings.bonus_value) do
         for bonus_value_key, values in pairs(bonus_value_table) do
+            logger:debug("parse", unit_set_key, bonus_value_key)
             local value = values[scope]
             if value ~= 0 then
                 local effect_string = mod_config.mod_name .. "__effect__" .. bonus_value_key .. "__" .. unit_set_key
-                logger:debug("Applying", effect_string, "with value", value)
+                -- Special case for flat accuracy
+                if bonus_value_key == "accuracy" then effect_string = effect_string .. "__" .. (value > 0 and "+" .. value or tostring(value)) end
+                logger:debug("Applying", effect_string, "with value", value, "to scope", scope)
                 effect_bundle:add_effect(effect_string, effect_scope, value)
 
             end

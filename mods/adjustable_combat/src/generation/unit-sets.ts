@@ -297,7 +297,12 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
         modResult.postFilterCount = modCategorizedUnits.length;
         modResult.vanillaParentGroupCount = modCategorizedUnits.filter(i => i.useVanillaParentGroup).length;
         modResult.moddedParentGroupCount = modCategorizedUnits.filter(i => !i.useVanillaParentGroup).length;
-        if (modCategorizedUnits.length === 0) throw new Error(`${packName} has no units after filtering. No patch is required.`)
+        // if (modCategorizedUnits.length === 0) throw new Error(`${packName} has no units after filtering. No patch is required.`)
+        if (modCategorizedUnits.length === 0) {
+            console.log(`${packName} has no units after filtering. No patch is required. Skipping.`);
+            continue;
+        }
+
         const modSetJunctions = generateUnitSetJunctions(modCategorizedUnits);
 
         Object.keys(modResult).forEach(k => console.log(`[${k}]: ${modResult[k]}`))

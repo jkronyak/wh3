@@ -14,7 +14,7 @@ local config = core:get_static_object("adj_com_config")
 
 core:load_global_script("jar_adj_com_utils")
 local utils = core:get_static_object("adj_com_utils")
-mod_config = config.mod_config
+local mod_config = config.mod_config
 
 local logger = core:get_static_object("adj_com_logger")
 

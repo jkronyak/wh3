@@ -1,0 +1,26 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__ab_mixu_mousillon__
+			mixu_msl_mon_giant_snail	jar_adj_com_unit_set_single_entities	false
+			mixu_msl_mon_the_grey_men	jar_adj_com_unit_set_infantry	false
+			mixu_msl_ror_ghosts_of_grismerie	jar_adj_com_unit_set_infantry	false
+			mixu_msl_inf_bowmen	jar_adj_com_unit_set_infantry	false
+			mixu_msl_inf_bowmen_balefire	jar_adj_com_unit_set_infantry	false
+			mixu_msl_inf_bowmen_poison	jar_adj_com_unit_set_infantry	false
+			mixu_msl_inf_men_at_arms_polearms	jar_adj_com_unit_set_infantry	false
+			mixu_msl_inf_men_at_arms_sword	jar_adj_com_unit_set_infantry	false
+			mixu_msl_art_trebuchet	jar_adj_com_unit_set_chariots_war_machines	false
+			mixu_msl_art_trebuchet_balefire	jar_adj_com_unit_set_chariots_war_machines	false
+			mixu_msl_cav_hellsteed_knights	jar_adj_com_unit_set_cavalry	false
+			mixu_msl_ror_knights_of_bougar	jar_adj_com_unit_set_cavalry	false
+			mixu_msl_cav_black_knights_sword	jar_adj_com_unit_set_cavalry	false
+			mixu_msl_cav_black_knights_lance	jar_adj_com_unit_set_cavalry	false
+			mixu_msl_ror_the_rose_lances	jar_adj_com_unit_set_cavalry	false
+			mixu_msl_cav_black_grail_knights	jar_adj_com_unit_set_cavalry	false
+			mixu_msl_cav_black_grail_knights_summon	jar_adj_com_unit_set_cavalry	false
+			mixu_msl_ror_cantankerous_bellends	jar_adj_com_unit_set_infantry	false
+			mixu_msl_inf_grave_guard_sword	jar_adj_com_unit_set_infantry	false
+			mixu_msl_inf_grave_guard_great_weapons	jar_adj_com_unit_set_infantry	false
+			mixu_msl_mon_dracoleech	jar_adj_com_unit_set_single_entities	false
+			mixu_msl_inf_brigands	jar_adj_com_unit_set_infantry	false
+			mixu_msl_ror_barons_men	jar_adj_com_unit_set_infantry	false
+			mixu_msl_inf_mounted_brigands	jar_adj_com_unit_set_cavalry	false

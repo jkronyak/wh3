@@ -14,7 +14,7 @@ local config = core:get_static_object("adj_com_config")
 
 core:load_global_script("jar_adj_com_utils")
 local utils = core:get_static_object("adj_com_utils")
-mod_config = config.mod_config
+local mod_config = config.mod_config
 
 local logger = core:get_static_object("adj_com_logger")
 
@@ -61,8 +61,8 @@ end
 
 local function create_misc_option(option_config)
     local option = mct_mod:add_new_option(option_config.option_key, "checkbox")
-    option:set_text(option_config.display)
-    option:set_tooltip_text(option_config.description)
+    option:set_text(option_config.misc_config.display)
+    option:set_tooltip_text(option_config.misc_config.description)
     option:set_default_value(option_config.default)
     return option
 end
@@ -170,7 +170,7 @@ local function create_categorical_actuals_page()
             ai_section:assign_to_page(page)
         end
     end
-    -- page:set_visibility(false)
+    page:set_visibility(false)
     return page
 end
 
@@ -188,8 +188,8 @@ local function create_categorical_display_page()
 end
 
 local function create_misc_page()
-    local page = mct_mod:create_settings_page("General", 1)
-    local section = mct_mod:add_new_section("core", "General Settings")
+    local page = mct_mod:create_settings_page("Misc. Settings", 1)
+    local section = mct_mod:add_new_section("core", "Misc. Settings")
     for misc_key, _ in pairs(config.misc_config) do
         section:assign_option(create_misc_option(utils.get_misc_option_config(misc_key)))
     end
@@ -244,7 +244,7 @@ core:add_listener(
     "JAR__" .. mod_config.mod_prefix .. "__MCT_player_option_sync",
     "MctOptionSelectedSettingSet",
     function(context)
-
+        
         --- @type MCT.Option
         local option = context:option()
         
@@ -286,7 +286,7 @@ core:add_listener(
     "JAR__" .. mod_config.mod_prefix .. "__MCT_categorical_option_sync",
     "MctOptionSelectedSettingSet",
     function(context)
-
+        
         --- @type MCT.Option
         local option = context:option()
 
@@ -306,6 +306,7 @@ core:add_listener(
     function(context)
         --- @type MCT.Option
         local option = context:option()
+
         local value = option:get_selected_setting()
 
         local option_data = utils.get_option_data(option)
@@ -420,7 +421,6 @@ core:add_listener(
     true
 )
 
---- TODO: Check this; AI generated
 core:add_listener(
     "JAR__" .. mod_config.mod_prefix .. "_MCT_init_sync",
     "MctInitialized",
@@ -449,28 +449,23 @@ core:add_listener(
         if unit_set_key then
             local cat_link_option = mct_mod:get_option_by_key(utils.create_link_option_key("categorical"))
             local act_link_option = mct_mod:get_option_by_key(utils.create_link_option_key(unit_set_key))
+
             cascade_option_value(act_link_option, cat_link_option)
+            local cat_link_value = cat_link_option:get_selected_setting()
 
             for _, bonus_value_key in ipairs(utils.get_unit_set_bonus_value_keys(unit_set_key)) do
                 local cat_player_option = mct_mod:get_option_by_key(utils.create_bv_option_key("categorical", bonus_value_key, "player"))
-                local cat_ai_option     = mct_mod:get_option_by_key(utils.create_bv_option_key("categorical", bonus_value_key, "ai"))
+                local cat_ai_option = mct_mod:get_option_by_key(utils.create_bv_option_key("categorical", bonus_value_key, "ai"))
                 local act_player_option = mct_mod:get_option_by_key(utils.create_bv_option_key(unit_set_key, bonus_value_key, "player"))
-                local act_ai_option     = mct_mod:get_option_by_key(utils.create_bv_option_key(unit_set_key, bonus_value_key, "ai"))
+                local act_ai_option = mct_mod:get_option_by_key(utils.create_bv_option_key(unit_set_key, bonus_value_key, "ai"))
 
                 cascade_option_value(act_player_option, cat_player_option)
                 cascade_option_value(act_ai_option, cat_ai_option)
+
+                -- Update categorical setting lock state if needed
+                cat_ai_option:set_locked(cat_link_value, cat_ai_option:get_lock_reason() or "Reusing Player values for AI")
             end
         end
     end,
     false
 )
-
---- TODO: 
----
---- Synchronize on link state change
---- 
---- Synchronize categorical on dropdown change
----
---- Synchronize lock state on initialization for every set
----     or synchronize lock state and
----

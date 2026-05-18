@@ -1,0 +1,18 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Chema_Averland_Mod__
+			chema_averland_greatswords	jar_adj_com_unit_set_infantry	false
+			chema_averland_halberd	jar_adj_com_unit_set_infantry	false
+			chema_averland_handgunners	jar_adj_com_unit_set_infantry	false
+			chema_averland_state_troops_crossbowmen	jar_adj_com_unit_set_infantry	false
+			chema_averland_swordmen	jar_adj_com_unit_set_infantry	false
+			chema_averland_troops_spears	jar_adj_com_unit_set_infantry	false
+			chema_averland_troops_spears_shield	jar_adj_com_unit_set_infantry	false
+			chema_averland_knights_reiksguard	jar_adj_com_unit_set_cavalry	false
+			chema_averland_archer	jar_adj_com_unit_set_infantry	false
+			chema_averland_pistolier	jar_adj_com_unit_set_cavalry	false
+			chema_averland_mountguard	jar_adj_com_unit_set_infantry	false
+			chema_averland_averheim_blackguard	jar_adj_com_unit_set_infantry	false
+			chema_averland_bergjaegers	jar_adj_com_unit_set_infantry	false
+			chema_averland_kragsburg	jar_adj_com_unit_set_infantry	false
+			chema_averland_sardello_crossbows	jar_adj_com_unit_set_infantry	false
+			chema_averland_demilancers	jar_adj_com_unit_set_cavalry	false

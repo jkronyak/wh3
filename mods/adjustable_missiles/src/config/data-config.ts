@@ -34,11 +34,17 @@ export const UNIT_SET_CONFIG = {
 export const BONUS_VALUE_CONFIG  = {
 
     accuracy: { 
-        display: "Accuracy",
+        display: "Accuracy (Flat)",
         description: "Modify unit accuracy by n.",
         min: -100,
         max: 200,
         type: "ability",
+    },
+    unit_stat_bonus_accuracy_mod: { 
+        display: "Accuracy %",
+        description: "Modify unit accuracy by n%.",
+        unit_sets: ["jar_unit_set_global"],
+        type: "effect_bonus_value_basic_junction_tables",
     },
     reload: { 
         display: "Reload Skill %",

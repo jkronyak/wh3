@@ -1,8 +1,8 @@
 ---@diagnostic disable: need-check-nil
 ------------------------------------------------------------------------
---- Module: Adjustable Combat MCT
+--- Module: Adjustable Missiles MCT
 --- Author: AceTheGreat
---- Description: MCT setup for Adjustable Combat
+--- Description: MCT setup for Adjustable Missiles
 ------------------------------------------------------------------------
 
 
@@ -14,7 +14,7 @@ local config = core:get_static_object("adj_mis_config")
 
 core:load_global_script("jar_adj_mis_utils")
 local utils = core:get_static_object("adj_mis_utils")
-mod_config = config.mod_config
+local mod_config = config.mod_config
 
 local logger = core:get_static_object("adj_mis_logger")
 
@@ -34,8 +34,6 @@ mct_mod:remove_settings_page(mct_mod:get_default_settings_page())
 --- MCT Creation Helpers
 ------------------------------------------------------------------------
 local function create_dummy_section(unit_set_key)
-    out("HERE")
-    out(tostring(unit_set_key))
     local unit_set_config = utils.get_unit_set(unit_set_key)
     local dummy_section = mct_mod:add_new_section("dummy__" .. unit_set_key, unit_set_config.display)
     local dummy_option = mct_mod:add_new_option("dummy__" .. unit_set_key, "dummy")
@@ -63,8 +61,8 @@ end
 
 local function create_misc_option(option_config)
     local option = mct_mod:add_new_option(option_config.option_key, "checkbox")
-    option:set_text(option_config.display)
-    option:set_tooltip_text(option_config.description)
+    option:set_text(option_config.misc_config.display)
+    option:set_tooltip_text(option_config.misc_config.description)
     option:set_default_value(option_config.default)
     return option
 end
@@ -172,7 +170,7 @@ local function create_categorical_actuals_page()
             ai_section:assign_to_page(page)
         end
     end
-    -- page:set_visibility(false)
+    page:set_visibility(false)
     return page
 end
 
@@ -190,8 +188,8 @@ local function create_categorical_display_page()
 end
 
 local function create_misc_page()
-    local page = mct_mod:create_settings_page("General", 1)
-    local section = mct_mod:add_new_section("core", "General Settings")
+    local page = mct_mod:create_settings_page("Misc. Settings", 1)
+    local section = mct_mod:add_new_section("core", "Misc. Settings")
     for misc_key, _ in pairs(config.misc_config) do
         section:assign_option(create_misc_option(utils.get_misc_option_config(misc_key)))
     end
@@ -208,10 +206,8 @@ create_misc_page()
 ------------------------------------------------------------------------
 local function get_categorical_dropdown_value()
     local dropdown_option_key = utils.get_dropdown_option_config().option_key
-    out("dropdown_option_key__" ..dropdown_option_key)
     local dropdown_option = mct_mod:get_option_by_key(dropdown_option_key)
     local dropdown_option_value = dropdown_option:get_selected_setting()
-    out("value" .. tostring(dropdown_option_value))
     return dropdown_option_value
 end
 
@@ -221,10 +217,6 @@ local function cascade_option_value(source, target)
 
     local source_value = source:get_selected_setting()
     local target_value = target:get_selected_setting()
-
-    -- out("Cascading")
-    -- out(tostring(source:get_key()) .. " " .. tostring(source_value))
-    -- out(tostring(target:get_key()) .. " " .. tostring(target_value))
 
     if source_value == target_value then return true end
 
@@ -314,7 +306,6 @@ core:add_listener(
     function(context)
         --- @type MCT.Option
         local option = context:option()
-        local value = option:get_selected_setting()
 
         local option_data = utils.get_option_data(option)
         local bonus_value_key = option_data.bonus_value_key
@@ -396,7 +387,6 @@ core:add_listener(
 
         local option_data = utils.get_option_data(option)
         local command = option_data.command
-        out("command " .. tostring(command))
     
         -- Check that this option is for the link state
         return command == "CATSELECT"
@@ -405,7 +395,6 @@ core:add_listener(
         --- @type MCT.Option
         local option = context:option()
         local unit_set_key = option:get_selected_setting()
-        out("IN CATSELCET " .. unit_set_key)
 
         -- Cascade the link setting
         local cat_link_option = mct_mod:get_option_by_key(utils.create_link_option_key("display"))
@@ -455,11 +444,11 @@ core:add_listener(
 
         -- 2. Synchronize the categorical page to the actuals based on the dropdown value
         local unit_set_key = get_categorical_dropdown_value()
-        out("Sync unit set " .. unit_set_key)
         if unit_set_key then
             local cat_link_option = mct_mod:get_option_by_key(utils.create_link_option_key("display"))
             local act_link_option = mct_mod:get_option_by_key(utils.create_link_option_key(unit_set_key))
             cascade_option_value(act_link_option, cat_link_option)
+            local cat_link_value = cat_link_option:get_selected_setting()
 
             for _, bonus_value_key in ipairs(utils.get_unit_set_bonus_value_keys(unit_set_key)) do
                 local cat_player_option = mct_mod:get_option_by_key(utils.create_bv_option_key("display", bonus_value_key, "player"))
@@ -469,18 +458,11 @@ core:add_listener(
 
                 cascade_option_value(act_player_option, cat_player_option)
                 cascade_option_value(act_ai_option, cat_ai_option)
+
+                -- Update categorical setting lock state if needed
+                cat_ai_option:set_locked(cat_link_value, cat_ai_option:get_lock_reason() or "Reusing Player values for AI")
             end
         end
     end,
     false
 )
-
---- TODO: 
----
---- Synchronize on link state change
---- 
---- Synchronize categorical on dropdown change
----
---- Synchronize lock state on initialization for every set
----     or synchronize lock state and
----

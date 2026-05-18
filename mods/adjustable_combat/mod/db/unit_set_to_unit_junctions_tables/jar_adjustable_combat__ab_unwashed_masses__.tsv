@@ -1,0 +1,27 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__ab_unwashed_masses__
+			gnob_inf_rustbuckets	jar_adj_com_unit_set_infantry	false
+			gnob_inf_rustbuckets_greatweapons	jar_adj_com_unit_set_infantry	false
+			gnob_cav_pigback_riders	jar_adj_com_unit_set_cavalry	false
+			gnob_cav_pigback_riders_javelin	jar_adj_com_unit_set_cavalry	false
+			gnob_inf_fighters	jar_adj_com_unit_set_infantry	false
+			gnob_inf_flingers	jar_adj_com_unit_set_infantry	false
+			gnob_inf_lucky_gits	jar_adj_com_unit_set_infantry	false
+			gnob_inf_manbiters	jar_adj_com_unit_set_infantry	false
+			gnob_inf_ogrebiters	jar_adj_com_unit_set_infantry	false
+			gnob_inf_powder_sniffers	jar_adj_com_unit_set_infantry	false
+			gnob_mon_rhinox_riders	jar_adj_com_unit_set_single_entities	false
+			gnob_mon_yhetees	jar_adj_com_unit_set_monstrous_infantry	false
+			gnob_ror_boom_squad	jar_adj_com_unit_set_chariots_war_machines	false
+			gnob_ror_gnoblags_manbiters	jar_adj_com_unit_set_infantry	false
+			gnob_ror_gorespittles	jar_adj_com_unit_set_infantry	false
+			gnob_ror_knights_of_pigbarter	jar_adj_com_unit_set_cavalry	false
+			gnob_ror_scalded_horde	jar_adj_com_unit_set_infantry	false
+			gnob_ror_skullflingers	jar_adj_com_unit_set_infantry	false
+			gnob_ror_mist_dragons	jar_adj_com_unit_set_war_beasts	false
+			gnob_cav_sabretusk_riders	jar_adj_com_unit_set_cavalry	false
+			gnob_ror_empire_gunners	jar_adj_com_unit_set_infantry	false
+			gnob_ror_kings_treasure_guards	jar_adj_com_unit_set_single_entities	false
+			gnob_mon_lava_spiders	jar_adj_com_unit_set_monstrous_infantry	false
+			gnob_mon_great_scarlet_iiwi	jar_adj_com_unit_set_single_entities	false
+			gnob_mon_arachnarok_spider	jar_adj_com_unit_set_single_entities	false

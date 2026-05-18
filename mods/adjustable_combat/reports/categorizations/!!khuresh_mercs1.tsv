@@ -1,0 +1,5 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+kou_ace_km_orobagor	kou_ace_km_orobagor	monstrous_cavalry	inf_melee	spcl	wh3_dlc24_things_in_woods	monster_beasts	true	24	0	0	false		0		medium	jar_adj_com_unit_set_cavalry
+kou_ace_km_spittin_naja	kou_ace_km_spittin_naja	monstrous_infantry	inf_ranged	inf_mis	wh2_dlc09_tmb_sepulchral_stalkers	missile_monster_beasts	true	24	0	0	false	kou_ace_km_spittin_naja_missiles	18	skirmish	large	jar_adj_com_unit_set_monstrous_infantry
+kou_ace_km_pyrenaga	kou_ace_km_pyrenaga	monster	inf_melee	inf_mel	wh2_dlc10_def_kharibdyss	monster_beasts	true	1	0	0	true		0		very_large	jar_adj_com_unit_set_single_entities
+kou_ace_km_dread_maw	kou_ace_km_dread_maw	monster	war_beast	inf_mel	wh2_dlc10_def_kharibdyss	monster_beasts	true	1	0	0	true		0		very_large	jar_adj_com_unit_set_single_entities

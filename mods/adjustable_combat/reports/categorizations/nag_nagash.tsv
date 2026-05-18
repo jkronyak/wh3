@@ -1,4 +1,9 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+nag_syreen_kalledria_1	nag_syreen_kalledria_1	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0		small	jar_adj_com_unit_set_infantry
+nag_syreen_kalledria_2	nag_syreen_kalledria_2	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0		small	jar_adj_com_unit_set_infantry
+nag_syreen_kalledria_3	nag_syreen_kalledria_3	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0		small	jar_adj_com_unit_set_infantry
+nag_syreen_kalledria_4	nag_syreen_kalledria_4	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0		small	jar_adj_com_unit_set_infantry
+nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_inf_syreens	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 nagash_ovn_dk_inf_skeleton_javelinmen_no_caps	nag_nagash_dummy_for_other_mods	melee_infantry	inf_melee	com	infantry_spear	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
 nagash_ovn_dk_inf_skeleton_hoplites	nag_nagash_dummy_for_other_mods	melee_infantry	inf_melee	com	infantry_spear	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
 nagash_ovn_dk_inf_skeleton_pikemen	nag_nagash_dummy_for_other_mods	melee_infantry	inf_melee	com	infantry_spear	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
@@ -6,11 +11,6 @@ nagash_ovn_dk_inf_tomb_guardian	nag_nagash_dummy_for_other_mods	melee_infantry	i
 nagash_ovn_dk_inf_tomb_guardian_peltasts	nag_nagash_dummy_for_other_mods	melee_infantry	inf_melee	com	infantry_spear	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
 nagash_ovn_dk_cav_royal_guard_lancers	nag_nagash_dummy_for_other_mods	melee_infantry	inf_melee	com	infantry_spear	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
 nagash_ovn_dk_mon_skeleton_elephant	nag_nagash_dummy_for_other_mods	melee_infantry	inf_melee	com	infantry_spear	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
-nag_syreen_kalledria_1	nag_syreen_kalledria_1	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0		small	jar_adj_com_unit_set_infantry
-nag_syreen_kalledria_2	nag_syreen_kalledria_2	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0		small	jar_adj_com_unit_set_infantry
-nag_syreen_kalledria_3	nag_syreen_kalledria_3	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0		small	jar_adj_com_unit_set_infantry
-nag_syreen_kalledria_4	nag_syreen_kalledria_4	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0		small	jar_adj_com_unit_set_infantry
-nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_inf_syreens	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 rhox_nagash_lahmia_emp_art_helstorm_rocket_battery	wh_main_emp_art_helstorm_rocket_battery	warmachine	artillery	art_fld	emp_rocket_battery	artillery_war_machines	true	44	4	0	false		66	artillery	small	jar_adj_com_unit_set_chariots_war_machines
 rhox_nagash_lahmia_emp_art_helblaster_volley_gun	wh_main_emp_art_helblaster_volley_gun	warmachine	artillery	art_fld	artillery_field_gun	artillery_war_machines	true	44	4	0	false		198	artillery	small	jar_adj_com_unit_set_chariots_war_machines
 rhox_nagash_lahmia_brt_cav_questing_knights_0	wh_dlc07_brt_cav_questing_knights_0	melee_cavalry	cavalry	cav_shk	cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry

@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Chema_CVampire_SubMod_Only_Reskin__
+			wh2_dlc11_vmp_inf_crossbowmen	jar_adj_com_unit_set_infantry	false
+			wh2_dlc11_vmp_inf_handgunners	jar_adj_com_unit_set_infantry	false

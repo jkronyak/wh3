@@ -1,13 +1,13 @@
 import 'dotenv/config';
 import path from 'path';
 import tsv from '../../../../lib/helpers/tsv.ts';
-import { MOD_NAME, MOD_OUTPUT_PATH, MOD_PREFIX } from "../config/mod-config.ts";
+import { MOD_NAME, MOD_OUTPUT_PATH, MOD_PREFIX, MOD_TITLE } from "../config/mod-config.ts";
 import { getOrCreateSession } from '../../../../lib/rpfm-client/rpfm-client-instance.ts';
 import { BONUS_VALUE_CONFIG, UNIT_SET_CONFIG } from '../config/data-config.ts';
 const MOD_UNIT_SETS = Object.keys(UNIT_SET_CONFIG);
 const client = await getOrCreateSession();
 
-const recordPrefix = MOD_PREFIX;
+const recordPrefix = MOD_NAME;
 
 type TableName =
     | "unit_abilities_tables"
@@ -35,7 +35,7 @@ const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>
 
     SetAndAcc: {
         unit_abilities_tables: (set: string, acc: number) => ({
-            key: `jar_adjustable_missiles__ability__acc__${set}__${accSuf(acc)}`,
+            key: `${recordPrefix}__ability__accuracy__${set}__${accSuf(acc)}`,
             requires_effect_enabling: "false",
             icon_name: "jar_accuracy",
             overpower_option: "",
@@ -50,7 +50,7 @@ const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>
             is_hidden_in_ui_for_enemy: "false",
         }),
         unit_special_abilities_tables: (set: string, acc: number) => ({
-            key: `jar_adjustable_missiles__ability__acc__${set}__${accSuf(acc)}`,
+            key: `${recordPrefix}__ability__accuracy__${set}__${accSuf(acc)}`,
             active_time: "-1.0000",
             recharge_time: "-1.0000",
             num_uses: "-1",
@@ -124,14 +124,14 @@ const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>
         }),
         special_ability_to_special_ability_phase_junctions_tables: (set: string, acc: number) => ({
             order: 0,
-            special_ability: `jar_adjustable_missiles__ability__acc__${set}__${accSuf(acc)}`,
+            special_ability: `${recordPrefix}__ability__accuracy__${set}__${accSuf(acc)}`,
             target_self: "true",
             target_friends: "false",
             target_enemies: "false",
-            phase: `jar_adjustable_missiles__ability_phase__acc__${accSuf(acc)}`,
+            phase: `${recordPrefix}__ability_phase__accuracy__${accSuf(acc)}`,
         }),
         effects_tables: (set: string, acc: number) => ({
-            effect: `jar_adjustable_missiles__effect__acc__${set}__${accSuf(acc)}`,
+            effect: `${recordPrefix}__effect__accuracy__${set}__${accSuf(acc)}`,
             icon: 'general_ability.png',
             priority: 0,
             icon_negative: 'general_ability.png',
@@ -139,19 +139,19 @@ const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>
             is_positive_value_good: true
         }),
         unit_set_unit_ability_junctions_tables: (set: string, acc: number) => ({
-            key: `jar_adjustable_missiles__unit_set_ability__acc__${set}__${accSuf(acc)}`,
-            unit_ability: `jar_adjustable_missiles__ability__acc__${set}__${accSuf(acc)}`,
+            key: `${recordPrefix}__unit_set_ability__accuracy__${set}__${accSuf(acc)}`,
+            unit_ability: `jar_adjustable_missiles__ability__accuracy__${set}__${accSuf(acc)}`,
             unit_set: set,
         }),
         effect_bonus_value_unit_set_unit_ability_junctions_tables: (set: string, acc: number) => ({
             bonus_value_id: 'enable',
-            effect: `jar_adjustable_missiles__effect__acc__${set}__${accSuf(acc)}`,
-            unit_set_ability: `jar_adjustable_missiles__unit_set_ability__acc__${set}__${accSuf(acc)}`,
+            effect: `${recordPrefix}__effect__accuracy__${set}__${accSuf(acc)}`,
+            unit_set_ability: `jar_adjustable_missiles__unit_set_ability__accuracy__${set}__${accSuf(acc)}`,
         })
     },
     Acc: {
         special_ability_phases_tables: (acc: number) => ({
-            id: `jar_adjustable_missiles__ability_phase__acc__${accSuf(acc)}`,
+            id: `${recordPrefix}__ability_phase__accuracy__${accSuf(acc)}`,
             duration: "0.0000",
             effect_type: "negative",
             requested_stance: "",
@@ -184,7 +184,7 @@ const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>
             execute_ratio: "0.0000",
         }),
         special_ability_phase_stat_effects_tables: (acc: number) => ({
-            phase: `jar_adjustable_missiles__ability_phase__acc__${accSuf(acc)}`,
+            phase: `${recordPrefix}__ability_phase__accuracy__${accSuf(acc)}`,
             stat: "stat_accuracy",
             value: acc,
             how: "add",
@@ -194,7 +194,7 @@ const accuracyRowGenerators: Record<string, Partial<Record<TableName, Function>>
 
 const singleRowGenerators: Partial<Record<TableName, Function>> = {
     effect_bundles_tables: () => ({
-        key: 'jar_adjustable_missiles__effect_bundle',
+        key: `${recordPrefix}__effect_bundle`,
         localised_description: '',
         localised_title: '',
         bundle_target: 'faction',
@@ -209,7 +209,7 @@ const singleRowGenerators: Partial<Record<TableName, Function>> = {
 
 const otherStatRowGenerators: Partial<Record<TableName, Function>> = {
     effects_tables: (set: string, stat: string) => ({
-        effect: `jar_adjustable_missiles__effect__${stat}__${set}`,
+        effect: `${recordPrefix}__effect__${stat}__${set}`,
         icon: 'general_ability.png',
         priority: 0,
         icon_negative: 'general_ability.png',
@@ -218,8 +218,12 @@ const otherStatRowGenerators: Partial<Record<TableName, Function>> = {
     }),
     effect_bonus_value_ids_unit_sets_tables: (set: string, stat: string) => ({
         bonus_value_id: stat,
-        effect: `jar_adjustable_missiles__effect__${stat}__${set}`,
+        effect: `${recordPrefix}__effect__${stat}__${set}`,
         unit_set: set
+    }),
+    effect_bonus_value_basic_junction_tables: (set: string, stat: string) => ({
+        effect: `${recordPrefix}__effect__${stat}__${set}`,
+        bonus_value_id: stat,
     })
 };
 
@@ -242,9 +246,9 @@ const generateAbilityEffects = async () => {
     // Special case for accuracy
     for (let acc = ACC_MIN; acc <= ACC_MAX; acc++) {
         // Process data that has to be generated per unit set per accuracy value.
-        for (const unitSet of Object.keys(MOD_UNIT_SETS)) {
+        for (const unitSetKey of MOD_UNIT_SETS) {
             for (const [table, func] of Object.entries(accuracyRowGenerators.SetAndAcc!) as [TableName, Function][]) {
-                (tableResult[table] ??= []).push(func(unitSet, acc));
+                (tableResult[table] ??= []).push(func(unitSetKey, acc));
             }
         }
 
@@ -266,6 +270,7 @@ const generateAbilityEffects = async () => {
         const tableName = (bvConfig.type || "effect_bonus_value_ids_unit_sets_tables") as TableName;
         
         for (const unitSetKey of bvUnitSets) {
+            console.log("processing", bvKey, unitSetKey);
             const effectsTablesFunc = otherStatRowGenerators.effects_tables!;
             const bonusValueJuncFunc = otherStatRowGenerators[tableName]!;
             (tableResult["effects_tables"] ??= []).push(effectsTablesFunc(unitSetKey, bvKey));

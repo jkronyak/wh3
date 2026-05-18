@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!!khuresh_mercs1__
+			kou_ace_km_orobagor	jar_adj_com_unit_set_cavalry	false
+			kou_ace_km_spittin_naja	jar_adj_com_unit_set_monstrous_infantry	false
+			kou_ace_km_pyrenaga	jar_adj_com_unit_set_single_entities	false
+			kou_ace_km_dread_maw	jar_adj_com_unit_set_single_entities	false

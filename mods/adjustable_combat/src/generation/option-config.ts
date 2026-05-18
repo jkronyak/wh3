@@ -146,10 +146,10 @@ adj_com_config.misc_config = {
         display = "Apply to AI",
         description = "Apply the configured effects to the AI",
     },
-    enable_logging = {
-        display = "Enable Logging",
-        description = "Enable developer logging.",
-    },
+    --enable_logging = {
+    --    display = "Enable Logging",
+    --    description = "Enable developer logging.",
+    --},
 }
 -----------------------------------------------------------------------------
 --- Option Default Settings; can be overwritten here

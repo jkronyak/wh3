@@ -1,0 +1,7 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__derpy_chd_aeromachines__
+			derpy_chd_gyro_01_cannon	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_chd_gyro_02_multi_cannon	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_chd_gyro_03_flame	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_chd_gyro_04_bomber	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_chd_gyro_05_rocket	jar_adj_com_unit_set_chariots_war_machines	false

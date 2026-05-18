@@ -1,5 +1,11 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!!!lost_calm_jurassic_normal__
+			calm_elite_terradon	jar_adj_com_unit_set_cavalry	false
+			calm_feral_proto	jar_adj_com_unit_set_monstrous_infantry	false
+			calm_spitter_proto	jar_adj_com_unit_set_monstrous_infantry	false
+			calm_armoured_proto	jar_adj_com_unit_set_monstrous_infantry	false
+			calm_shield_proto	jar_adj_com_unit_set_monstrous_infantry	false
+			calm_custodian	jar_adj_com_unit_set_single_entities	false
 			calm_pirhajara	jar_adj_com_unit_set_war_beasts	false
 			calm_arceopteryx	jar_adj_com_unit_set_cavalry	false
 			calm_ankylosaur	jar_adj_com_unit_set_single_entities	false
@@ -32,9 +38,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			calm_rex	jar_adj_com_unit_set_single_entities	false
 			calm_thunder_lizard	jar_adj_com_unit_set_single_entities	false
 			calm_quatzelotus	jar_adj_com_unit_set_single_entities	false
-			calm_elite_terradon	jar_adj_com_unit_set_cavalry	false
-			calm_feral_proto	jar_adj_com_unit_set_monstrous_infantry	false
-			calm_spitter_proto	jar_adj_com_unit_set_monstrous_infantry	false
-			calm_armoured_proto	jar_adj_com_unit_set_monstrous_infantry	false
-			calm_shield_proto	jar_adj_com_unit_set_monstrous_infantry	false
-			calm_custodian	jar_adj_com_unit_set_single_entities	false

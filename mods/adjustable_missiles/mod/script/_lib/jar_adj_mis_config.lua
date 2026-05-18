@@ -63,12 +63,23 @@ adj_mis_config.unit_set_config = {
 -----------------------------------------------------------------------------
 adj_mis_config.bonus_value_config = {
     accuracy = {
-        display = "Accuracy",
+        display = "Accuracy (Flat)",
         description = "Modify unit accuracy by n.",
         min = -100,
         max = 200,
         type = "ability",
         key = "accuracy",
+    },
+    unit_stat_bonus_accuracy_mod = {
+        display = "Accuracy %",
+        description = "Modify unit accuracy by n%.",
+        unit_sets = {
+            "jar_unit_set_global"
+        },
+        type = "effect_bonus_value_basic_junction_tables",
+        min = -500,
+        max = 500,
+        key = "unit_stat_bonus_accuracy_mod",
     },
     reload = {
         display = "Reload Skill %",
@@ -158,6 +169,9 @@ adj_mis_config.bonus_value_mapping = {
         "missile_damage_ap_mod_add",
         "missile_explosion_radius"
     },
+    jar_unit_set_global = {
+        "unit_stat_bonus_accuracy_mod"
+    },
 }
 -----------------------------------------------------------------------------
 --- Misc Setting Configuration
@@ -175,10 +189,10 @@ adj_mis_config.misc_config = {
         display = "Apply to AI",
         description = "Apply the configured effects to the AI",
     },
-    enable_logging = {
-        display = "Enable Logging",
-        description = "Enable developer logging.",
-    },
+    --enable_logging = {
+    --    display = "Enable Logging",
+    --    description = "Enable developer logging.",
+    --},
 }
 -----------------------------------------------------------------------------
 --- Option Default Settings; can be overwritten here
@@ -187,6 +201,10 @@ adj_mis_config.mod_defaults = {
     bonus_value = {
         jar_unit_set_global = {
             accuracy = {
+                player = 0,
+                ai = 0,
+            },
+            unit_stat_bonus_accuracy_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -236,6 +254,10 @@ adj_mis_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            unit_stat_bonus_accuracy_mod = {
+                player = 0,
+                ai = 0,
+            },
             reload = {
                 player = 0,
                 ai = 0,
@@ -279,6 +301,10 @@ adj_mis_config.mod_defaults = {
         },
         jar_unit_set_artillery_war_machines = {
             accuracy = {
+                player = 0,
+                ai = 0,
+            },
+            unit_stat_bonus_accuracy_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -328,6 +354,10 @@ adj_mis_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            unit_stat_bonus_accuracy_mod = {
+                player = 0,
+                ai = 0,
+            },
             reload = {
                 player = 0,
                 ai = 0,
@@ -374,6 +404,10 @@ adj_mis_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            unit_stat_bonus_accuracy_mod = {
+                player = 0,
+                ai = 0,
+            },
             reload = {
                 player = 0,
                 ai = 0,
@@ -417,6 +451,10 @@ adj_mis_config.mod_defaults = {
         },
         jar_unit_set_infantry = {
             accuracy = {
+                player = 0,
+                ai = 0,
+            },
+            unit_stat_bonus_accuracy_mod = {
                 player = 0,
                 ai = 0,
             },

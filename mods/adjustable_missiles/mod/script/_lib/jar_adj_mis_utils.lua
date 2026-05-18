@@ -1,9 +1,9 @@
 
 
 ----------------------------------------------------------------------------
---- Module: Adjustable Combat Utils
+--- Module: Adjustable Missiles Utils
 --- Author: AceTheGreat
---- Description: Utilities and common functionality for Adjustable Combat
+--- Description: Utilities and common functionality for Adjustable Missiles
 ----------------------------------------------------------------------------
 
 
@@ -40,7 +40,7 @@ if not JARLOG then
 end
 
 local logger = JARLOG:new({
-    enabled = true,
+    enabled = false,
     append = false,
     name = adj_mis_config.mod_config.mod_prefix,
     min_level = JARLOG.LEVELS.DEBUG
@@ -63,23 +63,19 @@ function adj_mis_utils.get_misc_config(misc_key)
 end
 
 function adj_mis_utils.create_bv_option_key(unit_set_key, bonus_value_key, scope)
-    -- return "mct_" .. adj_mis_config.mod_config.mod_prefix .. "_BV__" .. unit_set_key .. "__" .. bonus_value_key .. "__" .. scope
     return "opt__STAT__" .. unit_set_key .. "__" .. bonus_value_key .. "__" .. scope
 end
 
 function adj_mis_utils.create_link_option_key(unit_set_key)
-    -- return "mct_" .. adj_mis_config.mod_config.mod_prefix .. "_LINK__" .. unit_set_key
     return "opt__LINK__" .. unit_set_key
 end
 
 function adj_mis_utils.create_misc_option_key(misc_option_key)
-    -- return "mct_" .. adj_mis_config.mod_config.mod_prefix .. "_MISC__" .. misc_option_key
     return "opt__CORE__" .. misc_option_key
 end
 function adj_mis_utils.decode_option_key(option_key)
     local parts = jar_utils.split_str(option_key, "__")
     local command = parts[2]
-    out("GET OPTION " .. option_key .. " " .. tostring(command))
 
     if command == "STAT" then
         local unit_set_key = parts[3]

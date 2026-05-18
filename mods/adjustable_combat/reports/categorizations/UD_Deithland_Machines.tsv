@@ -1,0 +1,4 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+emp_steamsuits_swords	emp_steamsuits_swords	melee_infantry	inf_melee	inf_mel	emp_steamsuits_swords	infantry	true	16	0	0	false		0	archer	large	jar_adj_com_unit_set_monstrous_infantry
+emp_steamsuits_great	emp_steamsuits_great	melee_infantry	inf_melee	inf_mel	emp_steamsuits_great	infantry	true	16	0	0	false		0	archer	large	jar_adj_com_unit_set_monstrous_infantry
+emp_steamsuits_volley	emp_steamsuits_volley	melee_infantry	inf_ranged	inf_mis	emp_steamsuits_volley	missile_infantry	true	16	0	0	false	emp_steamsuits_volley	24	archer	large	jar_adj_com_unit_set_monstrous_infantry

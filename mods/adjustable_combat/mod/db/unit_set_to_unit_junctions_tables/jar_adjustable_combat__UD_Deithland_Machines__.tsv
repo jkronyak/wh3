@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__UD_Deithland_Machines__
+			emp_steamsuits_swords	jar_adj_com_unit_set_monstrous_infantry	false
+			emp_steamsuits_great	jar_adj_com_unit_set_monstrous_infantry	false
+			emp_steamsuits_volley	jar_adj_com_unit_set_monstrous_infantry	false

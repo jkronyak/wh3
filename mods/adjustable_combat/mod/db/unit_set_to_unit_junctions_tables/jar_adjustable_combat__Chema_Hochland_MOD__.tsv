@@ -1,0 +1,14 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Chema_Hochland_MOD__
+			chema_hochland_greatswords	jar_adj_com_unit_set_infantry	false
+			chema_hochland_halberd	jar_adj_com_unit_set_infantry	false
+			chema_hochland_handgunners	jar_adj_com_unit_set_infantry	false
+			chema_hochland_state_troops_crossbowmen	jar_adj_com_unit_set_infantry	false
+			chema_hochland_swordmen	jar_adj_com_unit_set_infantry	false
+			chema_hochland_troops_spears	jar_adj_com_unit_set_infantry	false
+			chema_hochland_troops_spears_shield	jar_adj_com_unit_set_infantry	false
+			chema_hochland_knights	jar_adj_com_unit_set_cavalry	false
+			chema_hochland_longrifle	jar_adj_com_unit_set_infantry	false
+			chema_hochland_pistolers	jar_adj_com_unit_set_cavalry	false
+			chema_hochland_bati	jar_adj_com_unit_set_cavalry	false
+			chema_hochland_archer	jar_adj_com_unit_set_infantry	false

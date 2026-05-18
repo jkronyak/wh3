@@ -1,0 +1,22 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Chema_Ostland_MOD__
+			chema_ostland_spearmen	jar_adj_com_unit_set_infantry	false
+			chema_ostland_swordmen	jar_adj_com_unit_set_infantry	false
+			chema_ostland_halberdiers	jar_adj_com_unit_set_infantry	false
+			chema_ostland_blackguard	jar_adj_com_unit_set_infantry	false
+			chema_ostland_state_troops_crossbowmen	jar_adj_com_unit_set_infantry	false
+			chema_ostland_fireloques	jar_adj_com_unit_set_infantry	false
+			chema_ostland_emp_state_troops_handgunners	jar_adj_com_unit_set_infantry	false
+			chema_ostland_empire_knights	jar_adj_com_unit_set_cavalry	false
+			chema_ostland_skalten_crossaxe	jar_adj_com_unit_set_infantry	false
+			chema_ostland_ogr_maneater_pistol	jar_adj_com_unit_set_monstrous_infantry	false
+			chema_ostland_apocalipsis_flagellants	jar_adj_com_unit_set_single_entities	false
+			chema_ostland_altar_sigmar_cart	jar_adj_com_unit_set_chariots_war_machines	false
+			chema_ostland_scarlet_curs	jar_adj_com_unit_set_infantry	false
+			chema_ostland_chain_infernal_flagellant	jar_adj_com_unit_set_infantry	false
+			chema_ostland_wonfenburg_twice_bolds	jar_adj_com_unit_set_infantry	false
+			chema_ostland_greatsword	jar_adj_com_unit_set_infantry	false
+			chema_ostland_fire_archer	jar_adj_com_unit_set_infantry	false
+			chema_ostland_archer	jar_adj_com_unit_set_infantry	false
+			chema_ostland_wolfenburg_skullbreaker	jar_adj_com_unit_set_infantry	false
+			chema_ostland_spear_and_shieldmen	jar_adj_com_unit_set_infantry	false

@@ -23,7 +23,7 @@ local mod_settings = {
     core = {},
 }
 
-local effect_bundle_key = mod_config.mod_prefix .. "__effect_bundle"
+local effect_bundle_key = mod_config.mod_name .. "__effect_bundle"
 
 
 ---@param faction FACTION_SCRIPT_INTERFACE
@@ -56,7 +56,7 @@ local function load_mod_settings()
             local ai_option_config = utils.get_bv_option_config(unit_set_key, bonus_value_key, "ai")
 
             if mct then
-                local mod = mct:get_mod_by_key(mod_config.mod_prefix)
+                local mod = mct:get_mod_by_key(mod_config.mod_name)
                 local player_option = mod:get_option_by_key(player_option_config.option_key)
                 local ai_option = mod:get_option_by_key(ai_option_config.option_key)
 
@@ -77,7 +77,7 @@ local function load_mod_settings()
         local misc_option_config = utils.get_misc_option_config(misc_key)
 
         if mct then
-            local mod = mct:get_mod_by_key(mod_config.mod_prefix)
+            local mod = mct:get_mod_by_key(mod_config.mod_name)
             local option = mod:get_option_by_key(misc_option_config.option_key)
             mod_settings.core[misc_key] = option:get_selected_setting()
         else
@@ -94,7 +94,7 @@ local function create_mod_effect_bundle(scope)
         for bonus_value_key, values in pairs(bonus_value_table) do
             local value = values[scope]
             if value ~= 0 then
-                local effect_string = mod_config.mod_prefix .. "__effect__" .. bonus_value_key .. "__" .. unit_set_key
+                local effect_string = mod_config.mod_name .. "__effect__" .. bonus_value_key .. "__" .. unit_set_key
                 logger:debug("Applying", effect_string, "with value", value)
                 effect_bundle:add_effect(effect_string, effect_scope, value)
 

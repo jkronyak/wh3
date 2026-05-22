@@ -1,0 +1,12 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__psgo_brinewight__
+			psgo_brinewight_dual	jar_adj_com_unit_set_infantry	false
+			psgo_brinewight	jar_adj_com_unit_set_infantry	false
+			psgo_brinewight_polearm	jar_adj_com_unit_set_infantry	false
+			psgo_deepfang_horror	jar_adj_com_unit_set_war_beasts	false
+			psgo_brinewight_marksmen	jar_adj_com_unit_set_infantry	false
+			psgo_river_troll	jar_adj_com_unit_set_single_entities	false
+			psgo_drowned_leadbelcher	jar_adj_com_unit_set_monstrous_infantry	false
+			psgo_haunted_vessel	jar_adj_com_unit_set_chariots_war_machines	false
+			psgo_brinewight_flamethrower	jar_adj_com_unit_set_infantry	false
+			psgo_abyssal_riders	jar_adj_com_unit_set_cavalry	false

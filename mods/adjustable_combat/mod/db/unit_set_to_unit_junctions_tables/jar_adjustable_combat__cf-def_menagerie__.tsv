@@ -1,0 +1,25 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__cf-def_menagerie__
+			cf_menagerie_cold_ones	jar_adj_com_unit_set_cavalry	false
+			cf_menagerie_dread_saurian	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_squig_explosive	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_spider_hatchlings	jar_adj_com_unit_set_war_beasts	false
+			cf_menagerie_giant_wolves	jar_adj_com_unit_set_war_beasts	false
+			cf_menagerie_sabretusk_pack	jar_adj_com_unit_set_war_beasts	false
+			cf_menagerie_carnosaur	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_war_mammoth	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_wyvern	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_giant_spiders	jar_adj_com_unit_set_monstrous_infantry	false
+			cf_menagerie_bastiladon	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_stegadon	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_brown_bears	jar_adj_com_unit_set_war_beasts	false
+			cf_menagerie_ice_bears	jar_adj_com_unit_set_war_beasts	false
+			cf_menagerie_merwyrm	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_frost_wyrm	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_war_lions	jar_adj_com_unit_set_war_beasts	false
+			cf_menagerie_great_eagle	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_flamespyre_phoenix	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_stonehorn	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_great_moon_bird	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_snow_leopard	jar_adj_com_unit_set_single_entities	false
+			cf_menagerie_arachnarok_spider	jar_adj_com_unit_set_single_entities	false

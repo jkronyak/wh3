@@ -1,0 +1,3 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+traj_vampire_frost_knight_dragon	traj_vampire_frost_knight_dragon	monster	inf_melee	inf_mel	dragon	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+traj_vampire_frost_knight_ror	traj_vampire_frost_knight_ror	monstrous_cavalry	inf_melee	spcl	wh3_dlc24_things_in_woods	monster_beasts	true	24	0	0	false		0	melee	medium	jar_adj_com_unit_set_cavalry

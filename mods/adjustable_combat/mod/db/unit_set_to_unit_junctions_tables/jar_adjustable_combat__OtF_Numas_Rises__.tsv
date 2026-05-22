@@ -1,0 +1,18 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__OtF_Numas_Rises__
+			OtF_neh_cav_horseman	jar_adj_com_unit_set_cavalry	false
+			OtF_neh_inf_archers	jar_adj_com_unit_set_infantry	false
+			OtF_neh_inf_spearmen	jar_adj_com_unit_set_infantry	false
+			OtF_neh_inf_swordsmen	jar_adj_com_unit_set_infantry	false
+			OtF_neh_ushabti	jar_adj_com_unit_set_infantry	false
+			OtF_khemri_rangers	jar_adj_com_unit_set_infantry	false
+			OtF_neh_inf_peasant_mob_0	jar_adj_com_unit_set_infantry	false
+			OtF_neh_inf_tomb_guard_0	jar_adj_com_unit_set_infantry	false
+			OtF_neh_inf_tomb_guard_1	jar_adj_com_unit_set_infantry	false
+			OtF_neh_inf_kepra_guard	jar_adj_com_unit_set_infantry	false
+			OtF_neh_cav_necropolis_knights_0	jar_adj_com_unit_set_cavalry	false
+			OtF_neh_mon_khemrian_warsphinx_0	jar_adj_com_unit_set_single_entities	false
+			OtF_neh_veh_skeleton_archer_chariot_0	jar_adj_com_unit_set_chariots_war_machines	false
+			OtF_neh_veh_skeleton_chariot_0	jar_adj_com_unit_set_chariots_war_machines	false
+			OtF_neh_inf_obelisk_vanguard_1	jar_adj_com_unit_set_infantry	false
+			OtF_neh_inf_obelisk_vanguard_0	jar_adj_com_unit_set_infantry	false

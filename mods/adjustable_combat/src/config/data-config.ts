@@ -38,6 +38,12 @@ export const UNIT_SET_CONFIG = {
 export const BONUS_VALUE_CONFIG  = {
 
     // Global Only
+    // general_bodyguard_size_mod: { 
+    //     display: "Hitpoints",
+    //     description: "Modify unit hitpoints by n%. Does not affect characters.",
+    //     unit_sets: ["jar_adj_com_unit_set_global"],
+    //     type: "effect_bonus_value_basic_junction_tables",
+    // },
     battle_healing_cap_mod: {
         display: "Healing Cap",
         description: "Modify the maximum healing capacity by n%.",
@@ -102,7 +108,7 @@ export const BONUS_VALUE_CONFIG  = {
     },
 
     armour_mod: {
-        display: "Armor",
+        display: "Armor (Flat)",
         description: "Modify unit armor by n flat.",
 
     },
@@ -113,13 +119,13 @@ export const BONUS_VALUE_CONFIG  = {
     },
 
     missile_block_chance_mod: {
-        display: "Missile Block Chance",
+        display: "Missile Block Chance (Flat)",
         description: "Modify unit missile block chance (ex. shield) by n.",
 
     },
 
     battle_barrier_health: {
-        display: "Barrier Health",
+        display: "Barrier Health (Flat)",
         description: "Modify unit barrier health by n flat.",
 
     },
@@ -130,63 +136,83 @@ export const BONUS_VALUE_CONFIG  = {
     },
 
     morale: {
-        display: "Morale",
+        display: "Morale (Flat)",
         description: "Modify unit moral by n flat.",
 
     },
 
 
     unit_mass_percentage_mod: {
-        display: "Mass",
+        display: "Mass %",
         description: "Modify unit mass by n%.",
 
     },
 
     mod_land_movement_battle: {
-        display: "Speed",
+        display: "Speed %",
         description: "Modify unit speed by n%.",
 
     },
 
-    melee_attack_mod: {
-        display: "Melee Attack",
-        description: "Modify unit melee attack by n flat.",
-
-    },
     melee_attack_mod_mult: {
         display: "Melee Attack %",
         description: "Modify unit melee attack by n%.",
-
-    },
-    melee_defence_mod: {
-        display: "Melee Defense",
-        description: "Modify unit melee defense by n flat.",
-
+        
     },
     melee_defence_mod_mult: {
         display: "Melee Defense %",
         description: "Modify unit melee defense by n%.",
 
     },
-
-    melee_damage_mod_add: {
-        display: "Base Weapon Damage",
-        description: "Modify unit non-AP weapon damage by n flat.",
+    melee_defence_mod: {
+        display: "Melee Defense (Flat)",
+        description: "Modify unit melee defense by n flat.",
+        
+    },
+    melee_attack_mod: {
+        display: "Melee Attack (Flat)",
+        description: "Modify unit melee attack by n flat.",
 
     },
+
     melee_damage_mod_mult: {
         display: "Base Weapon Damage %",
         description: "Modify unit non-AP weapon damage by n%.",
-
-    },
-    melee_damage_ap_mod_add: {
-        display: "AP Weapon Damage",
-        description: "Modify unit AP weapon damage by n flat.",
-
+        
     },
     melee_damage_ap_mod_mult: {
         display: "AP Weapon Damage %",
         description: "Modify unit AP weapon damage ny n%.",
+        
+    },
+    melee_damage_mod_add: {
+        display: "Base Weapon Damage (Flat)",
+        description: "Modify unit non-AP weapon damage by n flat.",
 
     },
+    melee_damage_ap_mod_add: {
+        display: "AP Weapon Damage (Flat)",
+        description: "Modify unit AP weapon damage by n flat.",
+
+    },
+
+    charge_add: { 
+        display: "Charge Bonus (Flat)",
+        description: "Modify unit charge bonus by n flat.",
+    },
+    charge_bonus: { 
+        display: "Charge Bonus %",
+        description: "Modify unit charge bonus by n%."
+    },
+
+    damage_vs_infantry: { 
+        display: "Bonus vs. Infantry (Flat)",
+        description: "Modify unit bonus vs. infantry by n flat.",
+    },
+    damage_vs_large_entities: { 
+        display: "Bonus vs. Large (Flat)",
+        description: "Modify unit bonus vs. large by n flat.",
+    },
+    
+
 } as Record<string, any>;

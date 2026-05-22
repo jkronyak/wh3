@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+wh_main_brt_art_cow_trebuchet	wh_main_brt_art_cow_trebuchet	warmachine	artillery	art_fld	catapult	artillery_war_machines	true	44	4	0	false		20	artillery	small	jar_adj_com_unit_set_chariots_war_machines

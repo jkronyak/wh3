@@ -1,0 +1,6 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+hef_espadas_de_hoeth	hef_espadas_de_hoeth	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+hef_lanceros_de_hoeth	hef_lanceros_de_hoeth	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+hef_arqueros_de_hoeth	hef_arqueros_de_hoeth	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	80	0	0	false	hef_arco_largo	25	archer	small	jar_adj_com_unit_set_infantry
+hef_guardia_del_mar_de_hoeth_escudos	hef_guardia_del_mar_de_hoeth_escudos	missile_infantry	inf_ranged	inf_mis	wh2_main_hef_missile_infantry_bow_spear	missile_infantry	true	80	0	0	false	hef_arco_corto	20	archer	small	jar_adj_com_unit_set_infantry
+hef_jinetes_de_hoeth_escudos	hef_jinetes_de_hoeth_escudos	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry

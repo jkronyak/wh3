@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+dead_summon_daemon_prince	dead_summon_daemon_prince	monster	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	1	0	0	true		0	skirmish	very_large	jar_adj_com_unit_set_single_entities

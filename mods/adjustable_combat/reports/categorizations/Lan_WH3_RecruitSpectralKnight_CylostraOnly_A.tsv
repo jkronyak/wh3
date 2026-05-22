@@ -1,0 +1,4 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+lan_cst_cav_knights_errant_0	lan_cst_cav_knights_errant_0	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+lan_cst_cav_knights_of_the_realm	lan_cst_cav_knights_of_the_realm	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	75	0	75	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+lan_cst_cav_questing_knights_0	lan_cst_cav_questing_knights_0	melee_cavalry	cavalry	cav_shk	cavalry	cavalry_chariots	true	75	0	75	false		0	melee	medium	jar_adj_com_unit_set_cavalry

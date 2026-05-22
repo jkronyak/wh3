@@ -1,0 +1,17 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+OtF_neh_cav_horseman	OtF_neh_cav_horseman	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_adj_com_unit_set_cavalry
+OtF_neh_inf_archers	OtF_neh_inf_archers	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh2_dlc09_tmb_bow_skeleton	22		small	jar_adj_com_unit_set_infantry
+OtF_neh_inf_spearmen	OtF_neh_inf_spearmen	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0		small	jar_adj_com_unit_set_infantry
+OtF_neh_inf_swordsmen	OtF_neh_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0		small	jar_adj_com_unit_set_infantry
+OtF_neh_ushabti	OtF_neh_ushabti	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	20	0	0	false		0		small	jar_adj_com_unit_set_infantry
+OtF_khemri_rangers	OtF_khemri_rangers	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	60	0	0	false	wh2_dlc09_tmb_bow_skeleton_ror	24		small	jar_adj_com_unit_set_infantry
+OtF_neh_inf_peasant_mob_0	OtF_neh_inf_peasant_mob_0	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
+OtF_neh_inf_tomb_guard_0	OtF_neh_inf_tomb_guard_0	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0		small	jar_adj_com_unit_set_infantry
+OtF_neh_inf_tomb_guard_1	OtF_neh_inf_tomb_guard_1	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0		small	jar_adj_com_unit_set_infantry
+OtF_neh_inf_kepra_guard	OtF_neh_inf_kepra_guard	melee_infantry	inf_melee	inf_mel	infantry_sword_dual	infantry	true	120	0	0	false		0		small	jar_adj_com_unit_set_infantry
+OtF_neh_cav_necropolis_knights_0	OtF_neh_cav_necropolis_knights_0	monstrous_cavalry	cavalry	cav_shk	wh2_dlc09_tmb_necroserpent_spear	cavalry_chariots	true	24	0	24	false		0		small	jar_adj_com_unit_set_cavalry
+OtF_neh_mon_khemrian_warsphinx_0	OtF_neh_mon_khemrian_warsphinx_0	monster	war_beast	inf_mel	wh2_dlc09_tmb_warsphinx	missile_monster_beasts	true	4	0	1	true		200		very_large	jar_adj_com_unit_set_single_entities
+OtF_neh_veh_skeleton_archer_chariot_0	OtF_neh_veh_skeleton_archer_chariot_0	chariot	war_machine	chariot	missile_chariot	missile_cavalry_chariots	true	24	12	2	false	wh2_dlc09_tmb_bow_chariot	30		small	jar_adj_com_unit_set_chariots_war_machines
+OtF_neh_veh_skeleton_chariot_0	OtF_neh_veh_skeleton_chariot_0	chariot	war_machine	chariot	chariot	cavalry_chariots	true	24	12	2	false		0		small	jar_adj_com_unit_set_chariots_war_machines
+OtF_neh_inf_obelisk_vanguard_1	OtF_neh_inf_obelisk_vanguard_1	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	100	0	0	false		0		small	jar_adj_com_unit_set_infantry
+OtF_neh_inf_obelisk_vanguard_0	OtF_neh_inf_obelisk_vanguard_0	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0		small	jar_adj_com_unit_set_infantry

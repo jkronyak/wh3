@@ -159,10 +159,10 @@ local function create_categorical_actuals_page()
             local player_section = create_static_bv_section(unit_set_key, "player", "Player  " .. unit_set_config.display)
             local ai_section = create_static_bv_section(unit_set_key, "ai", "AI  " .. unit_set_config.display)
 
-            player_section:set_is_collapsible(true)
+            -- Page should be hidden, but MCT has a bug that sometimes shows it anyway.
+            -- So we collapse the sections here, just in case.
+            link_section:set_collapsed(true)
             player_section:set_collapsed(true)
-
-            ai_section:set_is_collapsible(true)
             ai_section:set_collapsed(true)
 
             link_section:assign_to_page(page)

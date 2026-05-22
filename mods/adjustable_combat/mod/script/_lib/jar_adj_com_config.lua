@@ -166,7 +166,7 @@ adj_com_config.bonus_value_config = {
         key = "unit_fatigue_resistance_mod",
     },
     armour_mod = {
-        display = "Armor",
+        display = "Armor (Flat)",
         description = "Modify unit armor by n flat.",
         min = -500,
         max = 500,
@@ -180,14 +180,14 @@ adj_com_config.bonus_value_config = {
         key = "armour_mod_mult",
     },
     missile_block_chance_mod = {
-        display = "Missile Block Chance",
+        display = "Missile Block Chance (Flat)",
         description = "Modify unit missile block chance (ex. shield) by n.",
         min = -500,
         max = 500,
         key = "missile_block_chance_mod",
     },
     battle_barrier_health = {
-        display = "Barrier Health",
+        display = "Barrier Health (Flat)",
         description = "Modify unit barrier health by n flat.",
         min = -500,
         max = 500,
@@ -201,32 +201,25 @@ adj_com_config.bonus_value_config = {
         key = "battle_barrier_health_mod",
     },
     morale = {
-        display = "Morale",
+        display = "Morale (Flat)",
         description = "Modify unit moral by n flat.",
         min = -500,
         max = 500,
         key = "morale",
     },
     unit_mass_percentage_mod = {
-        display = "Mass",
+        display = "Mass %",
         description = "Modify unit mass by n%.",
         min = -500,
         max = 500,
         key = "unit_mass_percentage_mod",
     },
     mod_land_movement_battle = {
-        display = "Speed",
+        display = "Speed %",
         description = "Modify unit speed by n%.",
         min = -500,
         max = 500,
         key = "mod_land_movement_battle",
-    },
-    melee_attack_mod = {
-        display = "Melee Attack",
-        description = "Modify unit melee attack by n flat.",
-        min = -500,
-        max = 500,
-        key = "melee_attack_mod",
     },
     melee_attack_mod_mult = {
         display = "Melee Attack %",
@@ -235,13 +228,6 @@ adj_com_config.bonus_value_config = {
         max = 500,
         key = "melee_attack_mod_mult",
     },
-    melee_defence_mod = {
-        display = "Melee Defense",
-        description = "Modify unit melee defense by n flat.",
-        min = -500,
-        max = 500,
-        key = "melee_defence_mod",
-    },
     melee_defence_mod_mult = {
         display = "Melee Defense %",
         description = "Modify unit melee defense by n%.",
@@ -249,12 +235,19 @@ adj_com_config.bonus_value_config = {
         max = 500,
         key = "melee_defence_mod_mult",
     },
-    melee_damage_mod_add = {
-        display = "Base Weapon Damage",
-        description = "Modify unit non-AP weapon damage by n flat.",
+    melee_defence_mod = {
+        display = "Melee Defense (Flat)",
+        description = "Modify unit melee defense by n flat.",
         min = -500,
         max = 500,
-        key = "melee_damage_mod_add",
+        key = "melee_defence_mod",
+    },
+    melee_attack_mod = {
+        display = "Melee Attack (Flat)",
+        description = "Modify unit melee attack by n flat.",
+        min = -500,
+        max = 500,
+        key = "melee_attack_mod",
     },
     melee_damage_mod_mult = {
         display = "Base Weapon Damage %",
@@ -263,19 +256,54 @@ adj_com_config.bonus_value_config = {
         max = 500,
         key = "melee_damage_mod_mult",
     },
-    melee_damage_ap_mod_add = {
-        display = "AP Weapon Damage",
-        description = "Modify unit AP weapon damage by n flat.",
-        min = -500,
-        max = 500,
-        key = "melee_damage_ap_mod_add",
-    },
     melee_damage_ap_mod_mult = {
         display = "AP Weapon Damage %",
         description = "Modify unit AP weapon damage ny n%.",
         min = -500,
         max = 500,
         key = "melee_damage_ap_mod_mult",
+    },
+    melee_damage_mod_add = {
+        display = "Base Weapon Damage (Flat)",
+        description = "Modify unit non-AP weapon damage by n flat.",
+        min = -500,
+        max = 500,
+        key = "melee_damage_mod_add",
+    },
+    melee_damage_ap_mod_add = {
+        display = "AP Weapon Damage (Flat)",
+        description = "Modify unit AP weapon damage by n flat.",
+        min = -500,
+        max = 500,
+        key = "melee_damage_ap_mod_add",
+    },
+    charge_add = {
+        display = "Charge Bonus (Flat)",
+        description = "Modify unit charge bonus by n flat.",
+        min = -500,
+        max = 500,
+        key = "charge_add",
+    },
+    charge_bonus = {
+        display = "Charge Bonus %",
+        description = "Modify unit charge bonus by n%.",
+        min = -500,
+        max = 500,
+        key = "charge_bonus",
+    },
+    damage_vs_infantry = {
+        display = "Bonus vs. Infantry (Flat)",
+        description = "Modify unit bonus vs. infantry by n flat.",
+        min = -500,
+        max = 500,
+        key = "damage_vs_infantry",
+    },
+    damage_vs_large_entities = {
+        display = "Bonus vs. Large (Flat)",
+        description = "Modify unit bonus vs. large by n flat.",
+        min = -500,
+        max = 500,
+        key = "damage_vs_large_entities",
     },
 }
 -----------------------------------------------------------------------------
@@ -297,14 +325,18 @@ adj_com_config.bonus_value_mapping = {
         "morale",
         "unit_mass_percentage_mod",
         "mod_land_movement_battle",
-        "melee_attack_mod",
         "melee_attack_mod_mult",
-        "melee_defence_mod",
         "melee_defence_mod_mult",
-        "melee_damage_mod_add",
+        "melee_defence_mod",
+        "melee_attack_mod",
         "melee_damage_mod_mult",
+        "melee_damage_ap_mod_mult",
+        "melee_damage_mod_add",
         "melee_damage_ap_mod_add",
-        "melee_damage_ap_mod_mult"
+        "charge_add",
+        "charge_bonus",
+        "damage_vs_infantry",
+        "damage_vs_large_entities"
     },
     jar_adj_com_unit_set_global = {
         "battle_healing_cap_mod",
@@ -417,15 +449,7 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_attack_mod = {
-                player = 0,
-                ai = 0,
-            },
             melee_attack_mod_mult = {
-                player = 0,
-                ai = 0,
-            },
-            melee_defence_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -433,7 +457,11 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_mod_add = {
+            melee_defence_mod = {
+                player = 0,
+                ai = 0,
+            },
+            melee_attack_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -441,11 +469,31 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            melee_damage_ap_mod_mult = {
+                player = 0,
+                ai = 0,
+            },
+            melee_damage_mod_add = {
+                player = 0,
+                ai = 0,
+            },
             melee_damage_ap_mod_add = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_ap_mod_mult = {
+            charge_add = {
+                player = 0,
+                ai = 0,
+            },
+            charge_bonus = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_infantry = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_large_entities = {
                 player = 0,
                 ai = 0,
             },
@@ -527,15 +575,7 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_attack_mod = {
-                player = 0,
-                ai = 0,
-            },
             melee_attack_mod_mult = {
-                player = 0,
-                ai = 0,
-            },
-            melee_defence_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -543,7 +583,11 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_mod_add = {
+            melee_defence_mod = {
+                player = 0,
+                ai = 0,
+            },
+            melee_attack_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -551,11 +595,31 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            melee_damage_ap_mod_mult = {
+                player = 0,
+                ai = 0,
+            },
+            melee_damage_mod_add = {
+                player = 0,
+                ai = 0,
+            },
             melee_damage_ap_mod_add = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_ap_mod_mult = {
+            charge_add = {
+                player = 0,
+                ai = 0,
+            },
+            charge_bonus = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_infantry = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_large_entities = {
                 player = 0,
                 ai = 0,
             },
@@ -637,15 +701,7 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_attack_mod = {
-                player = 0,
-                ai = 0,
-            },
             melee_attack_mod_mult = {
-                player = 0,
-                ai = 0,
-            },
-            melee_defence_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -653,7 +709,11 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_mod_add = {
+            melee_defence_mod = {
+                player = 0,
+                ai = 0,
+            },
+            melee_attack_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -661,11 +721,31 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            melee_damage_ap_mod_mult = {
+                player = 0,
+                ai = 0,
+            },
+            melee_damage_mod_add = {
+                player = 0,
+                ai = 0,
+            },
             melee_damage_ap_mod_add = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_ap_mod_mult = {
+            charge_add = {
+                player = 0,
+                ai = 0,
+            },
+            charge_bonus = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_infantry = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_large_entities = {
                 player = 0,
                 ai = 0,
             },
@@ -747,15 +827,7 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_attack_mod = {
-                player = 0,
-                ai = 0,
-            },
             melee_attack_mod_mult = {
-                player = 0,
-                ai = 0,
-            },
-            melee_defence_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -763,7 +835,11 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_mod_add = {
+            melee_defence_mod = {
+                player = 0,
+                ai = 0,
+            },
+            melee_attack_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -771,11 +847,31 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            melee_damage_ap_mod_mult = {
+                player = 0,
+                ai = 0,
+            },
+            melee_damage_mod_add = {
+                player = 0,
+                ai = 0,
+            },
             melee_damage_ap_mod_add = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_ap_mod_mult = {
+            charge_add = {
+                player = 0,
+                ai = 0,
+            },
+            charge_bonus = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_infantry = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_large_entities = {
                 player = 0,
                 ai = 0,
             },
@@ -857,15 +953,7 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_attack_mod = {
-                player = 0,
-                ai = 0,
-            },
             melee_attack_mod_mult = {
-                player = 0,
-                ai = 0,
-            },
-            melee_defence_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -873,7 +961,11 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_mod_add = {
+            melee_defence_mod = {
+                player = 0,
+                ai = 0,
+            },
+            melee_attack_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -881,11 +973,31 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            melee_damage_ap_mod_mult = {
+                player = 0,
+                ai = 0,
+            },
+            melee_damage_mod_add = {
+                player = 0,
+                ai = 0,
+            },
             melee_damage_ap_mod_add = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_ap_mod_mult = {
+            charge_add = {
+                player = 0,
+                ai = 0,
+            },
+            charge_bonus = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_infantry = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_large_entities = {
                 player = 0,
                 ai = 0,
             },
@@ -967,15 +1079,7 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_attack_mod = {
-                player = 0,
-                ai = 0,
-            },
             melee_attack_mod_mult = {
-                player = 0,
-                ai = 0,
-            },
-            melee_defence_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -983,7 +1087,11 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_mod_add = {
+            melee_defence_mod = {
+                player = 0,
+                ai = 0,
+            },
+            melee_attack_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -991,11 +1099,31 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            melee_damage_ap_mod_mult = {
+                player = 0,
+                ai = 0,
+            },
+            melee_damage_mod_add = {
+                player = 0,
+                ai = 0,
+            },
             melee_damage_ap_mod_add = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_ap_mod_mult = {
+            charge_add = {
+                player = 0,
+                ai = 0,
+            },
+            charge_bonus = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_infantry = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_large_entities = {
                 player = 0,
                 ai = 0,
             },
@@ -1077,15 +1205,7 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_attack_mod = {
-                player = 0,
-                ai = 0,
-            },
             melee_attack_mod_mult = {
-                player = 0,
-                ai = 0,
-            },
-            melee_defence_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -1093,7 +1213,11 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_mod_add = {
+            melee_defence_mod = {
+                player = 0,
+                ai = 0,
+            },
+            melee_attack_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -1101,11 +1225,31 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            melee_damage_ap_mod_mult = {
+                player = 0,
+                ai = 0,
+            },
+            melee_damage_mod_add = {
+                player = 0,
+                ai = 0,
+            },
             melee_damage_ap_mod_add = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_ap_mod_mult = {
+            charge_add = {
+                player = 0,
+                ai = 0,
+            },
+            charge_bonus = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_infantry = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_large_entities = {
                 player = 0,
                 ai = 0,
             },
@@ -1187,15 +1331,7 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_attack_mod = {
-                player = 0,
-                ai = 0,
-            },
             melee_attack_mod_mult = {
-                player = 0,
-                ai = 0,
-            },
-            melee_defence_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -1203,7 +1339,11 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_mod_add = {
+            melee_defence_mod = {
+                player = 0,
+                ai = 0,
+            },
+            melee_attack_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -1211,11 +1351,31 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            melee_damage_ap_mod_mult = {
+                player = 0,
+                ai = 0,
+            },
+            melee_damage_mod_add = {
+                player = 0,
+                ai = 0,
+            },
             melee_damage_ap_mod_add = {
                 player = 0,
                 ai = 0,
             },
-            melee_damage_ap_mod_mult = {
+            charge_add = {
+                player = 0,
+                ai = 0,
+            },
+            charge_bonus = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_infantry = {
+                player = 0,
+                ai = 0,
+            },
+            damage_vs_large_entities = {
                 player = 0,
                 ai = 0,
             },

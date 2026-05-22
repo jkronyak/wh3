@@ -1,0 +1,7 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__@exp_roster_ogres__
+			dec_ogre_bulls_gw	jar_adj_com_unit_set_monstrous_infantry	false
+			dec_giantbreakers	jar_adj_com_unit_set_monstrous_infantry	false
+			dec_rhinox_bull	jar_adj_com_unit_set_single_entities	false
+			dec_ice_mammoth	jar_adj_com_unit_set_single_entities	false
+			dec_ember_drake	jar_adj_com_unit_set_single_entities	false

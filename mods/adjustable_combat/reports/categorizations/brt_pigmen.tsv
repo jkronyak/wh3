@@ -1,0 +1,8 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+brt_castle_guard	brt_castle_guard	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+brt_castle_guard_longbows	brt_castle_guard_longbows	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	brt_castle_guard_longbow	24	archer	small	jar_adj_com_unit_set_infantry
+brt_pigmen	brt_pigmen	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	32	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+brt_pigmen_2h	brt_pigmen_2h	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	32	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+brt_pigmen_archer	brt_pigmen_archer	monstrous_infantry	inf_ranged	inf_mel	wh2_dlc09_tmb_ushabti_bow	missile_monster_beasts	true	24	0	0	false	brt_pigman_bow	18	archer	large	jar_adj_com_unit_set_monstrous_infantry
+brt_pigmen_elite	brt_pigmen_elite	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	24	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+brt_pigmen_elite_2h	brt_pigmen_elite_2h	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	24	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry

@@ -1,0 +1,9 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__@exp_roster_welves__
+			deco_meadow_chariots	jar_adj_com_unit_set_chariots_war_machines	false
+			deco_glade_knights	jar_adj_com_unit_set_cavalry	false
+			deco_wind_riders	jar_adj_com_unit_set_cavalry	false
+			deco_handmaidens_torothal	jar_adj_com_unit_set_infantry	false
+			deco_dryads_willow	jar_adj_com_unit_set_infantry	false
+			deco_wildwood_wardens	jar_adj_com_unit_set_infantry	false
+			deco_dryads_willow_malicious	jar_adj_com_unit_set_infantry	false

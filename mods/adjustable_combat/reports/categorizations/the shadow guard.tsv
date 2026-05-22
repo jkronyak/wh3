@@ -1,0 +1,5 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+hef_shadow_guard	hef_shadow_guard	missile_infantry	inf_ranged	inf_mis	wh2_main_hef_missile_infantry_bow_spear	missile_infantry	true	80	0	0	false	hef_arco_corto	20	archer	small	jar_adj_com_unit_set_infantry
+hef_shadow_riders	hef_shadow_riders	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+hef_shadow_swordsmen	hef_shadow_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+hef_hawk_riders	hef_hawk_riders	missile_cavalry	cavalry	cav_mis	wh_dlc05_wef_hawk_riders	missile_cavalry_chariots	true	24	0	24	false	hef_hawk_riders	20	skirmish	large	jar_adj_com_unit_set_cavalry

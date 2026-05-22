@@ -175,23 +175,21 @@ const getModInfo = async (modUrls: string[]): Promise<Mod[]> => {
     return result;
 }
 
-const synchronizeMods = async (appId: string | number, modList: Mod[]): Promise<SyncResult[]> => {
+const synchronizeMods = async (appId: string | number, modList: string[] | number[]): Promise<any[]> => {
 
     // const syncResults: Record<string, any>[] = [];
-    const syncResults: SyncResult[] = [];
-    for (const mod of modList) {
-        console.log(`Checking sync status for ${mod.title} (${mod.url})`);
-        const isCurrent = await isModUpdated(appId, mod.id);
-        const isDownloaded = isModDownloaded(appId, mod.id);
+    const syncResults: any[] = [];
+    for (const modId of modList) {
+        const isCurrent = await isModUpdated(appId, modId);
+        const isDownloaded = isModDownloaded(appId, modId);
 
-        const curResult: SyncResult = { ...mod, status: null };
+        const curResult = { modId, status: '' };
         const currentStatus = isCurrent ? 'current' : 'outdated';
         const downloadedStatus = isDownloaded ? 'present' : 'missing';
-        console.log(`Status: ${currentStatus} and ${downloadedStatus}`);
         if (!isCurrent || !isDownloaded) {
 
             console.log('Downloading mod...');
-            const dlRes = await downloadMod(appId, mod.id, true);
+            const dlRes = await downloadMod(appId, modId, true);
             const syncStatus = dlRes ? 'success' : 'fail';
             console.log(`Download ${syncStatus}`);
             curResult.status = syncStatus;

@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+tur_ksl_inf_ice_guard_greatsword	tur_ksl_inf_ice_guard_greatsword	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry

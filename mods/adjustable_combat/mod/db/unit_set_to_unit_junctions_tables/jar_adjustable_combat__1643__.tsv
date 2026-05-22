@@ -1,0 +1,18 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__1643__
+			wh_com_cav_winged_hussars	jar_adj_com_unit_set_cavalry	false
+			wh_com_cav_petyhorcy	jar_adj_com_unit_set_cavalry	false
+			wh_com_inf_polish_hungarian_muskets	jar_adj_com_unit_set_infantry	false
+			wh_com_art_demi_culverines	jar_adj_com_unit_set_chariots_war_machines	false
+			wh_com_inf_german_muskets	jar_adj_com_unit_set_infantry	false
+			wh_com_inf_german_pikes	jar_adj_com_unit_set_infantry	false
+			wh_com_inf_scottish_greatswords	jar_adj_com_unit_set_infantry	false
+			wh_com_cav_pancerni	jar_adj_com_unit_set_cavalry	false
+			wh_com_cav_dragoons	jar_adj_com_unit_set_cavalry	false
+			wh_com_art_octave_guns	jar_adj_com_unit_set_chariots_war_machines	false
+			wh_com_inf_polish_muskets	jar_adj_com_unit_set_infantry	false
+			wh_com_cav_tatars	jar_adj_com_unit_set_cavalry	false
+			wh_com_cav_lisowczycy	jar_adj_com_unit_set_cavalry	false
+			wh_com_art_falconets	jar_adj_com_unit_set_chariots_war_machines	false
+			wh_com_inf_grod_wardens	jar_adj_com_unit_set_infantry	false
+			wh_com_cav_wallachians	jar_adj_com_unit_set_cavalry	false

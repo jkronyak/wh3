@@ -1,0 +1,3 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+brt_snail	brt_snail	monster	inf_melee	inf_mel	brt_snail	monster_beasts	true	1	0	0	true		0	melee	large	jar_adj_com_unit_set_single_entities
+wef_snail	wef_snail	monster	inf_melee	inf_mel	brt_snail	monster_beasts	true	1	0	0	true		0	melee	large	jar_adj_com_unit_set_single_entities

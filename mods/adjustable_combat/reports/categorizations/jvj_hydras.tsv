@@ -1,0 +1,7 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+jvj_royal_war_hydra	jvj_royal_war_hydra	monster	inf_melee	inf_mel	wh2_main_def_mon_war_hydra	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+jvj_veteran_war_hydra	jvj_veteran_war_hydra	monster	inf_melee	inf_mel	wh2_main_def_mon_war_hydra	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+jvj_spellthirster_hydra	jvj_spellthirster_hydra	monster	inf_melee	inf_mel	wh2_main_def_mon_war_hydra	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+jvj_chameleon_hydra	jvj_chameleon_hydra	monster	inf_melee	inf_mel	wh2_main_def_mon_war_hydra	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+jvj_chameleon_hydra_cloaked	jvj_chameleon_hydra_cloaked	monster	inf_melee	inf_mel	wh2_main_def_mon_war_hydra	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+jvj_chameleon_hydra_mirror_summon	jvj_chameleon_hydra_mirror_summon	monster	inf_melee	inf_mel	wh2_main_def_mon_war_hydra	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities

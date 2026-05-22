@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__@WH3_Rat_Pack__
+			wh_main_emp_inf_rats	jar_adj_com_unit_set_infantry	false
+			wh_main_brt_inf_rats	jar_adj_com_unit_set_infantry	false
+			wh_main_cth_inf_rats	jar_adj_com_unit_set_infantry	false
+			wh_main_ksl_inf_rats	jar_adj_com_unit_set_infantry	false

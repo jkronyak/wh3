@@ -1,0 +1,10 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__@a_more_giant_ghs__
+			wh_main_ogr_yeti_giant	jar_adj_com_unit_set_single_entities	false
+			wh_main_dwf_mon_mountain_beard	jar_adj_com_unit_set_single_entities	false
+			ghs_emp_mon_giant	jar_adj_com_unit_set_single_entities	false
+			ghs_brt_mon_giant	jar_adj_com_unit_set_single_entities	false
+			ghs_vmp_mon_giant	jar_adj_com_unit_set_single_entities	false
+			ghs_cst_mon_giant	jar_adj_com_unit_set_single_entities	false
+			ghs_tmb_mon_giant	jar_adj_com_unit_set_single_entities	false
+			wh_main_chs_mon_kho_giant	jar_adj_com_unit_set_single_entities	false

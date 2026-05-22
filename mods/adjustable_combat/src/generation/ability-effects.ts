@@ -1,12 +1,12 @@
 import 'dotenv/config';
 import path from 'path';
 import tsv from '../../../../lib/helpers/tsv.ts';
-import { MOD_NAME, MOD_OUTPUT_PATH, MOD_PREFIX } from "../config/mod-config.ts";
+import { MOD_NAME, MOD_OUTPUT_PATH } from "../config/mod-config.ts";
 import { getOrCreateSession } from '../../../../lib/rpfm-client/rpfm-client-instance.ts';
 import { BONUS_VALUE_CONFIG, UNIT_SET_CONFIG } from '../config/data-config.ts';
 const client = await getOrCreateSession();
 
-const recordPrefix = MOD_PREFIX;
+const recordPrefix = MOD_NAME;
 
 type TableName =
     | "unit_abilities_tables"

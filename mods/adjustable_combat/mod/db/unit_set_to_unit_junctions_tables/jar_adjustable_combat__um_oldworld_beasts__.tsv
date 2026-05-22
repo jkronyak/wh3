@@ -1,0 +1,8 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__um_oldworld_beasts__
+			um_giant_leech	jar_adj_com_unit_set_single_entities	false
+			um_magma_dragon	jar_adj_com_unit_set_single_entities	false
+			um_sand_scorpion	jar_adj_com_unit_set_single_entities	false
+			um_frostfiend	jar_adj_com_unit_set_war_beasts	false
+			um_giant_frog	jar_adj_com_unit_set_monstrous_infantry	false
+			um_elephants	jar_adj_com_unit_set_single_entities	false

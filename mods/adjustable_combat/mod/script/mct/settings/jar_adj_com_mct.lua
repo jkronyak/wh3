@@ -22,7 +22,7 @@ local logger = core:get_static_object("adj_com_logger")
 --- MCT Setup
 ------------------------------------------------------------------------
 local mct = get_mct()
-local mct_mod = mct:register_mod(mod_config.mod_prefix)
+local mct_mod = mct:register_mod(mod_config.mod_name)
 mct_mod:set_title(mod_config.mod_title)
 mct_mod:set_description(mod_config.mod_description)
 
@@ -159,15 +159,16 @@ local function create_categorical_actuals_page()
             local player_section = create_static_bv_section(unit_set_key, "player", "Player  " .. unit_set_config.display)
             local ai_section = create_static_bv_section(unit_set_key, "ai", "AI  " .. unit_set_config.display)
 
-            player_section:set_is_collapsible(true)
+            -- Page should be hidden, but MCT has a bug that sometimes shows it anyway.
+            -- So we collapse the sections here, just in case.
+            link_section:set_collapsed(true)
             player_section:set_collapsed(true)
-
-            ai_section:set_is_collapsible(true)
             ai_section:set_collapsed(true)
-
+            
             link_section:assign_to_page(page)
             player_section:assign_to_page(page)
             ai_section:assign_to_page(page)
+
         end
     end
     page:set_visibility(false)
@@ -234,7 +235,7 @@ end
 
 --- @param option MCT.Option
 local function is_mod_option(option)
-    return option:get_mod_key() == mod_config.mod_prefix
+    return option:get_mod_key() == mod_config.mod_name
 end
 
 ------------------------------------------------------------------------

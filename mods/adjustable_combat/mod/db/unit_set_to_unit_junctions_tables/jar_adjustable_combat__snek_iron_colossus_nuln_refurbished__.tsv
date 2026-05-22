@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__snek_iron_colossus_nuln_refurbished__
+			snek_emp_iron_colossus_of_nuln	jar_adj_com_unit_set_single_entities	false
+			snek_emp_gold_colossus_of_chamon	jar_adj_com_unit_set_single_entities	false

@@ -1,0 +1,9 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__march_of_the_dark_ones__
+			def_dark_pegasus_riders	jar_adj_com_unit_set_cavalry	false
+			def_lordlings_spears	jar_adj_com_unit_set_infantry	false
+			def_lordlings_swords	jar_adj_com_unit_set_infantry	false
+			def_manticore_riders	jar_adj_com_unit_set_cavalry	false
+			def_doomsteeds	jar_adj_com_unit_set_cavalry	false
+			def_draich_masters	jar_adj_com_unit_set_infantry	false
+			def_tower_masters	jar_adj_com_unit_set_infantry	false

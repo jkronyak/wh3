@@ -42,7 +42,7 @@ end
 local logger = JARLOG:new({
     enabled = true,
     append = false,
-    name = adj_com_config.mod_config.mod_prefix,
+    name = adj_com_config.mod_config.mod_name,
     min_level = JARLOG.LEVELS.DEBUG
 })
 

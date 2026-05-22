@@ -1,0 +1,11 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__tomb_king_units_decky__
+			tmb_inf_guard_archers_decky	jar_adj_com_unit_set_infantry	false
+			tmb_inf_guard_dual_decky	jar_adj_com_unit_set_infantry	false
+			tmb_mon_big_ushabti_decky	jar_adj_com_unit_set_monstrous_infantry	false
+			tmb_scorpion_army_decky	jar_adj_com_unit_set_single_entities	false
+			tmb_mon_big_scorpion_decky	jar_adj_com_unit_set_single_entities	false
+			tmb_inf_chosen_sword_shield_decky	jar_adj_com_unit_set_infantry	false
+			tmb_inf_chosen_halberd_decky	jar_adj_com_unit_set_infantry	false
+			tmb_inf_chosen_2hand_decky	jar_adj_com_unit_set_infantry	false
+			tmb_inf_chosen_archers_decky	jar_adj_com_unit_set_infantry	false

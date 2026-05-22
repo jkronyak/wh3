@@ -1,0 +1,6 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+dec_ogre_bulls_gw	dec_ogre_bulls_gw	monstrous_infantry	inf_melee	inf_mel	wh3_main_ogr_monstrous	infantry	true	24	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+dec_giantbreakers	dec_giantbreakers	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry_hammer_ogr	infantry	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+dec_rhinox_bull	dec_rhinox_bull	monster	inf_melee	inf_mel	wh3_main_ogr_stonehorn	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+dec_ice_mammoth	dec_ice_mammoth	monster	inf_melee	inf_mel	nor_mammoth	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+dec_ember_drake	dec_ember_drake	monster	inf_melee	inf_mel	dragon	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities

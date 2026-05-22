@@ -1,0 +1,10 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!laf_diggy_hole__
+			wh_main_dwf_inf_miners_0	jar_adj_com_unit_set_infantry	false
+			wh_main_dwf_inf_miners_1	jar_adj_com_unit_set_infantry	false
+			wh_dlc06_dwf_inf_ekrund_miners_0	jar_adj_com_unit_set_infantry	false
+			wh3_dlc25_dwf_inf_miners_1_summoned	jar_adj_com_unit_set_infantry	false
+			laf_dwf_inf_miners_sappers	jar_adj_com_unit_set_infantry	false
+			laf_dwf_inf_miners_steam_drills	jar_adj_com_unit_set_infantry	false
+			laf_dwf_veh_earth_borer	jar_adj_com_unit_set_chariots_war_machines	false
+			laf_dwf_inf_unrads_excavators	jar_adj_com_unit_set_infantry	false

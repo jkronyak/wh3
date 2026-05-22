@@ -1,0 +1,8 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+deco_meadow_chariots	deco_meadow_chariots	chariot	war_machine	chariot	missile_chariot	missile_cavalry_chariots	true	12	4	2	false	deco_meadow_chariots	150	skirmish	medium	jar_adj_com_unit_set_chariots_war_machines
+deco_glade_knights	deco_glade_knights	melee_cavalry	cavalry	cav_shk	cavalry	cavalry_chariots	true	48	0	48	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+deco_wind_riders	deco_wind_riders	melee_cavalry	cavalry	cav_mel	flying_monstrous_cavalry	cavalry_chariots	true	24	0	24	false		0	melee	large	jar_adj_com_unit_set_cavalry
+deco_handmaidens_torothal	deco_handmaidens_torothal	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_dryads_willow	deco_dryads_willow	melee_infantry	inf_melee	inf_mel	wh_dlc05_wef_dryad	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_wildwood_wardens	deco_wildwood_wardens	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	16	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_dryads_willow_malicious	deco_dryads_willow_malicious	melee_infantry	inf_melee	inf_mel	wh_dlc05_wef_dryad	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry

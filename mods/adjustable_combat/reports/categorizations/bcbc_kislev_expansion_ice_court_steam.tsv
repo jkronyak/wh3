@@ -1,0 +1,10 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+ice_masters_bc	ice_masters_bc	missile_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	16	0	0	false		0	skirmish	small	jar_adj_com_unit_set_infantry
+frostheart_champions	frostheart_champions	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+frost_leopard_riders_glaives	frost_leopard_riders_glaives	monstrous_cavalry	war_beast	cav_mel	frost_leopard_riders_glaives	cavalry_chariots	true	8	0	8	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+frost_champions_halberds	frost_champions_halberds	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+frost_champion_sword_shield	frost_champion_sword_shield	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+frost_champions_glaive_shield	frost_champions_glaive_shield	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+frost_bear_riders_glaives	frost_bear_riders_glaives	monstrous_cavalry	war_beast	cav_mel	wh3_bear_cavalry	cavalry_chariots	true	6	0	5	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+frost_reindeer_riders_bcbc	frost_reindeer_riders_bcbc	monstrous_cavalry	war_beast	cav_shk	flying_monstrous_cavalry	cavalry_chariots	true	10	0	10	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+ice_wraith_bcbc	ice_wraith_bcbc	missile_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	16	0	0	false		0	skirmish	small	jar_adj_com_unit_set_infantry

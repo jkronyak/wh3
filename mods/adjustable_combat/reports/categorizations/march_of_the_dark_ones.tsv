@@ -1,0 +1,8 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+def_dark_pegasus_riders	def_dark_pegasus_riders	monstrous_cavalry	cavalry	cav_mel	cavalry_flying	cavalry_chariots	true	24	0	24	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+def_lordlings_spears	def_lordlings_spears	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+def_lordlings_swords	def_lordlings_swords	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+def_manticore_riders	def_manticore_riders	monstrous_cavalry	war_beast	cav_shk	wh2_dlc17_bst_manticore	monster_beasts	true	4	0	4	false		0	melee	small	jar_adj_com_unit_set_cavalry
+def_doomsteeds	def_doomsteeds	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+def_draich_masters	def_draich_masters	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+def_tower_masters	def_tower_masters	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	32	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry

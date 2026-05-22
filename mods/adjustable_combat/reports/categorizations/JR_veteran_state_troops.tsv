@@ -1,0 +1,4 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+wh_main_emp_inf_veteran_swordsmen	wh_main_emp_inf_veteran_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wh_main_emp_inf_veteran_spearmen	wh_main_emp_inf_veteran_spearmen	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wh_main_emp_inf_veteran_halberdiers	wh_main_emp_inf_veteran_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry

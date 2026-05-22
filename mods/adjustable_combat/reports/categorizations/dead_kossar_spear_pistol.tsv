@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+kossar_spear_and_pistol	kossar_spear_and_pistol	missile_infantry	inf_melee	inf_spr	spear_and_pistol	infantry	true	100	0	0	false	wh3_main_ksl_armoured_kossar_pistol_bullet	6	archer	small	jar_adj_com_unit_set_infantry

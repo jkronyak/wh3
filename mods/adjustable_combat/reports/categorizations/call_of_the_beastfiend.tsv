@@ -1,0 +1,8 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+um_beastfiend	um_beastfiend	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+um_great_beastfiend	um_great_beastfiend	monster	inf_melee	inf_mel	um_great_beastfiend	monster_beasts	true	1	0	0	false		0	melee	very_large	jar_adj_com_unit_set_single_entities
+um_bullfiend	um_bullfiend	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	12	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+um_beastfiend_shaman	um_beastfiend_shaman	monstrous_cavalry	cavalry	inf_mel	um_beastfiend_shaman	cavalry_chariots	true	1	0	1	false		0	melee	large	jar_adj_com_unit_set_single_entities
+um_centifiend	um_centifiend	missile_cavalry	war_beast	cav_mis	missile_cavalry_javelin	missile_cavalry_chariots	true	24	0	16	false	um_centifiend	18	skirmish	small	jar_adj_com_unit_set_cavalry
+um_beastfiend_summoned	um_beastfiend_summoned	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+greatest_beastfiend	greatest_beastfiend	monster	inf_melee	inf_mel	um_great_beastfiend	monster_beasts	true	1	0	0	false		0	melee	very_large	jar_adj_com_unit_set_single_entities

@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+gow_new_sla_art_reaper_bolt_thrower_0	gow_new_sla_art_reaper_bolt_thrower_0	warmachine	artillery	art_fld	wh_dlc06_bolt_thrower	artillery_war_machines	true	32	4	0	false		24	artillery	small	jar_adj_com_unit_set_chariots_war_machines

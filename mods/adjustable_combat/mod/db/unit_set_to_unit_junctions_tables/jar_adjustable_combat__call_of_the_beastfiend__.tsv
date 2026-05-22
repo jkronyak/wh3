@@ -1,0 +1,9 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__call_of_the_beastfiend__
+			um_beastfiend	jar_adj_com_unit_set_infantry	false
+			um_great_beastfiend	jar_adj_com_unit_set_single_entities	false
+			um_bullfiend	jar_adj_com_unit_set_monstrous_infantry	false
+			um_beastfiend_shaman	jar_adj_com_unit_set_single_entities	false
+			um_centifiend	jar_adj_com_unit_set_cavalry	false
+			um_beastfiend_summoned	jar_adj_com_unit_set_infantry	false
+			greatest_beastfiend	jar_adj_com_unit_set_single_entities	false

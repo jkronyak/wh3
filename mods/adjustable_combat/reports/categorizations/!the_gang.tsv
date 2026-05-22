@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+ksl_oleg_standa	ksl_oleg_standa	missile_infantry	inf_ranged	inf_mis	wh2_main_hef_missile_infantry_bow_spear	missile_infantry	true	2	0	0	false	ksl_oleg_standa_bow	20	archer	small	jar_adj_com_unit_set_infantry

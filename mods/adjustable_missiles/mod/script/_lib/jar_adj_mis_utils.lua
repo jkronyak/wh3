@@ -42,7 +42,7 @@ end
 local logger = JARLOG:new({
     enabled = false,
     append = false,
-    name = adj_mis_config.mod_config.mod_prefix,
+    name = adj_mis_config.mod_config.mod_name,
     min_level = JARLOG.LEVELS.DEBUG
 })
 
@@ -212,7 +212,6 @@ function adj_mis_utils.get_link_display_option_config()
 end
 
 function adj_mis_utils.create_dropdown_option_key()
-    -- return "mct_" .. adj_mis_config.mod_config.mod_prefix .. "_CATSELECT__"
     return "opt__CATSELECT"
 
 end

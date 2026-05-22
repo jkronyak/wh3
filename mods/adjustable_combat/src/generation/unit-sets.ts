@@ -49,7 +49,9 @@ type DecodedTable = {
     rows: DecodedRow[]
 };
 
-const getModPackFilePaths = (): string[] => (readJSON(PATCH_MOD_PATH) as Mod[]).flatMap(mod => getModPackPath(WH3_APP_ID, mod.id) ?? []);
+const getModPackFilePaths = (): string[] => Object.entries(readJSON(PATCH_MOD_PATH) as Record<string, any>)
+    .filter(([_, mod]) => mod.required !== false)
+    .flatMap(([id]) => getModPackPath(WH3_APP_ID, id) ?? []);
 
 const getPackName = (packPath: string) => packPath.split("\\").slice(-1)[0]!.replace(".pack", "");
 
@@ -120,7 +122,7 @@ const calculateUnitSet = (unit: UnitInfo): ModUnitSet | null => {
     ) return "jar_adj_com_unit_set_infantry"
 
     if (
-        (['melee_infantry', 'missile_infantry', 'monstrous_infantry'].includes(unit.caste)
+        (['melee_infantry', 'missile_infantry', 'monstrous_infantry', 'monstrous_missile_infantry'].includes(unit.caste)
         && ['medium', 'large', 'very_large'].includes(unit.size!))
         || ['artillery'].includes(unit.category)
     ) return "jar_adj_com_unit_set_monstrous_infantry";
@@ -157,12 +159,16 @@ const categorizeUnits = (
     
     for (const mainUnit of mainUnits) {
         const landUnit = landUnitMap.get(mainUnit.land_unit);
-        if (!landUnit) throw new Error(`Could not find associated land unit record for ${mainUnit.unit}`);
+        if (!landUnit) {
+            console.log(`Could not find associated land unit record for ${mainUnit.unit}`);
+            continue;
+        }
+        // if (!landUnit) throw new Error(`Could not find associated land unit record for ${mainUnit.unit}`);
         const parentGroup = uiGroupToParentMap.get(mainUnit.ui_unit_group_land);
-        if (!parentGroup) throw new Error(`Could not find parent group for ${mainUnit.unit}`);
+        // if (!parentGroup) throw new Error(`Could not find parent group for ${mainUnit.unit}`);
         const size = battleEntitiesMap.get(landUnit.man_entity);
 
-        const hasVanillaParentGroup = vanillaParentGroupMap.get(parentGroup) ?? false;
+        const hasVanillaParentGroup = vanillaParentGroupMap.get(parentGroup!) ?? false;
 
         if (filterCharacters && ['lord', 'hero'].includes(mainUnit.caste)) continue;
         if (filterNonRanged && (!landUnit.primary_missile_weapon && landUnit.primary_ammo < 1)) continue;

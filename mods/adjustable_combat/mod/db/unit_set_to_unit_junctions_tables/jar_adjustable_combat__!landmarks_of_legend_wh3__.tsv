@@ -1,19 +1,9 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!landmarks_of_legend_wh3__
-			khorne_horsemen	jar_adj_com_unit_set_cavalry	false
-			axe_brothers	jar_adj_com_unit_set_infantry	false
-			chs_chaos_spawn	jar_adj_com_unit_set_monstrous_infantry	false
-			bst_giant_spider	jar_adj_com_unit_set_war_beasts	false
-			shadowgor_bestigor	jar_adj_com_unit_set_infantry	false
-			shadowgor	jar_adj_com_unit_set_infantry	false
-			bst_giant_wolves	jar_adj_com_unit_set_war_beasts	false
-			lakemen	jar_adj_com_unit_set_infantry	false
-			lakemen_great_weapons	jar_adj_com_unit_set_infantry	false
-			ymir	jar_adj_com_unit_set_monstrous_infantry	false
-			soul_eater_1	jar_adj_com_unit_set_single_entities	false
-			soul_eater_2	jar_adj_com_unit_set_single_entities	false
-			bst_khornataurs_0	jar_adj_com_unit_set_monstrous_infantry	false
-			bst_khornataurs_1	jar_adj_com_unit_set_monstrous_infantry	false
+			tmb_cold_one_chariots	jar_adj_com_unit_set_chariots_war_machines	false
+			tmb_saurus_warriors_aux_0	jar_adj_com_unit_set_infantry	false
+			tmb_saurus_warriors_aux_1	jar_adj_com_unit_set_infantry	false
+			tmb_undead_bolt_thrower	jar_adj_com_unit_set_chariots_war_machines	false
 			sla_wardancers	jar_adj_com_unit_set_infantry	false
 			sla_eternal_guard	jar_adj_com_unit_set_infantry	false
 			sla_dryads	jar_adj_com_unit_set_infantry	false
@@ -21,27 +11,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			sla_forest_dragon	jar_adj_com_unit_set_single_entities	false
 			sla_treeman	jar_adj_com_unit_set_single_entities	false
 			sla_forsaken	jar_adj_com_unit_set_infantry	false
-			feral_arachnarok	jar_adj_com_unit_set_single_entities	false
-			blue_orc	jar_adj_com_unit_set_infantry	false
-			black_gulf_orcs	jar_adj_com_unit_set_infantry	false
-			blorgar	jar_adj_com_unit_set_single_entities	false
-			top_knotz_savages	jar_adj_com_unit_set_infantry	false
-			bearded_skull_miners	jar_adj_com_unit_set_infantry	false
-			sons_of_gunnisson	jar_adj_com_unit_set_infantry	false
-			azul_guard	jar_adj_com_unit_set_infantry	false
-			greybeard_mining_drill	jar_adj_com_unit_set_chariots_war_machines	false
-			ulthers_dragon_company	jar_adj_com_unit_set_infantry	false
-			dwf_nor_marauder_champions_1	jar_adj_com_unit_set_infantry	false
-			tmb_cold_one_chariots	jar_adj_com_unit_set_chariots_war_machines	false
-			tmb_saurus_warriors_aux_0	jar_adj_com_unit_set_infantry	false
-			tmb_saurus_warriors_aux_1	jar_adj_com_unit_set_infantry	false
-			tmb_undead_bolt_thrower	jar_adj_com_unit_set_chariots_war_machines	false
-			dragonling_pack	jar_adj_com_unit_set_single_entities	false
-			worldroot_serpent	jar_adj_com_unit_set_single_entities	false
-			wef_hydra	jar_adj_com_unit_set_single_entities	false
-			wef_flamespyre	jar_adj_com_unit_set_single_entities	false
-			cathay_ogres	jar_adj_com_unit_set_monstrous_infantry	false
-			exiled_squires	jar_adj_com_unit_set_infantry	false
+			khorne_horsemen	jar_adj_com_unit_set_cavalry	false
+			axe_brothers	jar_adj_com_unit_set_infantry	false
+			nor_shieldman	jar_adj_com_unit_set_infantry	false
+			baerson_warrior	jar_adj_com_unit_set_infantry	false
+			nor_champions_khorne	jar_adj_com_unit_set_infantry	false
 			def_lothern_sea_guard	jar_adj_com_unit_set_infantry	false
 			def_wardancers_0	jar_adj_com_unit_set_infantry	false
 			def_wardancers_1	jar_adj_com_unit_set_infantry	false
@@ -52,6 +26,97 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			raema_beast	jar_adj_com_unit_set_single_entities	false
 			def_raema_huntress	jar_adj_com_unit_set_infantry	false
 			def_shadow_walkers	jar_adj_com_unit_set_infantry	false
+			sacred_saurian	jar_adj_com_unit_set_single_entities	false
+			lzd_emp_spearmen_0	jar_adj_com_unit_set_infantry	false
+			lzd_emp_archer_0	jar_adj_com_unit_set_infantry	false
+			lzd_emp_crossbowmen	jar_adj_com_unit_set_infantry	false
+			lzd_emp_swordsmen	jar_adj_com_unit_set_infantry	false
+			lzd_emp_spearmen_1	jar_adj_com_unit_set_infantry	false
+			lzd_emp_mortar	jar_adj_com_unit_set_chariots_war_machines	false
+			lzd_emp_war_wagon	jar_adj_com_unit_set_chariots_war_machines	false
+			lzd_emp_handgunners	jar_adj_com_unit_set_infantry	false
+			tlax_spears_1	jar_adj_com_unit_set_infantry	false
+			tlax_warriors_1	jar_adj_com_unit_set_infantry	false
+			feral_arachnarok	jar_adj_com_unit_set_single_entities	false
+			blue_orc	jar_adj_com_unit_set_infantry	false
+			black_gulf_orcs	jar_adj_com_unit_set_infantry	false
+			blorgar	jar_adj_com_unit_set_single_entities	false
+			top_knotz_savages	jar_adj_com_unit_set_infantry	false
+			ksl_mortar	jar_adj_com_unit_set_chariots_war_machines	false
+			ksl_rocket_battery	jar_adj_com_unit_set_chariots_war_machines	false
+			ksl_great_cannon	jar_adj_com_unit_set_chariots_war_machines	false
+			ksl_volley_gun	jar_adj_com_unit_set_chariots_war_machines	false
+			ksl_war_wagon_mortar	jar_adj_com_unit_set_chariots_war_machines	false
+			ksl_steam_tank	jar_adj_com_unit_set_chariots_war_machines	false
+			undead_tzar_guard	jar_adj_com_unit_set_infantry	false
+			undead_streltsi	jar_adj_com_unit_set_infantry	false
+			dolgan_warriors	jar_adj_com_unit_set_infantry	false
+			ksl_glade_riders	jar_adj_com_unit_set_cavalry	false
+			ksl_dryads	jar_adj_com_unit_set_infantry	false
+			ksl_wardancers	jar_adj_com_unit_set_infantry	false
+			ksl_wildwood_rangers	jar_adj_com_unit_set_infantry	false
+			brother_bears	jar_adj_com_unit_set_war_beasts	false
+			ksl_acolytes	jar_adj_com_unit_set_infantry	false
+			ksl_orthodoxy_ror	jar_adj_com_unit_set_infantry	false
+			brotherhood_ranger_templars	jar_adj_com_unit_set_infantry	false
+			ethereal_tsar_guard	jar_adj_com_unit_set_infantry	false
+			hef_honour_guard	jar_adj_com_unit_set_infantry	false
+			hef_laurelorn_spears	jar_adj_com_unit_set_infantry	false
+			hef_eonir_stags	jar_adj_com_unit_set_cavalry	false
+			hef_free_company	jar_adj_com_unit_set_infantry	false
+			seafarers	jar_adj_com_unit_set_infantry	false
+			mother_flame	jar_adj_com_unit_set_single_entities	false
+			phoenix_riders	jar_adj_com_unit_set_war_beasts	false
+			chd_skaven_labourers	jar_adj_com_unit_set_infantry	false
+			albino_guard	jar_adj_com_unit_set_infantry	false
+			hellbeast	jar_adj_com_unit_set_single_entities	false
+			mortar_salvaged	jar_adj_com_unit_set_chariots_war_machines	false
+			helstorm_salvaged	jar_adj_com_unit_set_chariots_war_machines	false
+			great_cannon_salvaged	jar_adj_com_unit_set_chariots_war_machines	false
+			volley_gun_salvaged	jar_adj_com_unit_set_chariots_war_machines	false
+			man_slave	jar_adj_com_unit_set_infantry	false
+			goblin_slave_spears	jar_adj_com_unit_set_infantry	false
+			goblin_slave_archers	jar_adj_com_unit_set_infantry	false
+			treecherik_clanrats	jar_adj_com_unit_set_infantry	false
+			cathay_ogres	jar_adj_com_unit_set_monstrous_infantry	false
+			exiled_squires	jar_adj_com_unit_set_infantry	false
+			dragonling_pack	jar_adj_com_unit_set_single_entities	false
+			worldroot_serpent	jar_adj_com_unit_set_single_entities	false
+			wef_hydra	jar_adj_com_unit_set_single_entities	false
+			wef_flamespyre	jar_adj_com_unit_set_single_entities	false
+			expedition_archers	jar_adj_com_unit_set_infantry	false
+			colonial_militia	jar_adj_com_unit_set_infantry	false
+			westland_hunters	jar_adj_com_unit_set_infantry	false
+			freebooters	jar_adj_com_unit_set_infantry	false
+			wlc_guard	jar_adj_com_unit_set_infantry	false
+			emp_queen_bess	jar_adj_com_unit_set_chariots_war_machines	false
+			badland_rangers	jar_adj_com_unit_set_infantry	false
+			dalmark_militia	jar_adj_com_unit_set_infantry	false
+			dalmark_gunners	jar_adj_com_unit_set_infantry	false
+			imperial_dragon	jar_adj_com_unit_set_single_entities	false
+			emp_saurus_spearmen_0	jar_adj_com_unit_set_infantry	false
+			emp_skink_cohort_0	jar_adj_com_unit_set_infantry	false
+			emp_skink_skirmishers_0	jar_adj_com_unit_set_infantry	false
+			emp_cold_ones_1	jar_adj_com_unit_set_cavalry	false
+			emp_terradon_riders_0	jar_adj_com_unit_set_cavalry	false
+			emp_chameleon_skinks_0	jar_adj_com_unit_set_infantry	false
+			emp_carnosaur_0	jar_adj_com_unit_set_single_entities	false
+			emp_ancient_stegadon	jar_adj_com_unit_set_single_entities	false
+			emp_chameleon_stalkers_0	jar_adj_com_unit_set_infantry	false
+			emp_kroxigors	jar_adj_com_unit_set_monstrous_infantry	false
+			emp_ice_guard_1	jar_adj_com_unit_set_infantry	false
+			emp_gryphon_legion	jar_adj_com_unit_set_cavalry	false
+			gleaming_shield_knights	jar_adj_com_unit_set_cavalry	false
+			nur_nurgle_devotees	jar_adj_com_unit_set_infantry	false
+			nur_lepers	jar_adj_com_unit_set_infantry	false
+			children_of_doom	jar_adj_com_unit_set_infantry	false
+			ruin_trolls	jar_adj_com_unit_set_monstrous_infantry	false
+			nur_pox_bowmen	jar_adj_com_unit_set_infantry	false
+			twelve_arms_assassins	jar_adj_com_unit_set_infantry	false
+			gutbusters_gutbusters	jar_adj_com_unit_set_monstrous_infantry	false
+			HUM_miners_0	jar_adj_com_unit_set_infantry	false
+			HUM_miners_1	jar_adj_com_unit_set_infantry	false
+			garrison_cth_peasant_spearmen_1	jar_adj_com_unit_set_infantry	false
 			dec_inq_lahmian	jar_adj_com_unit_set_infantry	false
 			lahmian_ror	jar_adj_com_unit_set_infantry	false
 			ghost_swordsmen	jar_adj_com_unit_set_infantry	false
@@ -85,7 +150,18 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ethereal_saurus_spearmen_1	jar_adj_com_unit_set_infantry	false
 			ethereal_saurus_warriors_1	jar_adj_com_unit_set_infantry	false
 			vmp_imperial_dragon	jar_adj_com_unit_set_single_entities	false
-			chd_skaven_labourers	jar_adj_com_unit_set_infantry	false
+			chs_chaos_spawn	jar_adj_com_unit_set_monstrous_infantry	false
+			bst_giant_spider	jar_adj_com_unit_set_war_beasts	false
+			shadowgor_bestigor	jar_adj_com_unit_set_infantry	false
+			shadowgor	jar_adj_com_unit_set_infantry	false
+			bst_giant_wolves	jar_adj_com_unit_set_war_beasts	false
+			lakemen	jar_adj_com_unit_set_infantry	false
+			lakemen_great_weapons	jar_adj_com_unit_set_infantry	false
+			ymir	jar_adj_com_unit_set_monstrous_infantry	false
+			soul_eater_1	jar_adj_com_unit_set_single_entities	false
+			soul_eater_2	jar_adj_com_unit_set_single_entities	false
+			bst_khornataurs_0	jar_adj_com_unit_set_monstrous_infantry	false
+			bst_khornataurs_1	jar_adj_com_unit_set_monstrous_infantry	false
 			sir_baldrin_reliquae	jar_adj_com_unit_set_single_entities	false
 			le_grande_knights	jar_adj_com_unit_set_cavalry	false
 			braconniers	jar_adj_com_unit_set_infantry	false
@@ -101,85 +177,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			damned_knights_of_the_realm	jar_adj_com_unit_set_cavalry	false
 			damned_questing_knights_0	jar_adj_com_unit_set_cavalry	false
 			cst_undead_ogre	jar_adj_com_unit_set_monstrous_infantry	false
-			albino_guard	jar_adj_com_unit_set_infantry	false
-			hellbeast	jar_adj_com_unit_set_single_entities	false
-			mortar_salvaged	jar_adj_com_unit_set_chariots_war_machines	false
-			helstorm_salvaged	jar_adj_com_unit_set_chariots_war_machines	false
-			great_cannon_salvaged	jar_adj_com_unit_set_chariots_war_machines	false
-			volley_gun_salvaged	jar_adj_com_unit_set_chariots_war_machines	false
-			man_slave	jar_adj_com_unit_set_infantry	false
-			goblin_slave_spears	jar_adj_com_unit_set_infantry	false
-			goblin_slave_archers	jar_adj_com_unit_set_infantry	false
-			treecherik_clanrats	jar_adj_com_unit_set_infantry	false
-			expedition_archers	jar_adj_com_unit_set_infantry	false
-			colonial_militia	jar_adj_com_unit_set_infantry	false
-			westland_hunters	jar_adj_com_unit_set_infantry	false
-			freebooters	jar_adj_com_unit_set_infantry	false
-			wlc_guard	jar_adj_com_unit_set_infantry	false
-			emp_queen_bess	jar_adj_com_unit_set_chariots_war_machines	false
-			badland_rangers	jar_adj_com_unit_set_infantry	false
-			dalmark_militia	jar_adj_com_unit_set_infantry	false
-			dalmark_gunners	jar_adj_com_unit_set_infantry	false
-			imperial_dragon	jar_adj_com_unit_set_single_entities	false
-			emp_saurus_spearmen_0	jar_adj_com_unit_set_infantry	false
-			emp_skink_cohort_0	jar_adj_com_unit_set_infantry	false
-			emp_skink_skirmishers_0	jar_adj_com_unit_set_infantry	false
-			emp_cold_ones_1	jar_adj_com_unit_set_cavalry	false
-			emp_terradon_riders_0	jar_adj_com_unit_set_cavalry	false
-			emp_chameleon_skinks_0	jar_adj_com_unit_set_infantry	false
-			emp_carnosaur_0	jar_adj_com_unit_set_single_entities	false
-			emp_ancient_stegadon	jar_adj_com_unit_set_single_entities	false
-			emp_chameleon_stalkers_0	jar_adj_com_unit_set_infantry	false
-			emp_kroxigors	jar_adj_com_unit_set_monstrous_infantry	false
-			emp_ice_guard_1	jar_adj_com_unit_set_infantry	false
-			emp_gryphon_legion	jar_adj_com_unit_set_cavalry	false
-			gleaming_shield_knights	jar_adj_com_unit_set_cavalry	false
-			ksl_mortar	jar_adj_com_unit_set_chariots_war_machines	false
-			ksl_rocket_battery	jar_adj_com_unit_set_chariots_war_machines	false
-			ksl_great_cannon	jar_adj_com_unit_set_chariots_war_machines	false
-			ksl_volley_gun	jar_adj_com_unit_set_chariots_war_machines	false
-			ksl_war_wagon_mortar	jar_adj_com_unit_set_chariots_war_machines	false
-			ksl_steam_tank	jar_adj_com_unit_set_chariots_war_machines	false
-			undead_tzar_guard	jar_adj_com_unit_set_infantry	false
-			undead_streltsi	jar_adj_com_unit_set_infantry	false
-			dolgan_warriors	jar_adj_com_unit_set_infantry	false
-			ksl_glade_riders	jar_adj_com_unit_set_cavalry	false
-			ksl_dryads	jar_adj_com_unit_set_infantry	false
-			ksl_wardancers	jar_adj_com_unit_set_infantry	false
-			ksl_wildwood_rangers	jar_adj_com_unit_set_infantry	false
-			brother_bears	jar_adj_com_unit_set_war_beasts	false
-			ksl_acolytes	jar_adj_com_unit_set_infantry	false
-			ksl_orthodoxy_ror	jar_adj_com_unit_set_infantry	false
-			brotherhood_ranger_templars	jar_adj_com_unit_set_infantry	false
-			ethereal_tsar_guard	jar_adj_com_unit_set_infantry	false
-			nor_shieldman	jar_adj_com_unit_set_infantry	false
-			baerson_warrior	jar_adj_com_unit_set_infantry	false
-			nor_champions_khorne	jar_adj_com_unit_set_infantry	false
-			hef_honour_guard	jar_adj_com_unit_set_infantry	false
-			hef_laurelorn_spears	jar_adj_com_unit_set_infantry	false
-			hef_eonir_stags	jar_adj_com_unit_set_cavalry	false
-			hef_free_company	jar_adj_com_unit_set_infantry	false
-			seafarers	jar_adj_com_unit_set_infantry	false
-			mother_flame	jar_adj_com_unit_set_single_entities	false
-			phoenix_riders	jar_adj_com_unit_set_war_beasts	false
-			nur_nurgle_devotees	jar_adj_com_unit_set_infantry	false
-			nur_lepers	jar_adj_com_unit_set_infantry	false
-			children_of_doom	jar_adj_com_unit_set_infantry	false
-			ruin_trolls	jar_adj_com_unit_set_monstrous_infantry	false
-			nur_pox_bowmen	jar_adj_com_unit_set_infantry	false
-			twelve_arms_assassins	jar_adj_com_unit_set_infantry	false
-			gutbusters_gutbusters	jar_adj_com_unit_set_monstrous_infantry	false
-			HUM_miners_0	jar_adj_com_unit_set_infantry	false
-			HUM_miners_1	jar_adj_com_unit_set_infantry	false
-			garrison_cth_peasant_spearmen_1	jar_adj_com_unit_set_infantry	false
-			sacred_saurian	jar_adj_com_unit_set_single_entities	false
-			lzd_emp_spearmen_0	jar_adj_com_unit_set_infantry	false
-			lzd_emp_archer_0	jar_adj_com_unit_set_infantry	false
-			lzd_emp_crossbowmen	jar_adj_com_unit_set_infantry	false
-			lzd_emp_swordsmen	jar_adj_com_unit_set_infantry	false
-			lzd_emp_spearmen_1	jar_adj_com_unit_set_infantry	false
-			lzd_emp_mortar	jar_adj_com_unit_set_chariots_war_machines	false
-			lzd_emp_war_wagon	jar_adj_com_unit_set_chariots_war_machines	false
-			lzd_emp_handgunners	jar_adj_com_unit_set_infantry	false
-			tlax_spears_1	jar_adj_com_unit_set_infantry	false
-			tlax_warriors_1	jar_adj_com_unit_set_infantry	false
+			bearded_skull_miners	jar_adj_com_unit_set_infantry	false
+			sons_of_gunnisson	jar_adj_com_unit_set_infantry	false
+			azul_guard	jar_adj_com_unit_set_infantry	false
+			greybeard_mining_drill	jar_adj_com_unit_set_chariots_war_machines	false
+			ulthers_dragon_company	jar_adj_com_unit_set_infantry	false
+			dwf_nor_marauder_champions_1	jar_adj_com_unit_set_infantry	false

@@ -1,4 +1,6 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+CLE_lzd_vultures	CLE_lzd_vultures	war_beast	inf_melee	inf_mel	wh2_dlc09_tmb_carrion	monster_beasts	true	48	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
+CLE_ogr_mutant_rat	wh2_dlc16_skv_mon_rat_ogre_mutant	monster	inf_melee	inf_mel	monster_generic	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
 Chasslo_Knights_Iranna	Chasslo_Knights_Iranna	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	1.0000	small	jar_adj_com_unit_set_cavalry
 Chasslo_Great_Oak_Mordheim	Chasslo_Great_Oak_Mordheim	monster	inf_melee	inf_mel	wh_dlc05_wef_treeman	monster_beasts	true	1	0	0	true		0	1.0000	very_large	jar_adj_com_unit_set_single_entities
 Chasslo_Mutated_Trolls	Chasslo_Mutated_Trolls	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	16	0	0	false		0	1.0000	large	jar_adj_com_unit_set_monstrous_infantry
@@ -54,5 +56,3 @@ CLE_Jormungandr	CLE_Jormungandr	monster	inf_melee	inf_mel	wh_dlc08_nor_frost_wyr
 CLE_Barakas_Bulls	CLE_Barakas_Bulls	monstrous_infantry	inf_melee	inf_mel	nur_plague_ogres	infantry	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
 CLE_Throgg_Chill_Sontar	CLE_Throgg_Chill_Sontar	monster	inf_melee	inf_mel	wh2_main_def_mon_war_hydra	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
 CLE_Tchar_Destroyers	CLE_Tchar_Destroyers	monstrous_infantry	inf_melee	inf_mel	kho_bloodbeast_of_khorne	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
-CLE_lzd_vultures	CLE_lzd_vultures	war_beast	inf_melee	inf_mel	wh2_dlc09_tmb_carrion	monster_beasts	true	48	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
-CLE_ogr_mutant_rat	wh2_dlc16_skv_mon_rat_ogre_mutant	monster	inf_melee	inf_mel	monster_generic	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities

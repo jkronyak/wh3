@@ -117,6 +117,10 @@ adj_mis_config.mod_config = {
     mod_prefix = "${MOD_PREFIX}",
     mod_description = "${MOD_DESCRIPTION}",
 }
+
+adj_mis_config.mod_overrides = { 
+    static_only = false
+}
 -----------------------------------------------------------------------------
 --- Unit Set Configuration
 -----------------------------------------------------------------------------

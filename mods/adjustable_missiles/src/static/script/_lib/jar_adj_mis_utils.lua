@@ -50,6 +50,17 @@ core:add_static_object("adj_mis_logger", logger)
 
 
 local adj_mis_utils = {}
+
+function adj_mis_utils.get_active_unit_set_configs()
+    local result = {}
+    for unit_set_key, unit_set_config in pairs(adj_mis_config.unit_set_config) do
+        if not adj_mis_config.mod_overrides.static_only or unit_set_config.static then
+            result[unit_set_key] = unit_set_config
+        end
+    end
+    return result
+end
+
 function adj_mis_utils.get_unit_set(unit_set_key)
     return adj_mis_config.unit_set_config[unit_set_key]
 end

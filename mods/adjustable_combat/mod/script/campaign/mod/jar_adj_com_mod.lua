@@ -42,7 +42,6 @@ local function load_mod_settings()
 
     for unit_set_key, _ in pairs(utils.get_active_unit_set_configs()) do
 
-
         -- Ensure nested unit_set_key object exists
         mod_settings.bonus_value[unit_set_key] = mod_settings.bonus_value[unit_set_key] or {}
 

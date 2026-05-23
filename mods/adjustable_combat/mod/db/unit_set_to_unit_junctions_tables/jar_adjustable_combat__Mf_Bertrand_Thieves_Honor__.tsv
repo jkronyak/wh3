@@ -1,11 +1,5 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Mf_Bertrand_Thieves_Honor__
-			brt_herrimaults	jar_adj_com_unit_set_infantry	false
-			brt_brigands	jar_adj_com_unit_set_infantry	false
-			brt_brigands_axes	jar_adj_com_unit_set_infantry	false
-			brt_brigand_raiders	jar_adj_com_unit_set_cavalry	false
-			brt_chasseurs	jar_adj_com_unit_set_cavalry	false
-			brt_brigand_crossbows	jar_adj_com_unit_set_infantry	false
 			mf_srvbrgTH_brt_dishonored_knights	jar_adj_com_unit_set_infantry	false
 			mf_srvbrgTH_brt_brigand_crossbows_armored	jar_adj_com_unit_set_infantry	false
 			mf_srvbrgTH_brt_brigand_blunderbuss_armored	jar_adj_com_unit_set_infantry	false
@@ -20,3 +14,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			brt_aspirant_hoods	jar_adj_com_unit_set_infantry	false
 			brt_brigand_waylayers	jar_adj_com_unit_set_infantry	false
 			brt_brigand_cutthroats	jar_adj_com_unit_set_infantry	false
+			brt_herrimaults	jar_adj_com_unit_set_infantry	false
+			brt_brigands	jar_adj_com_unit_set_infantry	false
+			brt_brigands_axes	jar_adj_com_unit_set_infantry	false
+			brt_brigand_raiders	jar_adj_com_unit_set_cavalry	false
+			brt_chasseurs	jar_adj_com_unit_set_cavalry	false
+			brt_brigand_crossbows	jar_adj_com_unit_set_infantry	false

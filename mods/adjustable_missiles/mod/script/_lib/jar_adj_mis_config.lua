@@ -17,6 +17,10 @@ adj_mis_config.mod_config = {
     mod_prefix = "jar_adj_mis",
     mod_description = "Allows you to rebalance missile unit stats!",
 }
+
+adj_mis_config.mod_overrides = { 
+    static_only = false
+}
 -----------------------------------------------------------------------------
 --- Unit Set Configuration
 -----------------------------------------------------------------------------

@@ -1,0 +1,7 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!!sov_tempest_rangers__
+			sov_ksl_tempest_rangers	jar_adj_com_unit_set_infantry	false
+			sov_ksl_tempest_ranger_zephyrs	jar_adj_com_unit_set_infantry	false
+			sov_ksl_tempest_ranger_cavalry	jar_adj_com_unit_set_cavalry	false
+			sov_ksl_tempest_ranger_wyrm_riders	jar_adj_com_unit_set_cavalry	false
+			sov_ksl_tempest_rangers_white_wastes_ror	jar_adj_com_unit_set_infantry	false

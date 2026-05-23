@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Lore_Of_Athel_Loren_Master__
+			wh_dlc05_wef_inf_dryads_0_Summon	jar_adj_com_unit_set_infantry	false
+			wh_dlc05_wef_mon_treekin_0_Summon	jar_adj_com_unit_set_monstrous_infantry	false
+			wh2_dlc16_wef_twilight_host_1	jar_adj_com_unit_set_cavalry	false
+			wh2_dlc16_wef_twilight_host_0	jar_adj_com_unit_set_infantry	false

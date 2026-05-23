@@ -1,0 +1,14 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!!!!calm_kislev_erengrad__
+			calm_kreml_guard	jar_adj_com_unit_set_infantry	false
+			calm_straznik_blunderbuss	jar_adj_com_unit_set_infantry	false
+			wh3_main_ksl_inf_streltsi_0	jar_adj_com_unit_set_infantry	false
+			calm_mounted_kirasirs	jar_adj_com_unit_set_cavalry	false
+			calm_erengrad_mortar	jar_adj_com_unit_set_chariots_war_machines	false
+			calm_erengrad_cannon	jar_adj_com_unit_set_chariots_war_machines	false
+			calm_urugan_cannon	jar_adj_com_unit_set_chariots_war_machines	false
+			calm_storozhi	jar_adj_com_unit_set_infantry	false
+			calm_ryadniks	jar_adj_com_unit_set_infantry	false
+			calm_sarmatyrs	jar_adj_com_unit_set_infantry	false
+			calm_kvassniks	jar_adj_com_unit_set_infantry	false
+			calm_hajduks	jar_adj_com_unit_set_cavalry	false

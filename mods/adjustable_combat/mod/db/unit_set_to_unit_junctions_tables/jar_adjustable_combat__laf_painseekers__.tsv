@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__laf_painseekers__
+			laf_sla_cav_painseekers	jar_adj_com_unit_set_cavalry	false
+			laf_sla_cav_painseekers_ror	jar_adj_com_unit_set_cavalry	false

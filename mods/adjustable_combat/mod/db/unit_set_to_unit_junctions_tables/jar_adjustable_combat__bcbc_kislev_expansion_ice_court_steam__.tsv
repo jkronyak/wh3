@@ -1,0 +1,11 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__bcbc_kislev_expansion_ice_court_steam__
+			ice_masters_bc	jar_adj_com_unit_set_infantry	false
+			frostheart_champions	jar_adj_com_unit_set_infantry	false
+			frost_leopard_riders_glaives	jar_adj_com_unit_set_cavalry	false
+			frost_champions_halberds	jar_adj_com_unit_set_infantry	false
+			frost_champion_sword_shield	jar_adj_com_unit_set_infantry	false
+			frost_champions_glaive_shield	jar_adj_com_unit_set_infantry	false
+			frost_bear_riders_glaives	jar_adj_com_unit_set_cavalry	false
+			frost_reindeer_riders_bcbc	jar_adj_com_unit_set_cavalry	false
+			ice_wraith_bcbc	jar_adj_com_unit_set_infantry	false

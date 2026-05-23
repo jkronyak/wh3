@@ -1,0 +1,7 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__@exp_roster_helves__
+			deco_griffon_knights	jar_adj_com_unit_set_cavalry	false
+			deco_high_helms	jar_adj_com_unit_set_cavalry	false
+			deco_bladelords	jar_adj_com_unit_set_infantry	false
+			deco_skywardens	jar_adj_com_unit_set_cavalry	false
+			deco_avelorn_maidens	jar_adj_com_unit_set_infantry	false

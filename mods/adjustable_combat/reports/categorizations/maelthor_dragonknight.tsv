@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+hef_cav_crimson_dragons	hef_cav_crimson_dragons	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	32	0	32	false		0	melee	medium	jar_adj_com_unit_set_cavalry

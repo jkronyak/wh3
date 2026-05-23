@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Lan_WH3_RecruitSpectralKnight_CylostraOnly_A__
+			lan_cst_cav_knights_errant_0	jar_adj_com_unit_set_cavalry	false
+			lan_cst_cav_knights_of_the_realm	jar_adj_com_unit_set_cavalry	false
+			lan_cst_cav_questing_knights_0	jar_adj_com_unit_set_cavalry	false

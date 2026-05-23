@@ -1,0 +1,8 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__ovn_fishmen__
+			ovn_fsh_mon_fishmen	jar_adj_com_unit_set_monstrous_infantry	false
+			ovn_fsh_mon_feral_wyrdclams	jar_adj_com_unit_set_monstrous_infantry	false
+			ovn_fsh_mon_wyrdclams_riders	jar_adj_com_unit_set_cavalry	false
+			ovn_fsh_cha_abyssal_acolyte	jar_adj_com_unit_set_single_entities	false
+			ovn_fsh_mon_abyssal_behemoth	jar_adj_com_unit_set_single_entities	false
+			ovn_fsh_mon_feral_wyrdclams_summoned	jar_adj_com_unit_set_monstrous_infantry	false

@@ -1,0 +1,9 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__brt_pigmen__
+			brt_castle_guard	jar_adj_com_unit_set_infantry	false
+			brt_castle_guard_longbows	jar_adj_com_unit_set_infantry	false
+			brt_pigmen	jar_adj_com_unit_set_monstrous_infantry	false
+			brt_pigmen_2h	jar_adj_com_unit_set_monstrous_infantry	false
+			brt_pigmen_archer	jar_adj_com_unit_set_monstrous_infantry	false
+			brt_pigmen_elite	jar_adj_com_unit_set_monstrous_infantry	false
+			brt_pigmen_elite_2h	jar_adj_com_unit_set_monstrous_infantry	false

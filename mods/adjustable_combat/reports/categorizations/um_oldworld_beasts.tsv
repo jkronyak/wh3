@@ -1,0 +1,7 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+um_giant_leech	um_giant_leech	monster	inf_melee	inf_mel	um_giant_leech	monster_beasts	true	1	0	0	true		0	melee	large	jar_adj_com_unit_set_single_entities
+um_magma_dragon	um_magma_dragon	monster	inf_melee	inf_mel	um_magma_dragon	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+um_sand_scorpion	um_sand_scorpion	monster	inf_melee	inf_mel	wh2_dlc09_tmb_scorpion	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+um_frostfiend	um_frostfiend	war_beast	inf_melee	inf_mel	um_frostfiend	monster_beasts	true	12	0	0	false		0	melee	medium	jar_adj_com_unit_set_war_beasts
+um_giant_frog	um_giant_frog	melee_infantry	inf_ranged	inf_mel	um_giant_frog	monster_beasts	true	12	0	0	false	um_giant_frog	12	archer	large	jar_adj_com_unit_set_monstrous_infantry
+um_elephants	um_elephants	monster	inf_melee	inf_mel	um_elephants	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities

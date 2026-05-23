@@ -1,0 +1,9 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__UD_Deithland_Troops__
+			emp_reiksmarines	jar_adj_com_unit_set_infantry	false
+			emp_reiksmarines_hatchetlocks	jar_adj_com_unit_set_infantry	false
+			emp_reiksmarines_sawedoff	jar_adj_com_unit_set_infantry	false
+			emp_reiksmarines_shotguns	jar_adj_com_unit_set_infantry	false
+			emp_reiksmarines_axelocks	jar_adj_com_unit_set_infantry	false
+			emp_reiksmarines_great	jar_adj_com_unit_set_infantry	false
+			emp_reiksmarines_spellshields	jar_adj_com_unit_set_infantry	false

@@ -1,0 +1,6 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+deco_griffon_knights	deco_griffon_knights	monstrous_cavalry	war_beast	cav_shk	flying_monstrous_cavalry	cavalry_chariots	true	4	0	4	false		0	melee	small	jar_adj_com_unit_set_cavalry
+deco_high_helms	deco_high_helms	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	48	0	48	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+deco_bladelords	deco_bladelords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	16	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_skywardens	deco_skywardens	missile_cavalry	cavalry	cav_mis	wh_dlc05_wef_hawk_riders	missile_cavalry_chariots	true	24	0	24	false	deco_skywardens_bow	18	skirmish	large	jar_adj_com_unit_set_cavalry
+deco_avelorn_maidens	deco_avelorn_maidens	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry

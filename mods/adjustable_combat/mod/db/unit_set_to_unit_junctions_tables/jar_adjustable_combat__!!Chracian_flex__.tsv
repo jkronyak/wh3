@@ -1,0 +1,4 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!!Chracian_flex__
+			true_white_lions	jar_adj_com_unit_set_infantry	false
+			wh2_dlc10_hef_inf_the_silverpelts_ror_0	jar_adj_com_unit_set_infantry	false

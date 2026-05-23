@@ -257,6 +257,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_main_skv_inf_poison_wind_globadiers	jar_unit_set_infantry	false
 			wh2_main_skv_inf_skavenslave_slingers_0	jar_unit_set_infantry	false
 			wh2_main_skv_inf_warpfire_thrower	jar_unit_set_infantry	false
+			wh3_cp1_cth_inf_stalkers_throwing_disc	jar_unit_set_infantry	false
 			wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses	jar_unit_set_infantry	false
 			wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses_ror	jar_unit_set_infantry	false
 			wh3_dlc23_chd_inf_chaos_dwarf_warriors_ror	jar_unit_set_infantry	false

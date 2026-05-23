@@ -1,0 +1,3 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+calm_ogr_rustbuckets	calm_ogr_rustbuckets	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	80	0	0	false	ogr_rustbucket_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+calm_ogr_rustbuckets_greatweapons	calm_ogr_rustbuckets_greatweapons	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	80	0	0	false	ogr_rustbucket_crossbow	22		small	jar_adj_com_unit_set_infantry

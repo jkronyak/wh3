@@ -1,0 +1,12 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!!awd_from_the_grave_main__
+			kys_und_behemoth	jar_adj_com_unit_set_single_entities	false
+			kys_und_void_revenants	jar_adj_com_unit_set_infantry	false
+			kys_und_shield_revenants	jar_adj_com_unit_set_infantry	false
+			kys_und_crossbow	jar_adj_com_unit_set_infantry	false
+			kys_und_necro_zombie	jar_adj_com_unit_set_infantry	false
+			kys_und_bk_foot	jar_adj_com_unit_set_infantry	false
+			kys_und_bk_cav	jar_adj_com_unit_set_cavalry	false
+			kys_und_necro_zombie_summoned	jar_adj_com_unit_set_infantry	false
+			kys_und_basic_infantry	jar_adj_com_unit_set_infantry	false
+			kys_und_brood_horror_rider	jar_adj_com_unit_set_single_entities	false

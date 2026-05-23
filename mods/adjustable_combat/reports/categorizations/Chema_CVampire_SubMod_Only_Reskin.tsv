@@ -1,0 +1,3 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+wh2_dlc11_vmp_inf_crossbowmen	wh2_dlc11_vmp_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+wh2_dlc11_vmp_inf_handgunners	wh2_dlc11_vmp_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry

@@ -7,7 +7,22 @@ const MOD_URL_LIST_PATH = path.join(__dirname, './mod-urls.txt');
 const PATCH_MOD_PATH = path.join(__dirname, './patch-mods.json');
 
 
-const modUrls = Array.from(new Set(fs.readFileSync(MOD_URL_LIST_PATH, "utf-8").split('\n').map(url => url.trim()).filter(Boolean)));
+const modUrls = Array.from(new Set(
+    fs.readFileSync(MOD_URL_LIST_PATH, "utf-8")
+        .split('\n')
+        .map(url => {
+            try {
+                const parsed = new URL(url.trim());
+                const id = parsed.searchParams.get('id');
+                parsed.search = '';
+                parsed.searchParams.set('id', id!);
+                return parsed.toString();
+            } catch {
+                return url.trim();
+            }
+        })
+        .filter(Boolean)
+));
 fs.writeFileSync(MOD_URL_LIST_PATH, modUrls.join('\n'), "utf-8");
 const modInfo = await getModInfo(modUrls);
 fs.writeFileSync(PATCH_MOD_PATH, JSON.stringify(modInfo, null, 4));

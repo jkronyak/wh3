@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+dead_ksl_war_bear_riders_0	dead_ksl_war_bear_riders_0	monstrous_cavalry	war_beast	cav_shk	bear_lancer	cavalry_chariots	true	16	0	16	false		0	melee	medium	jar_adj_com_unit_set_cavalry

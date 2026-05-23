@@ -1,0 +1,7 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+ovn_fsh_mon_fishmen	ovn_fsh_mon_fishmen	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	24	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+ovn_fsh_mon_feral_wyrdclams	ovn_fsh_mon_feral_wyrdclams	melee_infantry	inf_melee	inf_mel	wh3_main_nur_toads	monster_beasts	true	12	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+ovn_fsh_mon_wyrdclams_riders	ovn_fsh_mon_wyrdclams_riders	monstrous_cavalry	cavalry	cav_mel	wh3_main_nur_toads	monster_beasts	true	12	0	12	false		0	melee	large	jar_adj_com_unit_set_cavalry
+ovn_fsh_cha_abyssal_acolyte	ovn_fsh_cha_abyssal_acolyte	melee_infantry	inf_melee	inf_mel	wizard_deep	heroes_agents	true	1	0	0	true		0	skirmish	small	jar_adj_com_unit_set_single_entities
+ovn_fsh_mon_abyssal_behemoth	ovn_fsh_mon_abyssal_behemoth	monster	inf_melee	inf_mel	giant	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+ovn_fsh_mon_feral_wyrdclams_summoned	ovn_fsh_mon_feral_wyrdclams_summoned	melee_infantry	inf_melee	inf_mel	wh3_main_nur_toads	monster_beasts	true	12	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry

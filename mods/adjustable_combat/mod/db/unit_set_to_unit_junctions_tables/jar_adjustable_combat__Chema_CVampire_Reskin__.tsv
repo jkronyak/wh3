@@ -1,0 +1,12 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Chema_CVampire_Reskin__
+			vmp_drakenhof_knights	jar_adj_com_unit_set_cavalry	false
+			vmp_drakenhof_guard	jar_adj_com_unit_set_infantry	false
+			vmp_unber_skeleton	jar_adj_com_unit_set_infantry	false
+			vmp_undead_giant	jar_adj_com_unit_set_single_entities	false
+			vmp_blood_dragon	jar_adj_com_unit_set_cavalry	false
+			wh2_dlc11_vmp_inf_crossbowmen	jar_adj_com_unit_set_infantry	false
+			wh2_dlc11_vmp_inf_handgunners	jar_adj_com_unit_set_infantry	false
+			vmp_sylvania_mob	jar_adj_com_unit_set_infantry	false
+			vmp_blood_dragon_sword	jar_adj_com_unit_set_cavalry	false
+			vmp_sylvania_militia_swords	jar_adj_com_unit_set_infantry	false

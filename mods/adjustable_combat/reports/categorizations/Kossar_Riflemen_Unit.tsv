@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+wh3_dlc24_ksl_inf_kislevite_warriors_rifle	wh3_dlc24_ksl_inf_kislevite_warriors_rifle	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh3_ksl_streltsi_rifle_bullet_777	22		small	jar_adj_com_unit_set_infantry

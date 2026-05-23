@@ -1,0 +1,5 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Trajanns_Dragon_Trinity__
+			traj_star_dragon_lord_ror	jar_adj_com_unit_set_cavalry	false
+			traj_black_dragon_lord_ror	jar_adj_com_unit_set_cavalry	false
+			traj_forest_dragon_lord_ror	jar_adj_com_unit_set_cavalry	false

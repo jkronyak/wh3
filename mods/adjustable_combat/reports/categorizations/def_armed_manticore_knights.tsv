@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+_def_armed_manticore_knights	_def_armed_manticore_knights	monstrous_cavalry	war_beast	cav_mel	_def_armed_manticore_knights	cavalry_chariots	true	16	0	16	false		0	melee	medium	jar_adj_com_unit_set_cavalry

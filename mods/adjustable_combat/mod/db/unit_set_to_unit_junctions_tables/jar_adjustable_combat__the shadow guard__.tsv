@@ -1,0 +1,6 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__the shadow guard__
+			hef_shadow_guard	jar_adj_com_unit_set_infantry	false
+			hef_shadow_riders	jar_adj_com_unit_set_cavalry	false
+			hef_shadow_swordsmen	jar_adj_com_unit_set_infantry	false
+			hef_hawk_riders	jar_adj_com_unit_set_cavalry	false

@@ -1,0 +1,13 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__froeb_iron_orcs__
+			frb_iron_orc_boyz_01	jar_adj_com_unit_set_infantry	false
+			frb_iron_orc_boyz_02	jar_adj_com_unit_set_infantry	false
+			frb_iron_orc_boyz_big_uns_01	jar_adj_com_unit_set_infantry	false
+			frb_iron_orc_boyz_big_uns_02	jar_adj_com_unit_set_infantry	false
+			frb_iron_orc_boar_boy_big_uns	jar_adj_com_unit_set_cavalry	false
+			frb_iron_orc_brutez_01	jar_adj_com_unit_set_infantry	false
+			frb_iron_orc_brutez_02	jar_adj_com_unit_set_infantry	false
+			frb_iron_squigs	jar_adj_com_unit_set_monstrous_infantry	false
+			frb_iron_squig_colossal	jar_adj_com_unit_set_single_entities	false
+			frb_gork_stomper	jar_adj_com_unit_set_single_entities	false
+			frb_morks_maw	jar_adj_com_unit_set_single_entities	false

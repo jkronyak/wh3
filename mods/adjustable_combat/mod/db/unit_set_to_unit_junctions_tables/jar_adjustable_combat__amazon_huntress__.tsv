@@ -1,0 +1,12 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__amazon_huntress__
+			amazon_huntress	jar_adj_com_unit_set_infantry	false
+			amazon_templeguard	jar_adj_com_unit_set_infantry	false
+			amazon_blessed_templeguard	jar_adj_com_unit_set_infantry	false
+			amazon_blessed_huntress	jar_adj_com_unit_set_infantry	false
+			amazon_calavera	jar_adj_com_unit_set_infantry	false
+			amazon_blessed_calavera	jar_adj_com_unit_set_infantry	false
+			amazon_jaguar_cavalry	jar_adj_com_unit_set_cavalry	false
+			amazon_blessed_jaguar_cavalry	jar_adj_com_unit_set_cavalry	false
+			amazon_templeguard_ror	jar_adj_com_unit_set_infantry	false
+			amazon_calavera_ror	jar_adj_com_unit_set_infantry	false

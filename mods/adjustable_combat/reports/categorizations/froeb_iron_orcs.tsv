@@ -1,0 +1,12 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+frb_iron_orc_boyz_01	frb_iron_orc_boyz_01	melee_infantry	inf_melee	inf_mel	infantry_axe_grn	infantry	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+frb_iron_orc_boyz_02	frb_iron_orc_boyz_02	missile_infantry	inf_ranged	inf_mis	missile_infantry_crossbow	missile_infantry	true	60	0	0	false	frb_iron_orc_boyz_crossbow	12	archer	small	jar_adj_com_unit_set_infantry
+frb_iron_orc_boyz_big_uns_01	frb_iron_orc_boyz_big_uns_01	melee_infantry	inf_melee	inf_mel	wh3_dlc26_grn_infantry_dual_swords	infantry	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+frb_iron_orc_boyz_big_uns_02	frb_iron_orc_boyz_big_uns_02	melee_infantry	inf_melee	inf_mel	infantry_axe_great_grn	infantry	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+frb_iron_orc_boar_boy_big_uns	frb_iron_orc_boar_boy_big_uns	melee_cavalry	cavalry	cav_shk	wh3_dlc26_grn_cavalry_boar_spear	cavalry_chariots	true	32	0	32	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+frb_iron_orc_brutez_01	frb_iron_orc_brutez_01	melee_infantry	inf_melee	inf_mel	infantry_axe_grn	infantry	true	40	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+frb_iron_orc_brutez_02	frb_iron_orc_brutez_02	melee_infantry	inf_melee	inf_mel	infantry_axe_great_grn	infantry	true	40	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+frb_iron_squigs	frb_iron_squigs	melee_infantry	inf_melee	inf_mel	wh_dlc06_grn_squig	monster_beasts	true	20	0	0	false		0	melee	medium	jar_adj_com_unit_set_monstrous_infantry
+frb_iron_squig_colossal	frb_iron_squig_colossal	monstrous_infantry	inf_melee	inf_mel	wh3_dlc26_grn_mon_colossal_squig	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+frb_gork_stomper	frb_gork_stomper	monster	inf_melee	inf_mel	wh2_dlc17_lzd_dread_saurian	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+frb_morks_maw	frb_morks_maw	monstrous_infantry	inf_melee	inf_mel	kho_slaughterbrute	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities

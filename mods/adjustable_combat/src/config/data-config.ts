@@ -37,13 +37,13 @@ export const UNIT_SET_CONFIG = {
 
 export const BONUS_VALUE_CONFIG  = {
 
-    // Global Only
-    // general_bodyguard_size_mod: { 
-    //     display: "Hitpoints",
-    //     description: "Modify unit hitpoints by n%. Does not affect characters.",
-    //     unit_sets: ["jar_adj_com_unit_set_global"],
-    //     type: "effect_bonus_value_basic_junction_tables",
-    // },
+    general_bodyguard_size_mod: { 
+        display: "Hit Points",
+        description: "Modify character hitpoints by n%. Warning: When using positive values, please reload your save on turn 1, otherwise some lords may be damaged on battle start. When using negative values, no reload is required, and the hit points will be updated on battle start or upon reloading your save.",
+        unit_sets: ["jar_adj_com_unit_set_characters"],
+        type: "effect_bonus_value_basic_junction_tables",
+        min: -99
+    },
     battle_healing_cap_mod: {
         display: "Healing Cap",
         description: "Modify the maximum healing capacity by n%.",

@@ -68,6 +68,17 @@ adj_com_config.unit_set_config = {
 --- Bonus Value Configuration
 -----------------------------------------------------------------------------
 adj_com_config.bonus_value_config = {
+    general_bodyguard_size_mod = {
+        display = "Hit Points",
+        description = "Modify character hitpoints by n%. Warning: When using positive values, please reload your save on turn 1, otherwise some lords may be damaged on battle start. When using negative values, no reload is required, and the hit points will be updated on battle start or upon reloading your save.",
+        unit_sets = {
+            "jar_adj_com_unit_set_characters"
+        },
+        type = "effect_bonus_value_basic_junction_tables",
+        min = -99,
+        max = 500,
+        key = "general_bodyguard_size_mod",
+    },
     battle_healing_cap_mod = {
         display = "Healing Cap",
         description = "Modify the maximum healing capacity by n%.",
@@ -338,6 +349,9 @@ adj_com_config.bonus_value_mapping = {
         "damage_vs_infantry",
         "damage_vs_large_entities"
     },
+    jar_adj_com_unit_set_characters = {
+        "general_bodyguard_size_mod"
+    },
     jar_adj_com_unit_set_global = {
         "battle_healing_cap_mod",
         "heal_power_percent_mod",
@@ -373,6 +387,10 @@ adj_com_config.misc_config = {
 adj_com_config.mod_defaults = {
     bonus_value = {
         jar_adj_com_unit_set_global = {
+            general_bodyguard_size_mod = {
+                player = 0,
+                ai = 0,
+            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,
@@ -499,6 +517,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_characters = {
+            general_bodyguard_size_mod = {
+                player = 0,
+                ai = 0,
+            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,
@@ -625,6 +647,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_cavalry = {
+            general_bodyguard_size_mod = {
+                player = 0,
+                ai = 0,
+            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,
@@ -751,6 +777,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_chariots_war_machines = {
+            general_bodyguard_size_mod = {
+                player = 0,
+                ai = 0,
+            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,
@@ -877,6 +907,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_war_beasts = {
+            general_bodyguard_size_mod = {
+                player = 0,
+                ai = 0,
+            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,
@@ -1003,6 +1037,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_infantry = {
+            general_bodyguard_size_mod = {
+                player = 0,
+                ai = 0,
+            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,
@@ -1129,6 +1167,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_monstrous_infantry = {
+            general_bodyguard_size_mod = {
+                player = 0,
+                ai = 0,
+            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,
@@ -1255,6 +1297,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_single_entities = {
+            general_bodyguard_size_mod = {
+                player = 0,
+                ai = 0,
+            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,

@@ -40,7 +40,7 @@ if not JARLOG then
 end
 
 local logger = JARLOG:new({
-    enabled = true,
+    enabled = false,
     append = false,
     name = adj_com_config.mod_config.mod_name,
     min_level = JARLOG.LEVELS.DEBUG

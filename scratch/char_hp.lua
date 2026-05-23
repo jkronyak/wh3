@@ -95,17 +95,37 @@ local function create_mod_effect_bundle(scope)
             local value = values[scope]
             if value ~= 0 then
                 local effect_string = mod_config.mod_name .. "__effect__" .. bonus_value_key .. "__" .. unit_set_key
-                logger:debug("Applying", effect_string, "with value", value)
 
                 if bonus_value_key == "general_bodyguard_size_mod" and unit_set_key == "jar_adj_com_unit_set_characters" then
                     -- Special case for Character HP, set scope to target only characters
-                    effect_scope = "faction_to_character_own"
+                    -- effect_bundle:add_effect(effect_string, "faction_to_character_own", value)
+                    effect_bundle:add_effect(effect_string, "faction_to_character_own", value)
+
+                elseif bonus_value_key == "general_bodyguard_size_mod" and unit_set_key == "jar_adj_com_unit_set_global" then
+                    effect_bundle:add_effect(effect_string, "faction_to_character_own", -value)
+                else
+                    effect_bundle:add_effect(effect_string, effect_scope, value)
                 end
-                effect_bundle:add_effect(effect_string, effect_scope, value)
+
+                -- Characters:
+                -- Negative: Reload -> Fix; Battle -> Correct
+                -- Positive: Reload -> Fix; Battle -> Injured
+
+                -- Units:
+                -- Set global effect, and opposite on characters scope.
+                -- +50% Turn 1 Battle -> success
+                -- +100% Turn 1 Battle -> 1 crash (divide by zero), 1 success??
+                    -- But 1 hero has 1/0 HP; 1/3k on battle load
+
+
+
+                -- logger:debug("Applying", effect_string, "with value", value)
+                -- effect_bundle:add_effect(effect_string, effect_scope, value)
+
             end
         end
     end
-    effect_bundle:set_duration(2)
+    effect_bundle:set_duration(1)
     return effect_bundle
 end
 
@@ -114,7 +134,7 @@ local function apply_mod_effects(world)
 
     local faction_list = world:faction_list()
 
-    -- cm:callback(function()
+    cm:callback(function()
 
         for i = 0, faction_list:num_items() - 1 do
             local faction = faction_list:item_at(i)
@@ -124,10 +144,12 @@ local function apply_mod_effects(world)
             elseif faction:has_effect_bundle(effect_bundle_key) then
                 cm:remove_effect_bundle(effect_bundle_key, faction:name())
             end
+
         end
 
-    -- end,
-    -- 0.2)
+    end,
+    0.2)
+
 end
 
 core:add_listener(
@@ -142,7 +164,7 @@ core:add_listener(
     true
 )
 
-cm:add_pre_first_tick_callback(function()
+cm:add_first_tick_callback(function()
     if cm:is_game_running() then
         load_mod_settings()
         apply_mod_effects(cm:model():world())

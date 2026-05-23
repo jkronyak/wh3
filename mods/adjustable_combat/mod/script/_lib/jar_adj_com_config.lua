@@ -17,6 +17,10 @@ adj_com_config.mod_config = {
     mod_prefix = "jar_adj_com",
     mod_description = "Allows you to customize and rebalance unit stats!",
 }
+
+adj_com_config.mod_overrides = { 
+    static_only = false
+}
 -----------------------------------------------------------------------------
 --- Unit Set Configuration
 -----------------------------------------------------------------------------

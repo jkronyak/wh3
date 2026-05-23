@@ -1,5 +1,19 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__hng_steppe_lords__
+			hng_mounted_shamans_tchar_ror_0	jar_adj_com_unit_set_cavalry	false
+			hng_ambushers_ror_0	jar_adj_com_unit_set_cavalry	false
+			hng_chaos_vultures_ror_0	jar_adj_com_unit_set_single_entities	false
+			hng_nomads_ror_0	jar_adj_com_unit_set_infantry	false
+			hng_spawneaters_ror_0	jar_adj_com_unit_set_infantry	false
+			hng_heavy_archers_ror_0	jar_adj_com_unit_set_single_entities	false
+			hng_khevtuul_ror_0	jar_adj_com_unit_set_infantry	false
+			hng_raiders_ror_0	jar_adj_com_unit_set_cavalry	false
+			hng_torguud_ror_0	jar_adj_com_unit_set_cavalry	false
+			hng_khans_guard_ror_0	jar_adj_com_unit_set_cavalry	false
+			hng_centigors_ror_0	jar_adj_com_unit_set_cavalry	false
+			hng_death_worm_ror_0	jar_adj_com_unit_set_single_entities	false
+			hng_feral_horses_ror_0	jar_adj_com_unit_set_war_beasts	false
+			hng_steppe_stalker_0	jar_adj_com_unit_set_single_entities	false
 			hng_scouts_ammo_upgrade_fire	jar_adj_com_unit_set_infantry	false
 			hng_heavy_archers_ammo_upgrade_magical	jar_adj_com_unit_set_single_entities	false
 			hng_heavy_archers_ammo_upgrade_heavy	jar_adj_com_unit_set_single_entities	false
@@ -37,20 +51,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hng_art_thunderspitter_0	jar_adj_com_unit_set_chariots_war_machines	false
 			hng_veh_wallripper_0	jar_adj_com_unit_set_chariots_war_machines	false
 			hng_dread_beasts_of_mourn_0	jar_adj_com_unit_set_single_entities	false
-			hng_mounted_shamans_tchar_ror_0	jar_adj_com_unit_set_cavalry	false
-			hng_ambushers_ror_0	jar_adj_com_unit_set_cavalry	false
-			hng_chaos_vultures_ror_0	jar_adj_com_unit_set_single_entities	false
-			hng_nomads_ror_0	jar_adj_com_unit_set_infantry	false
-			hng_spawneaters_ror_0	jar_adj_com_unit_set_infantry	false
-			hng_heavy_archers_ror_0	jar_adj_com_unit_set_single_entities	false
-			hng_khevtuul_ror_0	jar_adj_com_unit_set_infantry	false
-			hng_raiders_ror_0	jar_adj_com_unit_set_cavalry	false
-			hng_torguud_ror_0	jar_adj_com_unit_set_cavalry	false
-			hng_khans_guard_ror_0	jar_adj_com_unit_set_cavalry	false
-			hng_centigors_ror_0	jar_adj_com_unit_set_cavalry	false
-			hng_death_worm_ror_0	jar_adj_com_unit_set_single_entities	false
-			hng_feral_horses_ror_0	jar_adj_com_unit_set_war_beasts	false
-			hng_steppe_stalker_0	jar_adj_com_unit_set_single_entities	false
 			hng_captives_0	jar_adj_com_unit_set_infantry	false
 			hng_nomads_0	jar_adj_com_unit_set_infantry	false
 			hng_pillagers_0	jar_adj_com_unit_set_infantry	false

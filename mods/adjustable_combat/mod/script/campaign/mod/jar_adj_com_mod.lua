@@ -40,7 +40,8 @@ local function load_mod_settings()
 
     local mct = get_mct()
 
-    for unit_set_key, _ in pairs(config.unit_set_config) do
+    for unit_set_key, _ in pairs(utils.get_active_unit_set_configs()) do
+
 
         -- Ensure nested unit_set_key object exists
         mod_settings.bonus_value[unit_set_key] = mod_settings.bonus_value[unit_set_key] or {}
@@ -71,6 +72,7 @@ local function load_mod_settings()
             mod_settings.bonus_value[unit_set_key][bonus_value_key].ai = ai_value
 
         end
+    
     end
 
     for misc_key, _ in pairs(config.misc_config) do

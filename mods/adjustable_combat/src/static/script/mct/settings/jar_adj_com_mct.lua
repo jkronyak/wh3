@@ -198,8 +198,10 @@ local function create_misc_page()
 end
 
 create_static_pages()
-create_categorical_display_page()
-create_categorical_actuals_page()
+if not config.mod_overrides.static_only then
+    create_categorical_display_page()
+    create_categorical_actuals_page()
+end
 create_misc_page()
 
 ------------------------------------------------------------------------
@@ -407,7 +409,6 @@ core:add_listener(
         local bonus_value_keys = utils.get_unit_set_bonus_value_keys(unit_set_key)
         for _, bonus_value_key in ipairs(bonus_value_keys) do
 
-
             local cat_player_option = mct_mod:get_option_by_key(utils.create_bv_option_key("categorical", bonus_value_key, "player"))
             local cat_ai_option = mct_mod:get_option_by_key(utils.create_bv_option_key("categorical", bonus_value_key, "ai"))
 
@@ -428,7 +429,8 @@ core:add_listener(
     true,
     function(context)
         -- 1. For each actual unit set, synchronize the value and lock state if the set is linked
-        for unit_set_key, _ in pairs(config.unit_set_config) do
+        for unit_set_key, _ in pairs(utils.get_active_unit_set_configs()) do
+
             local link_option = mct_mod:get_option_by_key(utils.create_link_option_key(unit_set_key))
             local link_value = link_option:get_selected_setting()
 
@@ -445,26 +447,28 @@ core:add_listener(
             end
         end
 
-        -- 2. Synchronize the categorical page to the actuals based on the dropdown value
-        local unit_set_key = get_categorical_dropdown_value()
-        if unit_set_key then
-            local cat_link_option = mct_mod:get_option_by_key(utils.create_link_option_key("categorical"))
-            local act_link_option = mct_mod:get_option_by_key(utils.create_link_option_key(unit_set_key))
+        if not config.mod_overrides.static_only then
+            -- 2. Synchronize the categorical page to the actuals based on the dropdown value
+            local unit_set_key = get_categorical_dropdown_value()
+            if unit_set_key then
+                local cat_link_option = mct_mod:get_option_by_key(utils.create_link_option_key("categorical"))
+                local act_link_option = mct_mod:get_option_by_key(utils.create_link_option_key(unit_set_key))
 
-            cascade_option_value(act_link_option, cat_link_option)
-            local cat_link_value = cat_link_option:get_selected_setting()
+                cascade_option_value(act_link_option, cat_link_option)
+                local cat_link_value = cat_link_option:get_selected_setting()
 
-            for _, bonus_value_key in ipairs(utils.get_unit_set_bonus_value_keys(unit_set_key)) do
-                local cat_player_option = mct_mod:get_option_by_key(utils.create_bv_option_key("categorical", bonus_value_key, "player"))
-                local cat_ai_option = mct_mod:get_option_by_key(utils.create_bv_option_key("categorical", bonus_value_key, "ai"))
-                local act_player_option = mct_mod:get_option_by_key(utils.create_bv_option_key(unit_set_key, bonus_value_key, "player"))
-                local act_ai_option = mct_mod:get_option_by_key(utils.create_bv_option_key(unit_set_key, bonus_value_key, "ai"))
+                for _, bonus_value_key in ipairs(utils.get_unit_set_bonus_value_keys(unit_set_key)) do
+                    local cat_player_option = mct_mod:get_option_by_key(utils.create_bv_option_key("categorical", bonus_value_key, "player"))
+                    local cat_ai_option = mct_mod:get_option_by_key(utils.create_bv_option_key("categorical", bonus_value_key, "ai"))
+                    local act_player_option = mct_mod:get_option_by_key(utils.create_bv_option_key(unit_set_key, bonus_value_key, "player"))
+                    local act_ai_option = mct_mod:get_option_by_key(utils.create_bv_option_key(unit_set_key, bonus_value_key, "ai"))
 
-                cascade_option_value(act_player_option, cat_player_option)
-                cascade_option_value(act_ai_option, cat_ai_option)
+                    cascade_option_value(act_player_option, cat_player_option)
+                    cascade_option_value(act_ai_option, cat_ai_option)
 
-                -- Update categorical setting lock state if needed
-                cat_ai_option:set_locked(cat_link_value, cat_ai_option:get_lock_reason() or "Reusing Player values for AI")
+                    -- Update categorical setting lock state if needed
+                    cat_ai_option:set_locked(cat_link_value, cat_ai_option:get_lock_reason() or "Reusing Player values for AI")
+                end
             end
         end
     end,

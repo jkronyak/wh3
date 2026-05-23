@@ -1,17 +1,5 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!!!laf_dwarfs__
-			wh2_dlc10_dwf_cha_thane_ghost_summoned_0	jar_adj_com_unit_set_single_entities	false
-			wh_main_dwf_inf_quarrellers_0	jar_adj_com_unit_set_infantry	false
-			wh_main_dwf_inf_quarrellers_1	jar_adj_com_unit_set_infantry	false
-			wh_dlc06_dwf_inf_bugmans_rangers_0	jar_adj_com_unit_set_infantry	false
-			wh_dlc06_dwf_inf_rangers_0	jar_adj_com_unit_set_infantry	false
-			wh_dlc06_dwf_inf_rangers_1	jar_adj_com_unit_set_infantry	false
-			wh_dlc06_dwf_inf_ulthars_raiders_0	jar_adj_com_unit_set_infantry	false
-			laf_dwf_inf_ghost_longbeards	jar_adj_com_unit_set_infantry	false
-			laf_dwf_summon_ghost_dwarf_warriors	jar_adj_com_unit_set_infantry	false
-			laf_dwf_summon_ghost_ironbreakers	jar_adj_com_unit_set_infantry	false
-			laf_dwf_veh_gyrocopter_drakefire	jar_adj_com_unit_set_chariots_war_machines	false
-			laf_dwf_veh_gyrocopter_drakefire_malakai	jar_adj_com_unit_set_chariots_war_machines	false
 			wh_main_dwf_inf_miners_0	jar_adj_com_unit_set_infantry	false
 			wh_main_dwf_inf_miners_1	jar_adj_com_unit_set_infantry	false
 			wh_dlc06_dwf_inf_ekrund_miners_0	jar_adj_com_unit_set_infantry	false
@@ -20,8 +8,20 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			laf_dwf_inf_miners_steam_drills	jar_adj_com_unit_set_infantry	false
 			laf_dwf_veh_earth_borer	jar_adj_com_unit_set_chariots_war_machines	false
 			laf_dwf_inf_unrads_excavators	jar_adj_com_unit_set_infantry	false
+			laf_dwf_inf_ghost_longbeards	jar_adj_com_unit_set_infantry	false
+			laf_dwf_summon_ghost_dwarf_warriors	jar_adj_com_unit_set_infantry	false
+			laf_dwf_summon_ghost_ironbreakers	jar_adj_com_unit_set_infantry	false
+			laf_dwf_veh_gyrocopter_drakefire	jar_adj_com_unit_set_chariots_war_machines	false
+			laf_dwf_veh_gyrocopter_drakefire_malakai	jar_adj_com_unit_set_chariots_war_machines	false
 			laf_dwf_inf_crank_gunners	jar_adj_com_unit_set_infantry	false
 			laf_dwf_veh_juggernaut_bolt_thrower	jar_adj_com_unit_set_chariots_war_machines	false
 			laf_dwf_veh_juggernaut_cannon	jar_adj_com_unit_set_chariots_war_machines	false
 			laf_dwf_veh_juggernaut_tonnisson	jar_adj_com_unit_set_chariots_war_machines	false
 			laf_dwf_inf_irondrakes_1	jar_adj_com_unit_set_infantry	false
+			wh2_dlc10_dwf_cha_thane_ghost_summoned_0	jar_adj_com_unit_set_single_entities	false
+			wh_main_dwf_inf_quarrellers_0	jar_adj_com_unit_set_infantry	false
+			wh_main_dwf_inf_quarrellers_1	jar_adj_com_unit_set_infantry	false
+			wh_dlc06_dwf_inf_bugmans_rangers_0	jar_adj_com_unit_set_infantry	false
+			wh_dlc06_dwf_inf_rangers_0	jar_adj_com_unit_set_infantry	false
+			wh_dlc06_dwf_inf_rangers_1	jar_adj_com_unit_set_infantry	false
+			wh_dlc06_dwf_inf_ulthars_raiders_0	jar_adj_com_unit_set_infantry	false

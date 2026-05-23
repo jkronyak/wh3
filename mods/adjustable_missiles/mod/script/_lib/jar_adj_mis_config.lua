@@ -258,10 +258,6 @@ adj_mis_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            unit_stat_bonus_accuracy_mod = {
-                player = 0,
-                ai = 0,
-            },
             reload = {
                 player = 0,
                 ai = 0,
@@ -305,10 +301,6 @@ adj_mis_config.mod_defaults = {
         },
         jar_unit_set_artillery_war_machines = {
             accuracy = {
-                player = 0,
-                ai = 0,
-            },
-            unit_stat_bonus_accuracy_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -358,10 +350,6 @@ adj_mis_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            unit_stat_bonus_accuracy_mod = {
-                player = 0,
-                ai = 0,
-            },
             reload = {
                 player = 0,
                 ai = 0,
@@ -408,10 +396,6 @@ adj_mis_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            unit_stat_bonus_accuracy_mod = {
-                player = 0,
-                ai = 0,
-            },
             reload = {
                 player = 0,
                 ai = 0,
@@ -455,10 +439,6 @@ adj_mis_config.mod_defaults = {
         },
         jar_unit_set_infantry = {
             accuracy = {
-                player = 0,
-                ai = 0,
-            },
-            unit_stat_bonus_accuracy_mod = {
                 player = 0,
                 ai = 0,
             },

@@ -73,8 +73,15 @@ const linkDefaults: Record<string, any> = {};
 for (const unitSet of Object.keys(UNIT_SET_CONFIG)) {
     if (!bonusValueDefaults[unitSet]) bonusValueDefaults[unitSet] = {};
     linkDefaults[unitSet] = true;
-    for (const bonusValue of Object.keys(BONUS_VALUE_CONFIG)) {
+};
 
+for (const [bonusValue, bonusValueConfig] of Object.entries(BONUS_VALUE_CONFIG)) {
+    const targetUnitSets = Array.isArray(bonusValueConfig.unit_sets) && bonusValueConfig.unit_sets.length > 0
+        ? bonusValueConfig.unit_sets
+        : Object.keys(UNIT_SET_CONFIG);
+
+    for (const unitSet of targetUnitSets) {
+        if (!bonusValueDefaults[unitSet]) bonusValueDefaults[unitSet] = {};
         if (!bonusValueDefaults[unitSet][bonusValue]) bonusValueDefaults[unitSet][bonusValue] = {};
         for (const scope of ['player', 'ai']) {
             bonusValueDefaults[unitSet][bonusValue][scope] = 0;

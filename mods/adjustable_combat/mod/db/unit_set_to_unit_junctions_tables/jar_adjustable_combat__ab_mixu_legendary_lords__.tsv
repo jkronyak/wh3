@@ -1,5 +1,17 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__ab_mixu_legendary_lords__
+			teb_ricco	jar_adj_com_unit_set_infantry	false
+			teb_pirazzo	jar_adj_com_unit_set_infantry	false
+			teb_leopard	jar_adj_com_unit_set_infantry	false
+			teb_venators	jar_adj_com_unit_set_infantry	false
+			teb_vespero	jar_adj_com_unit_set_infantry	false
+			teb_amazons	jar_adj_com_unit_set_infantry	false
+			teb_cursed	jar_adj_com_unit_set_infantry	false
+			teb_manflayers	jar_adj_com_unit_set_infantry	false
+			teb_origo	jar_adj_com_unit_set_infantry	false
+			teb_tichi	jar_adj_com_unit_set_infantry	false
+			teb_bronzino	jar_adj_com_unit_set_infantry	false
+			teb_birdmen	jar_adj_com_unit_set_infantry	false
 			mixu_emp_inf_norscan_reavers	jar_adj_com_unit_set_infantry	false
 			mixu_emp_inf_norscan_reavers_great_weapons	jar_adj_com_unit_set_infantry	false
 			mixu_emp_inf_pirate_deckhands_swords	jar_adj_com_unit_set_infantry	false
@@ -15,18 +27,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			mixu_emp_art_mortar	jar_adj_com_unit_set_chariots_war_machines	false
 			mixu_emp_inf_grog_carriers	jar_adj_com_unit_set_single_entities	false
 			mixu_emp_mon_promethean_riders	jar_adj_com_unit_set_monstrous_infantry	false
-			teb_ricco	jar_adj_com_unit_set_infantry	false
-			teb_pirazzo	jar_adj_com_unit_set_infantry	false
-			teb_leopard	jar_adj_com_unit_set_infantry	false
-			teb_venators	jar_adj_com_unit_set_infantry	false
-			teb_vespero	jar_adj_com_unit_set_infantry	false
-			teb_amazons	jar_adj_com_unit_set_infantry	false
-			teb_cursed	jar_adj_com_unit_set_infantry	false
-			teb_manflayers	jar_adj_com_unit_set_infantry	false
-			teb_origo	jar_adj_com_unit_set_infantry	false
-			teb_tichi	jar_adj_com_unit_set_infantry	false
-			teb_bronzino	jar_adj_com_unit_set_infantry	false
-			teb_birdmen	jar_adj_com_unit_set_infantry	false
 			mixu_tze_mon_chaos_dragon	jar_adj_com_unit_set_single_entities	false
 			mixu_tze_inf_cultists	jar_adj_com_unit_set_infantry	false
 			mixu_tze_inf_cultist_acolytes	jar_adj_com_unit_set_infantry	false

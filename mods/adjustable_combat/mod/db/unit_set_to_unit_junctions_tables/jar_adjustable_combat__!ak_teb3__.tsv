@@ -19,6 +19,17 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			teb_bronzino_limbered	jar_adj_com_unit_set_chariots_war_machines	false
 			teb_bronzino	jar_adj_com_unit_set_chariots_war_machines	false
 			teb_birdmen	jar_adj_com_unit_set_monstrous_infantry	false
+			teb_roc_dieterfist	jar_adj_com_unit_set_infantry	false
+			teb_roc_estragon	jar_adj_com_unit_set_infantry	false
+			teb_roc_verena	jar_adj_com_unit_set_infantry	false
+			teb_roc_strygos	jar_adj_com_unit_set_infantry	false
+			teb_roc_broswords	jar_adj_com_unit_set_cavalry	false
+			teb_roc_gwatch	jar_adj_com_unit_set_infantry	false
+			teb_roc_kotss	jar_adj_com_unit_set_cavalry	false
+			teb_roc_organ	jar_adj_com_unit_set_chariots_war_machines	false
+			teb_roc_gunn	jar_adj_com_unit_set_cavalry	false
+			teb_roc_montecastello	jar_adj_com_unit_set_cavalry	false
+			teb_tank_ror	jar_adj_com_unit_set_chariots_war_machines	false
 			teb_pikemen	jar_adj_com_unit_set_infantry	false
 			teb_montante_greatswords	jar_adj_com_unit_set_infantry	false
 			teb_republican_guard	jar_adj_com_unit_set_infantry	false
@@ -59,14 +70,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			teb_galloper	jar_adj_com_unit_set_chariots_war_machines	false
 			teb_tank	jar_adj_com_unit_set_chariots_war_machines	false
 			teb_golden_lion	jar_adj_com_unit_set_single_entities	false
-			teb_roc_dieterfist	jar_adj_com_unit_set_infantry	false
-			teb_roc_estragon	jar_adj_com_unit_set_infantry	false
-			teb_roc_verena	jar_adj_com_unit_set_infantry	false
-			teb_roc_strygos	jar_adj_com_unit_set_infantry	false
-			teb_roc_broswords	jar_adj_com_unit_set_cavalry	false
-			teb_roc_gwatch	jar_adj_com_unit_set_infantry	false
-			teb_roc_kotss	jar_adj_com_unit_set_cavalry	false
-			teb_roc_organ	jar_adj_com_unit_set_chariots_war_machines	false
-			teb_roc_gunn	jar_adj_com_unit_set_cavalry	false
-			teb_roc_montecastello	jar_adj_com_unit_set_cavalry	false
-			teb_tank_ror	jar_adj_com_unit_set_chariots_war_machines	false

@@ -18,6 +18,17 @@ teb_tichi	teb_tichi	melee_cavalry	cavalry	cav_shk	wh2_main_cold_one	cavalry_char
 teb_bronzino_limbered	teb_bronzino_limbered	warmachine	war_machine	chariot	artillery_field_gun	artillery_war_machines	true	16	4	4	false		0	artillery	medium	jar_adj_com_unit_set_chariots_war_machines
 teb_bronzino	teb_bronzino	warmachine	artillery	art_fld	artillery_field_gun	artillery_war_machines	true	16	4	0	false		22	artillery	small	jar_adj_com_unit_set_chariots_war_machines
 teb_birdmen	teb_birdmen	missile_infantry	inf_ranged	inf_mis	flying_missile_infantry	missile_infantry	true	32	0	0	false	teb_crossbow_birdmen	22	skirmish	medium	jar_adj_com_unit_set_monstrous_infantry
+teb_roc_dieterfist	teb_roc_dieterfist	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_roc_estragon	teb_roc_estragon	missile_infantry	inf_ranged	inf_mis	missile_infantry_pistol	missile_infantry	true	100	0	0	false	teb_pistol_estragon	15	skirmish	small	jar_adj_com_unit_set_infantry
+teb_roc_verena	teb_roc_verena	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	teb_bow_militia_verena	24	archer	small	jar_adj_com_unit_set_infantry
+teb_roc_strygos	teb_roc_strygos	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	teb_handgunners_strigany	22	archer	small	jar_adj_com_unit_set_infantry
+teb_roc_broswords	teb_roc_broswords	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+teb_roc_gwatch	teb_roc_gwatch	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_roc_kotss	teb_roc_kotss	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+teb_roc_organ	teb_roc_organ	warmachine	artillery	art_fld	artillery_field_gun	artillery_war_machines	true	60	4	0	false		96	artillery	small	jar_adj_com_unit_set_chariots_war_machines
+teb_roc_gunn	teb_roc_gunn	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+teb_roc_montecastello	teb_roc_montecastello	missile_cavalry	cavalry	cav_mis	missile_cavalry_bow	missile_cavalry_chariots	true	60	0	60	false	teb_roc_montecastello	18	skirmish	medium	jar_adj_com_unit_set_cavalry
+teb_tank_ror	teb_tank_ror	chariot	war_machine	chariot	emp_steam_tank	artillery_war_machines	true	9	1	0	true	teb_tank_ror	200	artillery	large	jar_adj_com_unit_set_chariots_war_machines
 teb_pikemen	teb_pikemen	melee_infantry	inf_melee	inf_spr	infantry_pike	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 teb_montante_greatswords	teb_montante_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	90	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 teb_republican_guard	teb_republican_guard	melee_infantry	inf_melee	inf_spr	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
@@ -58,14 +69,3 @@ teb_galloper_limbered	teb_galloper_limbered	warmachine	war_machine	chariot	artil
 teb_galloper	teb_galloper	warmachine	artillery	art_fld	artillery_field_gun	artillery_war_machines	true	16	4	0	false		22	artillery	small	jar_adj_com_unit_set_chariots_war_machines
 teb_tank	teb_tank	chariot	war_machine	chariot	emp_steam_tank	artillery_war_machines	true	9	1	0	true	teb_tank	200	artillery	large	jar_adj_com_unit_set_chariots_war_machines
 teb_golden_lion	teb_golden_lion	monster	inf_melee	inf_mel	wh3_dlc24_mon_celestial_lion	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
-teb_roc_dieterfist	teb_roc_dieterfist	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_roc_estragon	teb_roc_estragon	missile_infantry	inf_ranged	inf_mis	missile_infantry_pistol	missile_infantry	true	100	0	0	false	teb_pistol_estragon	15	skirmish	small	jar_adj_com_unit_set_infantry
-teb_roc_verena	teb_roc_verena	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	teb_bow_militia_verena	24	archer	small	jar_adj_com_unit_set_infantry
-teb_roc_strygos	teb_roc_strygos	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	teb_handgunners_strigany	22	archer	small	jar_adj_com_unit_set_infantry
-teb_roc_broswords	teb_roc_broswords	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-teb_roc_gwatch	teb_roc_gwatch	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_roc_kotss	teb_roc_kotss	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-teb_roc_organ	teb_roc_organ	warmachine	artillery	art_fld	artillery_field_gun	artillery_war_machines	true	60	4	0	false		96	artillery	small	jar_adj_com_unit_set_chariots_war_machines
-teb_roc_gunn	teb_roc_gunn	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-teb_roc_montecastello	teb_roc_montecastello	missile_cavalry	cavalry	cav_mis	missile_cavalry_bow	missile_cavalry_chariots	true	60	0	60	false	teb_roc_montecastello	18	skirmish	medium	jar_adj_com_unit_set_cavalry
-teb_tank_ror	teb_tank_ror	chariot	war_machine	chariot	emp_steam_tank	artillery_war_machines	true	9	1	0	true	teb_tank_ror	200	artillery	large	jar_adj_com_unit_set_chariots_war_machines

@@ -1,5 +1,16 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!scm_marienburg__
+			rhox_dauphine_snek_hkrul_mar_landship	jar_adj_com_unit_set_chariots_war_machines	false
+			rhox_dauphine_hkrul_mar_hellblaster	jar_adj_com_unit_set_chariots_war_machines	false
+			rhox_dauphine_hkrul_mar_cleansing_flame	jar_adj_com_unit_set_cavalry	false
+			rhox_dauphine_hkrul_mar_art_scheepskanon	jar_adj_com_unit_set_chariots_war_machines	false
+			rhox_dauphine_hkrul_mar_inf_greatsword	jar_adj_com_unit_set_infantry	false
+			rhox_dauphine_hkrul_mar_inf_handgun	jar_adj_com_unit_set_infantry	false
+			rhox_dauphine_hkrul_mar_riverwarden	jar_adj_com_unit_set_infantry	false
+			rhox_dauphine_hkrul_privateers_dual_swords	jar_adj_com_unit_set_infantry	false
+			rhox_dauphine_hkrul_privateers	jar_adj_com_unit_set_infantry	false
+			rhox_dauphine_hkrul_mar_defenders	jar_adj_com_unit_set_infantry	false
+			rhox_dauphine_hkrul_mar_black_caps	jar_adj_com_unit_set_infantry	false
 			hkrul_mar_inf_boogschutter	jar_adj_com_unit_set_infantry	false
 			hkrul_mar_inf_crossbow	jar_adj_com_unit_set_infantry	false
 			hkrul_mar_inf_greatsword	jar_adj_com_unit_set_infantry	false
@@ -23,6 +34,18 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_defenders	jar_adj_com_unit_set_infantry	false
 			rhox_mar_cst_inf_sartosa_free_company_0	jar_adj_com_unit_set_infantry	false
 			rhox_mar_cst_inf_sartosa_militia_0	jar_adj_com_unit_set_infantry	false
+			snek_hkrul_mar_landship	jar_adj_com_unit_set_chariots_war_machines	false
+			snek_hkrul_mar_crew_gunners	jar_adj_com_unit_set_infantry	false
+			snek_hkrul_mar_ror_landship	jar_adj_com_unit_set_chariots_war_machines	false
+			ovn_mar_mon_augas_fish_summoned_0	jar_adj_com_unit_set_war_beasts	false
+			ovn_mar_mon_augas_fish_summoned_1	jar_adj_com_unit_set_single_entities	false
+			ovn_mar_mon_augas_fish_0	jar_adj_com_unit_set_war_beasts	false
+			ovn_mar_mon_augas_fish_1	jar_adj_com_unit_set_single_entities	false
+			urg_dae_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
+			urg_kho_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
+			urg_nur_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
+			urg_sla_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
+			urg_tze_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
 			hkrul_pion	jar_adj_com_unit_set_infantry	false
 			hkrul_klumpf	jar_adj_com_unit_set_infantry	false
 			hkrul_carriers_ror	jar_adj_com_unit_set_single_entities	false
@@ -35,39 +58,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hkrul_mar_riverwarden_ror	jar_adj_com_unit_set_infantry	false
 			hkrul_mar_naval_paixhan	jar_adj_com_unit_set_chariots_war_machines	false
 			ovn_mar_inf_knights_mariner_0	jar_adj_com_unit_set_infantry	false
-			hkrul_mar_cav_rijders	jar_adj_com_unit_set_cavalry	false
-			hkrul_mar_cav_rijders_crossbow	jar_adj_com_unit_set_cavalry	false
-			hkrul_mar_sons_of_manann	jar_adj_com_unit_set_cavalry	false
-			hkrul_mar_culverin	jar_adj_com_unit_set_chariots_war_machines	false
-			hkrul_mar_hellblaster	jar_adj_com_unit_set_chariots_war_machines	false
-			hkrul_mar_knights_griffon	jar_adj_com_unit_set_cavalry	false
-			hkrul_mar_mortar	jar_adj_com_unit_set_chariots_war_machines	false
-			hkrul_mar_hellstorm	jar_adj_com_unit_set_chariots_war_machines	false
-			hkrul_mar_cleansing_flame	jar_adj_com_unit_set_cavalry	false
-			hkrul_mar_art_scheepskanon	jar_adj_com_unit_set_chariots_war_machines	false
-			ovn_mar_mon_augas_fish_summoned_0	jar_adj_com_unit_set_war_beasts	false
-			ovn_mar_mon_augas_fish_summoned_1	jar_adj_com_unit_set_single_entities	false
-			ovn_mar_mon_augas_fish_0	jar_adj_com_unit_set_war_beasts	false
-			ovn_mar_mon_augas_fish_1	jar_adj_com_unit_set_single_entities	false
-			urg_dae_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
-			urg_kho_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
-			urg_nur_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
-			urg_sla_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
-			urg_tze_inf_sphenisci_daemon	jar_adj_com_unit_set_infantry	false
-			rhox_dauphine_snek_hkrul_mar_landship	jar_adj_com_unit_set_chariots_war_machines	false
-			rhox_dauphine_hkrul_mar_hellblaster	jar_adj_com_unit_set_chariots_war_machines	false
-			rhox_dauphine_hkrul_mar_cleansing_flame	jar_adj_com_unit_set_cavalry	false
-			rhox_dauphine_hkrul_mar_art_scheepskanon	jar_adj_com_unit_set_chariots_war_machines	false
-			rhox_dauphine_hkrul_mar_inf_greatsword	jar_adj_com_unit_set_infantry	false
-			rhox_dauphine_hkrul_mar_inf_handgun	jar_adj_com_unit_set_infantry	false
-			rhox_dauphine_hkrul_mar_riverwarden	jar_adj_com_unit_set_infantry	false
-			rhox_dauphine_hkrul_privateers_dual_swords	jar_adj_com_unit_set_infantry	false
-			rhox_dauphine_hkrul_privateers	jar_adj_com_unit_set_infantry	false
-			rhox_dauphine_hkrul_mar_defenders	jar_adj_com_unit_set_infantry	false
-			rhox_dauphine_hkrul_mar_black_caps	jar_adj_com_unit_set_infantry	false
-			snek_hkrul_mar_landship	jar_adj_com_unit_set_chariots_war_machines	false
-			snek_hkrul_mar_crew_gunners	jar_adj_com_unit_set_infantry	false
-			snek_hkrul_mar_ror_landship	jar_adj_com_unit_set_chariots_war_machines	false
 			hkrul_mar_fooger_qual	jar_adj_com_unit_set_infantry	false
 			hkrul_mar_fooger_qual_great	jar_adj_com_unit_set_infantry	false
 			rhox_fooger_wh_main_dwf_inf_miners_0	jar_adj_com_unit_set_infantry	false
@@ -79,3 +69,13 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			rhox_fooger_wh_dlc06_dwf_inf_rangers_1	jar_adj_com_unit_set_infantry	false
 			rhox_fooger_wh_main_dwf_art_organ_gun	jar_adj_com_unit_set_chariots_war_machines	false
 			rhox_fooger_wh_main_dwf_inf_hammerers	jar_adj_com_unit_set_infantry	false
+			hkrul_mar_cav_rijders	jar_adj_com_unit_set_cavalry	false
+			hkrul_mar_cav_rijders_crossbow	jar_adj_com_unit_set_cavalry	false
+			hkrul_mar_sons_of_manann	jar_adj_com_unit_set_cavalry	false
+			hkrul_mar_culverin	jar_adj_com_unit_set_chariots_war_machines	false
+			hkrul_mar_hellblaster	jar_adj_com_unit_set_chariots_war_machines	false
+			hkrul_mar_knights_griffon	jar_adj_com_unit_set_cavalry	false
+			hkrul_mar_mortar	jar_adj_com_unit_set_chariots_war_machines	false
+			hkrul_mar_hellstorm	jar_adj_com_unit_set_chariots_war_machines	false
+			hkrul_mar_cleansing_flame	jar_adj_com_unit_set_cavalry	false
+			hkrul_mar_art_scheepskanon	jar_adj_com_unit_set_chariots_war_machines	false

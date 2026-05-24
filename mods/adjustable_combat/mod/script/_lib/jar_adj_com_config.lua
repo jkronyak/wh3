@@ -391,10 +391,6 @@ adj_com_config.misc_config = {
 adj_com_config.mod_defaults = {
     bonus_value = {
         jar_adj_com_unit_set_global = {
-            general_bodyguard_size_mod = {
-                player = 0,
-                ai = 0,
-            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,
@@ -525,26 +521,6 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
-            battle_healing_cap_mod = {
-                player = 0,
-                ai = 0,
-            },
-            heal_power_percent_mod = {
-                player = 0,
-                ai = 0,
-            },
-            spell_mastery_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
-            miscast_chance_mod = {
-                player = 0,
-                ai = 0,
-            },
-            morale_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -651,30 +627,6 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_cavalry = {
-            general_bodyguard_size_mod = {
-                player = 0,
-                ai = 0,
-            },
-            battle_healing_cap_mod = {
-                player = 0,
-                ai = 0,
-            },
-            heal_power_percent_mod = {
-                player = 0,
-                ai = 0,
-            },
-            spell_mastery_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
-            miscast_chance_mod = {
-                player = 0,
-                ai = 0,
-            },
-            morale_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -781,30 +733,6 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_chariots_war_machines = {
-            general_bodyguard_size_mod = {
-                player = 0,
-                ai = 0,
-            },
-            battle_healing_cap_mod = {
-                player = 0,
-                ai = 0,
-            },
-            heal_power_percent_mod = {
-                player = 0,
-                ai = 0,
-            },
-            spell_mastery_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
-            miscast_chance_mod = {
-                player = 0,
-                ai = 0,
-            },
-            morale_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -911,30 +839,6 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_war_beasts = {
-            general_bodyguard_size_mod = {
-                player = 0,
-                ai = 0,
-            },
-            battle_healing_cap_mod = {
-                player = 0,
-                ai = 0,
-            },
-            heal_power_percent_mod = {
-                player = 0,
-                ai = 0,
-            },
-            spell_mastery_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
-            miscast_chance_mod = {
-                player = 0,
-                ai = 0,
-            },
-            morale_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -1041,30 +945,6 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_infantry = {
-            general_bodyguard_size_mod = {
-                player = 0,
-                ai = 0,
-            },
-            battle_healing_cap_mod = {
-                player = 0,
-                ai = 0,
-            },
-            heal_power_percent_mod = {
-                player = 0,
-                ai = 0,
-            },
-            spell_mastery_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
-            miscast_chance_mod = {
-                player = 0,
-                ai = 0,
-            },
-            morale_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -1171,30 +1051,6 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_monstrous_infantry = {
-            general_bodyguard_size_mod = {
-                player = 0,
-                ai = 0,
-            },
-            battle_healing_cap_mod = {
-                player = 0,
-                ai = 0,
-            },
-            heal_power_percent_mod = {
-                player = 0,
-                ai = 0,
-            },
-            spell_mastery_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
-            miscast_chance_mod = {
-                player = 0,
-                ai = 0,
-            },
-            morale_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -1301,30 +1157,6 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_single_entities = {
-            general_bodyguard_size_mod = {
-                player = 0,
-                ai = 0,
-            },
-            battle_healing_cap_mod = {
-                player = 0,
-                ai = 0,
-            },
-            heal_power_percent_mod = {
-                player = 0,
-                ai = 0,
-            },
-            spell_mastery_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
-            miscast_chance_mod = {
-                player = 0,
-                ai = 0,
-            },
-            morale_percentage_mod = {
-                player = 0,
-                ai = 0,
-            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,

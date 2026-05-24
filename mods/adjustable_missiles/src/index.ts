@@ -9,6 +9,7 @@ import { getOrCreateSession } from '../../../lib/rpfm-client/rpfm-client-instanc
 const client = await getOrCreateSession();
 
 const run = async () => {
+    const lite = false;
     await client.send("GenerateDependenciesCache");
 
     await generateUnitSets(true);

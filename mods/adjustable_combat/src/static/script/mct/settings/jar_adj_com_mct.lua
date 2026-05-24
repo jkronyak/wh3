@@ -474,3 +474,20 @@ core:add_listener(
     end,
     false
 )
+
+core:add_listener(
+    "JAR__" .. mod_config.mod_prefix .. "_MCT_pop",
+    "MctPanelPopulated",
+    function(context)
+        ---@type MCT.Mod
+        local mod = context:mod()
+        if mod:get_key() ~= mod_config.mod_name then return false end
+        return not config.mod_overrides.static_only
+    end,
+    function()
+        local actuals_page = mct_mod:get_settings_page_with_key("Category Actuals")
+        if not actuals_page then return end
+        actuals_page:set_visibility(false)
+    end,
+    true
+)

@@ -1,4 +1,28 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+ror_beast_inmates	ror_beast_inmates	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	160	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+ror_beast_ymgir	ror_beast_ymgir	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	16	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+ror_beast_shadowg	ror_beast_shadowg	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+ror_beast_redmaw	ror_beast_redmaw	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	50	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
+ror_beast_nashara	ror_beast_nashara	monstrous_infantry	inf_melee	inf_mel	wh_dlc05_bst_harpies	monster_beasts	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
+ror_beast_gulmoth	ror_beast_gulmoth	monstrous_infantry	inf_melee	inf_mel	wh_dlc03_minotaurs_great_weapon	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+ror_beast_gibberkin	ror_beast_gibberkin	monstrous_infantry	inf_melee	inf_mel	chaos_spawn	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+ror_beast_ungrol	ror_beast_ungrol	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	120	0	0	false	ror_beastmen_ungrol_bow	28	archer	small	jar_adj_com_unit_set_infantry
+ror_beast_toxote	ror_beast_toxote	melee_cavalry	inf_melee	inf_mel	wh_dlc03_bst_centigor_great_weapon	cavalry_chariots	true	60	0	0	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+deco_zandri	deco_zandri	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_emerald	deco_emerald	monstrous_infantry	inf_melee	inf_mel	wh2_dlc09_tmb_ushabti	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
+deco_underworld	deco_underworld	monster	inf_melee	inf_mel	wh2_dlc09_tmb_scorpion	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+deco_bhagar	deco_bhagar	monster	inf_melee	inf_mel	wh2_dlc10_tmb_bone_giant	missile_monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+deco_wight	deco_wight	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_royal_chariot	deco_royal_chariot	chariot	war_machine	chariot	chariot	cavalry_chariots	true	24	12	2	false		0	melee	small	jar_adj_com_unit_set_chariots_war_machines
+deco_burning_dark	deco_burning_dark	melee_cavalry	cavalry	cav_mel	wh2_main_cold_one	cavalry_chariots	true	48	0	48	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+deco_rimeshards	deco_rimeshards	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	deco_rimeshards_ranged	18	archer	small	jar_adj_com_unit_set_infantry
+deco_soulskulls	deco_soulskulls	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_witchguard	deco_witchguard	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_voiceless	deco_voiceless	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_ravenspears	deco_ravenspears	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+ror_we_elrod	ror_we_elrod	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	ror_we_elrod_bow	22	archer	small	jar_adj_com_unit_set_infantry
+ror_we_willow	ror_we_willow	melee_infantry	inf_melee	inf_mel	wh_dlc05_wef_dryad	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+ror_we_durthu	ror_we_durthu	monster	inf_melee	inf_mel	wh_dlc05_wef_treeman	monster_beasts	true	4	0	0	false		0	melee	very_large	jar_adj_com_unit_set_war_beasts
 deco_backstabbers	deco_backstabbers	melee_infantry	inf_melee	inf_mel	infantry_dual_sword_goblin	infantry	true	120	0	0	false	wh3_dlc23_chd_hobgoblin_throwing_knife	3	melee	small	jar_adj_com_unit_set_infantry
 deco_magma_beasts	deco_magma_beasts	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
 deco_warriors_horde	deco_warriors_horde	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	80	0	0	false	deco_warriors_horde_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
@@ -15,33 +39,16 @@ ror_bret_dason	ror_bret_dason	warmachine	artillery	art_fld	catapult	artillery_wa
 ror_bret_flame	ror_bret_flame	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 ror_bret_mob	ror_bret_mob	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 ror_bret_rapscallards	ror_bret_rapscallards	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-ror_we_elrod	ror_we_elrod	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	ror_we_elrod_bow	22	archer	small	jar_adj_com_unit_set_infantry
-ror_we_willow	ror_we_willow	melee_infantry	inf_melee	inf_mel	wh_dlc05_wef_dryad	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-ror_we_durthu	ror_we_durthu	monster	inf_melee	inf_mel	wh_dlc05_wef_treeman	monster_beasts	true	4	0	0	false		0	melee	very_large	jar_adj_com_unit_set_war_beasts
-deco_zandri	deco_zandri	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_emerald	deco_emerald	monstrous_infantry	inf_melee	inf_mel	wh2_dlc09_tmb_ushabti	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
-deco_underworld	deco_underworld	monster	inf_melee	inf_mel	wh2_dlc09_tmb_scorpion	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
-deco_bhagar	deco_bhagar	monster	inf_melee	inf_mel	wh2_dlc10_tmb_bone_giant	missile_monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
-deco_wight	deco_wight	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_royal_chariot	deco_royal_chariot	chariot	war_machine	chariot	chariot	cavalry_chariots	true	24	12	2	false		0	melee	small	jar_adj_com_unit_set_chariots_war_machines
-deco_white_reavers	deco_white_reavers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_forest_patrol	deco_forest_patrol	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_von_kragsburg	deco_von_kragsburg	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_crimson_defiants	deco_crimson_defiants	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_grof_riders	deco_grof_riders	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-ror_beast_inmates	ror_beast_inmates	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	160	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-ror_beast_ymgir	ror_beast_ymgir	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	16	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-ror_beast_shadowg	ror_beast_shadowg	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-ror_beast_redmaw	ror_beast_redmaw	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	50	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
-ror_beast_nashara	ror_beast_nashara	monstrous_infantry	inf_melee	inf_mel	wh_dlc05_bst_harpies	monster_beasts	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
-ror_beast_gulmoth	ror_beast_gulmoth	monstrous_infantry	inf_melee	inf_mel	wh_dlc03_minotaurs_great_weapon	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
-ror_beast_gibberkin	ror_beast_gibberkin	monstrous_infantry	inf_melee	inf_mel	chaos_spawn	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
-ror_beast_ungrol	ror_beast_ungrol	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	120	0	0	false	ror_beastmen_ungrol_bow	28	archer	small	jar_adj_com_unit_set_infantry
-ror_beast_toxote	ror_beast_toxote	melee_cavalry	inf_melee	inf_mel	wh_dlc03_bst_centigor_great_weapon	cavalry_chariots	true	60	0	0	false		0	melee	medium	jar_adj_com_unit_set_cavalry
 wh3_main_ksl_inf_alexandronov_ror	wh3_main_ksl_inf_alexandronov_ror	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 wh3_main_ksl_cav_dawn_ror	wh3_main_ksl_cav_dawn_ror	melee_cavalry	war_beast	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
 wh3_main_ksl_inf_stalgrad_ror	wh3_main_ksl_inf_stalgrad_ror	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 wh3_main_ksl_cav_bolgasgrad_ror	wh3_main_ksl_cav_bolgasgrad_ror	melee_cavalry	war_beast	cav_shk	cavalry_axe	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+deco_frik	deco_frik	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	160	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_grokkamobs	deco_grokkamobs	melee_cavalry	cavalry	cav_shk	shock_cavalry_boar	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+deco_harboth	deco_harboth	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	deco_harboth	22	archer	small	jar_adj_com_unit_set_infantry
+deco_bouncers	deco_bouncers	melee_cavalry	cavalry	cav_mel	wh_dlc06_grn_squig_sword	cavalry_chariots	true	60	0	40	false		0	melee	small	jar_adj_com_unit_set_cavalry
+deco_drillaz	deco_drillaz	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_bonebreakers	deco_bonebreakers	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 roy_lzd_inf_skink_mist_runners	roy_lzd_inf_skink_mist_runners	missile_infantry	inf_ranged	inf_mis	wh2_main_missile_infantry_javelin	missile_infantry	true	160	0	0	false	roy_lzd_mst_javelin	6	archer	small	jar_adj_com_unit_set_infantry
 roy_lzd_inf_skink_red_shields	roy_lzd_inf_skink_red_shields	melee_infantry	inf_melee	inf_spr	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 roy_lzd_inf_skink_shrouded_cohort	roy_lzd_inf_skink_shrouded_cohort	melee_infantry	inf_melee	inf_spr	infantry_spear	infantry	true	160	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
@@ -53,15 +60,8 @@ roy_lzd_mon_kroxigor_yellow_crested	roy_lzd_mon_kroxigor_yellow_crested	monstrou
 roy_lzd_mon_kroxigor_shrouded_cohort	roy_lzd_mon_kroxigor_shrouded_cohort	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
 roy_lzd_cav_the_wind_that_hungers	roy_lzd_cav_the_wind_that_hungers	monstrous_cavalry	cavalry	cav_mis	wh2_dlc17_lzd_ripperdactyl_riders	cavalry_chariots	true	10	0	10	false		0	melee	small	jar_adj_com_unit_set_cavalry
 roy_lzd_cav_tichi_huichis_raiders	roy_lzd_cav_tichi_huichis_raiders	melee_cavalry	cavalry	cav_shk	wh2_main_cold_one_spear	cavalry_chariots	true	48	0	58	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-deco_frik	deco_frik	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	160	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_grokkamobs	deco_grokkamobs	melee_cavalry	cavalry	cav_shk	shock_cavalry_boar	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-deco_harboth	deco_harboth	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	deco_harboth	22	archer	small	jar_adj_com_unit_set_infantry
-deco_bouncers	deco_bouncers	melee_cavalry	cavalry	cav_mel	wh_dlc06_grn_squig_sword	cavalry_chariots	true	60	0	40	false		0	melee	small	jar_adj_com_unit_set_cavalry
-deco_drillaz	deco_drillaz	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_bonebreakers	deco_bonebreakers	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_burning_dark	deco_burning_dark	melee_cavalry	cavalry	cav_mel	wh2_main_cold_one	cavalry_chariots	true	48	0	48	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-deco_rimeshards	deco_rimeshards	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	deco_rimeshards_ranged	18	archer	small	jar_adj_com_unit_set_infantry
-deco_soulskulls	deco_soulskulls	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_witchguard	deco_witchguard	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_voiceless	deco_voiceless	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-deco_ravenspears	deco_ravenspears	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+deco_white_reavers	deco_white_reavers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_forest_patrol	deco_forest_patrol	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_von_kragsburg	deco_von_kragsburg	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_crimson_defiants	deco_crimson_defiants	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+deco_grof_riders	deco_grof_riders	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry

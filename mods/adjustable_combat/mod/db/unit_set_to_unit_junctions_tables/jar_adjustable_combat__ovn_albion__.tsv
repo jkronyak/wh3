@@ -1,5 +1,9 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__ovn_albion__
+			albion_hearthguard_grudgebringer	jar_adj_com_unit_set_infantry	false
+			albion_chariot_grudgebringer	jar_adj_com_unit_set_chariots_war_machines	false
+			albion_giant_grudgebringer	jar_adj_com_unit_set_single_entities	false
+			albion_huntresses_grudgebringer	jar_adj_com_unit_set_infantry	false
 			elo_fenbeast	jar_adj_com_unit_set_monstrous_infantry	false
 			elo_albion_warriors	jar_adj_com_unit_set_infantry	false
 			elo_albion_warriors_spears	jar_adj_com_unit_set_infantry	false
@@ -45,7 +49,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			calm_alb_crow_summon	jar_adj_com_unit_set_war_beasts	false
 			calm_alb_raven_summon	jar_adj_com_unit_set_war_beasts	false
 			albion_feral_gryphon_summon	jar_adj_com_unit_set_single_entities	false
-			albion_hearthguard_grudgebringer	jar_adj_com_unit_set_infantry	false
-			albion_chariot_grudgebringer	jar_adj_com_unit_set_chariots_war_machines	false
-			albion_giant_grudgebringer	jar_adj_com_unit_set_single_entities	false
-			albion_huntresses_grudgebringer	jar_adj_com_unit_set_infantry	false

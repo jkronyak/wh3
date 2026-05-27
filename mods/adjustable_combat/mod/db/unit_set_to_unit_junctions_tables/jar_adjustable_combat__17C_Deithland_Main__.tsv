@@ -1,5 +1,24 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__17C_Deithland_Main__
+			emp_culverin	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_drakebiter	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_mountain_gun	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_grendelgun	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_knellgun	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_cinderbell	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_vinderbane	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_vinderbane_armored	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_autofalcon	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_autofalcon_armored	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_cofferglare	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_cofferglare_small	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_autodragon	jar_adj_com_unit_set_chariots_war_machines	false
+			emp_danzigers	jar_adj_com_unit_set_infantry	false
+			emp_hellbores	jar_adj_com_unit_set_infantry	false
+			emp_engelspeers	jar_adj_com_unit_set_infantry	false
+			emp_tillerguns	jar_adj_com_unit_set_infantry	false
+			emp_mortar_muskets	jar_adj_com_unit_set_infantry	false
+			emp_cinderwind_arbalests	jar_adj_com_unit_set_infantry	false
 			emp_gottzorn	jar_adj_com_unit_set_chariots_war_machines	false
 			emp_gottzorn_knellgun	jar_adj_com_unit_set_chariots_war_machines	false
 			emp_gottzorn_flame	jar_adj_com_unit_set_chariots_war_machines	false
@@ -24,22 +43,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			emp_anvilmanes_rifles	jar_adj_com_unit_set_cavalry	false
 			emp_anvilmanes_grenades	jar_adj_com_unit_set_cavalry	false
 			emp_anvilmanes_hammerlances	jar_adj_com_unit_set_cavalry	false
-			emp_culverin	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_drakebiter	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_mountain_gun	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_grendelgun	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_knellgun	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_cinderbell	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_vinderbane	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_vinderbane_armored	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_autofalcon	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_autofalcon_armored	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_cofferglare	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_cofferglare_small	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_autodragon	jar_adj_com_unit_set_chariots_war_machines	false
-			emp_danzigers	jar_adj_com_unit_set_infantry	false
-			emp_hellbores	jar_adj_com_unit_set_infantry	false
-			emp_engelspeers	jar_adj_com_unit_set_infantry	false
-			emp_tillerguns	jar_adj_com_unit_set_infantry	false
-			emp_mortar_muskets	jar_adj_com_unit_set_infantry	false
-			emp_cinderwind_arbalests	jar_adj_com_unit_set_infantry	false

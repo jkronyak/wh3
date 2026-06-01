@@ -355,8 +355,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc09_tmb_cav_nehekhara_horsemen_ror_ete	jar_adj_com_unit_set_cavalry	false
 			wh2_dlc09_tmb_mon_necrosphinx_ror_ete	jar_adj_com_unit_set_single_entities	false
 			wh2_dlc09_tmb_cav_necropolis_knights_ror_ete	jar_adj_com_unit_set_cavalry	false
-			wh3_main_cth_cav_jade_lancers_0_ete	jar_adj_com_unit_set_cavalry	false
-			wh3_main_cth_cav_jade_lancers_0_ete_ror	jar_adj_com_unit_set_cavalry	false
 			wh3_dlc24_cth_inf_dragon_guard_crossbowmen_ror_ete	jar_adj_com_unit_set_infantry	false
 			wh3_main_cth_inf_peasant_spearmen_1_ete	jar_adj_com_unit_set_infantry	false
 			wh3_twa10_cth_inf_peasant_archers_ror_ete	jar_adj_com_unit_set_infantry	false
@@ -388,3 +386,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_dlc08_nor_mon_norscan_giant_0_ete	jar_adj_com_unit_set_single_entities	false
 			wh_dlc04_vmp_mon_devils_swartzhafen_0_ete	jar_adj_com_unit_set_monstrous_infantry	false
 			wh_main_vmp_mon_vargheists_ete	jar_adj_com_unit_set_monstrous_infantry	false
+			wh3_cp1_cth_inf_iron_claw_guandao_ete	jar_adj_com_unit_set_infantry	false
+			wh3_cp1_cth_inf_tiger_warriors_dual_axe_ete	jar_adj_com_unit_set_infantry	false
+			wh3_cp1_cth_inf_stalkers_throwing_disc_ete	jar_adj_com_unit_set_infantry	false

@@ -1,5 +1,6 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__ovn_grudgebringers__
+			ovn_grudge_grn_mon_giant_boss	jar_adj_com_unit_set_single_entities	false
 			teb_pikemen	jar_adj_com_unit_set_infantry	false
 			teb_conqui_adventurers	jar_adj_com_unit_set_infantry	false
 			teb_pavisiers	jar_adj_com_unit_set_infantry	false
@@ -13,7 +14,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			albion_chariot_grudgebringer	jar_adj_com_unit_set_chariots_war_machines	false
 			albion_giant_grudgebringer	jar_adj_com_unit_set_single_entities	false
 			albion_huntresses_grudgebringer	jar_adj_com_unit_set_infantry	false
-			ovn_grudge_grn_mon_giant_boss	jar_adj_com_unit_set_single_entities	false
 			azguz_bloodfist_dwarf_warriors	jar_adj_com_unit_set_infantry	false
 			azguz_bloodfist_dwarf_warriors_upgrade	jar_adj_com_unit_set_infantry	false
 			black_avangers	jar_adj_com_unit_set_infantry	false

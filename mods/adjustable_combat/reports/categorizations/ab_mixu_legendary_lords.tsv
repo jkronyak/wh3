@@ -1,16 +1,11 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
-teb_ricco	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_pirazzo	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_leopard	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_venators	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_vespero	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_amazons	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_cursed	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_manflayers	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_origo	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_tichi	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_bronzino	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-teb_birdmen	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mixu_brt_inf_knights_of_origo	mixu_brt_inf_knights_of_origo	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mixu_def_inf_ossian_guard	mixu_def_inf_ossian_guard	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mixu_emp_inf_celebrants	mixu_emp_inf_celebrants	melee_infantry	inf_melee	inf_mel	wh2_dlc10_def_whip_infantry	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mixu_emp_inf_horned_hunters	mixu_emp_inf_horned_hunters	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mixu_emp_cav_daughters_of_rhya	mixu_emp_cav_daughters_of_rhya	missile_cavalry	cavalry	cav_mis	monstrous_shock_cavalry_stags	cavalry_chariots	true	48	0	48	false	mixu_emp_daughters_of_rhya_javelin	18	skirmish	medium	jar_adj_com_unit_set_cavalry
+mixu_nor_inf_flesh_hounds_of_khorne_edmund	mixu_nor_inf_flesh_hounds_of_khorne_edmund	war_beast	inf_melee	spcl	war_beast	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+mixu_tze_mon_warhound	mixu_tze_mon_warhound	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
 mixu_emp_inf_norscan_reavers	mixu_emp_inf_norscan_reavers	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	100	0	0	false	wh3_main_ksl_armoured_kossar_pistol_bullet	6	melee	small	jar_adj_com_unit_set_infantry
 mixu_emp_inf_norscan_reavers_great_weapons	mixu_emp_inf_norscan_reavers_great_weapons	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false	wh3_main_ksl_armoured_kossar_pistol_bullet	6	melee	small	jar_adj_com_unit_set_infantry
 mixu_emp_inf_pirate_deckhands_swords	mixu_emp_inf_pirate_deckhands_swords	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
@@ -31,10 +26,15 @@ mixu_tze_inf_cultists	mixu_tze_inf_cultists	melee_infantry	inf_melee	inf_mel	inf
 mixu_tze_inf_cultist_acolytes	mixu_tze_inf_cultist_acolytes	melee_infantry	inf_melee	inf_mel	missile_infantry_bow	missile_infantry	true	80	0	0	false	mixu_tze_cultists_magic	20	melee	small	jar_adj_com_unit_set_infantry
 mixu_tze_mon_trolls	mixu_tze_mon_trolls	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	16	0	0	false	mixu_tze_trolls_magic_puke	6	melee	large	jar_adj_com_unit_set_monstrous_infantry
 mixu_tze_inf_chosen_of_cabal	mixu_tze_inf_chosen_of_cabal	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-mixu_brt_inf_knights_of_origo	mixu_brt_inf_knights_of_origo	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-mixu_def_inf_ossian_guard	mixu_def_inf_ossian_guard	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-mixu_emp_inf_celebrants	mixu_emp_inf_celebrants	melee_infantry	inf_melee	inf_mel	wh2_dlc10_def_whip_infantry	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-mixu_emp_inf_horned_hunters	mixu_emp_inf_horned_hunters	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-mixu_emp_cav_daughters_of_rhya	mixu_emp_cav_daughters_of_rhya	missile_cavalry	cavalry	cav_mis	monstrous_shock_cavalry_stags	cavalry_chariots	true	48	0	48	false	mixu_emp_daughters_of_rhya_javelin	18	skirmish	medium	jar_adj_com_unit_set_cavalry
-mixu_nor_inf_flesh_hounds_of_khorne_edmund	mixu_nor_inf_flesh_hounds_of_khorne_edmund	war_beast	inf_melee	spcl	war_beast	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
-mixu_tze_mon_warhound	mixu_tze_mon_warhound	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
+teb_ricco	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_pirazzo	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_leopard	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_venators	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_vespero	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_amazons	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_cursed	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_manflayers	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_origo	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_tichi	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_bronzino	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+teb_birdmen	wh_main_emp_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry

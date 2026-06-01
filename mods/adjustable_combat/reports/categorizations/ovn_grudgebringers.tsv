@@ -1,4 +1,5 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+ovn_grudge_grn_mon_giant_boss	ovn_grudge_grn_mon_giant_boss	monster	inf_melee	com	giant	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
 teb_pikemen	carlsson_guard	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 teb_conqui_adventurers	carlsson_guard	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 teb_pavisiers	carlsson_guard	missile_infantry	inf_melee	inf_mel	missile_infantry_bow	missile_infantry	true	90	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
@@ -12,7 +13,6 @@ albion_hearthguard_grudgebringer	carlsson_guard	melee_infantry	inf_melee	inf_mel
 albion_chariot_grudgebringer	carlsson_guard	chariot	inf_melee	inf_mel	chariot	cavalry_chariots	true	8	0	0	false		0	melee	small	jar_adj_com_unit_set_chariots_war_machines
 albion_giant_grudgebringer	carlsson_guard	monster	inf_melee	inf_mel	giant	monster_beasts	true	1	0	0	true		0	melee	small	jar_adj_com_unit_set_single_entities
 albion_huntresses_grudgebringer	carlsson_guard	missile_infantry	inf_melee	inf_mel	missile_infantry_bow	missile_infantry	true	90	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-ovn_grudge_grn_mon_giant_boss	ovn_grudge_grn_mon_giant_boss	monster	inf_melee	com	giant	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
 azguz_bloodfist_dwarf_warriors	azguz_bloodfist_dwarf_warriors	melee_infantry	inf_melee	inf_mel	azguz_bloodfist_dwarf_warriors	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 azguz_bloodfist_dwarf_warriors_upgrade	azguz_bloodfist_dwarf_warriors	melee_infantry	inf_melee	inf_mel	azguz_bloodfist_dwarf_warriors	infantry	true	190	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 black_avangers	black_avangers	melee_infantry	inf_melee	inf_mel	black_avangers	infantry	true	160	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry

@@ -115,20 +115,15 @@ local function apply_mod_effects(world)
 
     local faction_list = world:faction_list()
 
-    -- cm:callback(function()
-
-        for i = 0, faction_list:num_items() - 1 do
-            local faction = faction_list:item_at(i)
-            if should_apply_to_faction(faction) then
-                local effect_bundle = create_mod_effect_bundle(faction:is_human() and "player" or "ai")
-                cm:apply_custom_effect_bundle_to_faction(effect_bundle, faction)
-            elseif faction:has_effect_bundle(effect_bundle_key) then
-                cm:remove_effect_bundle(effect_bundle_key, faction:name())
-            end
+    for i = 0, faction_list:num_items() - 1 do
+        local faction = faction_list:item_at(i)
+        if should_apply_to_faction(faction) then
+            local effect_bundle = create_mod_effect_bundle(faction:is_human() and "player" or "ai")
+            cm:apply_custom_effect_bundle_to_faction(effect_bundle, faction)
+        elseif faction:has_effect_bundle(effect_bundle_key) then
+            cm:remove_effect_bundle(effect_bundle_key, faction:name())
         end
-
-    -- end,
-    -- 0.2)
+    end
 end
 
 core:add_listener(

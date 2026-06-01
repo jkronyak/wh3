@@ -1,0 +1,7 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__!cr_skaven_unit_dumping_ground__
+			cr_skv_mon_stormfiend_0	jar_unit_set_infantry	false
+			cr_skv_mon_stormfiend_1	jar_unit_set_infantry	false
+			cr_skv_mon_stormfiend_ror_tech_lab_0	jar_unit_set_infantry	false
+			cr_skv_mon_stormfiend_ror_tech_lab_1	jar_unit_set_infantry	false
+			cr_skv_mon_stormfiend_5	jar_unit_set_infantry	false

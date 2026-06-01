@@ -1,5 +1,19 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!!scm_motm__
+			um_ogr_flamefang_cavalry	jar_adj_com_unit_set_cavalry	false
+			um_ogr_flamefang_cavalry_summoned	jar_adj_com_unit_set_cavalry	false
+			um_ogr_morg_ironguts_ror	jar_adj_com_unit_set_monstrous_infantry	false
+			ogr_flamewarrior	jar_adj_com_unit_set_monstrous_infantry	false
+			ogr_flameeater_hammer	jar_adj_com_unit_set_monstrous_infantry	false
+			ogr_flameeater_pistol	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_flamegut	jar_adj_com_unit_set_monstrous_infantry	false
+			ogr_flame_spirits	jar_adj_com_unit_set_war_beasts	false
+			ogr_flame_spirits_summoned	jar_adj_com_unit_set_war_beasts	false
+			ogr_flame_thrower	jar_adj_com_unit_set_monstrous_infantry	false
+			motm_ogr_pit_fighters	jar_adj_com_unit_set_monstrous_infantry	false
+			motm_ogr_pit_fighters_cavalry	jar_adj_com_unit_set_cavalry	false
+			um_ogr_pit_champions	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_pit_champions_mount	jar_adj_com_unit_set_cavalry	false
 			motm_hollowbellies_ror	jar_adj_com_unit_set_monstrous_infantry	false
 			motm_dune_vulture	jar_adj_com_unit_set_single_entities	false
 			motm_dune_vulture_summoned	jar_adj_com_unit_set_single_entities	false
@@ -27,26 +41,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			um_ogr_dwf_labourer	jar_adj_com_unit_set_infantry	false
 			um_ogr_skv_labourer	jar_adj_com_unit_set_infantry	false
 			um_ogr_man_labourer	jar_adj_com_unit_set_infantry	false
-			blaut_maneaters	jar_adj_com_unit_set_monstrous_infantry	false
-			blaut_maneaters_ror	jar_adj_com_unit_set_monstrous_infantry	false
-			blautfang_warbeasts	jar_adj_com_unit_set_war_beasts	false
-			um_gnoblar_grillers	jar_adj_com_unit_set_infantry	false
-			um_gnoblar_grillers_ror	jar_adj_com_unit_set_infantry	false
-			ogr_hrothgul_yhetees_ironfists	jar_adj_com_unit_set_monstrous_infantry	false
-			ogr_hrothgul_yhetees_great_weapon	jar_adj_com_unit_set_monstrous_infantry	false
-			hrothgul_gorgers	jar_adj_com_unit_set_monstrous_infantry	false
-			hrothgul_thundertusk_shrine	jar_adj_com_unit_set_single_entities	false
-			ogr_ice_mammoth_feral	jar_adj_com_unit_set_single_entities	false
-			um_nur_vortex_beast	jar_adj_com_unit_set_single_entities	false
-			um_nur_vortex_beast_ror	jar_adj_com_unit_set_single_entities	false
-			frb_chaos_ogre_nurgle_0	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_karaka_giant_mnur	jar_adj_com_unit_set_single_entities	false
-			um_ogr_plague_guts	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_corrupt_throwers	jar_adj_com_unit_set_monstrous_infantry	false
-			motm_ogr_pit_fighters	jar_adj_com_unit_set_monstrous_infantry	false
-			motm_ogr_pit_fighters_cavalry	jar_adj_com_unit_set_cavalry	false
-			um_ogr_pit_champions	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_pit_champions_mount	jar_adj_com_unit_set_cavalry	false
 			motm_tainted_ogr_inf_pigback_riders	jar_adj_com_unit_set_infantry	false
 			motm_tainted_ogr_mon_blood_vultures	jar_adj_com_unit_set_war_beasts	false
 			motm_tainted_ogr_cav_crushers_0	jar_adj_com_unit_set_cavalry	false
@@ -105,78 +99,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			motm_tainted_ogr_mon_ogre_spawns_nurgle_no_cap	jar_adj_com_unit_set_monstrous_infantry	false
 			motm_tainted_ogr_mon_ogre_spawns_slaanesh_no_cap	jar_adj_com_unit_set_monstrous_infantry	false
 			motm_tainted_ogr_mon_ogre_spawns_tzeentch_no_cap	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_flamefang_cavalry	jar_adj_com_unit_set_cavalry	false
-			um_ogr_flamefang_cavalry_summoned	jar_adj_com_unit_set_cavalry	false
-			um_ogr_morg_ironguts_ror	jar_adj_com_unit_set_monstrous_infantry	false
-			ogr_flamewarrior	jar_adj_com_unit_set_monstrous_infantry	false
-			ogr_flameeater_hammer	jar_adj_com_unit_set_monstrous_infantry	false
-			ogr_flameeater_pistol	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_flamegut	jar_adj_com_unit_set_monstrous_infantry	false
-			ogr_flame_spirits	jar_adj_com_unit_set_war_beasts	false
-			ogr_flame_spirits_summoned	jar_adj_com_unit_set_war_beasts	false
-			ogr_flame_thrower	jar_adj_com_unit_set_monstrous_infantry	false
-			motm_katerina_sabretusk	jar_adj_com_unit_set_single_entities	false
-			um_ogr_earth_elemental	jar_adj_com_unit_set_single_entities	false
-			um_ogr_skullflingers	jar_adj_com_unit_set_infantry	false
-			um_ogr_dirty_shanks	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_manbiters	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_old_funders_boys	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_blu	jar_adj_com_unit_set_single_entities	false
-			um_ogr_blackpowder	jar_adj_com_unit_set_chariots_war_machines	false
-			fulg_irongut	jar_adj_com_unit_set_monstrous_infantry	false
-			fulg_irongut_ror	jar_adj_com_unit_set_monstrous_infantry	false
-			lab_ogr_inf_gnoblars_0	jar_adj_com_unit_set_infantry	false
-			lab_ogr_inf_gnoblars_1	jar_adj_com_unit_set_infantry	false
-			lab_skv_brood_horror	jar_adj_com_unit_set_single_entities	false
-			lab_skv_rat_ogre_mutant	jar_adj_com_unit_set_single_entities	false
-			lab_skv_rat_ogre_mutant_summoned	jar_adj_com_unit_set_single_entities	false
-			lab_skv_hell_pit_abomination	jar_adj_com_unit_set_single_entities	false
-			lab_skv_rat_ogre	jar_adj_com_unit_set_monstrous_infantry	false
-			lab_skv_rat_ogre_summoned	jar_adj_com_unit_set_monstrous_infantry	false
-			lab_ogr_sabretusk	jar_adj_com_unit_set_war_beasts	false
-			um_motm_leadbelcher_ror	jar_adj_com_unit_set_cavalry	false
-			um_ogr_gatling	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_lead_fire	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_lead_snipe	jar_adj_com_unit_set_monstrous_infantry	false
-			um_snarky_maneater_03	jar_adj_com_unit_set_monstrous_infantry	false
-			um_snarky_scraplauncher	jar_adj_com_unit_set_chariots_war_machines	false
-			um_snarky_ironblaster	jar_adj_com_unit_set_chariots_war_machines	false
-			motm_beastclad_reavers	jar_adj_com_unit_set_monstrous_infantry	false
-			motm_jhared_feral_mournfang	jar_adj_com_unit_set_war_beasts	false
-			motm_jhared_feral_rhinox	jar_adj_com_unit_set_war_beasts	false
-			motm_jhared_feral_stonehorn	jar_adj_com_unit_set_single_entities	false
-			motm_jhared_feral_thundertusk	jar_adj_com_unit_set_single_entities	false
-			motm_jhared_crabs	jar_adj_com_unit_set_war_beasts	false
-			motm_jhared_boars	jar_adj_com_unit_set_war_beasts	false
-			motm_jhared_great_stag	jar_adj_com_unit_set_war_beasts	false
-			motm_jhared_pegasus	jar_adj_com_unit_set_war_beasts	false
-			motm_jhared_griffon	jar_adj_com_unit_set_single_entities	false
-			motm_jhared_leviathan	jar_adj_com_unit_set_single_entities	false
-			motm_jhared_demigryph	jar_adj_com_unit_set_war_beasts	false
-			motm_jhared_gorebeast	jar_adj_com_unit_set_chariots_war_machines	false
-			motm_jhared_hippogryphs	jar_adj_com_unit_set_cavalry	false
-			motm_jhared_jabberslythe	jar_adj_com_unit_set_single_entities	false
-			motm_jhared_razorgor_herd	jar_adj_com_unit_set_cavalry	false
-			motm_jhared_ghorgon	jar_adj_com_unit_set_single_entities	false
-			motm_jhared_cygor	jar_adj_com_unit_set_single_entities	false
-			motm_jhared_dread_saurian	jar_adj_com_unit_set_single_entities	false
-			motm_jhared_carrion	jar_adj_com_unit_set_war_beasts	false
-			motm_ogr_mon_stone_trolls_0	jar_adj_com_unit_set_monstrous_infantry	false
-			motm_boomhogg	jar_adj_com_unit_set_single_entities	false
-			um_ogr_captain	jar_adj_com_unit_set_single_entities	false
-			um_ogr_diver_01	jar_adj_com_unit_set_single_entities	false
-			um_ogr_diver_02	jar_adj_com_unit_set_single_entities	false
-			um_ogr_diver_03	jar_adj_com_unit_set_single_entities	false
-			motm_gnoblar_scraplauncher_ror	jar_adj_com_unit_set_chariots_war_machines	false
-			motm_ironblaster_ror	jar_adj_com_unit_set_chariots_war_machines	false
-			um_ogr_sea_rider	jar_adj_com_unit_set_war_beasts	false
-			motm_rotting_leviathan_ror	jar_adj_com_unit_set_single_entities	false
-			motm_necrofex_colossus_ror	jar_adj_com_unit_set_single_entities	false
-			um_kho_ogre_0	jar_adj_com_unit_set_monstrous_infantry	false
-			um_kho_ogre_1	jar_adj_com_unit_set_monstrous_infantry	false
-			um_kho_ogre_2	jar_adj_com_unit_set_monstrous_infantry	false
-			frb_chaos_ogre_khorne_0	jar_adj_com_unit_set_monstrous_infantry	false
-			seals_khor_chs_mon_giant	jar_adj_com_unit_set_single_entities	false
+			um_nur_vortex_beast	jar_adj_com_unit_set_single_entities	false
+			um_nur_vortex_beast_ror	jar_adj_com_unit_set_single_entities	false
+			frb_chaos_ogre_nurgle_0	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_karaka_giant_mnur	jar_adj_com_unit_set_single_entities	false
+			um_ogr_plague_guts	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_corrupt_throwers	jar_adj_com_unit_set_monstrous_infantry	false
 			ogr_arachnarok_spider_0	jar_adj_com_unit_set_single_entities	false
 			ogr_arachnarok_spider_flinger	jar_adj_com_unit_set_single_entities	false
 			um_gnoblar_spider_riders_0	jar_adj_com_unit_set_cavalry	false
@@ -192,6 +120,31 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			motm_feral_arachnarok_spider_flinger	jar_adj_com_unit_set_single_entities	false
 			motm_giant_spider_creepers	jar_adj_com_unit_set_war_beasts	false
 			motm_feral_arachnarok_spider	jar_adj_com_unit_set_single_entities	false
+			blaut_maneaters	jar_adj_com_unit_set_monstrous_infantry	false
+			blaut_maneaters_ror	jar_adj_com_unit_set_monstrous_infantry	false
+			blautfang_warbeasts	jar_adj_com_unit_set_war_beasts	false
+			um_gnoblar_grillers	jar_adj_com_unit_set_infantry	false
+			um_gnoblar_grillers_ror	jar_adj_com_unit_set_infantry	false
+			fulg_irongut	jar_adj_com_unit_set_monstrous_infantry	false
+			fulg_irongut_ror	jar_adj_com_unit_set_monstrous_infantry	false
+			lab_ogr_inf_gnoblars_0	jar_adj_com_unit_set_infantry	false
+			lab_ogr_inf_gnoblars_1	jar_adj_com_unit_set_infantry	false
+			lab_skv_brood_horror	jar_adj_com_unit_set_single_entities	false
+			lab_skv_rat_ogre_mutant	jar_adj_com_unit_set_single_entities	false
+			lab_skv_rat_ogre_mutant_summoned	jar_adj_com_unit_set_single_entities	false
+			lab_skv_hell_pit_abomination	jar_adj_com_unit_set_single_entities	false
+			lab_skv_rat_ogre	jar_adj_com_unit_set_monstrous_infantry	false
+			lab_skv_rat_ogre_summoned	jar_adj_com_unit_set_monstrous_infantry	false
+			lab_ogr_sabretusk	jar_adj_com_unit_set_war_beasts	false
+			um_kho_ogre_0	jar_adj_com_unit_set_monstrous_infantry	false
+			um_kho_ogre_1	jar_adj_com_unit_set_monstrous_infantry	false
+			um_kho_ogre_2	jar_adj_com_unit_set_monstrous_infantry	false
+			frb_chaos_ogre_khorne_0	jar_adj_com_unit_set_monstrous_infantry	false
+			seals_khor_chs_mon_giant	jar_adj_com_unit_set_single_entities	false
+			um_ogr_treehammer_bulls_01	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_treehammer_bulls_02	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_treehammer_maneaters_01	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_treehammer_maneaters_02	jar_adj_com_unit_set_monstrous_infantry	false
 			frb_forsaken_gnoblars_0	jar_adj_com_unit_set_monstrous_infantry	false
 			frb_forsaken_gnoblars_fighters_0	jar_adj_com_unit_set_monstrous_infantry	false
 			frb_forsaken_gnoblars_fighters_1	jar_adj_com_unit_set_monstrous_infantry	false
@@ -256,7 +209,54 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_main_ogr_inf_leadbelchers_0_ror	jar_adj_com_unit_set_monstrous_infantry	false
 			wh3_main_ogr_inf_maneaters_1_ror	jar_adj_com_unit_set_monstrous_infantry	false
 			wh3_main_ogr_veh_ironblaster_0_ror	jar_adj_com_unit_set_chariots_war_machines	false
-			um_ogr_treehammer_bulls_01	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_treehammer_bulls_02	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_treehammer_maneaters_01	jar_adj_com_unit_set_monstrous_infantry	false
-			um_ogr_treehammer_maneaters_02	jar_adj_com_unit_set_monstrous_infantry	false
+			motm_beastclad_reavers	jar_adj_com_unit_set_monstrous_infantry	false
+			motm_jhared_feral_mournfang	jar_adj_com_unit_set_war_beasts	false
+			motm_jhared_feral_rhinox	jar_adj_com_unit_set_war_beasts	false
+			motm_jhared_feral_stonehorn	jar_adj_com_unit_set_single_entities	false
+			motm_jhared_feral_thundertusk	jar_adj_com_unit_set_single_entities	false
+			motm_jhared_crabs	jar_adj_com_unit_set_war_beasts	false
+			motm_jhared_boars	jar_adj_com_unit_set_war_beasts	false
+			motm_jhared_great_stag	jar_adj_com_unit_set_war_beasts	false
+			motm_jhared_pegasus	jar_adj_com_unit_set_war_beasts	false
+			motm_jhared_griffon	jar_adj_com_unit_set_single_entities	false
+			motm_jhared_leviathan	jar_adj_com_unit_set_single_entities	false
+			motm_jhared_demigryph	jar_adj_com_unit_set_war_beasts	false
+			motm_jhared_gorebeast	jar_adj_com_unit_set_chariots_war_machines	false
+			motm_jhared_hippogryphs	jar_adj_com_unit_set_cavalry	false
+			motm_jhared_jabberslythe	jar_adj_com_unit_set_single_entities	false
+			motm_jhared_razorgor_herd	jar_adj_com_unit_set_cavalry	false
+			motm_jhared_ghorgon	jar_adj_com_unit_set_single_entities	false
+			motm_jhared_cygor	jar_adj_com_unit_set_single_entities	false
+			motm_jhared_dread_saurian	jar_adj_com_unit_set_single_entities	false
+			motm_jhared_carrion	jar_adj_com_unit_set_war_beasts	false
+			motm_boomhogg	jar_adj_com_unit_set_single_entities	false
+			um_ogr_captain	jar_adj_com_unit_set_single_entities	false
+			um_ogr_diver_01	jar_adj_com_unit_set_single_entities	false
+			um_ogr_diver_02	jar_adj_com_unit_set_single_entities	false
+			um_ogr_diver_03	jar_adj_com_unit_set_single_entities	false
+			motm_gnoblar_scraplauncher_ror	jar_adj_com_unit_set_chariots_war_machines	false
+			motm_ironblaster_ror	jar_adj_com_unit_set_chariots_war_machines	false
+			um_ogr_sea_rider	jar_adj_com_unit_set_war_beasts	false
+			motm_rotting_leviathan_ror	jar_adj_com_unit_set_single_entities	false
+			motm_necrofex_colossus_ror	jar_adj_com_unit_set_single_entities	false
+			motm_ogr_mon_stone_trolls_0	jar_adj_com_unit_set_monstrous_infantry	false
+			ogr_hrothgul_yhetees_ironfists	jar_adj_com_unit_set_monstrous_infantry	false
+			ogr_hrothgul_yhetees_great_weapon	jar_adj_com_unit_set_monstrous_infantry	false
+			hrothgul_gorgers	jar_adj_com_unit_set_monstrous_infantry	false
+			hrothgul_thundertusk_shrine	jar_adj_com_unit_set_single_entities	false
+			ogr_ice_mammoth_feral	jar_adj_com_unit_set_single_entities	false
+			um_motm_leadbelcher_ror	jar_adj_com_unit_set_cavalry	false
+			um_ogr_gatling	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_lead_fire	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_lead_snipe	jar_adj_com_unit_set_monstrous_infantry	false
+			um_snarky_maneater_03	jar_adj_com_unit_set_monstrous_infantry	false
+			um_snarky_scraplauncher	jar_adj_com_unit_set_chariots_war_machines	false
+			um_snarky_ironblaster	jar_adj_com_unit_set_chariots_war_machines	false
+			motm_katerina_sabretusk	jar_adj_com_unit_set_single_entities	false
+			um_ogr_earth_elemental	jar_adj_com_unit_set_single_entities	false
+			um_ogr_skullflingers	jar_adj_com_unit_set_infantry	false
+			um_ogr_dirty_shanks	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_manbiters	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_old_funders_boys	jar_adj_com_unit_set_monstrous_infantry	false
+			um_ogr_blu	jar_adj_com_unit_set_single_entities	false
+			um_ogr_blackpowder	jar_adj_com_unit_set_chariots_war_machines	false

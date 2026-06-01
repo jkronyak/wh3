@@ -1,4 +1,4 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+def_boudicca_soulblaze_spike	def_boudicca_soulblaze_spike	monster	inf_melee	inf_mel	wh2_dlc17_lzd_carnosaur	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
 haidraths_sisters_of_slaughter	haidraths_sisters_of_slaughter	melee_infantry	inf_melee	inf_mel	wh2_dlc10_def_whip_infantry	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 haidraths_witchelves	haidraths_witchelves	melee_infantry	inf_melee	inf_mel	wh2_main_def_infantry_dual_daggers	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-def_boudicca_soulblaze_spike	def_boudicca_soulblaze_spike	monster	inf_melee	inf_mel	wh2_dlc17_lzd_carnosaur	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities

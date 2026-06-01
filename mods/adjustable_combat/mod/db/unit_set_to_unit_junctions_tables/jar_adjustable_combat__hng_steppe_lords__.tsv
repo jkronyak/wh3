@@ -19,25 +19,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hng_mounted_horsemasters_ammo_upgrade_whistling	jar_adj_com_unit_set_cavalry	false
 			hng_mounted_horsemasters_ammo_upgrade_fire	jar_adj_com_unit_set_cavalry	false
 			hng_mounted_horsemasters_ammo_upgrade_all	jar_adj_com_unit_set_cavalry	false
-			hng_aw_harpies_0	jar_adj_com_unit_set_war_beasts	false
-			hng_sea_dragon_hunters_0	jar_adj_com_unit_set_infantry	false
-			hng_aw_daemonette_0	jar_adj_com_unit_set_infantry	false
-			hng_art_reaper_bolt_thrower_0	jar_adj_com_unit_set_chariots_war_machines	false
-			hng_scourgerunner_chariot_0	jar_adj_com_unit_set_chariots_war_machines	false
-			hng_tortured_hydra_0	jar_adj_com_unit_set_single_entities	false
-			hng_aw_gor_herd_0	jar_adj_com_unit_set_infantry	false
-			hng_aw_berserkers_0	jar_adj_com_unit_set_infantry	false
-			hng_aw_chaos_warriors_0	jar_adj_com_unit_set_infantry	false
-			hng_aw_minotaurs_0	jar_adj_com_unit_set_monstrous_infantry	false
-			hng_aw_magma_cannon_0	jar_adj_com_unit_set_chariots_war_machines	false
-			hng_aw_shaggoth_0	jar_adj_com_unit_set_single_entities	false
-			hng_steel_spitters_0	jar_adj_com_unit_set_infantry	false
-			hng_art_looted_cannon_0	jar_adj_com_unit_set_chariots_war_machines	false
-			hng_riders_of_the_raging_sky_0	jar_adj_com_unit_set_cavalry	false
-			hng_art_thunderspitter_0	jar_adj_com_unit_set_chariots_war_machines	false
-			hng_veh_wallripper_0	jar_adj_com_unit_set_chariots_war_machines	false
-			hng_dread_beasts_of_mourn_0	jar_adj_com_unit_set_single_entities	false
-			hng_steppe_stalker_0	jar_adj_com_unit_set_single_entities	false
 			hng_captives_0	jar_adj_com_unit_set_infantry	false
 			hng_nomads_0	jar_adj_com_unit_set_infantry	false
 			hng_pillagers_0	jar_adj_com_unit_set_infantry	false
@@ -69,6 +50,25 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			hng_death_worm_0	jar_adj_com_unit_set_single_entities	false
 			hng_dark_wind_0	jar_adj_com_unit_set_single_entities	false
 			hng_shackled_dragon_0	jar_adj_com_unit_set_single_entities	false
+			hng_aw_harpies_0	jar_adj_com_unit_set_war_beasts	false
+			hng_sea_dragon_hunters_0	jar_adj_com_unit_set_infantry	false
+			hng_aw_daemonette_0	jar_adj_com_unit_set_infantry	false
+			hng_art_reaper_bolt_thrower_0	jar_adj_com_unit_set_chariots_war_machines	false
+			hng_scourgerunner_chariot_0	jar_adj_com_unit_set_chariots_war_machines	false
+			hng_tortured_hydra_0	jar_adj_com_unit_set_single_entities	false
+			hng_aw_gor_herd_0	jar_adj_com_unit_set_infantry	false
+			hng_aw_berserkers_0	jar_adj_com_unit_set_infantry	false
+			hng_aw_chaos_warriors_0	jar_adj_com_unit_set_infantry	false
+			hng_aw_minotaurs_0	jar_adj_com_unit_set_monstrous_infantry	false
+			hng_aw_magma_cannon_0	jar_adj_com_unit_set_chariots_war_machines	false
+			hng_aw_shaggoth_0	jar_adj_com_unit_set_single_entities	false
+			hng_steel_spitters_0	jar_adj_com_unit_set_infantry	false
+			hng_art_looted_cannon_0	jar_adj_com_unit_set_chariots_war_machines	false
+			hng_riders_of_the_raging_sky_0	jar_adj_com_unit_set_cavalry	false
+			hng_art_thunderspitter_0	jar_adj_com_unit_set_chariots_war_machines	false
+			hng_veh_wallripper_0	jar_adj_com_unit_set_chariots_war_machines	false
+			hng_dread_beasts_of_mourn_0	jar_adj_com_unit_set_single_entities	false
+			hng_steppe_stalker_0	jar_adj_com_unit_set_single_entities	false
 			hng_mounted_shamans_tchar_ror_0	jar_adj_com_unit_set_cavalry	false
 			hng_ambushers_ror_0	jar_adj_com_unit_set_cavalry	false
 			hng_chaos_vultures_ror_0	jar_adj_com_unit_set_single_entities	false

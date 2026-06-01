@@ -1,2 +1,3 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+wh2_dlc11_cst_inf_zombie_deckhands_mob_summoned_1	wh2_dlc11_cst_inf_zombie_deckhands_mob_summoned_1	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	160	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 blood_dragon_sword_and_shield_lol	blood_dragon_sword_and_shield_lol	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0	melee	small	jar_adj_com_unit_set_cavalry

@@ -179,10 +179,12 @@ const synchronizeMods = async (appId: string | number, modList: string[] | numbe
 
     // const syncResults: Record<string, any>[] = [];
     const syncResults: any[] = [];
+    let cur = 0;
     for (const modId of modList) {
+        console.log('Processing', modId, `(${cur}/${modList.length})`);
         const isCurrent = await isModUpdated(appId, modId);
         const isDownloaded = isModDownloaded(appId, modId);
-
+        console.log(`current: ${isCurrent}`, `downloaded: ${isDownloaded}`);
         const curResult = { modId, status: '' };
         const currentStatus = isCurrent ? 'current' : 'outdated';
         const downloadedStatus = isDownloaded ? 'present' : 'missing';

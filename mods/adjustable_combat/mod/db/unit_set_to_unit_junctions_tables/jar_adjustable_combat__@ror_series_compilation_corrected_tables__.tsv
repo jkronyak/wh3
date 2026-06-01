@@ -1,5 +1,35 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__@ror_series_compilation_corrected_tables__
+			deco_white_reavers	jar_adj_com_unit_set_infantry	false
+			deco_forest_patrol	jar_adj_com_unit_set_infantry	false
+			deco_von_kragsburg	jar_adj_com_unit_set_infantry	false
+			deco_crimson_defiants	jar_adj_com_unit_set_infantry	false
+			deco_grof_riders	jar_adj_com_unit_set_cavalry	false
+			deco_frik	jar_adj_com_unit_set_infantry	false
+			deco_grokkamobs	jar_adj_com_unit_set_cavalry	false
+			deco_harboth	jar_adj_com_unit_set_infantry	false
+			deco_bouncers	jar_adj_com_unit_set_cavalry	false
+			deco_drillaz	jar_adj_com_unit_set_infantry	false
+			deco_bonebreakers	jar_adj_com_unit_set_infantry	false
+			deco_zandri	jar_adj_com_unit_set_infantry	false
+			deco_emerald	jar_adj_com_unit_set_monstrous_infantry	false
+			deco_underworld	jar_adj_com_unit_set_single_entities	false
+			deco_bhagar	jar_adj_com_unit_set_single_entities	false
+			deco_wight	jar_adj_com_unit_set_infantry	false
+			deco_royal_chariot	jar_adj_com_unit_set_chariots_war_machines	false
+			ror_we_elrod	jar_adj_com_unit_set_infantry	false
+			ror_we_willow	jar_adj_com_unit_set_infantry	false
+			ror_we_durthu	jar_adj_com_unit_set_war_beasts	false
+			wh3_main_ksl_inf_alexandronov_ror	jar_adj_com_unit_set_infantry	false
+			wh3_main_ksl_cav_dawn_ror	jar_adj_com_unit_set_cavalry	false
+			wh3_main_ksl_inf_stalgrad_ror	jar_adj_com_unit_set_infantry	false
+			wh3_main_ksl_cav_bolgasgrad_ror	jar_adj_com_unit_set_cavalry	false
+			deco_backstabbers	jar_adj_com_unit_set_infantry	false
+			deco_magma_beasts	jar_adj_com_unit_set_monstrous_infantry	false
+			deco_warriors_horde	jar_adj_com_unit_set_infantry	false
+			deco_bahal_guardians	jar_adj_com_unit_set_cavalry	false
+			deco_kinslayers	jar_adj_com_unit_set_infantry	false
+			deco_doombringer	jar_adj_com_unit_set_single_entities	false
 			ror_beast_inmates	jar_adj_com_unit_set_infantry	false
 			ror_beast_ymgir	jar_adj_com_unit_set_infantry	false
 			ror_beast_shadowg	jar_adj_com_unit_set_infantry	false
@@ -9,27 +39,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ror_beast_gibberkin	jar_adj_com_unit_set_monstrous_infantry	false
 			ror_beast_ungrol	jar_adj_com_unit_set_infantry	false
 			ror_beast_toxote	jar_adj_com_unit_set_cavalry	false
-			deco_zandri	jar_adj_com_unit_set_infantry	false
-			deco_emerald	jar_adj_com_unit_set_monstrous_infantry	false
-			deco_underworld	jar_adj_com_unit_set_single_entities	false
-			deco_bhagar	jar_adj_com_unit_set_single_entities	false
-			deco_wight	jar_adj_com_unit_set_infantry	false
-			deco_royal_chariot	jar_adj_com_unit_set_chariots_war_machines	false
 			deco_burning_dark	jar_adj_com_unit_set_cavalry	false
 			deco_rimeshards	jar_adj_com_unit_set_infantry	false
 			deco_soulskulls	jar_adj_com_unit_set_infantry	false
 			deco_witchguard	jar_adj_com_unit_set_infantry	false
 			deco_voiceless	jar_adj_com_unit_set_infantry	false
 			deco_ravenspears	jar_adj_com_unit_set_cavalry	false
-			ror_we_elrod	jar_adj_com_unit_set_infantry	false
-			ror_we_willow	jar_adj_com_unit_set_infantry	false
-			ror_we_durthu	jar_adj_com_unit_set_war_beasts	false
-			deco_backstabbers	jar_adj_com_unit_set_infantry	false
-			deco_magma_beasts	jar_adj_com_unit_set_monstrous_infantry	false
-			deco_warriors_horde	jar_adj_com_unit_set_infantry	false
-			deco_bahal_guardians	jar_adj_com_unit_set_cavalry	false
-			deco_kinslayers	jar_adj_com_unit_set_infantry	false
-			deco_doombringer	jar_adj_com_unit_set_single_entities	false
 			ror_bret_fracasse	jar_adj_com_unit_set_cavalry	false
 			ror_bret_fastric	jar_adj_com_unit_set_cavalry	false
 			ror_bret_ennar	jar_adj_com_unit_set_infantry	false
@@ -40,16 +55,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ror_bret_flame	jar_adj_com_unit_set_infantry	false
 			ror_bret_mob	jar_adj_com_unit_set_infantry	false
 			ror_bret_rapscallards	jar_adj_com_unit_set_infantry	false
-			wh3_main_ksl_inf_alexandronov_ror	jar_adj_com_unit_set_infantry	false
-			wh3_main_ksl_cav_dawn_ror	jar_adj_com_unit_set_cavalry	false
-			wh3_main_ksl_inf_stalgrad_ror	jar_adj_com_unit_set_infantry	false
-			wh3_main_ksl_cav_bolgasgrad_ror	jar_adj_com_unit_set_cavalry	false
-			deco_frik	jar_adj_com_unit_set_infantry	false
-			deco_grokkamobs	jar_adj_com_unit_set_cavalry	false
-			deco_harboth	jar_adj_com_unit_set_infantry	false
-			deco_bouncers	jar_adj_com_unit_set_cavalry	false
-			deco_drillaz	jar_adj_com_unit_set_infantry	false
-			deco_bonebreakers	jar_adj_com_unit_set_infantry	false
 			roy_lzd_inf_skink_mist_runners	jar_adj_com_unit_set_infantry	false
 			roy_lzd_inf_skink_red_shields	jar_adj_com_unit_set_infantry	false
 			roy_lzd_inf_skink_shrouded_cohort	jar_adj_com_unit_set_infantry	false
@@ -61,8 +66,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			roy_lzd_mon_kroxigor_shrouded_cohort	jar_adj_com_unit_set_monstrous_infantry	false
 			roy_lzd_cav_the_wind_that_hungers	jar_adj_com_unit_set_cavalry	false
 			roy_lzd_cav_tichi_huichis_raiders	jar_adj_com_unit_set_cavalry	false
-			deco_white_reavers	jar_adj_com_unit_set_infantry	false
-			deco_forest_patrol	jar_adj_com_unit_set_infantry	false
-			deco_von_kragsburg	jar_adj_com_unit_set_infantry	false
-			deco_crimson_defiants	jar_adj_com_unit_set_infantry	false
-			deco_grof_riders	jar_adj_com_unit_set_cavalry	false

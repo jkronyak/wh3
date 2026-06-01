@@ -48,7 +48,9 @@ type DecodedTable = {
     rows: DecodedRow[]
 };
 
-const getModPackFilePaths = (): string[] => (readJSON(PATCH_MOD_PATH) as Mod[]).flatMap(mod => getModPackPath(WH3_APP_ID, mod.id) ?? []);
+const getModPackFilePaths = (): string[] => Object.entries(readJSON(PATCH_MOD_PATH) as Record<string, any>)
+    .filter(([_, mod]) => mod.required !== false)
+    .flatMap(([id]) => getModPackPath(WH3_APP_ID, id) ?? []);
 
 const getPackName = (packPath: string) => packPath.split("\\").slice(-1)[0]!.replace(".pack", "");
 
@@ -129,7 +131,7 @@ const calculateUnitSet = (unit: UnitInfo): ModUnitSet | null => {
     }
 
 
-    if (['missile_infantry', 'melee_infantry', 'monstrous_infantry'].includes(unit.caste)) {
+    if (['missile_infantry', 'melee_infantry', 'monstrous_infantry', 'monstrous_missile_infantry'].includes(unit.caste)) {
         return "jar_unit_set_infantry"
     }
 

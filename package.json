@@ -20,7 +20,9 @@
     "gen-mod:jac:mod-data": "ts-node mods/adjustable_combat/src/index.ts",
     "gen-mod:jac:sync": "ts-node mods/adjustable_combat/src/sync-mods.ts",
 
-    "build:jar_core_lib": "ts-node mods/jar_core_lib/src/index.ts"
+    "build:jar_core_lib": "ts-node mods/jar_core_lib/src/index.ts",
+    "build:remote_embed": "ts-node mods/remote_embed/src/index.ts"
+
   },
   "repository": {
     "type": "git",

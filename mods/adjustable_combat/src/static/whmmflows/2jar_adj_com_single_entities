@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "timestamp": 1781469393191,
+  "timestamp": 1781580533439,
   "nodes": [
     {
       "id": "node_278",
@@ -362,6 +362,12 @@
             "value": "1",
             "not": false,
             "operator": "AND"
+          },
+          {
+            "column": "num_men",
+            "value": "16",
+            "not": true,
+            "operator": "AND"
           }
         ],
         "splitValues": [],
@@ -452,8 +458,8 @@
       "id": "node_282",
       "type": "referencelookup",
       "position": {
-        "x": 1213.7389968339626,
-        "y": 523.7795030969417
+        "x": 1238.8096471386475,
+        "y": 473.6382024875718
       },
       "data": {
         "label": "Reference Lookup",
@@ -617,8 +623,8 @@
       "id": "node_283",
       "type": "columnselectiondropdown",
       "position": {
-        "x": 2396.7990744636245,
-        "y": 978.6493847582888
+        "x": 2859.7245115274295,
+        "y": 1024.59731895817
       },
       "data": {
         "label": "Column Dropdown Input",
@@ -1810,8 +1816,8 @@
       "id": "node_296",
       "type": "referencelookup",
       "position": {
-        "x": 1626.9438881126594,
-        "y": 1400.025196995679
+        "x": 1373.7543012726828,
+        "y": 2044.374659505791
       },
       "data": {
         "label": "Reference Lookup",
@@ -1975,8 +1981,8 @@
       "id": "node_297",
       "type": "filter",
       "position": {
-        "x": 1980.3059183455557,
-        "y": 1269.7536265457736
+        "x": 1840.517859815811,
+        "y": 1888.3854876751627
       },
       "data": {
         "label": "Filter",
@@ -2171,8 +2177,8 @@
       "id": "node_298",
       "type": "referencelookup",
       "position": {
-        "x": 2408.144644701704,
-        "y": 1172.4459119112535
+        "x": 2332.144644701704,
+        "y": 1334.4459119112535
       },
       "data": {
         "label": "Reference Lookup",
@@ -2378,8 +2384,8 @@
       "id": "node_299",
       "type": "referencelookup",
       "position": {
-        "x": 2846.7387755813543,
-        "y": 1172.1123007852418
+        "x": 2778.7387755813543,
+        "y": 1336.1123007852418
       },
       "data": {
         "label": "Reference Lookup",
@@ -2488,8 +2494,8 @@
       "id": "node_300",
       "type": "columnselectiondropdown",
       "position": {
-        "x": 3283.380938332762,
-        "y": 1196.6012289411474
+        "x": 3271.380938332762,
+        "y": 1360.6012289411474
       },
       "data": {
         "label": "Column Dropdown Input",
@@ -2666,8 +2672,8 @@
       "id": "node_301",
       "type": "columnselectiondropdown",
       "position": {
-        "x": 2850.058089463984,
-        "y": 1734.2804498589544
+        "x": 3086.058089463984,
+        "y": 2024.2804498589544
       },
       "data": {
         "label": "Column Dropdown Input",
@@ -2848,8 +2854,8 @@
       "id": "node_302",
       "type": "columnselectiondropdown",
       "position": {
-        "x": 2850.0872716575523,
-        "y": 1561.626898381387
+        "x": 3112.0872716575523,
+        "y": 1803.626898381387
       },
       "data": {
         "label": "Column Dropdown Input",
@@ -3030,8 +3036,8 @@
       "id": "node_303",
       "type": "columnselectiondropdown",
       "position": {
-        "x": 2851.1212076572415,
-        "y": 1391.592565798501
+        "x": 3113.1212076572415,
+        "y": 1599.592565798501
       },
       "data": {
         "label": "Column Dropdown Input",
@@ -3212,8 +3218,8 @@
       "id": "node_304",
       "type": "reversereferencelookup",
       "position": {
-        "x": 2410.311938305059,
-        "y": 1911.4833481115677
+        "x": 2689.67442153953,
+        "y": 2279.059404307825
       },
       "data": {
         "label": "Reverse Reference Lookup",
@@ -3404,8 +3410,8 @@
       "id": "node_305",
       "type": "columnselectiondropdown",
       "position": {
-        "x": 2849.63692422375,
-        "y": 1933.6507028967821
+        "x": 3095.63692422375,
+        "y": 2289.650702896782
       },
       "data": {
         "label": "Column Dropdown Input",
@@ -3676,8 +3682,8 @@
       "id": "node_308",
       "type": "numericadjustment",
       "position": {
-        "x": 3825.9299693816934,
-        "y": 1337.7396266622059
+        "x": 3909.9299693816934,
+        "y": 1415.7396266622059
       },
       "data": {
         "label": "Numeric Adjustment",
@@ -3736,8 +3742,8 @@
       "id": "node_309",
       "type": "numericadjustment",
       "position": {
-        "x": 3821.9299693816934,
-        "y": 1659.7396266622059
+        "x": 3825.9299693816934,
+        "y": 2013.7396266622059
       },
       "data": {
         "label": "Numeric Adjustment",
@@ -3856,8 +3862,8 @@
       "id": "node_311",
       "type": "mathceil",
       "position": {
-        "x": 4237.500344679443,
-        "y": 1528.44525200838
+        "x": 4291.500344679443,
+        "y": 1610.44525200838
       },
       "data": {
         "label": "Math Ceil",
@@ -4034,8 +4040,8 @@
       "id": "node_314",
       "type": "filter",
       "position": {
-        "x": 1583.3099572011095,
-        "y": 344.2144671893447
+        "x": 1611.0592536620054,
+        "y": 291.44655723586794
       },
       "data": {
         "label": "Filter",
@@ -4118,13 +4124,49 @@
             "column": "num_mounts",
             "value": "1",
             "not": false,
+            "operator": "AND"
+          },
+          {
+            "column": "num_engines",
+            "value": "0",
+            "not": false,
             "operator": "OR"
+          },
+          {
+            "column": "num_mounts",
+            "value": "0",
+            "not": false,
+            "operator": "AND"
+          },
+          {
+            "column": "num_engines",
+            "value": "1",
+            "not": false,
+            "operator": "AND"
+          },
+          {
+            "column": "num_mounts",
+            "value": "1",
+            "not": false,
+            "operator": "AND"
           },
           {
             "column": "num_engines",
             "value": "1",
             "not": false,
             "operator": "OR"
+          },
+          {
+            "column": "num_mounts",
+            "value": "0",
+            "not": false,
+            "operator": "AND"
+          },
+          {
+            "column": "num_engines",
+            "value": "0",
+            "not": false,
+            "operator": "AND"
           }
         ],
         "splitValues": [],
@@ -4230,8 +4272,8 @@
       "id": "node_315",
       "type": "reversereferencelookup",
       "position": {
-        "x": 1972.9723949731278,
-        "y": 901.8579321171939
+        "x": 1993.6489653630747,
+        "y": 1023.6199577468795
       },
       "data": {
         "label": "Reverse Reference Lookup",
@@ -4406,6 +4448,166 @@
           "spell_mastery",
           "infinite_secondary_ammo",
           "default_guard_mode"
+        ],
+        "schemaColumns": [],
+        "customRows": [],
+        "newColumnName": "",
+        "tsvFileName": "",
+        "tableName": "",
+        "sourceInputColumns": null,
+        "indexedTableColumns": null,
+        "customSchemaColumns": [],
+        "customSchemaData": null
+      }
+    },
+    {
+      "id": "node_316",
+      "type": "filter",
+      "position": {
+        "x": 2443.208525351044,
+        "y": 970.1321932122071
+      },
+      "data": {
+        "label": "Filter",
+        "type": "filter",
+        "textValue": "",
+        "selectedPack": "",
+        "selectedTable": "",
+        "selectedColumn": "",
+        "selectedColumn1": "",
+        "selectedColumn2": "",
+        "columnNames": [
+          "additional_building_requirement",
+          "campaign_cap",
+          "caste",
+          "create_time",
+          "is_naval",
+          "land_unit",
+          "num_men",
+          "multiplayer_cap",
+          "multiplayer_cost",
+          "naval_unit",
+          "num_ships",
+          "min_men_per_ship",
+          "max_men_per_ship",
+          "recruitment_cost",
+          "unit",
+          "upkeep_cost",
+          "weight",
+          "resource_requirement",
+          "special_edition_mask",
+          "in_encyclopedia",
+          "audio_voiceover_culture",
+          "ui_unit_group_land",
+          "tier",
+          "is_high_threat",
+          "porthole_camera",
+          "mount",
+          "use_hitpoints_in_campaign",
+          "porthole_composite_scene",
+          "melee_cp",
+          "missile_cp",
+          "can_siege",
+          "audio_voiceover_culture_override",
+          "restrict_xp_gain_in_campaign",
+          "audio_voiceover_actor_group",
+          "food_cost",
+          "has_spoken_vo",
+          "is_monstrous",
+          "multiplayer_qb_cap",
+          "vo_is_dragon",
+          "vo_is_dinosaur",
+          "optional_ui_element",
+          "barrier_health",
+          "can_be_bribed",
+          "point_allowance_weight",
+          "is_renown"
+        ],
+        "dedupeByColumns": [],
+        "dedupeAgainstVanilla": false,
+        "connectedTableName": "main_units_tables",
+        "outputType": "TableSelection",
+        "inputType": "TableSelection",
+        "filters": [
+          {
+            "column": "num_men",
+            "value": "1",
+            "not": false,
+            "operator": "AND"
+          }
+        ],
+        "splitValues": [],
+        "selectedReferenceTable": "",
+        "referenceTableNames": [],
+        "selectedReverseTable": "",
+        "reverseTableNames": [],
+        "packName": "",
+        "packedFileName": "",
+        "pattern": "",
+        "joinSeparator": "",
+        "beforeText": "",
+        "afterText": "",
+        "indexColumns": [],
+        "lookupColumn": "",
+        "joinType": "inner",
+        "tablePrefix": "",
+        "tablePrefixes": [],
+        "aggregateColumn": "",
+        "aggregateType": "min",
+        "filterColumn": "",
+        "filterOperator": "equals",
+        "filterValue": "",
+        "transformations": [],
+        "outputTables": [],
+        "outputCount": 2,
+        "groupByColumns": [],
+        "aggregations": [],
+        "inputColumnNames": [
+          "additional_building_requirement",
+          "campaign_cap",
+          "caste",
+          "create_time",
+          "is_naval",
+          "land_unit",
+          "num_men",
+          "multiplayer_cap",
+          "multiplayer_cost",
+          "naval_unit",
+          "num_ships",
+          "min_men_per_ship",
+          "max_men_per_ship",
+          "recruitment_cost",
+          "unit",
+          "upkeep_cost",
+          "weight",
+          "resource_requirement",
+          "special_edition_mask",
+          "in_encyclopedia",
+          "audio_voiceover_culture",
+          "ui_unit_group_land",
+          "tier",
+          "is_high_threat",
+          "porthole_camera",
+          "mount",
+          "use_hitpoints_in_campaign",
+          "porthole_composite_scene",
+          "melee_cp",
+          "missile_cp",
+          "can_siege",
+          "audio_voiceover_culture_override",
+          "restrict_xp_gain_in_campaign",
+          "audio_voiceover_actor_group",
+          "food_cost",
+          "has_spoken_vo",
+          "is_monstrous",
+          "multiplayer_qb_cap",
+          "vo_is_dragon",
+          "vo_is_dinosaur",
+          "optional_ui_element",
+          "barrier_health",
+          "can_be_bribed",
+          "point_allowance_weight",
+          "is_renown"
         ],
         "schemaColumns": [],
         "customRows": [],
@@ -4727,15 +4929,6 @@
       "targetHandle": null
     },
     {
-      "id": "edge-node_315-node_283",
-      "sourceId": "node_315",
-      "targetId": "node_283",
-      "sourceType": "TableSelection",
-      "targetType": "TableSelection",
-      "sourceHandle": null,
-      "targetHandle": null
-    },
-    {
       "id": "edge-node_314-match-node_290",
       "sourceId": "node_314",
       "targetId": "node_290",
@@ -4770,11 +4963,29 @@
       "targetType": "TableSelection",
       "sourceHandle": "match",
       "targetHandle": null
+    },
+    {
+      "id": "edge-node_315-node_316",
+      "sourceId": "node_315",
+      "targetId": "node_316",
+      "sourceType": "TableSelection",
+      "targetType": "TableSelection",
+      "sourceHandle": null,
+      "targetHandle": null
+    },
+    {
+      "id": "edge-node_316-match-node_283",
+      "sourceId": "node_316",
+      "targetId": "node_283",
+      "sourceType": "TableSelection",
+      "targetType": "TableSelection",
+      "sourceHandle": "match",
+      "targetHandle": null
     }
   ],
   "metadata": {
-    "nodeCount": 32,
-    "connectionCount": 39
+    "nodeCount": 33,
+    "connectionCount": 40
   },
   "options": [
     {

@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+mfchdskl_chd_inf_hobgoblin_sneaky_gits_summoned_0	mfchdskl_chd_inf_hobgoblin_sneaky_gits_summoned_0	melee_infantry	inf_melee	inf_mel	infantry_dual_sword_goblin	infantry	true	120	0	0	false	wh3_dlc23_chd_hobgoblin_throwing_knife	2	archer		jar_unit_set_infantry

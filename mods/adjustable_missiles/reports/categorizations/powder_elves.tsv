@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+sar_birds_of_paradise	sar_birds_of_paradise	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	80	0	0	false	elf_gun	22		small	jar_unit_set_infantry

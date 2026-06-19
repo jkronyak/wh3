@@ -1,0 +1,7 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_missiles__victory_conditions_overhaul__
+			vco_wh_main_emp_art_great_cannon	jar_unit_set_artillery_war_machines	false
+			vco_wh_main_emp_art_mortar	jar_unit_set_artillery_war_machines	false
+			vco_todbringer_inf_ghost_strider	jar_unit_set_infantry	false
+			vco_unit_sartosa_cathayan_buccaneer	jar_unit_set_infantry	false
+			vco_unit_sartosa_slayer_pirate	jar_unit_set_infantry	false

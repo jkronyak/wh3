@@ -1,0 +1,2 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+wh_mod_vmp_inf_archery_wights	wh_mod_vmp_inf_archery_wights	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	60	0	0	false	wh_mod_vmp_bow_skeleton_midrange	33	archer	small	jar_unit_set_infantry

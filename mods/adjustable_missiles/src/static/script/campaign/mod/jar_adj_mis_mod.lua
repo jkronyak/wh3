@@ -38,8 +38,9 @@ end
 
 local function load_mod_settings()
 
-    local mct = get_mct()
-
+    local ok, mct = pcall(get_mct)
+    mct = ok and mct or nil
+    
     for unit_set_key, _ in pairs(utils.get_active_unit_set_configs()) do
 
         -- Ensure nested unit_set_key object exists

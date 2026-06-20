@@ -8,6 +8,7 @@ import { sleep } from '../helpers/helpers.ts';
 const STEAM_API_BASE_URL = "https://api.steampowered.com"
 const STEAM_CMD_PATH = process.env.STEAM_CMD_PATH!;
 const STEAM_CMD_USER = process.env.STEAM_CMD_USER!;
+const STEAM_CMD_PASS = process.env.STEAM_CMD_PASS ?? '';
 const MANIFEST_FOLDER_PATH = path.join(process.env.STEAM_CMD_PATH!, "steamapps", "workshop");
 
 type Mod = {
@@ -94,7 +95,7 @@ const getRemoteModTitle = async (modId: string | number): Promise<string | null>
         method: 'POST',
         body: params
     });
-    if (!response.ok) throw new Error(`Remote manifest request request failed: ${response.status} ${response.statusText}`)
+    if (!response.ok) throw new Error(`Remote manifest request request failed: ${response.status} ${response.statusText}`);
     const respJson = await response.json() as Record<string, any>;
     const modTitle =  respJson?.response?.publishedfiledetails[0]?.title ?? null;
     return modTitle;
@@ -135,7 +136,10 @@ const isModUpdated = async (appId: string | number, modId: string | number): Pro
  */
 const downloadMod = async (appId: string | number, modId: string | number, deleteIfExists: boolean = true): Promise<any> => {
     if (deleteIfExists) deleteMod(appId, modId);
-    const execRes = execSync(`${STEAM_CMD_PATH}/steamcmd.exe +login ${STEAM_CMD_USER} +workshop_download_item ${appId} ${modId} +quit`, { encoding: 'utf-8' });
+    const cmd = `${STEAM_CMD_PATH}/steamcmd.exe +login ${STEAM_CMD_USER} +workshop_download_item ${appId} ${modId} +workshop_download_item ${appId} ${modId} validate +quit`;
+    console.log(cmd);
+    const execRes = execSync(cmd, { encoding: 'utf-8' });
+    console.log('execRes', execRes);
     const modFolderPath = path.join(STEAM_CMD_PATH, "steamapps", "workshop", "content", String(appId), String(modId));
     const exists = fs.existsSync(modFolderPath);
     if(!exists) console.log(execRes);
@@ -218,5 +222,6 @@ export {
     getModInfo,
     synchronizeMods,
     getModPackPath,
+    deleteMod,
     type Mod
 }

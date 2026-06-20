@@ -7,6 +7,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			mixu_emp_cav_daughters_of_rhya	jar_adj_com_unit_set_cavalry	false
 			mixu_nor_inf_flesh_hounds_of_khorne_edmund	jar_adj_com_unit_set_single_entities	false
 			mixu_tze_mon_warhound	jar_adj_com_unit_set_war_beasts	false
+			mixu_tze_mon_chaos_dragon	jar_adj_com_unit_set_single_entities	false
+			mixu_tze_inf_cultists	jar_adj_com_unit_set_infantry	false
+			mixu_tze_inf_cultist_acolytes	jar_adj_com_unit_set_infantry	false
+			mixu_tze_mon_trolls	jar_adj_com_unit_set_monstrous_infantry	false
+			mixu_tze_inf_chosen_of_cabal	jar_adj_com_unit_set_infantry	false
 			mixu_emp_inf_norscan_reavers	jar_adj_com_unit_set_infantry	false
 			mixu_emp_inf_norscan_reavers_great_weapons	jar_adj_com_unit_set_infantry	false
 			mixu_emp_inf_pirate_deckhands_swords	jar_adj_com_unit_set_infantry	false
@@ -22,11 +27,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			mixu_emp_art_mortar	jar_adj_com_unit_set_chariots_war_machines	false
 			mixu_emp_inf_grog_carriers	jar_adj_com_unit_set_single_entities	false
 			mixu_emp_mon_promethean_riders	jar_adj_com_unit_set_monstrous_infantry	false
-			mixu_tze_mon_chaos_dragon	jar_adj_com_unit_set_single_entities	false
-			mixu_tze_inf_cultists	jar_adj_com_unit_set_infantry	false
-			mixu_tze_inf_cultist_acolytes	jar_adj_com_unit_set_infantry	false
-			mixu_tze_mon_trolls	jar_adj_com_unit_set_monstrous_infantry	false
-			mixu_tze_inf_chosen_of_cabal	jar_adj_com_unit_set_infantry	false
 			teb_ricco	jar_adj_com_unit_set_infantry	false
 			teb_pirazzo	jar_adj_com_unit_set_infantry	false
 			teb_leopard	jar_adj_com_unit_set_infantry	false

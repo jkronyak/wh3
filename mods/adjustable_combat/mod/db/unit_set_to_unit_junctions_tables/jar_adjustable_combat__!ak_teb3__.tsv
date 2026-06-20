@@ -1,5 +1,24 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__!ak_teb3__
+			teb_ricco	jar_adj_com_unit_set_infantry	false
+			teb_alcatani	jar_adj_com_unit_set_infantry	false
+			teb_pirazzo	jar_adj_com_unit_set_infantry	false
+			teb_pirazzo_xbows	jar_adj_com_unit_set_infantry	false
+			teb_leopard	jar_adj_com_unit_set_infantry	false
+			teb_venators	jar_adj_com_unit_set_cavalry	false
+			teb_vespero	jar_adj_com_unit_set_infantry	false
+			teb_marksmen	jar_adj_com_unit_set_infantry	false
+			teb_besiegers	jar_adj_com_unit_set_infantry	false
+			teb_muktar	jar_adj_com_unit_set_cavalry	false
+			teb_amazons	jar_adj_com_unit_set_infantry	false
+			teb_cursed	jar_adj_com_unit_set_infantry	false
+			teb_origo	jar_adj_com_unit_set_infantry	false
+			teb_manflayers	jar_adj_com_unit_set_infantry	false
+			teb_asarnil	jar_adj_com_unit_set_single_entities	false
+			teb_tichi	jar_adj_com_unit_set_cavalry	false
+			teb_bronzino_limbered	jar_adj_com_unit_set_chariots_war_machines	false
+			teb_bronzino	jar_adj_com_unit_set_chariots_war_machines	false
+			teb_birdmen	jar_adj_com_unit_set_monstrous_infantry	false
 			teb_roc_dieterfist	jar_adj_com_unit_set_infantry	false
 			teb_roc_estragon	jar_adj_com_unit_set_infantry	false
 			teb_roc_verena	jar_adj_com_unit_set_infantry	false
@@ -51,22 +70,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			teb_galloper	jar_adj_com_unit_set_chariots_war_machines	false
 			teb_tank	jar_adj_com_unit_set_chariots_war_machines	false
 			teb_golden_lion	jar_adj_com_unit_set_single_entities	false
-			teb_ricco	jar_adj_com_unit_set_infantry	false
-			teb_alcatani	jar_adj_com_unit_set_infantry	false
-			teb_pirazzo	jar_adj_com_unit_set_infantry	false
-			teb_pirazzo_xbows	jar_adj_com_unit_set_infantry	false
-			teb_leopard	jar_adj_com_unit_set_infantry	false
-			teb_venators	jar_adj_com_unit_set_cavalry	false
-			teb_vespero	jar_adj_com_unit_set_infantry	false
-			teb_marksmen	jar_adj_com_unit_set_infantry	false
-			teb_besiegers	jar_adj_com_unit_set_infantry	false
-			teb_muktar	jar_adj_com_unit_set_cavalry	false
-			teb_amazons	jar_adj_com_unit_set_infantry	false
-			teb_cursed	jar_adj_com_unit_set_infantry	false
-			teb_origo	jar_adj_com_unit_set_infantry	false
-			teb_manflayers	jar_adj_com_unit_set_infantry	false
-			teb_asarnil	jar_adj_com_unit_set_single_entities	false
-			teb_tichi	jar_adj_com_unit_set_cavalry	false
-			teb_bronzino_limbered	jar_adj_com_unit_set_chariots_war_machines	false
-			teb_bronzino	jar_adj_com_unit_set_chariots_war_machines	false
-			teb_birdmen	jar_adj_com_unit_set_monstrous_infantry	false

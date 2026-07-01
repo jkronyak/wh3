@@ -389,3 +389,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_cp1_cth_inf_iron_claw_guandao_ete	jar_adj_com_unit_set_infantry	false
 			wh3_cp1_cth_inf_tiger_warriors_dual_axe_ete	jar_adj_com_unit_set_infantry	false
 			wh3_cp1_cth_inf_stalkers_throwing_disc_ete	jar_adj_com_unit_set_infantry	false
+			wh3_dlc27_hef_inf_ships_company_ete	jar_adj_com_unit_set_infantry	false
+			wh3_dlc27_hef_inf_ships_company_ror_ete	jar_adj_com_unit_set_infantry	false
+			wh3_dlc27_hef_mon_merwyrm_ror_ete_2	jar_adj_com_unit_set_single_entities	false

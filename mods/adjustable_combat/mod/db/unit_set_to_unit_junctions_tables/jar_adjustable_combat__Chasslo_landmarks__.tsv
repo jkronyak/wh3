@@ -1,7 +1,5 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__Chasslo_landmarks__
-			CLE_lzd_vultures	jar_adj_com_unit_set_war_beasts	false
-			CLE_ogr_mutant_rat	jar_adj_com_unit_set_single_entities	false
 			Chasslo_Knights_Iranna	jar_adj_com_unit_set_cavalry	false
 			Chasslo_Great_Oak_Mordheim	jar_adj_com_unit_set_single_entities	false
 			Chasslo_Mutated_Trolls	jar_adj_com_unit_set_monstrous_infantry	false
@@ -57,3 +55,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			CLE_Barakas_Bulls	jar_adj_com_unit_set_monstrous_infantry	false
 			CLE_Throgg_Chill_Sontar	jar_adj_com_unit_set_single_entities	false
 			CLE_Tchar_Destroyers	jar_adj_com_unit_set_monstrous_infantry	false
+			CLE_lzd_vultures	jar_adj_com_unit_set_war_beasts	false
+			CLE_ogr_mutant_rat	jar_adj_com_unit_set_single_entities	false

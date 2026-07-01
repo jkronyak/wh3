@@ -10,3 +10,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			amazon_blessed_jaguar_cavalry	jar_adj_com_unit_set_cavalry	false
 			amazon_templeguard_ror	jar_adj_com_unit_set_infantry	false
 			amazon_calavera_ror	jar_adj_com_unit_set_infantry	false
+			amazon_huntress_ror	jar_adj_com_unit_set_infantry	false

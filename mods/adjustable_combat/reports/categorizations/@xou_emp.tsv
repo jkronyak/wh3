@@ -1,0 +1,136 @@
+mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+wh_main_emp_cav_outriders_1	wh_main_emp_cav_outriders_1	missile_cavalry	cavalry	cav_mis	missile_cavalry_rifle	missile_cavalry_chariots	true	48	0	48	false	wh_main_emp_grenade_launcher	18	skirmish	medium	jar_adj_com_unit_set_cavalry
+rek_inf_crossbowmen	rek_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+rek_inf_greatswords	rek_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+rek_inf_halberdiers	rek_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+rek_inf_handgunners	rek_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+rek_inf_spearmen_0	rek_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+rek_inf_spearmen_1	rek_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+rek_inf_swordsmen	rek_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+tab_inf_crossbowmen	tab_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+tab_inf_greatswords	tab_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+tab_inf_halberdiers	tab_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+tab_inf_handgunners	tab_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+tab_inf_spearmen_0	tab_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+tab_inf_spearmen_1	tab_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+tab_inf_swordsmen	tab_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+avr_inf_crossbowmen	avr_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+avr_inf_greatswords	avr_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+avr_inf_halberdiers	avr_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+avr_inf_handgunners	avr_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+avr_inf_spearmen_0	avr_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+avr_inf_spearmen_1	avr_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+avr_inf_swordsmen	avr_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mid_inf_crossbowmen	mid_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+mid_inf_greatswords	mid_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mid_inf_halberdiers	mid_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mid_inf_handgunners	mid_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+mid_inf_spearmen_0	mid_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mid_inf_spearmen_1	mid_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mid_inf_swordsmen	mid_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+nod_inf_crossbowmen	nod_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+nod_inf_greatswords	nod_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+nod_inf_halberdiers	nod_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+nod_inf_handgunners	nod_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+nod_inf_spearmen_0	nod_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+nod_inf_spearmen_1	nod_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+nod_inf_swordsmen	nod_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+ost_inf_crossbowmen	ost_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+ost_inf_greatswords	ost_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+ost_inf_halberdiers	ost_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+ost_inf_handgunners	ost_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+ost_inf_spearmen_0	ost_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+ost_inf_spearmen_1	ost_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+ost_inf_swordsmen	ost_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+str_inf_crossbowmen	str_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+str_inf_greatswords	str_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+str_inf_halberdiers	str_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+str_inf_handgunners	str_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+str_inf_spearmen_0	str_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+str_inf_spearmen_1	str_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+str_inf_swordsmen	str_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+osm_inf_crossbowmen	osm_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+osm_inf_greatswords	osm_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+osm_inf_halberdiers	osm_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+osm_inf_handgunners	osm_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+osm_inf_spearmen_0	osm_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+osm_inf_spearmen_1	osm_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+osm_inf_swordsmen	osm_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+hoc_inf_crossbowmen	hoc_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+hoc_inf_greatswords	hoc_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+hoc_inf_halberdiers	hoc_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+hoc_inf_handgunners	hoc_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+hoc_inf_spearmen_0	hoc_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+hoc_inf_spearmen_1	hoc_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+hoc_inf_swordsmen	hoc_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wis_inf_crossbowmen	wis_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	24	archer	small	jar_adj_com_unit_set_infantry
+wis_inf_greatswords	wis_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wis_inf_halberdiers	wis_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wis_inf_handgunners	wis_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	24	archer	small	jar_adj_com_unit_set_infantry
+wis_inf_spearmen_0	wis_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wis_inf_spearmen_1	wis_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wis_inf_swordsmen	wis_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+gol_inf_crossbowmen	gol_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+gol_inf_greatswords	gol_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+gol_inf_halberdiers	gol_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+gol_inf_handgunners	gol_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+gol_inf_spearmen_0	gol_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+gol_inf_spearmen_1	gol_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+gol_inf_swordsmen	gol_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mke_inf_crossbowmen	mke_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+mke_inf_greatswords	mke_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mke_inf_halberdiers	mke_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mke_inf_handgunners	mke_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+mke_inf_spearmen_0	mke_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mke_inf_spearmen_1	mke_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mke_inf_swordsmen	mke_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mrb_inf_crossbowmen	mrb_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+mrb_inf_greatswords	mrb_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mrb_inf_halberdiers	mrb_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mrb_inf_handgunners	mrb_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+mrb_inf_spearmen_0	mrb_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mrb_inf_spearmen_1	mrb_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+mrb_inf_swordsmen	mrb_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+reb_inf_crossbowmen	reb_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+reb_inf_greatswords	reb_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+reb_inf_halberdiers	reb_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+reb_inf_handgunners	reb_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+reb_inf_spearmen_0	reb_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+reb_inf_spearmen_1	reb_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+reb_inf_swordsmen	reb_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+cos_inf_crossbowmen	cos_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
+cos_inf_greatswords	cos_inf_greatswords	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+cos_inf_halberdiers	cos_inf_halberdiers	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+cos_inf_handgunners	cos_inf_handgunners	missile_infantry	inf_ranged	inf_mis	missile_infantry_rifle	missile_infantry	true	90	0	0	false	wh_main_emp_rifle	22	archer	small	jar_adj_com_unit_set_infantry
+cos_inf_spearmen_0	cos_inf_spearmen_0	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+cos_inf_spearmen_1	cos_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+cos_inf_swordsmen	cos_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+dummy_unit_1	dummy_unit_1	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+dummy_unit_2	dummy_unit_2	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+snek_emp_iron_colossus_of_nuln	snek_emp_iron_colossus_of_nuln	monster	war_beast	inf_mis	artillery_cannon	artillery_war_machines	true	1	0	1	true	snek_iron_colossus_cannon	22	artillery	very_large	jar_adj_com_unit_set_single_entities
+cr_emp_veh_hurricanum_0	cr_emp_veh_hurricanum_0	chariot	war_machine	chariot	magic_chariot	artillery_war_machines	true	3	1	2	true	cr_storm_of_shemtek	25	skirmish	large	jar_adj_com_unit_set_chariots_war_machines
+hkrul_setanta_wolf	hkrul_setanta_wolf	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	4	0	0	true		0	skirmish	small	jar_adj_com_unit_set_single_entities
+wh2_dlc13_emp_inf_greatswords_ror_0	wh2_dlc13_emp_inf_greatswords_ror_0	melee_cavalry	inf_melee	inf_mel	shock_cavalry	cavalry_chariots	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_cavalry
+wh3_dlc25_emp_cav_knights_of_the_black_rose	wh3_dlc25_emp_cav_knights_of_the_black_rose	melee_cavalry	cavalry	cav_mel	reiksguard_cav_sword	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+wh_dlc04_emp_cav_knights_blazing_sun_0	wh_dlc04_emp_cav_knights_blazing_sun_0	melee_cavalry	cavalry	cav_mel	reiksguard_cav	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+wh_dlc04_emp_cav_zintlers_reiksguard_0	wh_dlc04_emp_cav_zintlers_reiksguard_0	melee_cavalry	cavalry	cav_shk	reiksguard_cav_sword	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+wh2_dlc13_emp_inf_halberdiers_ror_0	wh2_dlc13_emp_inf_halberdiers_ror_0	missile_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wh_main_emp_cav_reiksguard	wh_main_emp_cav_reiksguard	melee_cavalry	cavalry	cav_shk	reiksguard_cav	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+emp_inf_reiksguard	emp_inf_reiksguard	melee_infantry	inf_melee	inf_mel	reiksguard_inf_sword	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_carroburg_greatswords_ror	emp_inf_carroburg_greatswords_ror	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_reiksguard_great	emp_inf_reiksguard_great	melee_infantry	inf_melee	inf_mel	reiksguard_inf_gsword	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_reiksguard_halberdiers	emp_inf_reiksguard_halberdiers	melee_infantry	inf_melee	inf_spr	reiksguard_inf_halberd	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_cav_reiksguard_inner_circle	emp_cav_reiksguard_inner_circle	monstrous_cavalry	cavalry	cav_shk	reiksguard_cav	reiksguard	false	20	0	32	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+emp_mon_hunting_hounds	emp_mon_hunting_hounds	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
+emp_cav_griffon_riders_ror	emp_cav_griffon_riders_ror	monstrous_cavalry	war_beast	cav_shk	emp_cav_griffon_riders_ror	monster_beasts	true	6	0	6	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+emp_sisters_sigmar	emp_sisters_sigmar	melee_infantry	inf_melee	inf_mel	infantry_hammer	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_sisters_sigmar_ror	emp_sisters_sigmar_ror	melee_infantry	inf_melee	inf_mel	infantry_hammer	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_nuns	emp_nuns	melee_infantry	inf_melee	inf_mel	wh_dlc04_emp_flagelllents	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_nuns_ror	emp_nuns_ror	melee_infantry	inf_melee	inf_mel	wh2_main_infantry_dual_swords	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_cav_knight_north_star	emp_cav_knight_north_star	melee_cavalry	cavalry	cav_shk	reiksguard_cav	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+emp_inf_knight_north_star	emp_inf_knight_north_star	melee_infantry	inf_melee	inf_mel	reiksguard_inf_axe	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_stevedore	emp_inf_stevedore	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_dwarf_warrior_0	emp_inf_dwarf_warrior_0	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_dwarf_warrior_1	emp_inf_dwarf_warrior_1	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_hammerers	wh_main_dwf_inf_hammerers	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_company_of_honour	emp_inf_company_of_honour	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry

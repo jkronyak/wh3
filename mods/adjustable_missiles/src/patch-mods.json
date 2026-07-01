@@ -3,1064 +3,1071 @@
         "title": "Disable startup splash screens / intros",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789854789",
         "required": false,
-        "sync_ts": 1781899443430
+        "sync_ts": 1782841188805
     },
     "2789858755": {
         "title": "Better Camera Mod",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789858755",
         "required": false,
-        "sync_ts": 1781899443431
+        "sync_ts": 1782841188808
     },
     "2789865734": {
         "title": "Ruinous Incentive - All Climates for Daemons",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789865734",
         "required": false,
-        "sync_ts": 1781899443431
+        "sync_ts": 1782841188808
     },
     "2789872729": {
         "title": "Factionwide Resource Bonuses Enhanced",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789872729",
         "required": false,
-        "sync_ts": 1781899443431
+        "sync_ts": 1782841188809
     },
     "2789872785": {
         "title": "Permanent Summons",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789872785",
         "required": false,
-        "sync_ts": 1781899443431
+        "sync_ts": 1782841188809
     },
     "2789887182": {
         "title": "More Character Names (For all 24 races)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789887182",
         "required": false,
-        "sync_ts": 1781899443432
+        "sync_ts": 1782841188809
     },
     "2789898126": {
         "title": "Lore Names: Renamed Unique Lords & Heroes Names",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789898126",
         "required": false,
-        "sync_ts": 1781899443432
+        "sync_ts": 1782841188809
     },
     "2789903475": {
         "title": "Easier Confederations & Vassals",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789903475",
         "required": false,
-        "sync_ts": 1781899443432
+        "sync_ts": 1782841188809
     },
     "2789915532": {
         "title": "Reasonable Reliability Penalties",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789915532",
         "required": false,
-        "sync_ts": 1781899443432
+        "sync_ts": 1782841188809
     },
     "2789921931": {
         "title": "Cataph's Comfy Encamp [It Works in 8.0]",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789921931",
         "required": false,
-        "sync_ts": 1781899443433
+        "sync_ts": 1782841188809
     },
     "2789957828": {
         "title": "Longer Battles Mod (revised)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789957828",
         "required": false,
-        "sync_ts": 1781899443433
+        "sync_ts": 1782841188810
     },
     "2789999718": {
         "title": "Unique Faction UI",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789999718",
         "required": false,
-        "sync_ts": 1781899443433
+        "sync_ts": 1782841188810
     },
     "2790007728": {
         "title": "Building Progression Icons III",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2790007728",
         "required": false,
-        "sync_ts": 1781899443433
+        "sync_ts": 1782841188810
     },
     "2790053322": {
         "title": "More Ogre Mercenaries",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2790053322",
         "required": false,
-        "sync_ts": 1781899443433
+        "sync_ts": 1782841188810
     },
     "2790060570": {
         "title": "Singe's Lord Skills Compilation",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2790060570",
         "required": false,
-        "sync_ts": 1781899443434
+        "sync_ts": 1782841188810
     },
     "2790061057": {
         "title": "Singe's Unit Compilation",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2790061057",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899443712
+        "sync_ts": 1782841189111
     },
     "2790490527": {
-        "title": "Better Faction Traits (ToT Updated)",
+        "title": "Better Faction Traits (Tigers Updated)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2790490527",
         "required": false,
-        "sync_ts": 1781899443712
+        "sync_ts": 1782841189111
     },
     "2790584452": {
         "title": "No Diplomatic Penalty for \"Too Many Trade Partners\"",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2790584452",
         "required": false,
-        "sync_ts": 1781899443712
+        "sync_ts": 1782841189111
     },
     "2790733660": {
         "title": "Infinite Respec",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2790733660",
         "required": false,
-        "sync_ts": 1781899443712
+        "sync_ts": 1782841189111
     },
     "2790774407": {
         "title": "High Resolution UI Improvements",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2790774407",
         "required": false,
-        "sync_ts": 1781899443713
+        "sync_ts": 1782841189111
     },
     "2791750313": {
         "title": "Radious Total War Mod - Part 1",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2791750313",
         "required": true,
-        "sync_status": "nochange",
-        "sync_ts": 1781899444207
+        "sync_status": "success",
+        "sync_ts": 1782841213959
     },
     "2792727547": {
         "title": "Speedy Turn Camera",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2792727547",
         "required": false,
-        "sync_ts": 1781899444207
+        "sync_ts": 1782841213959
     },
     "2792731173": {
-        "title": "SFO: Grimhammer III - Bhashiva DLC",
+        "title": "SFO: Grimhammer III",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2792731173",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899444726
+        "sync_ts": 1782841214464
     },
     "2793127003": {
         "title": "Rotate Lords and Heroes (v7.0)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2793127003",
         "required": false,
-        "sync_ts": 1781899444726
+        "sync_ts": 1782841214464
     },
     "2793720664": {
         "title": "Z's English Submod",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2793720664",
         "required": false,
-        "sync_ts": 1781899444727
+        "sync_ts": 1782841214465
     },
     "2794064207": {
         "title": "Fudging Vassals 7.2",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2794064207",
         "required": false,
-        "sync_ts": 1781899444727
+        "sync_ts": 1782841214465
     },
     "2794276791": {
         "title": "Pending Action Destroyer for Multiplayer/COOP",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2794276791",
         "required": false,
-        "sync_ts": 1781899444727
+        "sync_ts": 1782841214465
     },
     "2794696516": {
         "title": "Landmarks of Legend",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2794696516",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899445014
+        "sync_ts": 1782841214731
     },
     "2795421325": {
         "title": "Normal Traits Extended",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2795421325",
         "required": false,
-        "sync_ts": 1781899445014
+        "sync_ts": 1782841214731
     },
     "2795542235": {
         "title": "AI Embeds Passive Agents",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2795542235",
         "required": false,
-        "sync_ts": 1781899445015
+        "sync_ts": 1782841214731
     },
     "2795710303": {
         "title": "No Multiplayer/COOP Battle Confirmation (Auto Accept Before and After Battles)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2795710303",
         "required": false,
-        "sync_ts": 1781899445015
+        "sync_ts": 1782841214732
     },
     "2796990765": {
         "title": "Climate Adaptation - Faster Version",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2796990765",
         "required": false,
-        "sync_ts": 1781899445015
+        "sync_ts": 1782841214732
     },
     "2797392694": {
         "title": "Increased Firing Arc",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2797392694",
         "required": false,
-        "sync_ts": 1781899445016
+        "sync_ts": 1782841214732
     },
     "2797742171": {
         "title": "Rebanner III",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2797742171",
         "required": false,
-        "sync_ts": 1781899445016
+        "sync_ts": 1782841214732
     },
     "2802810577": {
         "title": "Mixu's Legendary Lords",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2802810577",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899445218
+        "sync_ts": 1782841215258
     },
     "2814612747": {
         "title": "YinYang's Total Resize (Mods Supported) 8.0",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2814612747",
         "required": false,
-        "sync_ts": 1781899445218
+        "sync_ts": 1782841215258
     },
     "2815463474": {
         "title": "Winds of Magic Overhaul",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2815463474",
         "required": false,
-        "sync_ts": 1781899445219
+        "sync_ts": 1782841215259
     },
     "2820394157": {
         "title": "Faster Character Refresh",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2820394157",
         "required": false,
-        "sync_ts": 1781899445219
+        "sync_ts": 1782841215259
     },
     "2826753636": {
         "title": "Kislev Landmarks Unit Recruitment",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2826753636",
         "required": false,
-        "sync_ts": 1781899445219
+        "sync_ts": 1782841215259
     },
     "2842802843": {
         "title": "More Naval Movement Range",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2842802843",
         "required": false,
-        "sync_ts": 1781899445220
+        "sync_ts": 1782841215259
     },
     "2842834772": {
         "title": "Brighter Borders",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2842834772",
         "required": false,
-        "sync_ts": 1781899445220
+        "sync_ts": 1782841215259
     },
     "2852281632": {
         "title": "wood elf teleportation cooldown removed",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2852281632",
         "required": false,
-        "sync_ts": 1781899445220
+        "sync_ts": 1782841215260
     },
     "2853038542": {
         "title": "Bretonnia Vow Auto Complete",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2853038542",
         "required": false,
-        "sync_ts": 1781899445220
+        "sync_ts": 1782841215260
     },
     "2853210761": {
         "title": "More Ancillary Equipment Slots",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2853210761",
         "required": false,
-        "sync_ts": 1781899445220
+        "sync_ts": 1782841215260
     },
     "2853239091": {
         "title": "Warband Upgrade Ultimate",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2853239091",
         "required": false,
-        "sync_ts": 1781899445221
+        "sync_ts": 1782841215260
     },
     "2853623558": {
         "title": "Fog Outta Here! Lite",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2853623558",
         "required": false,
-        "sync_ts": 1781899445221
+        "sync_ts": 1782841215260
     },
     "2853838600": {
         "title": "Wood Elf Outpost Enhanced WH3",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2853838600",
         "required": false,
-        "sync_ts": 1781899445221
+        "sync_ts": 1782841215260
     },
     "2854249783": {
         "title": "Improved Campaign Camera",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854249783",
         "required": false,
-        "sync_ts": 1781899445221
+        "sync_ts": 1782841215260
     },
     "2854346056": {
         "title": "Immortal Landmarks",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854346056",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899445379
+        "sync_ts": 1782841215405
     },
     "2854819509": {
         "title": "Recruit Defeated Legendary Lords",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854819509",
         "required": false,
-        "sync_ts": 1781899445379
+        "sync_ts": 1782841215405
     },
     "2855141144": {
         "title": "Minor Settlement Battle Remover",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2855141144",
         "required": false,
-        "sync_ts": 1781899445379
+        "sync_ts": 1782841215405
     },
     "2855365665": {
         "title": "Zoat Elder - Generic Lord + Hero for Wood Elves",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2855365665",
         "required": false,
-        "sync_ts": 1781899445379
+        "sync_ts": 1782841215405
     },
     "2855837519": {
         "title": "Unique Faction Currencies",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2855837519",
         "required": false,
-        "sync_ts": 1781899445379
+        "sync_ts": 1782841215405
     },
     "2856202634": {
         "title": "Legendary Lords Defeat Traits Rework by Mortrau",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2856202634",
         "required": false,
-        "sync_ts": 1781899445380
+        "sync_ts": 1782841215405
     },
     "2857125323": {
-        "title": "Modest Extra Skill Points only for Legendary Lords. [7.1]",
+        "title": "Unique skills free for Legendary Lords. [8.1]",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2857125323",
         "required": false,
-        "sync_ts": 1781899445380
+        "sync_ts": 1782841215405
     },
     "2857187582": {
         "title": "Moulder's Menagerie (Chimaerats, Stormfiends, and More!)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2857187582",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899445505
+        "sync_ts": 1782841215547
     },
     "2857612635": {
         "title": "No AI Attrition Immunity",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2857612635",
         "required": false,
-        "sync_ts": 1781899445505
+        "sync_ts": 1782841215547
     },
     "2857794526": {
         "title": "Warband Cross Race",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2857794526",
         "required": false,
-        "sync_ts": 1781899445505
+        "sync_ts": 1782841215548
     },
     "2858107124": {
         "title": "March of the Ents",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2858107124",
         "required": false,
-        "sync_ts": 1781899445506
+        "sync_ts": 1782841215548
     },
     "2858955442": {
         "title": "Warhammer 3 LOD Distance Enhanced",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2858955442",
         "required": false,
-        "sync_ts": 1781899445506
+        "sync_ts": 1782841215548
     },
     "2859968660": {
         "title": "MIXER - Mixu's Unlocker",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2859968660",
         "required": false,
-        "sync_ts": 1781899445506
+        "sync_ts": 1782841215548
     },
     "2861932305": {
         "title": "Channel Stances for All",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2861932305",
         "required": false,
-        "sync_ts": 1781899445506
+        "sync_ts": 1782841215548
     },
     "2862687468": {
         "title": "JR's Building Slot Tweaks",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2862687468",
         "required": false,
-        "sync_ts": 1781899445507
+        "sync_ts": 1782841215548
     },
     "2864165834": {
         "title": "Agent Hero Forever - Gotrek & Felix + Ulrika",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2864165834",
         "required": false,
-        "sync_ts": 1781899445507
+        "sync_ts": 1782841215548
     },
     "2865407118": {
         "title": "Unbreakable Alliances",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2865407118",
         "required": false,
-        "sync_ts": 1781899445507
+        "sync_ts": 1782841215549
     },
     "2866355622": {
         "title": "Aranessa No Crab",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2866355622",
         "required": false,
-        "sync_ts": 1781899445507
+        "sync_ts": 1782841215549
     },
     "2866600381": {
         "title": "No Notification Zoom",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2866600381",
         "required": false,
-        "sync_ts": 1781899445507
+        "sync_ts": 1782841215549
     },
     "2866607226": {
         "title": "The True Green Knight",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2866607226",
         "required": false,
-        "sync_ts": 1781899445507
+        "sync_ts": 1782841215549
     },
     "2866673136": {
         "title": "Nanu's Pirates of Sartosa Overhaul",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2866673136",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899445674
+        "sync_ts": 1782841215717
     },
     "2868277175": {
         "title": "Dark Omen & Shadow of the Horned Rat, Heroes and Regiments of Renown",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2868277175",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899445831
+        "sync_ts": 1782841215877
     },
     "2869502954": {
         "title": "Birds of Paradise (Updated for6.1)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2869502954",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899445946
+        "sync_ts": 1782841216021
     },
     "2871612719": {
         "title": "[LIG] Reskin - Damsel",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2871612719",
         "required": false,
-        "sync_ts": 1781899445947
+        "sync_ts": 1782841216021
     },
     "2872314655": {
         "title": "Immortal Empires Capital Fix (Now with Realm of Chaos Support!)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2872314655",
         "required": false,
-        "sync_ts": 1781899445947
+        "sync_ts": 1782841216021
     },
     "2872631670": {
         "title": "Dmitry Tzaryov for Praag (Ropsmenn Clan) v2",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2872631670",
         "required": false,
-        "sync_ts": 1781899445947
+        "sync_ts": 1782841216022
     },
     "2872755189": {
         "title": "Wood Elf recruitment slots",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2872755189",
         "required": false,
-        "sync_ts": 1781899445947
+        "sync_ts": 1782841216022
     },
     "2873961274": {
         "title": "OvN Lost Factions: Albion",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2873961274",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899446123
+        "sync_ts": 1782841216184
     },
     "2875947979": {
         "title": "[LIG] Reskin - Prophetess",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2875947979",
         "required": false,
-        "sync_ts": 1781899446123
+        "sync_ts": 1782841216184
     },
     "2878521711": {
         "title": "Legendary Surthara Bel-Kec for IE",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2878521711",
         "required": false,
-        "sync_ts": 1781899446123
+        "sync_ts": 1782841216184
     },
     "2887441253": {
         "title": "Technology Affects Allied Recruitment",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2887441253",
         "required": false,
-        "sync_ts": 1781899446123
+        "sync_ts": 1782841216184
+    },
+    "2890463744": {
+        "title": "[BETA] Sigmar's Heirs, an Empire Overhaul",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2890463744",
+        "required": true,
+        "sync_status": "success",
+        "sync_ts": 1782841395620
     },
     "2896541594": {
         "title": "Wood Elves can ambush in the default stance (stalk)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2896541594",
         "required": false,
-        "sync_ts": 1781899446124
+        "sync_ts": 1782841395620
     },
     "2897800168": {
         "title": "Lost & Found Dwarfs: Complete Collection",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2897800168",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899446275
+        "sync_ts": 1782841395865
     },
     "2899694683": {
         "title": "Empire Mercenaries ONLY Maneaters",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2899694683",
         "required": false,
-        "sync_ts": 1781899446275
+        "sync_ts": 1782841395865
     },
     "2899955636": {
         "title": "OvN Lost Factions: Fimir",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2899955636",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899446441
+        "sync_ts": 1782841396035
     },
     "2905193811": {
         "title": "Standing Greasus",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2905193811",
         "required": false,
-        "sync_ts": 1781899446441
+        "sync_ts": 1782841396035
     },
     "2907466537": {
         "title": "Guv's Beastmen Overhaul Mod (Updated Patch 7.1.0 / 2026-03-16)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2907466537",
         "required": false,
-        "sync_ts": 1781899446442
+        "sync_ts": 1782841396037
     },
     "2914339841": {
         "title": "Garrison Rework",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2914339841",
         "required": false,
-        "sync_ts": 1781899446442
+        "sync_ts": 1782841396038
     },
     "2915802076": {
         "title": "Guv's Bretonnian Lords Tweak Mod (Updated 7.0.2 / 2026-03-24)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2915802076",
         "required": false,
-        "sync_ts": 1781899446442
+        "sync_ts": 1782841396039
     },
     "2919542060": {
         "title": "Dark Land Orcs",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2919542060",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899446632
+        "sync_ts": 1782841396237
     },
     "2921177184": {
         "title": "Knights of The Round Belly: Remastered (Patch 6.0.3 ready)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2921177184",
         "required": false,
-        "sync_ts": 1781899446632
+        "sync_ts": 1782841396238
     },
     "2927296206": {
         "title": "Cataph's Southern Realms (TEB) [It Works in 8.0]",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2927296206",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899446819
+        "sync_ts": 1782841396509
     },
     "2931377022": {
         "title": "Trade Any Settlement",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2931377022",
         "required": false,
-        "sync_ts": 1781899446819
+        "sync_ts": 1782841396509
     },
     "2931747769": {
         "title": "Slightly Enhanced Cavalry Breakthrough",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2931747769",
         "required": false,
-        "sync_ts": 1781899446820
+        "sync_ts": 1782841396511
     },
     "2936405962": {
         "title": "Emissaries of Diplomacy",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2936405962",
         "required": false,
-        "sync_ts": 1781899446820
+        "sync_ts": 1782841396512
     },
     "2950121489": {
         "title": "OvN Lost Factions: Citadel of Dusk",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2950121489",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899446964
+        "sync_ts": 1782841396673
     },
     "2961245143": {
         "title": "Realistic Accuracy Mod",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2961245143",
         "required": false,
-        "sync_ts": 1781899446964
+        "sync_ts": 1782841396673
     },
     "2961944012": {
         "title": "Guv and Soul's Better Horde Reemergence Mod (Updated Patch 7.0.1 / 2025-12-08)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2961944012",
         "required": false,
-        "sync_ts": 1781899446965
+        "sync_ts": 1782841396674
     },
     "2964352559": {
         "title": "Heal Modded Garrisons On Turn Two",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2964352559",
         "required": false,
-        "sync_ts": 1781899446965
+        "sync_ts": 1782841396675
     },
     "2964365453": {
         "title": "Income Added To The Tower of the Fay Enchantress",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2964365453",
         "required": false,
-        "sync_ts": 1781899446965
+        "sync_ts": 1782841396676
     },
     "2965007195": {
         "title": "Slower, More Meaningful Corruption",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2965007195",
         "required": false,
-        "sync_ts": 1781899446965
+        "sync_ts": 1782841396678
     },
     "2967517233": {
         "title": "Ariel can FLY",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2967517233",
         "required": false,
-        "sync_ts": 1781899446965
+        "sync_ts": 1782841396679
     },
     "2978043725": {
         "title": "Distinct Faction Towers",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2978043725",
         "required": false,
-        "sync_ts": 1781899446966
+        "sync_ts": 1782841396680
     },
     "2978535578": {
         "title": "Bretonnian Royal Lake Guard - New Elite Units for Bretonnia",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2978535578",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899447087
+        "sync_ts": 1782841396837
     },
     "2980692472": {
         "title": "Guv's Expanded Faction Frontend Mod (Update Patch 7.0.2 / 2026-01-01)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2980692472",
         "required": false,
-        "sync_ts": 1781899447087
+        "sync_ts": 1782841396837
     },
     "2984034634": {
         "title": "Old World Rites - WH3 Edition [BETA]",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2984034634",
         "required": false,
-        "sync_ts": 1781899447087
+        "sync_ts": 1782841396838
     },
     "2989710828": {
         "title": "OvN Lost Factions: Grudgebringers",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2989710828",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899447259
+        "sync_ts": 1782841397004
     },
     "2991431203": {
         "title": "Dynasty of the Damned [7.0]",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2991431203",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899447411
+        "sync_ts": 1782841397167
     },
     "2993769765": {
         "title": "War for Eight Peaks - Dynamic Start Positions",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2993769765",
         "required": false,
-        "sync_ts": 1781899447411
+        "sync_ts": 1782841397167
     },
     "2995347226": {
         "title": "[Wood Elves] Improved Wildwood Rangers (Anti-Large)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2995347226",
         "required": false,
-        "sync_ts": 1781899447412
+        "sync_ts": 1782841397168
     },
     "3007714947": {
         "title": "Ultimate Spells for Legendary Lords",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3007714947",
         "required": false,
-        "sync_ts": 1781899447412
+        "sync_ts": 1782841397169
     },
     "3016830682": {
         "title": "OvN Lost Factions: Dread King Legions",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3016830682",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899447575
+        "sync_ts": 1782841397354
     },
     "3021335104": {
         "title": "Post Battle Options Overhaul",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3021335104",
         "required": false,
-        "sync_ts": 1781899447575
+        "sync_ts": 1782841397354
     },
     "3022368309": {
         "title": "Replace Starting Bretonian Barracks With Stables",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3022368309",
         "required": false,
-        "sync_ts": 1781899447575
+        "sync_ts": 1782841397356
     },
     "3025510782": {
         "title": "Landmarks of Eternity",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3025510782",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899447700
+        "sync_ts": 1782841397488
     },
     "3028635818": {
         "title": "Legendary Lords Get their Own Defeat Traits 传奇领主获得自身击败特性",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3028635818",
         "required": false,
-        "sync_ts": 1781899447700
+        "sync_ts": 1782841397488
     },
     "3029800597": {
         "title": "Remove characters traits limit",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3029800597",
         "required": false,
-        "sync_ts": 1781899447701
+        "sync_ts": 1782841397489
     },
     "3030410786": {
         "title": "SCM Empire Secessionists (8.0)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3030410786",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899447831
+        "sync_ts": 1782841397707
     },
     "3030996759": {
         "title": "SCM Marienburg (8.0)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3030996759",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899448044
+        "sync_ts": 1782841397933
     },
     "3032439976": {
         "title": "All Diplomatic Options - Vassalize, Liberate, Confederate",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3032439976",
         "required": false,
-        "sync_ts": 1781899448044
+        "sync_ts": 1782841397933
     },
     "3064165524": {
         "title": "Skaven Esoterica",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3064165524",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899448160
+        "sync_ts": 1782841398057
     },
     "3071058010": {
         "title": "Just Good UI Mod",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3071058010",
         "required": false,
-        "sync_ts": 1781899448160
+        "sync_ts": 1782841398057
     },
     "3079850881": {
         "title": "Lost Calm: Jurassic Normal (updated for Patch 8)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3079850881",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899448298
+        "sync_ts": 1782841398190
     },
     "3101278800": {
         "title": "Classically Beautiful Fay Enchantress Reskin",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3101278800",
         "required": false,
-        "sync_ts": 1781899448298
+        "sync_ts": 1782841398190
     },
     "3134922105": {
         "title": "OvN Lost Factions: Araby",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3134922105",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899448525
+        "sync_ts": 1782841398433
     },
     "3140200173": {
         "title": "Victory Conditions Overhaul",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3140200173",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899448659
+        "sync_ts": 1782841398586
     },
     "3167221379": {
         "title": "[Patch] Rebanner",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3167221379",
         "required": false,
-        "sync_ts": 1781899448659
+        "sync_ts": 1782841398586
     },
     "3170426598": {
         "title": "Guv's Alberic & Yuan Bo Are Not Welcome Mod (Updated Patch 7.0.1 / 2025-12-09)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3170426598",
         "required": false,
-        "sync_ts": 1781899448659
+        "sync_ts": 1782841398588
     },
     "3172830088": {
         "title": "Faster Siege Equipment Construction",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3172830088",
         "required": false,
-        "sync_ts": 1781899448660
+        "sync_ts": 1782841398589
     },
     "3195272703": {
         "title": "Allegiance Tweaks - Allied Recruitment and Favor",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3195272703",
         "required": false,
-        "sync_ts": 1781899448660
+        "sync_ts": 1782841398590
     },
     "3195799661": {
         "title": "Shattered Units Are Vulnerable",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3195799661",
         "required": false,
-        "sync_ts": 1781899448660
+        "sync_ts": 1782841398592
     },
     "3213530335": {
         "title": "Lower Embark & Disembark Costs",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3213530335",
         "required": false,
-        "sync_ts": 1781899448660
+        "sync_ts": 1782841398593
     },
     "3236187662": {
         "title": "Alternative Flags Compilation",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3236187662",
         "required": false,
-        "sync_ts": 1781899448660
+        "sync_ts": 1782841398594
     },
     "3236566964": {
         "title": "SCM: Tribes of the North - 8.0",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3236566964",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899449007
+        "sync_ts": 1782841399153
     },
     "3236567583": {
         "title": "SCM's LCCP, 16 new factions for IEE! (8.0)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3236567583",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899449214
+        "sync_ts": 1782841399368
     },
     "3237152447": {
         "title": "Wissenland Renamer",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3237152447",
         "required": false,
-        "sync_ts": 1781899449214
+        "sync_ts": 1782841399368
     },
     "3237686947": {
         "title": "Elspeth faction recolor ( Wissenland and Nuln )",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3237686947",
         "required": false,
-        "sync_ts": 1781899449214
+        "sync_ts": 1782841399369
     },
     "3244295546": {
         "title": "UI Slider",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3244295546",
         "required": false,
-        "sync_ts": 1781899449215
+        "sync_ts": 1782841399371
     },
     "3244320137": {
         "title": "Double Hero Cap at Max Level Buildings for Wood Elves",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3244320137",
         "required": false,
-        "sync_ts": 1781899449215
+        "sync_ts": 1782841399372
     },
     "3270391569": {
         "title": "The Cult of Slaanesh",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3270391569",
         "required": false,
-        "sync_ts": 1781899449215
+        "sync_ts": 1782841399373
     },
     "3272857291": {
-        "title": "Abilities and Spells for Garrison Heroes - 8.0 Update",
+        "title": "Abilities and Spells for Garrison Heroes - 8.X Update",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3272857291",
         "required": false,
-        "sync_ts": 1781899449215
+        "sync_ts": 1782841399376
     },
     "3287245285": {
         "title": "Expanded Hero Skill Trees Compilation",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3287245285",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899449451
+        "sync_ts": 1782841399624
     },
     "3291116635": {
         "title": "OvN Lost World",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3291116635",
         "required": false,
-        "sync_ts": 1781899449451
+        "sync_ts": 1782841399625
     },
     "3293001739": {
         "title": "Legions of Nagash (8.0)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3293001739",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899449670
+        "sync_ts": 1782841399964
     },
     "3297467336": {
         "title": "Fay Folk of Athel Loren (Wood Elves)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3297467336",
         "required": false,
-        "sync_ts": 1781899449670
+        "sync_ts": 1782841399964
     },
     "3297467363": {
         "title": "Fay Folk's Performance Patch",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3297467363",
         "required": false,
-        "sync_ts": 1781899449671
+        "sync_ts": 1782841400093
     },
     "3305404052": {
         "title": "Legendary Characters - 7.0",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3305404052",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899450011
+        "sync_ts": 1782841400512
     },
     "3314618468": {
         "title": "Expanded Roster Compilation",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3314618468",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899450275
+        "sync_ts": 1782841400770
     },
     "3318719201": {
         "title": "SCM Rotblood Tribe - 7.0",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3318719201",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899450437
+        "sync_ts": 1782841400994
     },
     "3318719948": {
         "title": "SCM Skaven Clans - Whispers of Malice - 8.0",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3318719948",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899450887
+        "sync_ts": 1782841401491
     },
     "3331115774": {
         "title": "Herald's Starting Diplomacy Mods - The Black Pit Tribe",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3331115774",
         "required": false,
-        "sync_ts": 1781899450887
+        "sync_ts": 1782841401491
     },
     "3333224420": {
         "title": "Blessed Bretonnia - Faction Update",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3333224420",
         "required": false,
-        "sync_ts": 1781899450887
+        "sync_ts": 1782841401493
     },
     "3348030809": {
         "title": "MBB's Fun Greater Daemons",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3348030809",
         "required": false,
-        "sync_ts": 1781899450888
+        "sync_ts": 1782841401496
     },
     "3360445099": {
         "title": "Ordnance Targeting Fix",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3360445099",
         "required": false,
-        "sync_ts": 1781899450888
+        "sync_ts": 1782841401497
     },
     "3393051319": {
         "title": "The Red Duke Expanded",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3393051319",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899451032
+        "sync_ts": 1782841401639
     },
     "3410831274": {
         "title": "Uniforms and Heraldry of Bretonnia III",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3410831274",
         "required": false,
-        "sync_ts": 1781899451032
+        "sync_ts": 1782841401639
     },
     "3461789202": {
         "title": "Go Squig or Go Home!",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3461789202",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899451249
+        "sync_ts": 1782841401818
     },
     "3473395551": {
         "title": "Bertrand the Brigand, Thieves' Honor",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3473395551",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899451428
+        "sync_ts": 1782841402041
     },
     "3502513595": {
         "title": "SCM Might of the Maw with 4 New Tribes (8.0)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3502513595",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899451814
+        "sync_ts": 1782841402349
     },
     "3502673197": {
         "title": "Deithland: An Empire Roster Overhaul (Anvilmane Update!)",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3502673197",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899451964
+        "sync_ts": 1782841402541
     },
     "3535207015": {
-        "title": "Simple Autosave - 8.0 Update",
+        "title": "Simple Autosave - 8.X Update",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3535207015",
         "required": false,
-        "sync_ts": 1781899451965
+        "sync_ts": 1782841402541
     },
     "3549697947": {
         "title": "[Last Update: 7.0.1] The Hung – Lords of the Steppes",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3549697947",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899452220
+        "sync_ts": 1782841403018
     },
     "3559803702": {
         "title": "Legendary Lord Defeat Traits for Reinforcing Generals",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3559803702",
         "required": false,
-        "sync_ts": 1781899452220
+        "sync_ts": 1782841403018
     },
     "3564828635": {
         "title": "More Sensible AI Ogre Camps",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3564828635",
         "required": false,
-        "sync_ts": 1781899452220
+        "sync_ts": 1782841403020
     },
     "3617792711": {
-        "title": "BJG Core Library - 8.0 Update",
+        "title": "BJG Core Library - 8.X Update",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3617792711",
         "required": false,
-        "sync_ts": 1781899452220
+        "sync_ts": 1782841403021
     },
     "3617833432": {
         "title": "Lost & Found Beastmen: Blessed Gor Weapon Variants",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3617833432",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899452374
+        "sync_ts": 1782841403158
     },
     "3619746721": {
         "title": "SCM Pirate Tales: Nanosh",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3619746721",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899452538
+        "sync_ts": 1782841403312
     },
     "3628832922": {
         "title": "True Sight: Improved Line of Sight",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3628832922",
         "required": false,
-        "sync_ts": 1781899452538
+        "sync_ts": 1782841403312
     },
     "3650246765": {
         "title": "Nanu's Sartosa Overhaul + Singe's Lord Skills Synergy Patch",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3650246765",
         "required": false,
-        "sync_ts": 1781899452538
+        "sync_ts": 1782841403313
     },
     "3658253519": {
         "title": "Nanu's Pirates of Sartosa Overhaul - Realistic Accuracy Submod",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3658253519",
         "required": false,
-        "sync_ts": 1781899452538
+        "sync_ts": 1782841403314
     },
     "3670988733": {
         "title": "Asrai (Wood Elf) Archer Overhaul",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3670988733",
         "required": true,
         "sync_status": "nochange",
-        "sync_ts": 1781899452650
+        "sync_ts": 1782841403442
     },
     "3739994254": {
         "title": "A loreful rework for Morgiana, the Fay Enchantress",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3739994254",
         "required": false,
-        "sync_ts": 1781899452650
+        "sync_ts": 1782841403442
     }
 }

@@ -27,7 +27,7 @@ const run = async () => {
 
     await client.send("NewPack");
     await client.send({ SetDependencyPackFilesList: [[false, "jar_core_lib.pack"]]})
-    await client.insertPackedFiles([`${MOD_OUTPUT_PATH}/db`, `${MOD_OUTPUT_PATH}/script`, `${MOD_OUTPUT_PATH}/ui`], [{ Folder: "db" }, { Folder: "" }, { Folder: "" }]);
+    await client.insertPackedFiles([`${MOD_OUTPUT_PATH}/db`, `${MOD_OUTPUT_PATH}/script`, `${MOD_OUTPUT_PATH}/ui`, `${MOD_OUTPUT_PATH}/whmmflows`], [{ Folder: "db" }, { Folder: "" }, { Folder: "" }, { Folder: "" }]);
     await client.send({
         OptimizePackFile: {
             pack_remove_itm_files: true,

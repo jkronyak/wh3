@@ -1,4 +1,9 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+dust_rotbloods_skeleton_sword_and_shield	dust_rotbloods_skeleton_sword_and_shield	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
+dust_rotbloods_skeleton_2h_hammer	dust_rotbloods_skeleton_2h_hammer	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
+str_rotblood_skull	str_rotblood_skull	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	12	0	0	false		0		small	jar_adj_com_unit_set_infantry
+dust_rotbloods_skeleton_sum	dust_rotbloods_skeleton_sum	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
+dust_rotbloods_skeleton_2h_sum	dust_rotbloods_skeleton_2h_sum	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
 str_rotblood_marauders	str_rotblood_marauders	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 str_rotblood_bile_troll	str_rotblood_bile_troll	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
 str_rotblood_bombers	str_rotblood_bombers	missile_infantry	inf_ranged	inf_mis	infantry_axe	infantry	true	120	0	0	false	20kr_rotblood_grenade	3		small	jar_adj_com_unit_set_infantry
@@ -46,8 +51,3 @@ str_rotblood_sum_nurglings	str_rotblood_sum_nurglings	melee_infantry	inf_melee	i
 20kr_rotblood_rot_beast	20kr_rotblood_rot_beast	war_beast	inf_melee	cav_shk	war_beast	monster_beasts	true	32	0	0	false		0	melee	medium	jar_adj_com_unit_set_war_beasts
 20kr_rotblood_skinwolves	20kr_rotblood_skinwolves	melee_infantry	inf_melee	inf_mel	wh_dlc08_nor_skin_wolf	monster_beasts	true	24	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
 20kr_rotblood_feral_manticore	20kr_rotblood_feral_manticore	monster	inf_melee	inf_mel	wh2_dlc17_bst_manticore	monster_beasts	true	1	0	0	true		0	melee	large	jar_adj_com_unit_set_single_entities
-dust_rotbloods_skeleton_sword_and_shield	dust_rotbloods_skeleton_sword_and_shield	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
-dust_rotbloods_skeleton_2h_hammer	dust_rotbloods_skeleton_2h_hammer	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
-str_rotblood_skull	str_rotblood_skull	melee_infantry	inf_melee	inf_mel	wh2_dlc11_cst_syreens	infantry	true	12	0	0	false		0		small	jar_adj_com_unit_set_infantry
-dust_rotbloods_skeleton_sum	dust_rotbloods_skeleton_sum	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry
-dust_rotbloods_skeleton_2h_sum	dust_rotbloods_skeleton_2h_sum	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	160	0	0	false		0		small	jar_adj_com_unit_set_infantry

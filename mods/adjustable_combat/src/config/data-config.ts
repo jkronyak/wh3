@@ -38,9 +38,9 @@ export const UNIT_SET_CONFIG = {
 export const BONUS_VALUE_CONFIG  = {
 
     general_bodyguard_size_mod: { 
-        display: "Hit Points",
-        description: "Modify character hitpoints by n%. Warning: When using positive values, please reload your save on turn 1, otherwise some lords may be damaged on battle start. When using negative values, no reload is required, and the hit points will be updated on battle start or upon reloading your save.",
-        unit_sets: ["jar_adj_com_unit_set_characters"],
+        display: "Hit Points*",
+        description: "Modify hitpoints by n%. Warning: For the character version, reload your save on turn 1, otherwise some characters may be damaged on battle start. It should work fine after that. For the global version, this is entirely experimental and may not work perfectly. Use at your own risk.",
+        unit_sets: ["jar_adj_com_unit_set_characters", "jar_adj_com_unit_set_global"],
         type: "effect_bonus_value_basic_junction_tables",
         min: -99
     },

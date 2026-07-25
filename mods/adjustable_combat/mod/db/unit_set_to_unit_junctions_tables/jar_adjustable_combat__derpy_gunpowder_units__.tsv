@@ -17,19 +17,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			dwf_gp_ironblasters	jar_adj_com_unit_set_chariots_war_machines	false
 			derpy_gp_dwf_flame_mortar	jar_adj_com_unit_set_chariots_war_machines	false
 			derpy_gp_dwf_mountainbreaker	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_3_ror	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_1_malakai	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_1_beer_malakai	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_2_malakai	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_3	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_3_huge	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_1_beer	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_0	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_1	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_landship_2	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_dwf_eng_tank	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_dwf_eng_tankette	jar_adj_com_unit_set_chariots_war_machines	false
-			derpy_gp_tankette_tracks	jar_adj_com_unit_set_chariots_war_machines	false
 			derpy_dwf_valley_guard	jar_adj_com_unit_set_infantry	false
 			derpy_dwf_chaingunners	jar_adj_com_unit_set_infantry	false
 			derpy_gp_drakkfire_piercers	jar_adj_com_unit_set_infantry	false
@@ -58,3 +45,16 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			derpy_gp_combat_engineers	jar_adj_com_unit_set_infantry	false
 			derpy_gp_homing	jar_adj_com_unit_set_infantry	false
 			derpy_gp_multi_aa	jar_adj_com_unit_set_infantry	false
+			derpy_gp_landship_3_ror	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_landship_1_malakai	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_landship_1_beer_malakai	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_landship_2_malakai	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_landship_3	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_landship_3_huge	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_landship_1_beer	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_landship_0	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_landship_1	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_landship_2	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_dwf_eng_tank	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_dwf_eng_tankette	jar_adj_com_unit_set_chariots_war_machines	false
+			derpy_gp_tankette_tracks	jar_adj_com_unit_set_chariots_war_machines	false

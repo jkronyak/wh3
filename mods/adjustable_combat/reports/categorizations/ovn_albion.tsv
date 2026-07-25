@@ -1,4 +1,8 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+albion_hearthguard_grudgebringer	albion_hearthguard	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+albion_chariot_grudgebringer	albion_chariot	chariot	war_machine	chariot	chariot	cavalry_chariots	true	8	4	2	false		0	melee	medium	jar_adj_com_unit_set_chariots_war_machines
+albion_giant_grudgebringer	albion_giant	monster	inf_melee	inf_mel	giant	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
+albion_huntresses_grudgebringer	albion_huntresses	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	albion_hunting_bow	24	archer	small	jar_adj_com_unit_set_infantry
 elo_fenbeast	elo_fenbeast	monstrous_infantry	inf_melee	inf_mel	ovn_fenbeasts	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
 elo_albion_warriors	elo_albion_warriors	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 elo_albion_warriors_spears	elo_albion_warriors_spears	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
@@ -44,7 +48,3 @@ calm_alb_raven	calm_alb_raven	monstrous_infantry	inf_melee	inf_mel	wh3_dlc24_cth
 calm_alb_crow_summon	calm_alb_crow_summon	war_beast	inf_melee	inf_mel	wh3_dlc24_cth_onyx_crowmen	monster_beasts	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
 calm_alb_raven_summon	calm_alb_raven_summon	monstrous_infantry	inf_melee	inf_mel	wh3_dlc24_cth_onyx_crowmen	monster_beasts	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
 albion_feral_gryphon_summon	albion_feral_gryphon_summon	monster	inf_melee	inf_mel	wh_dlc05_wef_great_eagle	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
-albion_hearthguard_grudgebringer	albion_hearthguard	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-albion_chariot_grudgebringer	albion_chariot	chariot	war_machine	chariot	chariot	cavalry_chariots	true	8	4	2	false		0	melee	medium	jar_adj_com_unit_set_chariots_war_machines
-albion_giant_grudgebringer	albion_giant	monster	inf_melee	inf_mel	giant	monster_beasts	true	1	0	0	true		0	melee	very_large	jar_adj_com_unit_set_single_entities
-albion_huntresses_grudgebringer	albion_huntresses	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	albion_hunting_bow	24	archer	small	jar_adj_com_unit_set_infantry

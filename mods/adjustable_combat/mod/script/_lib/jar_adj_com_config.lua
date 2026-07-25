@@ -73,10 +73,11 @@ adj_com_config.unit_set_config = {
 -----------------------------------------------------------------------------
 adj_com_config.bonus_value_config = {
     general_bodyguard_size_mod = {
-        display = "Hit Points",
-        description = "Modify character hitpoints by n%. Warning: When using positive values, please reload your save on turn 1, otherwise some lords may be damaged on battle start. When using negative values, no reload is required, and the hit points will be updated on battle start or upon reloading your save.",
+        display = "Hit Points*",
+        description = "Modify hitpoints by n%. Warning: For the character version, reload your save on turn 1, otherwise some characters may be damaged on battle start. It should work fine after that. For the global version, this is entirely experimental and may not work perfectly. Use at your own risk.",
         unit_sets = {
-            "jar_adj_com_unit_set_characters"
+            "jar_adj_com_unit_set_characters",
+            "jar_adj_com_unit_set_global"
         },
         type = "effect_bonus_value_basic_junction_tables",
         min = -99,
@@ -357,6 +358,7 @@ adj_com_config.bonus_value_mapping = {
         "general_bodyguard_size_mod"
     },
     jar_adj_com_unit_set_global = {
+        "general_bodyguard_size_mod",
         "battle_healing_cap_mod",
         "heal_power_percent_mod",
         "spell_mastery_percentage_mod",
@@ -391,6 +393,10 @@ adj_com_config.misc_config = {
 adj_com_config.mod_defaults = {
     bonus_value = {
         jar_adj_com_unit_set_global = {
+            general_bodyguard_size_mod = {
+                player = 0,
+                ai = 0,
+            },
             battle_healing_cap_mod = {
                 player = 0,
                 ai = 0,

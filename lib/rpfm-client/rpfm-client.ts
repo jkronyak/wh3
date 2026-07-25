@@ -162,6 +162,11 @@ class RPFMClient {
         const resp = await this.send({ FolderExists: path });
         return (resp as { Bool: boolean }).Bool;
     }
+
+    async deletePackedFile(filePaths: ContainerPath[]) { 
+        const resp = await this.send({ DeletePackedFiles: filePaths });
+        return (resp as { VecContainerPath: ContainerPath[] }).VecContainerPath;
+    }
 }
 
 export {

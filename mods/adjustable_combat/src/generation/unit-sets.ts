@@ -180,7 +180,7 @@ const categorizeUnits = (
             category: landUnit.category,
             class: landUnit.class,
             uiGroup: mainUnit.ui_unit_group_land,
-            parentGroup: parentGroup,
+            parentGroup: parentGroup!,
             useVanillaParentGroup: hasVanillaParentGroup,
             numMen: mainUnit.num_men,
             numEngines: landUnit.num_engines,

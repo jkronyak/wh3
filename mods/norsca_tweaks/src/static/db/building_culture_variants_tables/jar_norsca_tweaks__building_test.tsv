@@ -1,0 +1,4 @@
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip	building_frame_override
+#building_culture_variants_tables;5;db/building_culture_variants_tables/jar_norsca_tweaks__building_test									
+wh3_dlc27_nor_chaos_altar_kho_major_human_3				wh_main_PLACEHOLDER	nor_ruin_hound	true	wh_main_nor_monolith_hound	true	
+wh3_dlc27_nor_chaos_altar_kho_major_human_port_3				wh_main_PLACEHOLDER	nor_ruin_hound	true	wh3_dlc27_nor_chaos_altar_kho_major_human_2	true	

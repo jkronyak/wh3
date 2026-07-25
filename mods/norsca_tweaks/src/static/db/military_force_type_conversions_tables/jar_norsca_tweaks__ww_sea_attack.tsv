@@ -1,0 +1,4 @@
+from	to	automatic
+#military_force_type_conversions_tables;0;db/military_force_type_conversions_tables/jar_norsca_tweaks__ww_sea_attack		
+ARMY	JAR_MF_TYPE_WORLD_WALKERS	false
+JAR_MF_TYPE_WORLD_WALKERS	ARMY	false

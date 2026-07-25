@@ -1,0 +1,3 @@
+feature	force_type
+#military_force_type_feature_junctions_tables;0;db/military_force_type_feature_junctions_tables/jar_norsca_tweaks__ww_sea_attack	
+can_attack_garrisons_from_sea	JAR_MF_TYPE_WORLD_WALKERS

@@ -19,6 +19,7 @@ type TableName =
     | "effect_bonus_value_unit_set_unit_ability_junctions_tables"
     | "effect_bonus_value_ids_unit_sets_tables"
     | "effect_bonus_value_basic_junction_tables"
+    | "effect_bonus_value_scripted_junctions_tables"
     | "effect_bundles_tables"
 
 const singleRowGenerators: Partial<Record<TableName, Function>> = {
@@ -53,7 +54,12 @@ const otherStatRowGenerators: Partial<Record<TableName, Function>> = {
     effect_bonus_value_basic_junction_tables: (set: string, stat: string) => ({
         effect: `${recordPrefix}__effect__${stat}__${set}`,
         bonus_value_id: stat,
-    })
+    }),
+    effect_bonus_value_scripted_junctions_tables: (set: string, stat: string) => ({
+        bonus_value_id: 'value',
+        effect: `${recordPrefix}__effect__${stat}__${set}`,
+        scripted_record: stat
+    }),
 };
 
 

@@ -1,4 +1,5 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+nag_morghasts	ovn_dk_inf_mummies	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	8	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
 ovn_dk_inf_skeleton_javelinmen	ovn_dk_inf_skeleton_javelinmen	missile_infantry	inf_ranged	inf_mis	wh_dlc08_nor_hunters_javelin	missile_infantry	true	120	0	0	false	ovn_dk_skeleton_javelin	12	archer	small	jar_adj_com_unit_set_infantry
 ovn_dk_inf_skeleton_hoplites	ovn_dk_inf_skeleton_hoplites	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 ovn_dk_inf_skeleton_pikemen	ovn_dk_inf_skeleton_pikemen	melee_infantry	inf_melee	inf_mel	infantry_pike	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
@@ -58,4 +59,3 @@ ovn_dk_cav_hexwraiths	ovn_dk_cav_hexwraiths	melee_cavalry	cavalry	cav_mel	vmp_ca
 ovn_dk_inf_crypt_ghouls	ovn_dk_inf_crypt_ghouls	melee_infantry	inf_melee	inf_mel	vmp_crypt_ghouls	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 ovn_dk_mon_dire_wolves	ovn_dk_mon_dire_wolves	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
 ovn_dk_mon_fell_bats	ovn_dk_mon_fell_bats	war_beast	inf_melee	inf_mel	vmp_fell_bats	monster_beasts	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
-nag_morghasts	ovn_dk_inf_mummies	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	8	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts

@@ -29,6 +29,6 @@ export const REPORT_PATH = path.join(MOD_DIR, "reports");
 
 export const MOD_TABLE_NAME = 'jar_adjustable_missiles';
 
-export const GAME_DATA_FOLDER_PATH = "J:/SteamLibrary/steamapps/common/Total War WARHAMMER III/data";
+export const GAME_DATA_FOLDER_PATH = "C:/Program Files (x86)/Steam/steamapps/common/Total War WARHAMMER III/data";
 
 export const WH3_APP_ID = 1142710;

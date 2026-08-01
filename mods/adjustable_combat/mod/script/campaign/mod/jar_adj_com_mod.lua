@@ -99,11 +99,9 @@ local function create_mod_effect_bundle(scope)
                 local effect_string = mod_config.mod_name .. "__effect__" .. bonus_value_key .. "__" .. unit_set_key
                 logger:debug("Applying", effect_string, "with value", value)
 
-                if bonus_value_key == "general_bodyguard_size_mod" and unit_set_key == "jar_adj_com_unit_set_characters" then
-                    -- Special case for Character HP, set scope to target only characters
+                -- Special case for some Character settings, set scope to target only characters
+                if unit_set_key == "jar_adj_com_unit_set_characters" and (bonus_value_key == "general_bodyguard_size_mod" or bonus_value_key == "experience_mod") then
                     effect_scope = "faction_to_character_own"
-                elseif bonus_value_key == "general_bodyguard_size_mod" and unit_set_key == "jar_adj_com_unit_set_global" then
-                    effect_scope = "faction_to_force_own"
                 end
                 effect_bundle:add_effect(effect_string, effect_scope, value)
             end

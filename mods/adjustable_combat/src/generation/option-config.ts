@@ -6,7 +6,7 @@ import { BONUS_VALUE_CONFIG, UNIT_SET_CONFIG } from '../config/data-config.ts';
 import { MOD_TITLE, MOD_NAME, MOD_PREFIX, MOD_DESCRIPTION } from '../config/mod-config.ts';
 
 const MIN = -500;
-const MAX = 500;
+const MAX = 1000;
 
 for (const bonusValue of Object.keys(BONUS_VALUE_CONFIG)) {
 

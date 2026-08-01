@@ -81,7 +81,7 @@ adj_com_config.bonus_value_config = {
         },
         type = "effect_bonus_value_basic_junction_tables",
         min = -99,
-        max = 500,
+        max = 1000,
         key = "general_bodyguard_size_mod",
     },
     battle_healing_cap_mod = {
@@ -92,7 +92,7 @@ adj_com_config.bonus_value_config = {
         },
         type = "effect_bonus_value_basic_junction_tables",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "battle_healing_cap_mod",
     },
     heal_power_percent_mod = {
@@ -103,7 +103,7 @@ adj_com_config.bonus_value_config = {
         },
         type = "effect_bonus_value_basic_junction_tables",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "heal_power_percent_mod",
     },
     spell_mastery_percentage_mod = {
@@ -114,7 +114,7 @@ adj_com_config.bonus_value_config = {
         },
         type = "effect_bonus_value_basic_junction_tables",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "spell_mastery_percentage_mod",
     },
     miscast_chance_mod = {
@@ -125,7 +125,7 @@ adj_com_config.bonus_value_config = {
         },
         type = "effect_bonus_value_basic_junction_tables",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "miscast_chance_mod",
     },
     morale_percentage_mod = {
@@ -136,189 +136,216 @@ adj_com_config.bonus_value_config = {
         },
         type = "effect_bonus_value_basic_junction_tables",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "morale_percentage_mod",
+    },
+    xp_gain_rate_mod = {
+        display = "Unit XP Gain (%)",
+        description = "Modify unit experience gain by n%. Note: this setting excludes characters.",
+        unit_sets = {
+            "jar_adj_com_unit_set_global",
+            "jar_adj_com_unit_set_cavalry",
+            "jar_adj_com_unit_set_chariots_war_machines",
+            "jar_adj_com_unit_set_war_beasts",
+            "jar_adj_com_unit_set_infantry",
+            "jar_adj_com_unit_set_monstrous_infantry",
+            "jar_adj_com_unit_set_single_entities"
+        },
+        min = -500,
+        max = 1000,
+        key = "xp_gain_rate_mod",
+    },
+    experience_mod = {
+        display = "Character XP Gain (%)",
+        description = "Modify character experience gain by n%.",
+        unit_sets = {
+            "jar_adj_com_unit_set_characters"
+        },
+        type = "effect_bonus_value_scripted_junctions_tables",
+        min = -500,
+        max = 1000,
+        key = "experience_mod",
     },
     unit_damage_resistance_all_mod = {
         display = "Ward Save",
         description = "Modify unit ward save by n.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "unit_damage_resistance_all_mod",
     },
     unit_damage_resistance_flame_mod = {
         display = "Flame Resistance",
         description = "Modify unit flame resistance by n.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "unit_damage_resistance_flame_mod",
     },
     unit_damage_resistance_magic_mod = {
         display = "Spell Resistance",
         description = "Modify unit spell resistance by n.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "unit_damage_resistance_magic_mod",
     },
     unit_damage_resistance_missile_mod = {
         display = "Missile Resistance",
         description = "Modify unit missile resistance by n.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "unit_damage_resistance_missile_mod",
     },
     unit_damage_resistance_physical_mod = {
         display = "Physical Resistance",
         description = "Modify unit physical resistance by n.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "unit_damage_resistance_physical_mod",
     },
     unit_fatigue_resistance_mod = {
         display = "Fatigue Resistance",
         description = "Modify unit fatigue resistance by n.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "unit_fatigue_resistance_mod",
     },
     armour_mod = {
         display = "Armor (Flat)",
         description = "Modify unit armor by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "armour_mod",
     },
     armour_mod_mult = {
         display = "Armor %",
         description = "Modify unit armor by n%.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "armour_mod_mult",
     },
     missile_block_chance_mod = {
         display = "Missile Block Chance (Flat)",
         description = "Modify unit missile block chance (ex. shield) by n.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "missile_block_chance_mod",
     },
     battle_barrier_health = {
         display = "Barrier Health (Flat)",
         description = "Modify unit barrier health by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "battle_barrier_health",
     },
     battle_barrier_health_mod = {
         display = "Barrier Health %",
         description = "Modify unit barrier health by n%.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "battle_barrier_health_mod",
     },
     morale = {
         display = "Morale (Flat)",
         description = "Modify unit moral by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "morale",
     },
     unit_mass_percentage_mod = {
         display = "Mass %",
         description = "Modify unit mass by n%.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "unit_mass_percentage_mod",
     },
     mod_land_movement_battle = {
         display = "Speed %",
         description = "Modify unit speed by n%.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "mod_land_movement_battle",
     },
     melee_attack_mod_mult = {
         display = "Melee Attack %",
         description = "Modify unit melee attack by n%.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "melee_attack_mod_mult",
     },
     melee_defence_mod_mult = {
         display = "Melee Defense %",
         description = "Modify unit melee defense by n%.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "melee_defence_mod_mult",
     },
     melee_defence_mod = {
         display = "Melee Defense (Flat)",
         description = "Modify unit melee defense by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "melee_defence_mod",
     },
     melee_attack_mod = {
         display = "Melee Attack (Flat)",
         description = "Modify unit melee attack by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "melee_attack_mod",
     },
     melee_damage_mod_mult = {
         display = "Base Weapon Damage %",
         description = "Modify unit non-AP weapon damage by n%.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "melee_damage_mod_mult",
     },
     melee_damage_ap_mod_mult = {
         display = "AP Weapon Damage %",
         description = "Modify unit AP weapon damage ny n%.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "melee_damage_ap_mod_mult",
     },
     melee_damage_mod_add = {
         display = "Base Weapon Damage (Flat)",
         description = "Modify unit non-AP weapon damage by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "melee_damage_mod_add",
     },
     melee_damage_ap_mod_add = {
         display = "AP Weapon Damage (Flat)",
         description = "Modify unit AP weapon damage by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "melee_damage_ap_mod_add",
     },
     charge_add = {
         display = "Charge Bonus (Flat)",
         description = "Modify unit charge bonus by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "charge_add",
     },
     charge_bonus = {
         display = "Charge Bonus %",
         description = "Modify unit charge bonus by n%.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "charge_bonus",
     },
     damage_vs_infantry = {
         display = "Bonus vs. Infantry (Flat)",
         description = "Modify unit bonus vs. infantry by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "damage_vs_infantry",
     },
     damage_vs_large_entities = {
         display = "Bonus vs. Large (Flat)",
         description = "Modify unit bonus vs. large by n flat.",
         min = -500,
-        max = 500,
+        max = 1000,
         key = "damage_vs_large_entities",
     },
 }
@@ -355,7 +382,8 @@ adj_com_config.bonus_value_mapping = {
         "damage_vs_large_entities"
     },
     jar_adj_com_unit_set_characters = {
-        "general_bodyguard_size_mod"
+        "general_bodyguard_size_mod",
+        "experience_mod"
     },
     jar_adj_com_unit_set_global = {
         "general_bodyguard_size_mod",
@@ -363,7 +391,26 @@ adj_com_config.bonus_value_mapping = {
         "heal_power_percent_mod",
         "spell_mastery_percentage_mod",
         "miscast_chance_mod",
-        "morale_percentage_mod"
+        "morale_percentage_mod",
+        "xp_gain_rate_mod"
+    },
+    jar_adj_com_unit_set_cavalry = {
+        "xp_gain_rate_mod"
+    },
+    jar_adj_com_unit_set_chariots_war_machines = {
+        "xp_gain_rate_mod"
+    },
+    jar_adj_com_unit_set_war_beasts = {
+        "xp_gain_rate_mod"
+    },
+    jar_adj_com_unit_set_infantry = {
+        "xp_gain_rate_mod"
+    },
+    jar_adj_com_unit_set_monstrous_infantry = {
+        "xp_gain_rate_mod"
+    },
+    jar_adj_com_unit_set_single_entities = {
+        "xp_gain_rate_mod"
     },
 }
 -----------------------------------------------------------------------------
@@ -414,6 +461,10 @@ adj_com_config.mod_defaults = {
                 ai = 0,
             },
             morale_percentage_mod = {
+                player = 0,
+                ai = 0,
+            },
+            xp_gain_rate_mod = {
                 player = 0,
                 ai = 0,
             },
@@ -527,6 +578,10 @@ adj_com_config.mod_defaults = {
                 player = 0,
                 ai = 0,
             },
+            experience_mod = {
+                player = 0,
+                ai = 0,
+            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -633,6 +688,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_cavalry = {
+            xp_gain_rate_mod = {
+                player = 0,
+                ai = 0,
+            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -739,6 +798,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_chariots_war_machines = {
+            xp_gain_rate_mod = {
+                player = 0,
+                ai = 0,
+            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -845,6 +908,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_war_beasts = {
+            xp_gain_rate_mod = {
+                player = 0,
+                ai = 0,
+            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -951,6 +1018,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_infantry = {
+            xp_gain_rate_mod = {
+                player = 0,
+                ai = 0,
+            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -1057,6 +1128,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_monstrous_infantry = {
+            xp_gain_rate_mod = {
+                player = 0,
+                ai = 0,
+            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,
@@ -1163,6 +1238,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_single_entities = {
+            xp_gain_rate_mod = {
+                player = 0,
+                ai = 0,
+            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,

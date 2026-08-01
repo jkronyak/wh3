@@ -29,6 +29,40 @@ mct_mod:set_description(mod_config.mod_description)
 -- Remove the default settings page so we can replace it later.
 mct_mod:remove_settings_page(mct_mod:get_default_settings_page())
 
+------------------------------------------------------------------------
+--- MCT Option Helpers
+------------------------------------------------------------------------
+local function get_categorical_dropdown_value()
+    local dropdown_option_key = utils.get_dropdown_option_config().option_key
+    local dropdown_option = mct_mod:get_option_by_key(dropdown_option_key)
+    local dropdown_option_value = dropdown_option:get_selected_setting()
+    return dropdown_option_value
+end
+
+--- @param source MCT.Option
+--- @param target MCT.Option
+local function cascade_option_value(source, target)
+
+    local source_value = source:get_selected_setting()
+    local target_value = target:get_selected_setting()
+
+    if source_value == target_value then return true end
+
+    if target:is_locked() then
+        local lock_reason = target:get_lock_reason()
+        target:set_locked(false)
+        target:set_selected_setting(source:get_selected_setting())
+        target:set_locked(true, lock_reason)
+    else
+        target:set_selected_setting(source:get_selected_setting())
+    end
+
+end
+
+--- @param option MCT.Option
+local function is_mod_option(option)
+    return option:get_mod_key() == mod_config.mod_name
+end
 
 ------------------------------------------------------------------------
 --- MCT Creation Helpers
@@ -119,7 +153,8 @@ end
 ------------------------------------------------------------------------
 local function create_categorical_bv_section(scope, section_title)
     local section = mct_mod:add_new_section("categorical__" .. scope, section_title)
-    for _, bonus_value_key in ipairs(utils.get_unit_set_bonus_value_keys()) do
+    local dropdown_value = get_categorical_dropdown_value() or nil
+    for _, bonus_value_key in ipairs(utils.get_unit_set_bonus_value_keys(dropdown_value)) do
         local option_config = utils.get_bv_display_option_config(bonus_value_key, scope)
         section:assign_option(create_bv_option(option_config))
     end
@@ -204,41 +239,41 @@ if not config.mod_overrides.static_only then
 end
 create_misc_page()
 
-------------------------------------------------------------------------
---- MCT Option Helpers
-------------------------------------------------------------------------
-local function get_categorical_dropdown_value()
-    local dropdown_option_key = utils.get_dropdown_option_config().option_key
-    local dropdown_option = mct_mod:get_option_by_key(dropdown_option_key)
-    local dropdown_option_value = dropdown_option:get_selected_setting()
-    return dropdown_option_value
-end
+-- ------------------------------------------------------------------------
+-- --- MCT Option Helpers
+-- ------------------------------------------------------------------------
+-- local function get_categorical_dropdown_value()
+--     local dropdown_option_key = utils.get_dropdown_option_config().option_key
+--     local dropdown_option = mct_mod:get_option_by_key(dropdown_option_key)
+--     local dropdown_option_value = dropdown_option:get_selected_setting()
+--     return dropdown_option_value
+-- end
 
---- @param source MCT.Option
---- @param target MCT.Option
-local function cascade_option_value(source, target)
+-- --- @param source MCT.Option
+-- --- @param target MCT.Option
+-- local function cascade_option_value(source, target)
 
-    local source_value = source:get_selected_setting()
-    local target_value = target:get_selected_setting()
+--     local source_value = source:get_selected_setting()
+--     local target_value = target:get_selected_setting()
 
-    if source_value == target_value then return true end
+--     if source_value == target_value then return true end
 
-    if target:is_locked() then
-        local lock_reason = target:get_lock_reason()
-        target:set_locked(false)
-        target:set_selected_setting(source:get_selected_setting())
-        target:set_locked(true, lock_reason)
-    else
-        target:set_selected_setting(source:get_selected_setting())
-    end
+--     if target:is_locked() then
+--         local lock_reason = target:get_lock_reason()
+--         target:set_locked(false)
+--         target:set_selected_setting(source:get_selected_setting())
+--         target:set_locked(true, lock_reason)
+--     else
+--         target:set_selected_setting(source:get_selected_setting())
+--     end
 
-end
+-- end
 
 
---- @param option MCT.Option
-local function is_mod_option(option)
-    return option:get_mod_key() == mod_config.mod_name
-end
+-- --- @param option MCT.Option
+-- local function is_mod_option(option)
+--     return option:get_mod_key() == mod_config.mod_name
+-- end
 
 ------------------------------------------------------------------------
 --- MCT Listeners

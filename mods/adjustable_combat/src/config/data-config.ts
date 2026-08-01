@@ -75,6 +75,28 @@ export const BONUS_VALUE_CONFIG  = {
         type: "effect_bonus_value_basic_junction_tables"
     },
 
+    // This one does not work for characters.
+    xp_gain_rate_mod: { 
+        display: "Unit XP Gain (%)",
+        description: "Modify unit experience gain by n%. Note: this setting excludes characters.",
+        unit_sets: [
+            "jar_adj_com_unit_set_global",
+            "jar_adj_com_unit_set_cavalry",
+            "jar_adj_com_unit_set_chariots_war_machines",
+            "jar_adj_com_unit_set_war_beasts",
+            "jar_adj_com_unit_set_infantry",
+            "jar_adj_com_unit_set_monstrous_infantry",
+            "jar_adj_com_unit_set_single_entities",
+        ]
+    },
+
+    experience_mod: { 
+        display: "Character XP Gain (%)",
+        description: "Modify character experience gain by n%.",
+        unit_sets: ["jar_adj_com_unit_set_characters"],
+        type: "effect_bonus_value_scripted_junctions_tables"
+    },
+
     // Common
     unit_damage_resistance_all_mod: {
         display: "Ward Save",

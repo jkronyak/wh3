@@ -1,5 +1,6 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__ovn_dread_king__
+			nag_morghasts	jar_adj_com_unit_set_war_beasts	false
 			ovn_dk_inf_skeleton_javelinmen	jar_adj_com_unit_set_infantry	false
 			ovn_dk_inf_skeleton_hoplites	jar_adj_com_unit_set_infantry	false
 			ovn_dk_inf_skeleton_pikemen	jar_adj_com_unit_set_infantry	false
@@ -59,4 +60,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_dk_inf_crypt_ghouls	jar_adj_com_unit_set_infantry	false
 			ovn_dk_mon_dire_wolves	jar_adj_com_unit_set_war_beasts	false
 			ovn_dk_mon_fell_bats	jar_adj_com_unit_set_war_beasts	false
-			nag_morghasts	jar_adj_com_unit_set_war_beasts	false

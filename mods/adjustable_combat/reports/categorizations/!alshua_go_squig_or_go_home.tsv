@@ -1,4 +1,5 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+ws_mon_squig_gobba	wh_dlc06_grn_inf_squig_herd_0	war_beast	inf_melee	inf_mel	wh_dlc06_grn_squig	monster_beasts	true	1	0	0	true		0	melee	medium	jar_adj_com_unit_set_single_entities
 als_squig_bitey	als_squig_bitey	melee_infantry	inf_melee	inf_mel	als_squig_bitey	monster_beasts	true	88	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 als_squig_great_cave	als_squig_great_cave	melee_infantry	inf_melee	inf_mel	als_squig_great_cave	monster_beasts	true	16	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
 als_squig_flappy	als_squig_flappy	war_beast	inf_melee	inf_mel	als_squig_flappy	monster_beasts	true	50	0	0	false		0	melee	medium	jar_adj_com_unit_set_war_beasts
@@ -10,4 +11,3 @@ als_squig_gas	als_squig_gas	melee_infantry	inf_melee	inf_mel	als_squig_gas	monst
 als_squig_spike	als_squig_spike	melee_infantry	inf_melee	inf_mel	als_squig_spike	monster_beasts	true	40	0	0	false		0	melee	medium	jar_adj_com_unit_set_monstrous_infantry
 wh2_dlc15_grn_cav_squig_hoppers_waaagh_0	wh2_dlc15_grn_cav_squig_hoppers_waaagh_0	melee_cavalry	cavalry	cav_mel	als_squig_armoured_cav	cavalry_chariots	true	60	0	40	false		0	melee	small	jar_adj_com_unit_set_cavalry
 wh_dlc06_grn_cav_durkits_squigs_0	wh_dlc06_grn_cav_durkits_squigs_0	melee_cavalry	cavalry	cav_mel	als_squig_armoured_cav	cavalry_chariots	true	60	0	40	false		0	melee	small	jar_adj_com_unit_set_cavalry
-ws_mon_squig_gobba	wh_dlc06_grn_inf_squig_herd_0	war_beast	inf_melee	inf_mel	wh_dlc06_grn_squig	monster_beasts	true	1	0	0	true		0	melee	medium	jar_adj_com_unit_set_single_entities

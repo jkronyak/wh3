@@ -1,5 +1,10 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__scm_rotblood__
+			dust_rotbloods_skeleton_sword_and_shield	jar_adj_com_unit_set_infantry	false
+			dust_rotbloods_skeleton_2h_hammer	jar_adj_com_unit_set_infantry	false
+			str_rotblood_skull	jar_adj_com_unit_set_infantry	false
+			dust_rotbloods_skeleton_sum	jar_adj_com_unit_set_infantry	false
+			dust_rotbloods_skeleton_2h_sum	jar_adj_com_unit_set_infantry	false
 			str_rotblood_marauders	jar_adj_com_unit_set_infantry	false
 			str_rotblood_bile_troll	jar_adj_com_unit_set_monstrous_infantry	false
 			str_rotblood_bombers	jar_adj_com_unit_set_infantry	false
@@ -47,8 +52,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			20kr_rotblood_rot_beast	jar_adj_com_unit_set_war_beasts	false
 			20kr_rotblood_skinwolves	jar_adj_com_unit_set_monstrous_infantry	false
 			20kr_rotblood_feral_manticore	jar_adj_com_unit_set_single_entities	false
-			dust_rotbloods_skeleton_sword_and_shield	jar_adj_com_unit_set_infantry	false
-			dust_rotbloods_skeleton_2h_hammer	jar_adj_com_unit_set_infantry	false
-			str_rotblood_skull	jar_adj_com_unit_set_infantry	false
-			dust_rotbloods_skeleton_sum	jar_adj_com_unit_set_infantry	false
-			dust_rotbloods_skeleton_2h_sum	jar_adj_com_unit_set_infantry	false

@@ -148,7 +148,8 @@ adj_com_config.bonus_value_config = {
             "jar_adj_com_unit_set_chariots_war_machines",
             "jar_adj_com_unit_set_war_beasts",
             "jar_adj_com_unit_set_infantry",
-            "jar_adj_com_unit_set_monstrous_infantry"
+            "jar_adj_com_unit_set_monstrous_infantry",
+            "jar_adj_com_unit_set_single_entities"
         },
         min = -500,
         max = 1000,
@@ -406,6 +407,9 @@ adj_com_config.bonus_value_mapping = {
         "xp_gain_rate_mod"
     },
     jar_adj_com_unit_set_monstrous_infantry = {
+        "xp_gain_rate_mod"
+    },
+    jar_adj_com_unit_set_single_entities = {
         "xp_gain_rate_mod"
     },
 }
@@ -1234,6 +1238,10 @@ adj_com_config.mod_defaults = {
             },
         },
         jar_adj_com_unit_set_single_entities = {
+            xp_gain_rate_mod = {
+                player = 0,
+                ai = 0,
+            },
             unit_damage_resistance_all_mod = {
                 player = 0,
                 ai = 0,

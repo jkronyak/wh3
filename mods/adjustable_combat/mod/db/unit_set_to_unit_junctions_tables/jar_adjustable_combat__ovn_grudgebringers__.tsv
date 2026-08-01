@@ -13,6 +13,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			albion_chariot_grudgebringer	jar_adj_com_unit_set_chariots_war_machines	false
 			albion_giant_grudgebringer	jar_adj_com_unit_set_single_entities	false
 			albion_huntresses_grudgebringer	jar_adj_com_unit_set_infantry	false
+			ovn_grudge_grn_mon_giant_boss	jar_adj_com_unit_set_single_entities	false
 			azguz_bloodfist_dwarf_warriors	jar_adj_com_unit_set_infantry	false
 			azguz_bloodfist_dwarf_warriors_upgrade	jar_adj_com_unit_set_infantry	false
 			black_avangers	jar_adj_com_unit_set_infantry	false
@@ -77,4 +78,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh_main_emp_inf_handgunners_ovn_gru	jar_adj_com_unit_set_infantry	false
 			wh_main_emp_inf_spearmen_0_ovn_gru	jar_adj_com_unit_set_infantry	false
 			wh_main_emp_inf_swordsmen_ovn_gru	jar_adj_com_unit_set_infantry	false
-			ovn_grudge_grn_mon_giant_boss	jar_adj_com_unit_set_single_entities	false

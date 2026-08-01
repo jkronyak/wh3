@@ -1,30 +1,4 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
-wh2_dlc13_emp_inf_greatswords_ror_0	wh2_dlc13_emp_inf_greatswords_ror_0	melee_cavalry	inf_melee	inf_mel	shock_cavalry	cavalry_chariots	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_cavalry
-wh3_dlc25_emp_cav_knights_of_the_black_rose	wh3_dlc25_emp_cav_knights_of_the_black_rose	melee_cavalry	cavalry	cav_mel	reiksguard_cav_sword	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-wh_dlc04_emp_cav_knights_blazing_sun_0	wh_dlc04_emp_cav_knights_blazing_sun_0	melee_cavalry	cavalry	cav_mel	reiksguard_cav	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-wh_dlc04_emp_cav_zintlers_reiksguard_0	wh_dlc04_emp_cav_zintlers_reiksguard_0	melee_cavalry	cavalry	cav_shk	reiksguard_cav_sword	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-wh2_dlc13_emp_inf_halberdiers_ror_0	wh2_dlc13_emp_inf_halberdiers_ror_0	missile_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-wh_main_emp_cav_reiksguard	wh_main_emp_cav_reiksguard	melee_cavalry	cavalry	cav_shk	reiksguard_cav	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-emp_inf_reiksguard	emp_inf_reiksguard	melee_infantry	inf_melee	inf_mel	reiksguard_inf_sword	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_inf_carroburg_greatswords_ror	emp_inf_carroburg_greatswords_ror	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_inf_reiksguard_great	emp_inf_reiksguard_great	melee_infantry	inf_melee	inf_mel	reiksguard_inf_gsword	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_inf_reiksguard_halberdiers	emp_inf_reiksguard_halberdiers	melee_infantry	inf_melee	inf_spr	reiksguard_inf_halberd	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_cav_reiksguard_inner_circle	emp_cav_reiksguard_inner_circle	monstrous_cavalry	cavalry	cav_shk	reiksguard_cav	reiksguard	false	20	0	32	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-emp_mon_hunting_hounds	emp_mon_hunting_hounds	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
-emp_cav_griffon_riders_ror	emp_cav_griffon_riders_ror	monstrous_cavalry	war_beast	cav_shk	emp_cav_griffon_riders_ror	monster_beasts	true	6	0	6	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-emp_sisters_sigmar	emp_sisters_sigmar	melee_infantry	inf_melee	inf_mel	infantry_hammer	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_sisters_sigmar_ror	emp_sisters_sigmar_ror	melee_infantry	inf_melee	inf_mel	infantry_hammer	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_nuns	emp_nuns	melee_infantry	inf_melee	inf_mel	wh_dlc04_emp_flagelllents	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_nuns_ror	emp_nuns_ror	melee_infantry	inf_melee	inf_mel	wh2_main_infantry_dual_swords	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_cav_knight_north_star	emp_cav_knight_north_star	melee_cavalry	cavalry	cav_shk	reiksguard_cav	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
-emp_inf_knight_north_star	emp_inf_knight_north_star	melee_infantry	inf_melee	inf_mel	reiksguard_inf_axe	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_inf_stevedore	emp_inf_stevedore	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_inf_dwarf_warrior_0	emp_inf_dwarf_warrior_0	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_inf_dwarf_warrior_1	emp_inf_dwarf_warrior_1	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_inf_hammerers	wh_main_dwf_inf_hammerers	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-emp_inf_company_of_honour	emp_inf_company_of_honour	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-cr_emp_veh_hurricanum_0	cr_emp_veh_hurricanum_0	chariot	war_machine	chariot	magic_chariot	artillery_war_machines	true	3	1	2	true	cr_storm_of_shemtek	25	skirmish	large	jar_adj_com_unit_set_chariots_war_machines
-hkrul_setanta_wolf	hkrul_setanta_wolf	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	4	0	0	true		0	skirmish	small	jar_adj_com_unit_set_single_entities
 snek_emp_iron_colossus_of_nuln	snek_emp_iron_colossus_of_nuln	monster	war_beast	inf_mis	artillery_cannon	artillery_war_machines	true	1	0	1	true	snek_iron_colossus_cannon	22	artillery	very_large	jar_adj_com_unit_set_single_entities
 wh_main_emp_cav_outriders_1	wh_main_emp_cav_outriders_1	missile_cavalry	cavalry	cav_mis	missile_cavalry_rifle	missile_cavalry_chariots	true	48	0	48	false	wh_main_emp_grenade_launcher	18	skirmish	medium	jar_adj_com_unit_set_cavalry
 rek_inf_crossbowmen	rek_inf_crossbowmen	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh_main_emp_crossbow	22	archer	small	jar_adj_com_unit_set_infantry
@@ -134,3 +108,29 @@ cos_inf_spearmen_1	cos_inf_spearmen_1	melee_infantry	inf_melee	inf_mel	infantry_
 cos_inf_swordsmen	cos_inf_swordsmen	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 dummy_unit_1	dummy_unit_1	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 dummy_unit_2	dummy_unit_2	melee_infantry	inf_melee	inf_mel	infantry_sword	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wh2_dlc13_emp_inf_greatswords_ror_0	wh2_dlc13_emp_inf_greatswords_ror_0	melee_cavalry	inf_melee	inf_mel	shock_cavalry	cavalry_chariots	true	60	0	0	false		0	melee	small	jar_adj_com_unit_set_cavalry
+wh3_dlc25_emp_cav_knights_of_the_black_rose	wh3_dlc25_emp_cav_knights_of_the_black_rose	melee_cavalry	cavalry	cav_mel	reiksguard_cav_sword	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+wh_dlc04_emp_cav_knights_blazing_sun_0	wh_dlc04_emp_cav_knights_blazing_sun_0	melee_cavalry	cavalry	cav_mel	reiksguard_cav	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+wh_dlc04_emp_cav_zintlers_reiksguard_0	wh_dlc04_emp_cav_zintlers_reiksguard_0	melee_cavalry	cavalry	cav_shk	reiksguard_cav_sword	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+wh2_dlc13_emp_inf_halberdiers_ror_0	wh2_dlc13_emp_inf_halberdiers_ror_0	missile_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+wh_main_emp_cav_reiksguard	wh_main_emp_cav_reiksguard	melee_cavalry	cavalry	cav_shk	reiksguard_cav	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+emp_inf_reiksguard	emp_inf_reiksguard	melee_infantry	inf_melee	inf_mel	reiksguard_inf_sword	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_carroburg_greatswords_ror	emp_inf_carroburg_greatswords_ror	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_reiksguard_great	emp_inf_reiksguard_great	melee_infantry	inf_melee	inf_mel	reiksguard_inf_gsword	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_reiksguard_halberdiers	emp_inf_reiksguard_halberdiers	melee_infantry	inf_melee	inf_spr	reiksguard_inf_halberd	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_cav_reiksguard_inner_circle	emp_cav_reiksguard_inner_circle	monstrous_cavalry	cavalry	cav_shk	reiksguard_cav	reiksguard	false	20	0	32	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+emp_mon_hunting_hounds	emp_mon_hunting_hounds	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	80	0	0	false		0	melee	small	jar_adj_com_unit_set_war_beasts
+emp_cav_griffon_riders_ror	emp_cav_griffon_riders_ror	monstrous_cavalry	war_beast	cav_shk	emp_cav_griffon_riders_ror	monster_beasts	true	6	0	6	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+emp_sisters_sigmar	emp_sisters_sigmar	melee_infantry	inf_melee	inf_mel	infantry_hammer	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_sisters_sigmar_ror	emp_sisters_sigmar_ror	melee_infantry	inf_melee	inf_mel	infantry_hammer	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_nuns	emp_nuns	melee_infantry	inf_melee	inf_mel	wh_dlc04_emp_flagelllents	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_nuns_ror	emp_nuns_ror	melee_infantry	inf_melee	inf_mel	wh2_main_infantry_dual_swords	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_cav_knight_north_star	emp_cav_knight_north_star	melee_cavalry	cavalry	cav_shk	reiksguard_cav	reiksguard	false	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
+emp_inf_knight_north_star	emp_inf_knight_north_star	melee_infantry	inf_melee	inf_mel	reiksguard_inf_axe	reiksguard	false	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_stevedore	emp_inf_stevedore	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_dwarf_warrior_0	emp_inf_dwarf_warrior_0	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_dwarf_warrior_1	emp_inf_dwarf_warrior_1	melee_infantry	inf_melee	inf_mel	infantry_axe_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_hammerers	wh_main_dwf_inf_hammerers	melee_infantry	inf_melee	inf_mel	infantry_hammer_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+emp_inf_company_of_honour	emp_inf_company_of_honour	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
+cr_emp_veh_hurricanum_0	cr_emp_veh_hurricanum_0	chariot	war_machine	chariot	magic_chariot	artillery_war_machines	true	3	1	2	true	cr_storm_of_shemtek	25	skirmish	large	jar_adj_com_unit_set_chariots_war_machines
+hkrul_setanta_wolf	hkrul_setanta_wolf	war_beast	inf_melee	inf_mel	war_beast	monster_beasts	true	4	0	0	true		0	skirmish	small	jar_adj_com_unit_set_single_entities

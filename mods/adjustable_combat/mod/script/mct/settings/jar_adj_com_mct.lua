@@ -29,8 +29,6 @@ mct_mod:set_description(mod_config.mod_description)
 -- Remove the default settings page so we can replace it later.
 mct_mod:remove_settings_page(mct_mod:get_default_settings_page())
 
-
-
 ------------------------------------------------------------------------
 --- MCT Option Helpers
 ------------------------------------------------------------------------
@@ -61,12 +59,10 @@ local function cascade_option_value(source, target)
 
 end
 
-
 --- @param option MCT.Option
 local function is_mod_option(option)
     return option:get_mod_key() == mod_config.mod_name
 end
-
 
 ------------------------------------------------------------------------
 --- MCT Creation Helpers

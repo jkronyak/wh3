@@ -1,6 +1,5 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__GMD_Sharkmen3__
-			wh3_main_grn_inf_orc_boyz_spear_shield	jar_adj_com_unit_set_infantry	false
 			vcs_sharkmen_lowborn	jar_adj_com_unit_set_infantry	false
 			vcs_sharkmen_lowborn_dual	jar_adj_com_unit_set_infantry	false
 			vcs_sharkmen_lowborn_pike	jar_adj_com_unit_set_infantry	false
@@ -61,5 +60,3 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			cst_gmd_leviathan_dual_wield	jar_adj_com_unit_set_single_entities	false
 			cst_gmd_drawned_miner_0	jar_adj_com_unit_set_infantry	false
 			cst_gmd_drawned_miner_1	jar_adj_com_unit_set_infantry	false
-			wh_main_grn_inf_savage_orcs	jar_adj_com_unit_set_infantry	false
-			wh3_main_ogr_inf_ogres_0	jar_adj_com_unit_set_monstrous_infantry	false

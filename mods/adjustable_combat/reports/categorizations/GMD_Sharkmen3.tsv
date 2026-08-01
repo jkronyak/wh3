@@ -1,5 +1,4 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
-wh3_main_grn_inf_orc_boyz_spear_shield	wh3_main_grn_inf_orc_boyz_spear_shield	melee_infantry	inf_melee	inf_mel	infantry_spear	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 vcs_sharkmen_lowborn	vcs_sharkmen_lowborn	melee_infantry	inf_melee	inf_mel	shark_infantry	infantry	true	40	0	0	false		0		small	jar_adj_com_unit_set_infantry
 vcs_sharkmen_lowborn_dual	vcs_sharkmen_lowborn_dual	melee_infantry	inf_melee	inf_mel	shark_infantry	infantry	true	40	0	0	false		0		small	jar_adj_com_unit_set_infantry
 vcs_sharkmen_lowborn_pike	vcs_sharkmen_lowborn_pike	melee_infantry	inf_melee	inf_mel	shark_infantry	infantry	true	40	0	0	false		0		small	jar_adj_com_unit_set_infantry
@@ -60,5 +59,3 @@ cst_gmd_leviathan_seer	cst_gmd_leviathan_seer	monster	inf_melee	inf_mel	cst_gmd_
 cst_gmd_leviathan_dual_wield	cst_gmd_leviathan_dual_wield	monster	inf_melee	inf_mel	cst_gmd_leviathan_ranged	missile_monster_beasts	true	4	0	0	true		0		very_large	jar_adj_com_unit_set_single_entities
 cst_gmd_drawned_miner_0	cst_gmd_drawned_miner_0	melee_infantry	inf_melee	inf_mel	monster_generic	monster_beasts	true	100	0	0	false		0		small	jar_adj_com_unit_set_infantry
 cst_gmd_drawned_miner_1	cst_gmd_drawned_miner_1	melee_infantry	inf_melee	inf_mel	monster_generic	monster_beasts	true	100	0	0	false	cst_gmd_drawned_waterball	1		small	jar_adj_com_unit_set_infantry
-wh_main_grn_inf_savage_orcs	wh_main_grn_inf_savage_orcs	melee_infantry	inf_melee	inf_mel	infantry_axe	infantry	true	120	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
-wh3_main_ogr_inf_ogres_0	wh3_main_ogr_inf_ogres_0	monstrous_infantry	inf_melee	inf_mel	wh3_main_ogr_monstrous	infantry	true	24	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry

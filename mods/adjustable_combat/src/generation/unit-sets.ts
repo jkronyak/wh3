@@ -148,7 +148,9 @@ const categorizeUnits = (
     battleEntities: DecodedRow[],
     writeToFile?: string,
     filterCharacters: boolean = true,
-    filterNonRanged: boolean = true
+    filterNonRanged: boolean = true,
+    ignoreVanilla: boolean = false,
+    vanillaKeys: Record<string, boolean> = {},
 ): UnitInfo[] => {
     const result: UnitInfo[] = [];
     const landUnitMap = new Map<string, any>(landUnits.map(l => [l.key, l]));
@@ -172,6 +174,7 @@ const categorizeUnits = (
 
         if (filterCharacters && ['lord', 'hero'].includes(mainUnit.caste)) continue;
         if (filterNonRanged && (!landUnit.primary_missile_weapon && landUnit.primary_ammo < 1)) continue;
+        if (ignoreVanilla && vanillaKeys[mainUnit.unit]) continue;
 
         const unitInfo: UnitInfo = {
             mainUnitKey: mainUnit.unit,
@@ -271,6 +274,11 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
 
     if (vanillaOnly) return client.close();
 
+    const vanillaKeys = vanillaSetJunctions.reduce((acc, cur) => {
+        acc[cur.unit_record] = true;
+        return acc;
+    }, {});
+
     // 2.1 Process mod data.
     const modPaths = getModPackFilePaths();
     console.log(`\nProcessing data for ${modPaths.length} mods.`);
@@ -298,7 +306,9 @@ const generateUnitSets = async (writeReport = true, vanillaOnly = false) => {
             modTables.battle_entities_tables.rows.concat(vanillaTables.battle_entities_tables.rows),
             (writeReport ? `${REPORT_PATH}/categorizations/${packName}.tsv` : undefined),
             true,
-            false
+            false,
+            true,
+            vanillaKeys
         );
         modResult.postFilterCount = modCategorizedUnits.length;
         modResult.vanillaParentGroupCount = modCategorizedUnits.filter(i => i.useVanillaParentGroup).length;

@@ -561,7 +561,7 @@
     "3513364573": {
         "title": "[8.x.x] Nanu's Dynamic Regiments of Renown - Yet Another Compatibility Megapack",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3513364573",
-        "required": true,
+        "required": false,
         "sync_status": "nochange",
         "sync_ts": 1782871166352
     },
@@ -648,7 +648,7 @@
     "3540934373": {
         "title": "Unique Empire States - Units of the Imperial Provinces Regional Recruitment",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3540934373",
-        "required": true,
+        "required": false,
         "sync_status": "nochange",
         "sync_ts": 1782871167490
     },

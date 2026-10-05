@@ -52,6 +52,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc26_grn_art_bolt_throwa	jar_unit_set_artillery_war_machines	false
 			wh3_dlc26_grn_art_bolt_throwa_ror	jar_unit_set_artillery_war_machines	false
 			wh3_dlc26_kho_veh_skullcannon_ror	jar_unit_set_artillery_war_machines	false
+			wh3_dlc29_skv_art_plagueclaw_catapult_ror	jar_unit_set_artillery_war_machines	false
+			wh3_dlc29_skv_art_warp_doom_magma_cannon	jar_unit_set_artillery_war_machines	false
 			wh3_main_chd_art_hobgob_bolt_thrower	jar_unit_set_artillery_war_machines	false
 			wh3_main_chs_art_hellcannon_prologue	jar_unit_set_artillery_war_machines	false
 			wh3_main_cth_art_fire_rain_rocket_battery_0	jar_unit_set_artillery_war_machines	false
@@ -146,6 +148,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc27_hef_veh_skycutter_bolt_thrower	jar_unit_set_cavalry_chariots	false
 			wh3_dlc27_hef_veh_skycutter_bows	jar_unit_set_cavalry_chariots	false
 			wh3_dlc27_nor_cav_marauder_horsemen_ror	jar_unit_set_cavalry_chariots	false
+			wh3_dlc29_chs_cav_nur_plague_drones_1_summoned	jar_unit_set_cavalry_chariots	false
+			wh3_dlc29_cst_mon_rotting_prometheans_gunnery_mob_summoned	jar_unit_set_cavalry_chariots	false
+			wh3_dlc29_tmb_veh_skeleton_archer_chariot_0_summoned	jar_unit_set_cavalry_chariots	false
 			wh3_main_ksl_cav_horse_archers_0	jar_unit_set_cavalry_chariots	false
 			wh3_main_ksl_veh_heavy_war_sled_0	jar_unit_set_cavalry_chariots	false
 			wh3_main_ksl_veh_light_war_sled_0	jar_unit_set_cavalry_chariots	false
@@ -190,6 +195,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc10_hef_inf_the_grey_ror_0	jar_unit_set_infantry	false
 			wh2_dlc10_hef_inf_the_storm_riders_ror_0	jar_unit_set_infantry	false
 			wh2_dlc11_cst_inf_deck_gunners_0	jar_unit_set_infantry	false
+			wh2_dlc11_cst_inf_deck_gunners_0_summoned	jar_unit_set_infantry	false
 			wh2_dlc11_cst_inf_deck_gunners_ror_0	jar_unit_set_infantry	false
 			wh2_dlc11_cst_inf_sartosa_militia_0	jar_unit_set_infantry	false
 			wh2_dlc11_cst_inf_zombie_gunnery_mob_0	jar_unit_set_infantry	false
@@ -283,6 +289,13 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc25_nur_chieftain_inf_infernal_guard_fireglaives	jar_unit_set_infantry	false
 			wh3_dlc26_grn_inf_rugluds_armoured_orcs	jar_unit_set_infantry	false
 			wh3_dlc27_sla_inf_devotees_of_slaanesh_crossbows	jar_unit_set_infantry	false
+			wh3_dlc29_cst_inf_zombie_pirate_gunnery_mob_bombers_summoned	jar_unit_set_infantry	false
+			wh3_dlc29_skv_inf_poison_wind_mortar_0_summoned	jar_unit_set_infantry	false
+			wh3_dlc29_skv_inf_skavenslave_slingers_vermintide	jar_unit_set_infantry	false
+			wh3_dlc29_skv_mon_stormfiend_ratling_cannons	jar_unit_set_infantry	false
+			wh3_dlc29_skv_mon_stormfiend_warpfire_projectors	jar_unit_set_infantry	false
+			wh3_dlc29_skv_mon_stormfiend_windlaunchers	jar_unit_set_infantry	false
+			wh3_dlc29_skv_mon_stormfiends_ratling_cannons_ror	jar_unit_set_infantry	false
 			wh3_main_cth_inf_crane_gunners_0	jar_unit_set_infantry	false
 			wh3_main_cth_inf_dragon_guard_crossbowmen_0	jar_unit_set_infantry	false
 			wh3_main_cth_inf_grenadiers	jar_unit_set_infantry	false
@@ -404,6 +417,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh3_dlc27_nor_mon_dread_maw	jar_unit_set_single_entities	false
 			wh3_dlc27_nor_mon_dread_maw_underground	jar_unit_set_single_entities	false
 			wh3_dlc27_ogr_mon_thundertusk_monst_arcanum	jar_unit_set_single_entities	false
+			wh3_dlc29_cst_mon_necrofex_colossus_0_summoned	jar_unit_set_single_entities	false
+			wh3_dlc29_tmb_mon_khemrian_warsphinx_0_summoned	jar_unit_set_single_entities	false
 			wh3_main_kho_mon_soul_grinder_0	jar_unit_set_single_entities	false
 			wh3_main_nur_mon_soul_grinder_0	jar_unit_set_single_entities	false
 			wh3_main_ogr_mon_stonehorn_1	jar_unit_set_single_entities	false

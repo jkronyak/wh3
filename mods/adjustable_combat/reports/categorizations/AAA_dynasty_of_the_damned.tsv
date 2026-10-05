@@ -1,4 +1,7 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
+jiang_wightkin	jiang_wightkin	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	16	0	0	false		0		large	jar_adj_com_unit_set_monstrous_infantry
+jiang_wiltings	jiang_wiltings	melee_infantry	inf_melee	inf_mel	wh_dlc05_wef_dryad	infantry	true	100	0	0	false		0		small	jar_adj_com_unit_set_infantry
+bm_theak_moloch_monks	bm_theak_moloch_monks	melee_infantry	inf_melee	inf_mel	infantry_axe_dual	infantry	true	20	0	0	false		0		small	jar_adj_com_unit_set_infantry
 wh_main_vmp_cav_black_knights_0_jiang	wh_main_vmp_cav_black_knights_0_jiang	melee_cavalry	cavalry	cav_mel	cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_adj_com_unit_set_cavalry
 wh_main_vmp_cav_black_knights_3_jiang	wh_main_vmp_cav_black_knights_3_jiang	melee_cavalry	cavalry	cav_shk	shock_cavalry	cavalry_chariots	true	60	0	60	false		0		medium	jar_adj_com_unit_set_cavalry
 wh_main_vmp_cav_hexwraiths_jiang	wh_main_vmp_cav_hexwraiths	melee_cavalry	cavalry	cav_mel	vmp_cavalry_scythe	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
@@ -15,9 +18,6 @@ wh_dlc02_vmp_cav_blood_knights_0_jiang	wh_dlc02_vmp_cav_blood_knights_0	melee_ca
 wh_dlc04_vmp_veh_corpse_cart_0_jiang	jiang_vmp_veh_corpse_cart_0	chariot	war_machine	chariot	magic_chariot	artillery_war_machines	true	1	1	4	true		0		small	jar_adj_com_unit_set_chariots_war_machines
 wh_dlc04_vmp_veh_corpse_cart_1_jiang	jiang_vmp_veh_corpse_cart_1	chariot	war_machine	chariot	magic_chariot	artillery_war_machines	true	1	1	4	true		0		small	jar_adj_com_unit_set_chariots_war_machines
 wh_dlc04_vmp_veh_corpse_cart_2_jiang	jiang_vmp_veh_corpse_cart_2	chariot	war_machine	chariot	magic_chariot	artillery_war_machines	true	1	1	4	true		0		small	jar_adj_com_unit_set_chariots_war_machines
-jiang_wightkin	jiang_wightkin	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	16	0	0	false		0		large	jar_adj_com_unit_set_monstrous_infantry
-jiang_wiltings	jiang_wiltings	melee_infantry	inf_melee	inf_mel	wh_dlc05_wef_dryad	infantry	true	100	0	0	false		0		small	jar_adj_com_unit_set_infantry
-bm_theak_moloch_monks	bm_theak_moloch_monks	melee_infantry	inf_melee	inf_mel	infantry_axe_dual	infantry	true	20	0	0	false		0		small	jar_adj_com_unit_set_infantry
 jiang_damned_cannon	jiang_damned_cannon	warmachine	artillery	art_fld	artillery_cannon	artillery_war_machines	true	44	4	2	false		22		small	jar_adj_com_unit_set_chariots_war_machines
 jiang_grave_guard_crossbow	jiang_grave_guard_crossbow	missile_infantry	inf_ranged	inf_mis	missile_infantry_bow	missile_infantry	true	90	0	0	false	wh3_cth_crossbow_bolt	22		small	jar_adj_com_unit_set_infantry
 jiang_grave_guard_halberd	jiang_grave_guard_halberd	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	120	0	0	false		0		small	jar_adj_com_unit_set_infantry

@@ -137,7 +137,6 @@ const isModUpdated = async (appId: string | number, modId: string | number): Pro
 const downloadMod = async (appId: string | number, modId: string | number, deleteIfExists: boolean = true): Promise<any> => {
     if (deleteIfExists) deleteMod(appId, modId);
     const cmd = `${STEAM_CMD_PATH}/steamcmd.exe +login ${STEAM_CMD_USER} +workshop_download_item ${appId} ${modId} +workshop_download_item ${appId} ${modId} validate +quit`;
-    console.log(cmd);
     const execRes = execSync(cmd, { encoding: 'utf-8' });
     console.log('execRes', execRes);
     const modFolderPath = path.join(STEAM_CMD_PATH, "steamapps", "workshop", "content", String(appId), String(modId));

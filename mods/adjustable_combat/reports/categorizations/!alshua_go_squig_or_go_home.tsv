@@ -9,3 +9,4 @@ als_squig_horned	als_squig_horned	melee_infantry	inf_melee	inf_mel	als_squig_hor
 als_squig_gas	als_squig_gas	melee_infantry	inf_melee	inf_mel	als_squig_gas	monster_beasts	true	40	0	0	false	als_squig_gas_spit	20	melee	medium	jar_adj_com_unit_set_monstrous_infantry
 als_squig_spike	als_squig_spike	melee_infantry	inf_melee	inf_mel	als_squig_spike	monster_beasts	true	40	0	0	false		0	melee	medium	jar_adj_com_unit_set_monstrous_infantry
 ws_mon_squig_gobba	wh_dlc06_grn_inf_squig_herd_0	war_beast	inf_melee	inf_mel	wh_dlc06_grn_squig	monster_beasts	true	1	0	0	true		0	melee	medium	jar_adj_com_unit_set_single_entities
+deco_armored_colossal_squig	wh_dlc06_grn_inf_squig_herd_0	monster	inf_melee	inf_mel	wh3_dlc26_grn_mon_colossal_squig	monster_beasts	true	1	0	0	true		0	melee	medium	jar_adj_com_unit_set_single_entities

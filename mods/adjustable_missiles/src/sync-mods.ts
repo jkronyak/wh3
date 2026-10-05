@@ -71,7 +71,7 @@ const packHasUnits = async (packPath: string)  => {
         const tables = await decodeTablesFromPack(['main_units_tables', 'land_units_tables'], packPath);
         const mainUnits = tables.main_units_tables.rows.filter(i => !['lord', 'hero'].includes(i.caste));
         const landUnits = tables.land_units_tables.rows.filter(i => i.primary_missile_weapon || i.primary_ammo > 0);
-        if (mainUnits.length === 0 || landUnits.length === 0) result = false;
+        if (mainUnits.length === 0 && landUnits.length === 0) result = false;
     }
     return result;
 };

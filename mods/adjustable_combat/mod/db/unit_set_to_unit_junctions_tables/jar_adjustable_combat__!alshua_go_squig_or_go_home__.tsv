@@ -10,3 +10,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			als_squig_gas	jar_adj_com_unit_set_monstrous_infantry	false
 			als_squig_spike	jar_adj_com_unit_set_monstrous_infantry	false
 			ws_mon_squig_gobba	jar_adj_com_unit_set_single_entities	false
+			deco_armored_colossal_squig	jar_adj_com_unit_set_single_entities	false

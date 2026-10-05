@@ -24,3 +24,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			mixu_msl_inf_brigands	jar_adj_com_unit_set_infantry	false
 			mixu_msl_ror_barons_men	jar_adj_com_unit_set_infantry	false
 			mixu_msl_inf_mounted_brigands	jar_adj_com_unit_set_cavalry	false
+			mixu_msl_inf_grave_guard_halberds	jar_adj_com_unit_set_infantry	false

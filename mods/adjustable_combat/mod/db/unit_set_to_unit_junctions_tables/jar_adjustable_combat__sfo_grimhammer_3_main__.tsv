@@ -1,6 +1,5 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/jar_adjustable_combat__sfo_grimhammer_3_main__
-			wh_dlc04_vmp_cha_strigoi_ghoul_king_0_boss	jar_adj_com_unit_set_single_entities	false
 			emp_carroburg	jar_adj_com_unit_set_infantry	false
 			emp_altdorf_company	jar_adj_com_unit_set_infantry	false
 			emp_knights_panther	jar_adj_com_unit_set_cavalry	false
@@ -170,3 +169,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vmp_bloodline_strigoi	jar_adj_com_unit_set_monstrous_infantry	false
 			ksl_urugan_cannon	jar_adj_com_unit_set_chariots_war_machines	false
 			nor_bearmen_bear	jar_adj_com_unit_set_war_beasts	false
+			wh_dlc04_vmp_cha_strigoi_ghoul_king_0_boss	jar_adj_com_unit_set_single_entities	false

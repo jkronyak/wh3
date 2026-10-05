@@ -1,5 +1,4 @@
 mainUnitKey	landUnitKey	caste	category	class	uiGroup	parentGroup	useVanillaParentGroup	numMen	numEngines	numMounts	useHitpointsInCampaign	primaryMissileWeapon	primaryAmmo	arUnitCategory	size	unitSet
-wh_dlc04_vmp_cha_strigoi_ghoul_king_0_boss	wh_dlc04_vmp_cha_strigoi_ghoul_king_0_boss	melee_infantry	inf_melee	com	wizard_vampires	heroes_agents	true	1	0	0	true		0	melee	small	jar_adj_com_unit_set_single_entities
 emp_carroburg	emp_carroburg	melee_infantry	inf_melee	inf_mel	infantry_sword_great	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 emp_altdorf_company	emp_altdorf_company	melee_infantry	inf_melee	inf_mel	infantry_spear_halberd	infantry	true	100	0	0	false		0	melee	small	jar_adj_com_unit_set_infantry
 emp_knights_panther	emp_knights_panther	melee_cavalry	cavalry	cav_mel	shock_cavalry	cavalry_chariots	true	60	0	60	false		0	melee	medium	jar_adj_com_unit_set_cavalry
@@ -169,3 +168,4 @@ vmp_bloodline_lahmia	vmp_bloodline_lahmia	missile_infantry	inf_ranged	inf_mis	mi
 vmp_bloodline_strigoi	vmp_bloodline_strigoi	monstrous_infantry	inf_melee	inf_mel	monstrous_infantry	monster_beasts	true	12	0	0	false		0	melee	large	jar_adj_com_unit_set_monstrous_infantry
 ksl_urugan_cannon	ksl_urugan_cannon	warmachine	artillery	art_fld	artillery_field_gun	artillery_war_machines	true	40	4	0	false		100	artillery	small	jar_adj_com_unit_set_chariots_war_machines
 nor_bearmen_bear	nor_bearmen_bear	war_beast	inf_melee	inf_mel	wh3_main_monster_feral_bear	monster_beasts	true	24	0	0	false		0	melee	large	jar_adj_com_unit_set_war_beasts
+wh_dlc04_vmp_cha_strigoi_ghoul_king_0_boss	wh_dlc04_vmp_cha_strigoi_ghoul_king_0_boss	melee_infantry	inf_melee	com	wizard_vampires	heroes_agents	true	1	0	0	true		0	melee	small	jar_adj_com_unit_set_single_entities

@@ -225,7 +225,7 @@ const generateUnitSetJunctions = (units: UnitInfo[]): Record<string, any>[] => {
         unit_set: unit.unitSet!,
         exclude: false
     }))
-    // .sort((a, b) => a.unit_set.localeCompare(b.unit_set));
+    // .sort((a, b) => a.unit_record.localeCompare(b.unit_record));
 }
 
 const packHasUIUnitGroupParents = async (packPath: string)  => {

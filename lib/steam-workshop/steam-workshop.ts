@@ -156,6 +156,7 @@ const deleteMod = (appId: string | number, modId: string | number): Boolean => {
 
 const getModPackPath = (appId: string | number, modId: string | number): string | null => {
     const modFolderPath = path.join(STEAM_CMD_PATH, "steamapps", "workshop", "content", String(appId), String(modId));
+    console.log("Checking for mod folder path", modFolderPath);
     if (!fs.existsSync(modFolderPath)) return null;
     const modPackPath = fs.readdirSync(modFolderPath).find(file => file.endsWith('.pack'));
     if (!modPackPath) return null;
